@@ -1,0 +1,5 @@
+package notation
+
+class GameTranscriber {
+
+}
