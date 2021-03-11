@@ -1,5 +1,5 @@
 package game.pieces
 
-abstract class King {
+abstract class King extends Piece {
 
 }

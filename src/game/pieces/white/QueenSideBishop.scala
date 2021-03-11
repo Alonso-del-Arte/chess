@@ -1,5 +1,7 @@
 package game.pieces.white
 
-object QueenSideBishop extends game.pieces.Bishop {
+import game.pieces.Bishop
+
+object QueenSideBishop extends Bishop with WhitePiece {
 
 }

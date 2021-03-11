@@ -2,6 +2,6 @@ package game.pieces.white
 
 import game.pieces.Rook
 
-object KingSideRook extends Rook {
+object KingSideRook extends Rook with WhitePiece {
 
 }

@@ -2,6 +2,6 @@ package game.pieces.black
 
 import game.pieces.Knight
 
-class PromotedKnight extends Knight {
+class PromotedKnight extends Knight with BlackPiece {
 
 }

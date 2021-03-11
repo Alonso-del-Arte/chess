@@ -1,5 +1,5 @@
 package game.pieces
 
-abstract class Bishop {
+abstract class Bishop extends Piece {
 
 }
