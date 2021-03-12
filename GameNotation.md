@@ -1,0 +1,1 @@
+PLACEHOLDER for document about game notation

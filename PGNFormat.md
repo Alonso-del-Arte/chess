@@ -1,0 +1,1 @@
+PLACEHOLDER for document about the Portable Game Notation (*.pgn) format
