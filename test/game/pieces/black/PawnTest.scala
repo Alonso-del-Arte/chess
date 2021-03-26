@@ -1,10 +1,10 @@
-package game
-
-import scala.util.Random
+package game.pieces.black
 
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.Assertions._
 
-class BoardTest {
+class PawnTest {
+
+  // PLACEHOLDER
 
 }
