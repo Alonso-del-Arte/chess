@@ -15,6 +15,10 @@ I also don't intend this document to conform to any official reference.
 the accuracy. Winning is good, winning with high accuracy is better. On some 
 chess websites, accuracy is measured by how much one plays as the website's best 
 program would play.
+* **Algebraic notation** &mdash; A notation for chess games in which the ranks 
+and files of the board are numbered from White's perspective, and the starting 
+position of a piece is generally omitted. It is the most common notation in use 
+today. The term "algebraic" is somewhat of a misnomer.
 
 ## B
 
@@ -25,12 +29,17 @@ of their own side are in the way.
 * **Black** &mdash; The player who always goes second, or the group of pieces 
 that player controls. Depending on the chess set, the pieces may actually be a 
 dark brown color, or some other dark color.
+* **Blitz chess** &mdash; A timed game with each player getting three to five 
+minutes. Compare ''rapid chess''.
 * **Blunder** &mdash; A very bad mistake that could cost the player the game.
 
 ## C
 
 * **Castling** &mdash; A special move in which the king and a rook come together 
 for the king's protection. See the game rules for details.
+* **Centipawn** &mdash; A measure of a position's value in terms of pawns. A 
+captured pawn means a loss of 100 centipawns for the player who lost that pawn. 
+Some chess engines use centipawns to compare moves.
 * **Check** &mdash; A threat of capture to a player's king. The checked player 
 must get their king out of danger, even if it means allowing some other piece to 
 be captured.
@@ -39,12 +48,16 @@ escape. Depending on context, checkmates may be considered checks.
 
 ## D
 
+* **Descriptive notation** &mdash; An older notation in which each player's 
+moves are reckoned from the player's perspective.
+
 ## E
 
 * **Endgame** &mdash; The last few moves of a game in which most or all pieces 
 have moved from their initial positions. Among players of roughly equal ability, 
 both players have had pieces captured but usually both players still have pawns 
 left.
+* **English notation** &mdash; Synonym for ''descriptive notation''.
 * **En passant** &mdash; A special move in which a pawn captures an opponent 
 pawn. See the game rules for details.
 
@@ -136,6 +149,8 @@ to the pieces on that side of the board.
 * **Rank** &mdash; A row on a chessboard, generally notated with the digits 1 to 
 8, which follow the letter for the file. White pawns should be on rank 2 at the 
 beginning of the game, Black pawns on rank 7. 
+* **Rapid chess** &mdash; A timed game with each player getting 20 or 25 minutes 
+each. Compare ''blitz chess''.
 * **Rook** &mdash; A piece shaped like a tower, capable of moving in straight 
 lines provided there are no pieces of its own side in the way. Each player gets 
 two of them. At the beginning of the game, the four rooks are placed on the four 
