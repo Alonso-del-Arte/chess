@@ -1,5 +1,5 @@
 package analysis
 
-class OneMoveAheadAnalyzer {
+object OneMoveAheadAnalyzer extends Analyzer {
 
 }
