@@ -1,6 +1,9 @@
 package game.pieces
 
-abstract class PromotedRook(val pawn: Pawn) extends Rook with Promoted {
+import game.{Neutral, Player}
+
+class PromotedRook(val pawn: Pawn) extends Rook with Promoted {
+  override val affiliation: Player = Neutral // THIS WILL FAIL THE FIRST TEST
 
   override def prior: Pawn = pawn
 
