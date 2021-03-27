@@ -2,12 +2,10 @@ package game
 
 import java.awt.Color
 
-object Board {
+abstract class Board {
 
-  // STUB TO FAIL THE FIRST TEST
-  def contains(position: Position): Boolean = false
+  def contains(position: Position): Boolean
 
-  // STUB TO FAIL THE FIRST TEST
-  def getColor(position: Position): Color = Color.GRAY
+  def getColor(position: Position): Color
 
 }
