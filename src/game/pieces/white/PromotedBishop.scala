@@ -1,10 +1,8 @@
 package game.pieces.white
 
-import game.pieces.{Bishop, Pawn, Promoted}
+import game.pieces.Pawn
 
-class PromotedBishop(val pawn: Pawn) extends Bishop with WhitePiece
-  with Promoted {
-
-  override def prior: Pawn = pawn
+class PromotedBishop(pawn: Pawn) extends game.pieces.PromotedBishop(pawn)
+  with WhitePiece {
 
 }
