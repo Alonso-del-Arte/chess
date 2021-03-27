@@ -2,8 +2,7 @@ package analysis
 
 object Centipawns {
 
-  // STUB TO FAIL THE FIRST TEST
-  def apply(n: Int): Centipawns = new Centipawns(0)
+  def apply(n: Int): Centipawns = new Centipawns(n)
 
 }
 
@@ -15,10 +14,11 @@ class Centipawns(val quantity: Int) {
     s"${this.quantity} centipawns"
   }
 
-  // STUB TO FAIL THE FIRST TEST
-  override def equals(obj: Any): Boolean = false
+  override def equals(obj: Any): Boolean = obj match {
+    case centipawns: Centipawns => this.quantity == centipawns.quantity
+    case _ => false
+  }
 
-  // STUB TO FAIL THE FIRST TEST
-  override def hashCode(): Int = 0
+  override def hashCode: Int = this.quantity
 
 }
