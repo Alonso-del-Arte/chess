@@ -1,7 +1,9 @@
 package game.pieces.white
 
-import game.pieces.Rook
+import game.pieces.{Pawn, Promoted, Rook}
 
-class PromotedRook extends Rook with WhitePiece {
+class PromotedRook(val pawn: Pawn) extends Rook with WhitePiece with Promoted {
+
+  override def prior: Pawn = pawn
 
 }
