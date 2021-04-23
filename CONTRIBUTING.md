@@ -20,4 +20,13 @@ Scala 2 or in Java 8.
 
 I don't expect contributors to be chess grandmasters (I'm certainly not), but I 
 do expect them to know the basic rules of the game, and to be able to win a 
-game against the computer on the easiest level. 
+game against the computer on the easiest level.
+
+Once the program is able to play chess by making its own decisions, it would be 
+helpful to have it play different human players. But transparency is required 
+for this: the human players should understand they're playing against the 
+computer, and not against you. To let them believe otherwise could be considered 
+cheating.
+
+Per the license, this program could be used for many different purposes. The 
+chief purposes should be to practice chess and to study the game.

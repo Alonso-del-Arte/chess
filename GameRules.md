@@ -133,10 +133,19 @@ be castled with, but the queenside rook must move one more space than the
 kingside rook to meet the king.
 
 With queenside castling, the king ends up on file c and the rook ends up on file 
-d. With kingside castling, the king ends up on file g and the rook ends up on 
-file f.
+d.
 
 ![Queenside castling](diagrams/QueensideCastling.png)
+
+With kingside castling, the king ends up on file g and the rook ends up on file 
+f.
+
+![Kingside castling](diagrams/KingsideCastling.png)
+
+// TODO: Correct kingside diagram: e pawns
+
+Of course in actual game play, even if both players choose to castle on the same 
+side, they almost certainly would not mirror their moves.
 
 Castling is the only time in which a king may move more than one space in a 
 single turn, and the only time a player may move two pieces of the same side in 

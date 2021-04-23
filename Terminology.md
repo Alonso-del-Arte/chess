@@ -87,6 +87,11 @@ pawn. See the game rules for details.
 * **F&eacute;d&eacute;ration Internationale des &Eacute;checs** &mdash; The 
 International Chess Federation, which sets many standards for chess accepted 
 worldwide.
+* **Fianchetto** &mdash; A sequence of developing moves that gives a bishop 
+access to a long diagonal of the board. For example, open by moving one of your 
+knight's pawns forward one space, then on your next turn move the bishop next to 
+the knight to the space the pawn has just vacated. Then that bishop might get an 
+opportunity to capture the opponent's rook on the other side of the board.
 * **FIDE** &mdash; Acronym of the International Chess Federation 
 (F&eacute;d&eacute;ration Internationale des &Eacute;checs).
 * **File** &mdash; A column on a chessboard, generally notated with the 

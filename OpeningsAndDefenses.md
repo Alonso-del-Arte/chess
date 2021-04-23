@@ -3,16 +3,37 @@
 At the beginning of the game, White has only twenty possible moves: move one of 
 the two knights to the left or to the right, or move one of the eight pawns one 
 space forward or two. Of those twenty possible openings, players tend to use 
-only four or five of those.
+only four or five.
 
 Some openings are more advantageous than others, but remember: good players can 
 often figure out how to overcome disadvantages, and bad players can often 
 squander advantages.
 
+Also, for what it's worth, I can beat easy programs with any of these openings. 
+But with the more common openings, a program on easy will make me work harder 
+for the win. It's as if they have been programmed with more strategies for the 
+common openings.
+
+It shouldn't be any problem to pre-program two or three good defenses for each 
+opening, and then have the computer choose one at random. A human player might 
+make a systematic study of each opening, but they will probably prioritize 
+studying defenses to the more common openings.
+
 Theoretically, Black could choose any of the twenty possible moves to respond 
 regardless of White's first move, but the vast majority of players and programs 
 choose a first move that they believe will best counter White's perceived 
 intentions.
+
+In this document, I intend to cover all twenty possible openings, but for each 
+opening only the most likely defenses for Black to respond with.
+
+This document is written from the perspective of White, meaning that you're 
+playing White and your opponent is playing Black.
+
+Note also that some openings depend on the second move for their 
+characterization, e.g., in some cases when your first move is to move a pawn 
+other than the king's pawn but your second move is to move your king's pawn to 
+e4, the opening might still be considered a king's pawn opening.
 
 ## Knight openings
 
@@ -52,7 +73,8 @@ ranks.
 
 1. Nf3
 
-Opponent might respond with the reversed Mexican defense
+Opponent might respond with the reversed Mexican defense or the black mustang 
+defense.
 
 ### Kingside knight to rook's file: Amar opening
 
@@ -97,6 +119,10 @@ Potential responses: Kucharkowski-Meybohm gambit, Birmingham gambit
 
 Opponent might respond with the Anglo-Indian defense
 
+Or with the "symmetrical variation"
+
+Or with "King's English, queen's variation"
+
 1 c4 Nf6
 
 ### Queen's pawn opening
@@ -131,27 +157,94 @@ Or the Amazon attack
 1. d4 d5
 2. Qd3 Qd6
 
-### King's pawn: Tortoise opening
+Of course the most famous move sequence involving this opening is the queen's 
+gambit.
 
-1. e4
+1. d4 d5
+2. c4
 
-On the one hand, this might feel like you're leaving your king unprotected too 
-early in the game. But remember: your opponent hasn't begun mobilizing yet. 
-Follow this opening by mobilizing your queen and kingside bishop.
+[FINISH WRITING]
+
+Statistics suggest you have a 40% chance of winning with this opening, and a 36% 
+chance of drawing. That means only a 24% chance of losing. But of course this 
+ignores other factors, such as how your opponent's skills compare to yours.
+
+Dutch Defense: Staunton Gambit Accepted
+
+### King's pawn opening
+
+1. e4 e5
+
+Some analysts might still consider other first moves as a king's pawn opening if 
+your second move is the king's pawn forward two spaces.
+
+1. b3 e5
+2. e4
+
+On the one hand, this sort of opening might feel like you're leaving your king 
+unprotected too early in the game. But remember: your opponent hasn't begun 
+mobilizing yet. Follow this opening by mobilizing your queen and kingside 
+bishop.
+
+"Sicilian Defense: Amazon Attack"  [FINISH WRITING]
+
+1. e4 e5 
+2. Qg4 Qf6 
+3. Bc4 Bc5 
+4. Ne2 Bb6 
+5. d4 exd4 
+6. Nxd4 Nh6 
+7. O-O a6 
+8. Bf4 Nxg4 
+9. Be5 Qxe5 
+10. Nc6 Qxh2# 0-1
+
+Napoleon attack
+
+French defense
 
 ### Kingside bishop's pawn: Bird's opening
 
 1. f4
 
-If you use this opening, be absolutely certain to also open an avenue of escape 
-for your king, or else risk an embarrassingly early checkmate. Like this:
+With this opening, be absolutely certain to also open an avenue of escape for 
+your king, or else risk an embarrassingly early checkmate. Like this:
 
 1. f4 e6
 2. g4 Qh4#
 
+The Dutch variation
+
+1. f4 ???
+2. e3
+
+gives your king an out if your oppoent sends their queen to h4.
+
+If you stick around longer with this opening, you might pull
+
+King's Gambit Declined: Soller-Zilbermints Gambit
+
+From's gambit
+
+Double duck formation
+
 ### Kingside knight's pawn: Grob opening
 
 1. g4
+
+Your opponent might respond to this opening with the Alessi gambit.
+
+1. g4 f5
+2. gxf5
+
+I see no disadvantage for White to immediately capture that pawn. But you might 
+have other priorities at this point in the game.
+
+Generally this might not seem like a good opening for kingside castling. 
+However, if your opponent's king ventures far out enough to file f, kingside 
+castling might just be the way to a clever check.
+
+Sicilian defense: Grob variation
 
 ### Kingside rook's pawn: K&aacute;das opening
 
@@ -169,9 +262,42 @@ the bishops, while perhaps offering some more protection for the king.
 
 1. a3
 
+Not as good as the Ware opening, in my opinion, because it doesn't help your 
+rook get out, and it restricts the queenside knight to move to c3 (since d2 is 
+for the time being also occupied by a pawn).
+
+Some players might care more about the statistics: this is the second worst 
+opening because you only have a 3-in-10 chance of winning. But of course that's 
+ignoring how good your opponent is.
+
+A really good player will overcome the disadvantages of this opening, while a 
+really bad opponent will squander the initial advantage, such as perhaps by 
+choosing a bad defense to counter.
+
+Note that if your second move is your king's pawn forward two spaces, e.g.,
+
+1. a3 e5 
+2. e4 
+
+then this is considered a king's pawn opening, and it's called the Mengarini 
+opening.
+
 ### Queenside knight's pawn: Nimzowitsch-Larsen attack 
 
 1. b3
+
+I think this is a bad choice to prepare for queenside castling. This opening 
+might still be considered a king's pawn opening if your second move is e4.
+
+Watch out for an embarrassing early checkmate with the modern variation of the 
+Nimzowitsch-Larsen:
+
+1. b3 e5 
+2. Bb2 Qf6 
+3. e4 Bc5 
+4. Bd3 Qxf2#
+
+"Sicilian Defense: Snyder Variation" [FINISH WRITING]
 
 ### Queenside bishop's pawn: Saragossa opening
 
@@ -184,6 +310,20 @@ the bishops, while perhaps offering some more protection for the king.
 ### King's pawn: Van't Kruijs opening
 
 1. e3
+
+Statistically, this is the worst opening. According to the statistics, you only 
+a 28% chance of winning with this opening, and only a 25% chance of stalemate. 
+Which means almost a 1-in-2 chance you will lose. But of course those are odds 
+without knowing anything about your opponent.
+
+For what it's worth, I can beat all the easy computer programs, like Stockfish 
+level 1) with this opening. For the hard programs, like Stockfish level 8, I'm 
+gonna lose no matter what opening I use.
+
+What it boils down to
+
+
+you'll probably wish you had started with e4.
 
 ### Kingside bishop's pawn: Barnes opening
 
@@ -199,12 +339,16 @@ for your king, or else risk an embarrassingly early checkmate. Like this:
 1. f3 e6
 2. g4 Qh4#
 
-### Kingside knight's pawn: King's Fianchetto opening
+### Kingside knight's pawn: Hungarian opening
 
 1. g3
+
+Also called "king's fianchetto opening."
 
 ### Kingside rook's pawn: Clemenz opening
 
 1. h3
+
+A rather awkward opening that wastes initial momentum, in my opinion.
 
 [TODO: FINISH WRITING]
