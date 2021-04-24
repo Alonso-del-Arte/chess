@@ -169,7 +169,15 @@ Statistics suggest you have a 40% chance of winning with this opening, and a 36%
 chance of drawing. That means only a 24% chance of losing. But of course this 
 ignores other factors, such as how your opponent's skills compare to yours.
 
+Dutch defense
+
+1. d4 f5
+
 Dutch Defense: Staunton Gambit Accepted
+
+Borg defense
+
+1. d4 g5
 
 ### King's pawn opening
 
@@ -218,13 +226,17 @@ The Dutch variation
 1. f4 ???
 2. e3
 
-gives your king an out if your oppoent sends their queen to h4.
+gives your king an out if your opponent sends their queen to h4.
 
 If you stick around longer with this opening, you might pull
 
 King's Gambit Declined: Soller-Zilbermints Gambit
 
 From's gambit
+
+1. f4 e5
+
+From's gambit and Langheld gambit
 
 Double duck formation
 
@@ -302,6 +314,9 @@ Nimzowitsch-Larsen:
 ### Queenside bishop's pawn: Saragossa opening
 
 1. c3
+
+This one's good for getting your queen out early on. But if you also want to get 
+one of your bishops going early, choose another opening, like maybe king's pawn.
 
 ### Queen's pawn: Mieses opening
 
