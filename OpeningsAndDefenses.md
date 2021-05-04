@@ -69,12 +69,67 @@ This is a much more conventional opening. It helps clear the way for queenside
 castling, and it better positions your knight to rampage through your opponent's 
 ranks.
 
+For example, I like to deprive the opponent of their queen and a rook as early 
+as I can, using a knight backed up by a bishop. It goes something like this:
+
+1. Nc3 f5 
+2. e4 fxe4 
+3. Nxe4 Nf6 
+4. Ng5 Rg8 
+5. Bc4 Rh8 
+6. Nf7 Ng8 
+7. Nxd8
+
+![Van Geet setup](diagrams/VanGeetSetUpQueenCapture.png)
+
+In this case, my opponent, a program on a very popular chess website, wised up 
+to my strategy and thwarted my planned rook capture. Still, I was able adjust my 
+tactics and win.
+
+Even though my second move was e4, this is still considered the Van Geet 
+opening. However, because of that second move, some of the same defenses used 
+against the king's pawn opening might be suitable for the Van Geet opening.
+
 ### Kingside knight to bishop's file: R&eacute;ti opening
 
 1. Nf3
 
 Opponent might respond with the reversed Mexican defense or the black mustang 
 defense.
+
+Tennison gambit
+
+Dutch variation
+
+This opening can be considered a king's pawn opening if your second move is e4, 
+e.g.,
+
+1. Nf3 d5
+2. e4 e5
+3. Bb5+ Qd7
+4. Bxd7+ Bxd7
+5. exd5 ...
+
+This also illustrates the elephant gambit, in which Black makes an ill-advised 
+attempt to control the middle of the board.
+
+Though that particular bot held out a lot longer than a higher rated bot I used 
+this opening on.
+
+1. Nf3 f6 
+2. e4 e6 
+3. Nd4 c6 
+4. Qh5+ Ke7 
+5. Nf5+ exf5 
+6. exf5 Kd6 
+7. Qg4 a5 
+8. Qf4+ Ke7 
+9. Qe4+ Kd6 
+10. d4 a4 
+11. Bf4# 1-0
+
+That's the Arctic defense, and that particular game shows just one way out of 
+several it could go wrong for Black.
 
 ### Kingside knight to rook's file: Amar opening
 
@@ -218,8 +273,14 @@ French defense
 With this opening, be absolutely certain to also open an avenue of escape for 
 your king, or else risk an embarrassingly early checkmate. Like this:
 
-1. f4 e6
-2. g4 Qh4#
+1. f4 e5
+2. fxe5 Qh4#
+
+Or prepare a counter to such a checkmate attempt:
+
+1. f4 e5
+2. Nf3 Qh4+
+3. Nxh4
 
 The Dutch variation
 
@@ -261,6 +322,14 @@ Sicilian defense: Grob variation
 ### Kingside rook's pawn: K&aacute;das opening
 
 1. h4
+
+Your opponent will quite predictably try to make an early incursion into your 
+side of the board with a bishop, e.g.,
+
+1. h4 d5
+2. g4 Bxg4
+
+Schneider gambit
 
 [TODO: FINISH WRITING]
 
@@ -321,6 +390,18 @@ one of your bishops going early, choose another opening, like maybe king's pawn.
 ### Queen's pawn: Mieses opening
 
 1. d3
+
+The easy bots tend to respond with the reversed rat variation, and then I like 
+to threaten the queen with my bishop backed up by my own queen.
+
+1. d3 e5
+2. Be3 d6
+3. Qd2
+
+They never take the bait, but I'm usually able to get their queen some other 
+way.
+
+[FINISH WRITING]
 
 ### King's pawn: Van't Kruijs opening
 

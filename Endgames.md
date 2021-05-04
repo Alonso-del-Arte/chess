@@ -35,9 +35,9 @@ differed.
 ## Pawns only
 
 Pawns can certainly participate in checkmates, but that often involves more 
-powerful pieces. I believe it's possible to achieve checkmate with only pawns, 
-but I doubt that's something that ever comes up in a game with two players who 
-are both trying to win.
+powerful pieces helping the pawns. I believe it's possible to achieve checkmate 
+with only pawns, but I doubt that's something that ever comes up in a game with 
+two players who are both trying to win.
 
 Don't forget about pawn promotion. If you only have pawns, your best bet is to 
 get two of them promoted to more powerful pieces. Your opponent will probably 
@@ -47,9 +47,36 @@ try to prevent that, if they have the means.
 
 ## Two knights
 
+Theoretically, it's possible to checkmate with just two knights.
+
+[DIAGRAM PLACEHOLDER]
+
+In practice, however, the king will have to help out. The unlikely scenario in 
+the board shown above does suggest a way for a lone opponent king to evade your 
+two knights: stay as close as possible to the center of the board.
+
+[DIAGRAM PLACEHOLDER]
+
+As the diagram shows, when the king is not on an edge square, he has eight 
+possible squares to move to, and your two knights can at most forbid only four 
+of them.
+
+Your strategy, therefore, is to get the opponent king as close as possible to 
+the edge of the board, if not to the corners.
+
+[DIAGRAM PLACEHOLDER]
+
+[DIAGRAM PLACEHOLDER]
+
 [FINISH WRITING]
 
-## Knight and a bishop
+## Bishop and a knight
+
+I'm starting to think that a king's assistance is needed for a checkmate 
+involving a knight. Without the king's help, it's difficult to restrict the 
+opponent king to a corner or at least an edge.
+
+![Bishop and knight checkmate](diagrams/KingBishopKnightCheckmate.png)
 
 [FINISH WRITING]
 
@@ -85,6 +112,13 @@ Regardless, the opponent king can certainly try to capture one of your bishops.
 
 [FINISH WRITING]
 
+## Queen and two knights
+
+Looks like you might be able to pull this one off without the king's help. The 
+name of the game is backing the opponent king into a corner.
+
+![Queen and two knights](diagrams/QueenAnd2KnightsCheckmate.png)
+
 ## Queen and a bishop
 
 [FINISH WRITING]
@@ -95,17 +129,58 @@ The opponent king might try to capture your rook by diagonal approach.
 
 ![Rook capture attempt](diagrams/WhiteKingTriesToCaptureRook.png)
 
-For that reason, as much as you can, keep your queen close to the opponent king 
-and your rook far away.
+Given the board shown in the diagram above, assume it's Black's turn. The best 
+move might be to move the Black queen to the corner nearby, so that the Black 
+rook is protected by her from capture by the White king, and also she capture 
+any pawn promotion White might opt for.
+
+Assume instead it's White's turn. The best move would be definitely be to 
+promote the pawn that's currently at e7, either a new queen or a new rook will 
+do. That would be an agonizing defeat for Black.
+
+Because kings can capture rooks, you should, as much as you can, keep your queen 
+close to the opponent king and your rook far away.
 
 ![Inability to capture queen](diagrams/WhiteKingUnableToCaptureBlackQueen.png)
+
+For the situation shown in the diagram above, Black needs to keep constant 
+pressure on White, until the opportunities arise to capture the White rook and 
+the White pawn that's too close to promotion. Though that won't matter if Black 
+can pull off a checkmate first.
 
 [FINISH WRITING]
 
 ## Two queens
+
+Obviously one of your two queens must have been a pawn promotion, though it's 
+not a given that the other one was original.
+
+The technique here is much like with a queen and a rook, except the opponent 
+king is unable to capture either of your queens.
 
 [FINISH WRITING]
 
 ## Three queens
 
 This is kind of overkill.
+
+## Don't forget about your other pieces
+
+If you're trying to do a queen and rook checkmate, odds are good you also have 
+other pieces available to you, not as powerful but extremely useful at times.
+
+In this one game against an easy bot (I was playing White), I was very intent in 
+restricting the opponent king on file h. I completely failed to notice that with 
+a simple move of the bishop from all the way on file a, I could've had checkmate 
+right at that point.
+
+![Bishop can checkmate](diagrams/BishopCanCheckmate.png)
+
+Earlier in that same game, my remaining knight could have protected my queen as 
+she delivered the coup de gr&acirc;ce.
+
+I suggest the following strategy: if the piece hanging out on the other side 
+can't immediately put the opponent king in check, don't risk a stalemate while 
+trying to position it for a check. But also keep an eye out for when that piece 
+can be brought in to check. You might be pleasantly surprised to find that it's 
+checkmate.

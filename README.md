@@ -1,8 +1,19 @@
 # Chess
 
-WORK IN PROGRESS: I think I'll just take this to the point of being a game 
-between two human players, or I might make it so that you can play against the 
-computer, but the computer only looks one move ahead.
+WORK IN PROGRESS: I've decided that in this program you can play against the 
+computer. It will have three levels of difficulty: Easy, Medium and Hard, 
+roughly equivalent to Stockfish levels 1, 4, 7.
+
+When playing White, the computer will always choose the opening randomly, 
+regardless of the difficulty level.
+
+* On Easy, the computer will only look one move ahead, and prioritize short term 
+checks and captures over longer-term strategy. When playing Black, the computer 
+will choose its response to White's opening randomly without regard for 
+vulnerabilities that might thus be exposed.
+* On Medium, the computer will look ahead at more moves, but still prioritize 
+short term captures over longer-term strategy [FINISH WRITING]
+* On Hard, [FINISH WRITING]
 
 This project is currently in the research phase. At this point I'm focusing more 
 on studying the game than in programming it.
