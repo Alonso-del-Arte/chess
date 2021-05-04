@@ -135,12 +135,12 @@ kingside rook to meet the king.
 With queenside castling, the king ends up on file c and the rook ends up on file 
 d.
 
-![Queenside castling](diagrams/QueensideCastling.png)
+![Queenside castling](../diagrams/QueensideCastling.png)
 
 With kingside castling, the king ends up on file g and the rook ends up on file 
 f.
 
-![Kingside castling](diagrams/KingsideCastling.png)
+![Kingside castling](../diagrams/KingsideCastling.png)
 
 // TODO: Correct kingside diagram: e pawns
 
