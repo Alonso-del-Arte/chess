@@ -274,7 +274,13 @@ With this opening, be absolutely certain to also open an avenue of escape for
 your king, or else risk an embarrassingly early checkmate. Like this:
 
 1. f4 e5
-2. fxe5 Qh4#
+2. fxe5 Qh4+
+
+![Bird opening embarrassment](../diagrams/openings/BirdEmbarrassment.png)
+
+Actually, it's not checkmate, since you cna respond like this:
+
+3. g3
 
 Or prepare a counter to such a checkmate attempt:
 
@@ -434,6 +440,8 @@ for your king, or else risk an embarrassingly early checkmate. Like this:
 
 1. f3 e6
 2. g4 Qh4#
+
+![Barnes embarrassment](../diagrams/openings/BarnesEmbarrassment.png)
 
 ### Kingside knight's pawn: Hungarian opening
 
