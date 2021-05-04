@@ -80,7 +80,7 @@ as I can, using a knight backed up by a bishop. It goes something like this:
 6. Nf7 Ng8 
 7. Nxd8
 
-![Van Geet setup](../diagrams/VanGeetSetUpQueenCapture.png)
+![Van Geet setup](../diagrams/openings/VanGeetSetUpQueenCapture.png)
 
 In this case, my opponent, a program on a very popular chess website, wised up 
 to my strategy and thwarted my planned rook capture. Still, I was able adjust my 
