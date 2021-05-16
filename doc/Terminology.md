@@ -7,7 +7,11 @@ This is not intended to be comprehensive. I only intend to include the most
 commonly used terms, and those which might cause me confusion because they're 
 common words used to mean somewhat different things in chess.
 
-I also don't intend this document to conform to any official reference. 
+I also don't intend this document to conform to any official reference.
+
+Board spaces will occasionally be referred to by the nomenclature from the 
+so-called "algebraic notation," in which the White king starts out on e1 and the 
+Black king starts out on e8.
 
 ## A
 
@@ -40,6 +44,11 @@ minutes. Compare ''rapid chess''.
 
 ## C
 
+* **Capture** &mdash; The act of taking an opponent's piece and moving it off 
+the board. Only knights can jump over intervening pieces of either side to 
+capture. Only pawns capture in a different way from their non-capture moves, and 
+only in the case of en passant does a capturing piece end up on a space other 
+than where the captured piece was.
 * **Castling** &mdash; A special move in which the king and a rook come together 
 for the king's protection. See the game rules for details.
 * **Centipawn** &mdash; A measure of a position's value in terms of pawns. Some 
@@ -136,7 +145,8 @@ enough to be considered mistakes or blunders.
 all costs. The piece typically has a crown with a cross.
 * **Kingside** &mdash; The half of the board with the kings at the beginning of 
 the game, consisting of the files e, f, g and h. As an adjective, it refers to 
-the pieces on that side of the board, or to an event on that side of the board.
+the pieces initially on that side of the board, or to an event on that side of 
+the board.
 * **Kingside castling** &mdash; Castling with the kingside rook.
 * **Knight** &mdash; A piece shaped like a horse, the only one capable of 
 jumping over other pieces. Each player gets two of them. At the beginning of the 
@@ -153,6 +163,12 @@ may capture. It is quite a cumbersome precursor to Fog of War.
 
 * **Mate** &mdash; Synonym for checkmate. Theoretically it could also be used as 
 a synonym for stalemate, but I have never seen it used that way.
+* **Material** &mdash; Synonym for a player's pieces. When a player deliberately 
+allows one of their pieces to be captured, that might be referred to as 
+"sacrificing material." This term is also used when assessing a player's ability 
+to achieve checkmate. A player with a queen and a rook definitely has "enough 
+material" for a checkmate; a player with only a knight definitely does not. Of 
+course an advantage of material does not guarantee checkmate.
 * **Middlegame** &mdash; A stage of the game beginning after the opening but 
 ending before the endgame. In my opinion, among players of equal ability, the 
 middlegame begins when both players have mobilized every piece they want to 
@@ -177,8 +193,8 @@ losing the game.
 * **O-O-O** &mdash; Notation for queenside castling.
 * **Opening** &mdash; A player's first few moves. To my knowledge I've never 
 seen this term in regards to chess used to mean a vulnerability in the 
-opponent's defense. Most openings are given special names, which won't be listed 
-in this document.
+opponent's defense. Most openings are given special names, which are not quite 
+exactly standard. I will try to list the most common name for each opening.
 
 ## P
 
@@ -194,10 +210,12 @@ queens total are highly unlikely.
 
 * **Q** &mdash; Notation for queen.
 * **Queen** &mdash; A player's most powerful piece, combining the capabilities 
-of the bishop and the rook. The piece typically has a crown without a cross.
+of the bishop and the rook. The piece typically has a crown without a cross. The 
+White queen starts out on d1, the Black queen starts on d8.
 * **Queenside** &mdash; The half of the board with the queens at the beginning 
 of the game, consisting of the files a, b, c and d. As an adjective, it refers 
-to the pieces on that side of the board.
+to the pieces initially on that side of the board, or to an event on that side 
+of the board.
 * **Queenside castling** &mdash; Castling with the queenside rook.
 
 ## R

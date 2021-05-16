@@ -116,11 +116,55 @@ captured pieces, but the capturing pawn still ends up one rank closer to
 promotion. This is the only way in chess that a piece completes a capture in a 
 space other than where the captured piece was.
 
+If en passant occurs in a game at all, it's likely to be in the middlegame, but 
+it can also occur in the endgame. However, to keep the example as simple as 
+possible, I'm going to illustrate it with an unrealistic opening scenario.
+
+Suppose both players' first moves are to bring their king's pawns to the center 
+of the board. Then White also moves the queen's pawn to the center of the board. 
+This presents Black with a choice: capture the White queen's pawn, or ignore it? 
+Let's say Black chooses to capture that queen's pawn.
+
+![Center game accepted](../diagrams/openings/CenterGameAccepted.png)
+
+So far this is a realistic scenario, and a quite normal pawn capture. This is 
+called "center game accepted."
+
+But now let's suppose, strictly for the sake of this example, that White wants 
+to move their queenside bishop's pawn without Black capturing it. If White moves 
+that pawn just one space forward, Black can capture that pawn the same way as 
+the White queen's pawn. So White decides to move the queenside bishop's pawn 
+forward two spaces.
+
+![Potential for en passant](../diagrams/openings/PotentialForEnPassant.png)
+
+Maybe Black doesn't care about that particular pawn. But Black could invoke the 
+en passant rule and capture that pawn anyway.
+
+![En passant](../diagrams/openings/EarlyEnPassant.png)
+
+I want to be abundantly clear that a pawn capturing under the en passant rule 
+ends on the same space as if the captured pawn had been captured from the normal 
+capture position. The capturing pawn will never occupy the same space as the 
+captured pawn, except maybe later on in the game as a promoted pawn.
+
+<!-- Here's a more realistic en passant occurrence:
+
+33. Qxg6+ kB5
+34. c4+ bxc3
+35. bxc3 ...
+
 // PLACEHOLDER FOR EN PASSANT DIAGRAM
 
+This would be straight out of an actual game except I changed the knight's 
+position to require the opponent king to delegate capturing the pesky pawn. -->
+
+Depending on the system of notation in use, a special notation for en passant 
+capture may be necessary.
+
 An en passant capture must occur as soon as the opportunity arises or else the 
-player forfeits the right to the en passant capture even if the opponent does 
-not move the pawn that could have been captured en passant.
+player forfeits the right to the en passant capture. This is even if the 
+opponent does not move the pawn that could have been captured en passant.
 
 Even without that stricture, the conditions for en passant are unlikely to occur 
 in regular game play. You might play a thousand games and never once see en 
