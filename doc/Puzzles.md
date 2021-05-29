@@ -77,6 +77,41 @@ or by blocking with their closer knight,
 
 the result is the same, the opponent king is trapped.
 
+White to play. This is from a game I played against a bot. I started with the 
+K&aacute;das opening. I got to this point where checkmate was within my reach, 
+but my pieces were positioned just too awkwardly.
+
+32. Qc8+ Kb6 
+33. Qxa6+ Kc7
+34. Ra7+ Kd6 
+35. Bf4+ e5 
+36. Bh6 b3 
+37. cxb3 Kc5 
+38. bxa4 e4
+
+![Bishop nearby](../diagrams/endgames/BishopPreCoupDeGrace.png)
+
+I had the option of a queenside castling, but that doesn't get my queenside rook 
+where I want it, on file c, to threaten the opponent king. Why not just move 
+that rook to c1? Then I got sidetracked by I don't remember what, and since I 
+wasn't playing against a human being, I could leave them hanging for a long 
+time.
+
+When I got back to the game, I couldn't quite recall my thinking before the 
+distraction. That was for the better, I had been overthinking the position. 
+Almost unthinkingly, I made a move and it was checkmate. Can you figure it out, 
+or will you also fall into the trap of thinking too hard about how to get your 
+queen or a rook to confront the opponent king?
+
+Another White to play puzzle. I wanted to move my rook to my opponent's home 
+row, but my opponent had a pesky bishop defended by a pawn. I don't like to lose 
+pieces to pawns. I failed to notice a better way, see if you can spot it:
+
+![Bishop can support check](../diagrams/endgames/BishopCanSupportCheck.png)
+
+It wouldn't have been checkmate, but it would've put me closer than what I 
+actually did, which was to bring the knight closer.
+
 ### Promote pawns
 
 Some puzzles are about knowing when to race a pawn to promotion, with the 
@@ -84,6 +119,214 @@ opponent king not far behind.
 
 In such a puzzle, usually any promotion completes the puzzle, because then 
 checkmate is only a few moves away. The opponent might as well concede.
+
+And there are also puzzles in which you can promote your pawn immediately, but 
+you have to take care of something else before you can promote your pawn ''and'' 
+actually get to use your new queen.
+
+White to play. Move your pawn on d7 to d8 right away and you fail the puzzle, 
+because the Black rook will take your new queen.
+
+![Need to distract rook](../diagrams/endgames/NeedToDistractRook.png)
+
+Instead, you need to distract that rook so that you can promote your pawn and 
+not have it captured immediately. The best way to do that is to put the opponent 
+king in check. You'll probably lose your rook, but that's worth it for checkmate 
+in five moves.
+
+*x* + 1. Rf5+ Rxf5 
+
+*x* + 2. d8=Q+ Rf6 
+
+*x* + 3. Qd5+ Rf5 
+
+*x* + 4. Nf7+ Kf4 
+
+*x* + 5. g3+ Bxg3 
+
+*x* + 6. Qd4# 1-0
+
+Your opponent might instead decide to move their king out of check, in which 
+case you can capture their rook.
+
+*x* + 1. Rf5+ Kg4 
+
+*x* + 2. Rxd5 g6 
+
+But watch out, you can't promote your pawn yet because your opponent's bishop 
+now has a clear path to capture it. Checkmate's still within reach, but with 
+more moves to go, your opponent might try to cause a stalemate or get you to 
+repeat moves to draw by repetition.
+
+*x* + 3. Nxg6 Kg3 
+
+*x* + 4. Nxh4 Kg4 
+
+*x* + 5. d8=Q Kf4 
+
+*x* + 6. Ng6+ Kg4 
+
+*x* + 7. Qd7+ Kg3 
+
+*x* + 8. Qd6+ Kg4 
+
+*x* + 9. Qe6+ Kg3 
+
+*x* + 10. Qe5+ Kg4 
+
+*x* + 11. Qf4# 1-0
+
+A really good player might decide to concede rather than try for a draw. A 
+program on a hard setting will make you work the checkmate, and you'll have to 
+take care to avoid a stalemate.
+
+*x* + 1. Rf5+ Kg4 
+
+*x* + 2. Rxd5 Kg3 
+
+*x* + 3. Ng6 Bd8 
+
+*x* + 4. Ne5 Kxg2 
+
+*x* + 5. Nd3 h4 
+
+*x* + 6. Nxb4 h3 
+
+*x* + 7. Nxa6 Kh2 
+
+*x* + 8. Nb8 Kg3 
+
+*x* + 9. a6 h2 
+
+*x* + 10. Rd1 Be7 
+
+*x* + 11. a7 g5 
+
+*x* + 12. a8=Q g4 
+
+*x* + 13. Qa3 Bxa3 
+
+*x* + 14. d8=Q Kh3 
+
+*x* + 15. Bf5 Bd6 
+
+*x* + 16. Bxg4+ Kxg4 
+
+*x* + 17. Qxd6 Kf5 
+
+*x* + 18. Qd5+ Kf6 
+
+*x* + 19. Nd7+ Kg7 
+
+*x* + 20. Qe5+ Kh7 
+
+*x* + 21. Nf6+ Kg6 
+
+*x* + 22. Ng4 h5 
+
+*x* + 23. Nxh2 h4 
+
+*x* + 24. Rd6+ Kf7 
+
+*x* + 25. Qe6+ Kf8 
+
+*x* + 26. Rd8+ Kg7 
+
+*x* + 27. Rd7+ Kh8 
+
+*x* + 28. Qe8# 1-0
+
+### Sometimes an ordinary pawn can do the trick
+
+Sometimes you have lots of options to deliver a check, and they're all bad. 
+White to play:
+
+![Pawn on checkmate cusp](../diagrams/endgames/PawnOnCheckmateCusp.png)
+
+Obviously your dark squares bishop is not very useful here, and capturing the 
+Black pawn on d6 might give the opponent king an opportunity to wiggle out of 
+the tough spot he's in.
+
+Move your original queen (the one on e4, I'm very sure that's the one from the 
+beginning of the game) to h4 and she's protected by your knight on f3, but she's 
+only protected from capture by the opponent king, but not from capture by the 
+opponent pawn on g5.
+
+Instead move your original queen to g4, where she's protected by your light 
+squares bishop, but the opponent king can just elude the check by moving to g6. 
+However, you can then obtain checkmate with your light squares bishop. Checkmate 
+int two moves is very good, but we can actually do better here.
+
+Sacrifing your rook for a pawn might look like the least appealing option here, 
+but then your light squares bishop can swoop in for the win. Actually, if you 
+move your light squares bishop to g4 as your first move on this puzzle, it 
+should be counted as a correct solution, because that's checkmate.
+
+Okay, so this is not such a good example of having no good options for check 
+with the "officer" pieces.
+
+In this particular puzzle, however, the most elegant solution is to move your 
+pawn on g2 to g4.
+
+Here's another White to play puzzle in which there are multiple options for 
+checkmate, but in this one only one is the best option.
+
+![Which pawn?](../diagrams/endgames/WhichPawn.png)
+
+The pawn on g5 needs too much work to get promoted. You could move your kingside 
+bishop's pawn to f4, but then your opponent can capture it en passant. That's 
+just the beginning of your troubles.
+
+*x* + 1. f4+ exf3 
+
+*x* + 2. Re1+ Be4 
+
+*x* + 3. Nxe4 Ng4 
+
+*x* + 4. Ng3+ Kf4 
+
+*x* + 5. Re4+ Kxg3 
+
+*x* + 6. Rhxg4+ hxg4 
+
+*x* + 7. Nd4 f2 
+
+*x* + 8. Bb5 f1=Q+ 
+
+*x* + 9. Kd2 Kh4 
+
+*x* + 10. Ne2 b3 
+
+*x* + 11. d4 b2 
+
+*x* + 12. Nc3 Qc1+ 
+
+*x* + 13. Kd3 b1=B+ 
+
+*x* + 14. Nxb1 Qxb1+
+
+Your opponent promoted a pawn to a bishop? Your opponent is taunting you now. 
+You should've resigned on the previous promotion, if not earlier.
+
+What about your rook? 
+
+*x* + 1. Rxe4+ ...
+
+But your opponent has that light squares bishop...
+
+*x* + 1. ... Bxe4
+
+The whole thing just goes downhill from there. The best you can hope for is a 
+draw, afer an internecine battle that leaves your opponent with just their king 
+and a knight, and you with only your knight.
+
+The correct solution to this puzzle is to move your queen's pawn to d4. 
+Checkmate. Your opponent has a knight, a bishop and almost all their pawns, but 
+none of those pieces do the opponent king any good.
+
+By the way, this game probably started with a king's pawn opening, and both 
+sides got their queens going early and lost their queens early. Bonus puzzle: 
+figure out the likeliest sequence of moves to get to the position shown above.
 
 ### Avoiding stalemates
 
@@ -274,6 +517,32 @@ it's also the most disappointing way to not win, in my opinion.
 [FINISH WRITING]
 
 ## Middlegame puzzles
+
+In my opinion, the most satisfying win happens in the thick of the middlegame. 
+If you beat your opponent soon after the opening, it just means they made some 
+serious blunders early on. And if you beat them in an endgame in which they ran 
+you all over the board when they should've conceded earlier, that takes the edge 
+off your win.
+
+But to identify an opportunity for checkmate with so many of their pieces and 
+your own pieces in the way, and to see it through, that might mean you're a very 
+good player.
+
+Be open to such possibilities. Most middlegame puzzles, however, are about 
+gaining advantages that will pay off in the endgame.
+
+For example, if you can deprive your opponent of their queen early on, and keep 
+your own queen, you're in better shape for the endgame.
+
+White to play. You've been trying to get your kingside knight to f7, to be able to capture either your opponent's unmoved queen or unmoved kingside rook.
+
+It's a technique that's worked for you in the past. There's always the risk that your opponent will use their king to capture your knight, but then they forfeit the right to castle. However, against this particular opponent that would be a mistake.
+
+![Should promote to bishop](../diagrams/endgames/ShouldUnderpromoteToBishop.png)
+
+To get your knight to f7, that piece needs to go to g5 first. But on this particular board, the opponent queen can capture your knight first. But... you've got your dark squares bishop ready to capture that queen. But... is your opponent going to take the bait? More likely they'll move a pawn to give the queen more freedom of movement.
+
+The correct solution here is to immediately your opponent's queen with your dark squares bishop.
 
 I understand that you don't want to lose your queen, but remember: getting the 
 king out of check takes precedence over saving the queen. It's okay to expose 

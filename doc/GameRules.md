@@ -322,6 +322,27 @@ for the unfolding of the tournament.
 There also arise situations in which neither side can win. That's a stalemate.
 // TODO: Write regarding rules for determining stalemate has occurred 
 
+There can also be a draw without a stalemate. If the same sequence of moves is 
+repeated thrice, without any captures, that's a draw by repetition. Here's a 
+transcript of the last few moves of a game that ended in draw by repetition. 
+Even if you don't know notation, you can see that the same two moves are being 
+repeated over and over again.
+
+35. O-O-O Qd6 
+36. Bf4 Qf6 
+37. g5 Qa1+ 
+38. Kd2 Qc3+ 
+39. Kc1 Qa1+ 
+40. Kd2 Qc3+ 
+41. Kc1 Qa1+ 1/2-1/2
+
+![Repetitive check](../diagrams/RepetitiveCheck.png)
+
+In this particular game, a draw was in Black's best interest, because without 
+the repetitive checks, White might have wised up to an opportunity for 
+checkmate, whereas Black's only path to winning here requires White to make a 
+lot of mistakes.
+
 Additional rules apply for timed play (with a clock). In some games, a player 
 who takes too long to decide on a move simply "forfeits on time." I've lost that 
 way several times.
@@ -333,10 +354,10 @@ personally, are the ones that don't diverge too much from the official game. And
 honestly, some variants, like Horde, might be much more of a programming 
 challenge than I care to undertake.
 
- * '''Fog of War''' or '''Dark Chess''' &mdash; You can only see your own pieces 
+ * **Fog of War** or **Dark Chess** &mdash; You can only see your own pieces 
  and the squares your pieces may move to. This means that at the beginning each 
  player can only see half the board. Putting the opponent's king in check is 
  suffficient to win. Hence castling could be much more useful than in Fog of War 
  than in normal play. As far as I know, this variant is only played on a 
  computer.
- * '''Kriegspiel''' &mdash; A forerunner of Fog of War. There are three boards
+ * **Kriegspiel** &mdash; A forerunner of Fog of War. There are three boards
