@@ -45,6 +45,10 @@ try to prevent that, if they have the means.
 
 ![Black has only pawns](../diagrams/endgames/BlackOnlyHasPawns.png)
 
+## One knight
+
+The king will have to help out on this one.
+
 ## Two knights
 
 Theoretically, it's possible to checkmate with just two knights.
@@ -107,6 +111,23 @@ Regardless, the opponent king can certainly try to capture one of your bishops.
 ## Two rooks
 
 [FINISH WRITING]
+
+## One queen
+
+![Queen and king](../diagrams/endgames/KingAndQueenEndgame.png)
+
+The king will have to help out with this one. There's a lot of potential for 
+stalemate here. The strategy is to gradually restrict the opponent king's 
+movements to the edge of the board, keeping this important rule in mind: if 
+you're not going to put the opponent king in check on the next move, make sure 
+the opponent king can still make a move.
+
+One way of accomplishing the checkmate is to get your king close to the opponent 
+king as you can. On a board as empty as this one, you can quickly get your queen 
+where you need her, but make sure that any sudden approach of your queen puts 
+the opponent king in check.
+
+![King close, queen far](../diagrams/endgames/KingCloseQueenFar.png)
 
 ## Queen and a knight
 

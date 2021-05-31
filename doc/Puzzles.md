@@ -16,6 +16,10 @@ ahead.
 
 ## Endgame puzzles
 
+In my opinion, endgame puzzles are the easiest. Sure we can put in some stymied 
+pawns to hide the solution, but the goal is almost always quite plain: put the 
+opponent king in check, if not checkmate.
+
 One classic endgame puzzle teaches that sometimes you have to sacrifice your 
 queen to get the checkmate. For example:
 

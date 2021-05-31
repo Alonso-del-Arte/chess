@@ -961,6 +961,12 @@ But if the second move is the king's pawn forward two spaces,
 
 [FINISH WRITING]
 
+Also, if your second move is your kingside knight, it might be considered a 
+R&eacute;ti opening, old Indian attack.
+
+1. d3 Nf6
+2. Nf3 d5
+
 ### King's pawn: Van't Kruijs opening
 
 1. e3
@@ -1008,11 +1014,34 @@ way to exploit the situation.
 
 ![Barnes 6-move checkmate](../diagrams/openings/Barnes6MoveCheckmate.png)
 
+As with quite a few other openings, this one can be reclassified as a king's pawn opening depending on your second move.
+
+#### King's pawn opening, king's head opening
+
+1. f3 e5
+2. e4
+
 ### Kingside knight's pawn: Hungarian opening
 
 1. g3
 
 Also called "king's fianchetto opening."
+
+#### Dutch, Pachman gambit
+
+1. g3 f5
+2. e4 fxe4
+3. Qh5+ g6
+
+#### Myers defense
+
+1. g3 g5
+2. e4 e6
+
+#### Siclian defense: Lasker-Dunn attack
+
+1. g3 c5
+2. e4
 
 ### Kingside rook's pawn: Clemenz opening
 
