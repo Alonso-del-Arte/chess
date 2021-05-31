@@ -122,10 +122,10 @@ movements to the edge of the board, keeping this important rule in mind: if
 you're not going to put the opponent king in check on the next move, make sure 
 the opponent king can still make a move.
 
-One way of accomplishing the checkmate is to get your king close to the opponent 
-king as you can. On a board as empty as this one, you can quickly get your queen 
-where you need her, but make sure that any sudden approach of your queen puts 
-the opponent king in check.
+One way of accomplishing the checkmate is to get your king as close to the 
+opponent king as you can. On a board as empty as this one, you can quickly get 
+your queen where you need her, but make sure that any sudden approach of your 
+queen puts the opponent king in check.
 
 ![King close, queen far](../diagrams/endgames/KingCloseQueenFar.png)
 

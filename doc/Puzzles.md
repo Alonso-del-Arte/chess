@@ -518,6 +518,8 @@ it's also the most disappointing way to not win, in my opinion.
 
 ## Opening puzzles
 
+If I've ever seen an opening puzzle, I don't remember.
+
 [FINISH WRITING]
 
 ## Middlegame puzzles
