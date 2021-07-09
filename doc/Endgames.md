@@ -45,11 +45,14 @@ try to prevent that, if they have the means.
 
 ![Black has only pawns](../diagrams/endgames/BlackOnlyHasPawns.png)
 
-## One knight
+## Involving the knight
 
-The king will have to help out on this one.
+### One knight
 
-## Two knights
+The king will have to help out on this one. Actually, no, checkmate is 
+impossible for you. And if your opponent is similarly bereft, it's a stalemate.
+
+### Two knights
 
 Theoretically, it's possible to checkmate with just two knights.
 
@@ -74,9 +77,11 @@ the edge of the board, if not to the corners.
 
 [FINISH WRITING]
 
-## Bishop and a knight
+## Involving the bishop
 
-I'm starting to think that a king's assistance is needed for a checkmate 
+### Bishop and a knight
+
+I'm starting to think that a king's assistance is needed for any checkmate 
 involving a knight. Without the king's help, it's difficult to restrict the 
 opponent king to a corner or at least an edge.
 
@@ -84,7 +89,7 @@ opponent king to a corner or at least an edge.
 
 [FINISH WRITING]
 
-## Two bishops
+### Two bishops
 
 Presumably you only have your original bishops, one for the light squares and 
 one for the dark squares.
@@ -100,19 +105,64 @@ Regardless, the opponent king can certainly try to capture one of your bishops.
 
 [FINISH WRITING]
 
-## Rook and a knight
+avoid stalemate, try to back the opponent king into a corner, or close to a corner
+
+### Three bishops
+
+Players are extremely unlikely to promote a pawn to a bishop as it is, and even 
+more so if they still have both of their original bishops. Though it might at 
+least be entertaining to practice this unlikely scenario.
+
+Obviously you will have two if not all three bishops on the same color squares 
+(though having all three on the same color is highly unlikely in competitive 
+play).
+
+Your opponent will probably try to take your bishops. If your opponent captures 
+one of your bishops so that your remaining two bishops are on squares of the 
+same color, it might be stalemate.
+
+## Involving the rook
+
+### Rook and a knight
+
+If you havea rook, a knight and pawns, you should probably try to get one of 
+those pawns promoted.
+
+![Rook and knight](../diagrams/endgames/RookAndKnightEndgameScenario.png)
+
+FEN: 6k1/pN3p2/6p1/2r5/4n3/7P/P1PR4/2K5 b - - 0 1
+
+Getting a checkmate is doable with a rook and a knight, but it's crucial for 
+your king to help corner the opponent king, literally in most cases.
+
+![Rook and knight checkmate](../diagrams/endgames/RookAndKnightCheckmate.png)
+
+FEN: 5N2/8/8/8/8/1kn5/r7/K7 w - - 38 57
+
+Depending on how well your opponent evades you might be able to pull off a 
+checkmate without having the pieces so close.
+
+![Rook and knight checkmate](../diagrams/endgames/LooserRookKnightCheckmate.png)
+
+FEN: 8/2P5/K2n4/2k5/r7/8/8/8 w - - 3 20
+
+### Rook and a bishop
 
 [FINISH WRITING]
 
-## Rook and a bishop
+### Two rooks
 
 [FINISH WRITING]
 
-## Two rooks
+### Three rooks
+
+Unlikely, but let's ponder it anyway
 
 [FINISH WRITING]
 
-## One queen
+## Involving the queen
+
+### One queen
 
 ![Queen and king](../diagrams/endgames/KingAndQueenEndgame.png)
 
@@ -129,22 +179,26 @@ queen puts the opponent king in check.
 
 ![King close, queen far](../diagrams/endgames/KingCloseQueenFar.png)
 
-## Queen and a knight
+### Queen and a knight
 
 [FINISH WRITING]
 
-## Queen and two knights
+### Queen and two knights
 
 Looks like you might be able to pull this one off without the king's help. The 
 name of the game is backing the opponent king into a corner.
 
 ![Queen and two knights](../diagrams/endgames/QueenAnd2KnightsCheckmate.png)
 
-## Queen and a bishop
+### Queen and a bishop
 
 [FINISH WRITING]
 
-## Queen and a rook
+### Queen and two bishops
+
+[FINISH WRITING]
+
+### Queen and a rook
 
 The opponent king might try to capture your rook by diagonal approach.
 
@@ -171,7 +225,7 @@ can pull off a checkmate first.
 
 [FINISH WRITING]
 
-## Two queens
+### Two queens
 
 Obviously one of your two queens must have been a pawn promotion, though it's 
 not a given that the other one was original.
@@ -181,7 +235,7 @@ king is unable to capture either of your queens.
 
 [FINISH WRITING]
 
-## Three queens
+### Three queens
 
 This is kind of overkill.
 

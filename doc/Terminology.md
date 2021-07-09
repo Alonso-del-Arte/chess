@@ -195,6 +195,10 @@ losing the game.
 seen this term in regards to chess used to mean a vulnerability in the 
 opponent's defense. Most openings are given special names, which are not quite 
 exactly standard. I will try to list the most common name for each opening.
+* **Original** &mdash; A piece a player had at the beginning of the game, as 
+opposed to a piece obtained through pawn promotion. This term is not standard, 
+and some players might regard it as unnecessary. But I believe many who write 
+chess programs wind up needing to make this distinction. 
 
 ## P
 

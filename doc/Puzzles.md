@@ -14,20 +14,119 @@ Puzzles help beginners learn the tactics of the game. I think they can also be
 useful for testing how good a chess program is at strategy more than one move 
 ahead.
 
+I've included several diagrams in this document, but also lots of notation. 
+Sometimes I'll write "*x* + 1" to mean the first move after the position shown 
+in the diagram, "*x* + 2" for the second, etc.
+
 ## Endgame puzzles
 
 In my opinion, endgame puzzles are the easiest. Sure we can put in some stymied 
 pawns to hide the solution, but the goal is almost always quite plain: put the 
 opponent king in check, if not checkmate.
 
-One classic endgame puzzle teaches that sometimes you have to sacrifice your 
-queen to get the checkmate. For example:
+Many puzzles show the pitfalls of castling. The shield of pawns can become a 
+vulnerability if your opponent can figure out a way to corner your king. The 
+idea in such puzzles is that you have to force the opponent king to the corner, 
+so that when you move a queen or a rook to that back row, the opponent king has 
+nowhere to go.
+
+Though you might have to make one, two or even three sacrifices to accomplish 
+the checkmate. Black to play:
+
+![General idea](../diagrams/endgames/GeneralEndgamePuzzleIdea.png)
+
+FEN: 4Br2/1N4p1/P5NB/1P1kbr2/1p1n2pq/2p4P/6P1/R2Q2K1 b - - 0 1
+
+You're going to lose your queen. The question is when and how. Do you lose your 
+queen to the knight on g6 on your way to a loss? Or do you lose her a couple of 
+moves later on your way to a win?
+
+There is only one good move for you here. Any other move you make will lose you 
+the game. You have to put your opponent in check right now, because if you 
+don't, your opponent will put you in check and soon checkmate.
+
+*x* + 1. ... Qf2+
+
+*x* + 2. Kh1
+
+Of course that's the only possible move for your opponent. And then you bite the 
+bullet and sacrifice your queen and one of your rooks.
+
+*x* + 2. ... Qf1+
+
+*x* + 3. Qxf1 Rxf1+
+
+*x* + 4. Rxf1 Rxf1# 0-1
+
+### Sometimes you have to sacrifice your queen
+
+Because the queen is such a powerful piece, most players don't like to sacrifice 
+their queen. One sure sign of poor sportsmanship in chess is when your opponent 
+taunts you after capturing your queen, saying things like "You won't be needing 
+that."
+
+But if it wins you the game, it's certainly worthwhile to sacrifice your queen. 
+For example:
 
 ![Sacrifice the queen](../diagrams/endgames/EndgamePuzzleSacrificeQueen.png)
 
 If you're playing White, you need to move your queen to the last rank, even 
 though your opponent will certainly capture your queen with their rook. And 
 if you're playing Black, you hope your opponent doesn't do that.
+
+You have to be willing to sacrifice your queen, but you also have to choose the 
+right time for that. Hence this puzzle, White to play:
+
+![Sacrifice queen not yet](../diagrams/endgames/SacrificeQueenNotJustYet.png)
+
+You can win this one without sacrificing your queen, and even getting a second 
+queen, but it'll probably take you seven moves, maybe more.
+
+Let's say for your next move, you decide to promote that pawn to a queen, even 
+though you have no way to protect the new queen before you can get her to a good 
+position. Maybe your opponent won't capture your new queen, but...
+
+*x* + 1. b8=Q h6
+
+As soon as the opponent king goes to the seventh rank, you know it's going to 
+take more effort than you would've liked.
+
+*x* + 2. Qxd8+ Kh7
+
+*x* + 3. Qxh4 a3
+
+*x* + 4. e5 Kg8
+
+*x* + 5. Qd5+ Kh7
+
+*x* + 6. Qde4+ g6
+
+*x* + 7. Rf7+ Kg8
+
+*x* + 8. Qxg6+ Kh8
+
+*x* + 9. Qhxh6# 1-0
+
+Moving your original queen to the back rank would be the wrong lesson to learn 
+here. You can still win, but it'll probably take twenty-odd moves.
+
+*x* + 1. Qf8+ Rxf8
+
+*x* + 2. Rxf8+ Kxf8
+
+You get the idea.
+
+But the correct answer to this puzzle is first to move your queen to f7, where 
+she can threaten the opponent king without immediate risk of capture.
+
+*x* + 1. Qf7+ Kh8
+
+With the king forced into the corner, you can sacrifice your queen and then move 
+in your rook for the checkmate.
+
+*x* + 2. Qf8+ Rxf8
+
+*x* + 3. Rxf8# 1-0
 
 ### Put your queen close if you can back her up
 
@@ -44,6 +143,32 @@ blocked.
 Here's a somewhat easier puzzle to illustrate that concept. Black to play:
 
 ![Near checkmate](../diagrams/endgames/ReadyForKnightBackedQueenCheckmate.png)
+
+### Take advantage of pinned pawns
+
+White to play. Black has just played Nd3, to avoid capture by your pawn on a3.
+
+![Rook pins pawn](../diagrams/endgames/RookPinsPawn.png)
+
+FEN: 2kr4/1pppr1P1/p2q4/P7/5Q2/P2n2PN/5P2/2R2RK1 w - - 0 1
+
+You've been wanting to break through Black's pawn shield. And that queen is a 
+big obstacle. You could use your queen to capture the opponent queen. But why 
+hasn't your opponent captured your queen? Because she would be captured by your 
+pawn on g3. A similar consideration has stopped you from capturing the opponent 
+queen before.
+
+But there's a big difference between your situation and your opponent's 
+situation: you're free to move the pawn in front of your king to a different 
+file. And you have a rook pointed at the pawn in front of the opponent king. You 
+can capture the opponent queen with your queen without fear of loss because the 
+black pawn on c7 is stuck there as long as the opponent king is on c8.
+
+So the best move here is to capture the opponent queen. Checkmate is not 
+guaranteed from this point, but any other move is likelier to end in your 
+defeat.
+
+Moral of the story: Remember that a pinned pawn is unable to capture.
 
 ### Don't forget about your bishop
 
@@ -239,6 +364,69 @@ take care to avoid a stalemate.
 *x* + 27. Rd7+ Kh8 
 
 *x* + 28. Qe8# 1-0
+
+#### Prevent opponent's pawn promotion
+
+White to play. You have a pawn close to promotion. But your opponent has a pawn even closer to promotion. As you well know, you can't move two of your own pieces at a time (except in the case of castling, which doesn't apply here).
+
+![Prevent promotion](../diagrams/endgames/PreventPromotion.png)
+
+FINISH WRITING
+
+### All capture targets are potentially high value
+
+White to play. You have one knight that you have managed to put in a position to 
+capture your opponent's queen. That's what you've been trying to do. You put one 
+of your rooks on c5. For some strange reason, your opponent moved their queen to 
+b4 when they should've used their dark squares bishop to capture that rook. Now 
+you have a choice of which of four pieces to capture.
+
+![Who should knight capture?](../diagrams/endgames/WhoShouldKnightCapture.png)
+
+FEN: 1r2b1k1/n3p3/2N2pp1/2R1P3/1q1b4/5Q2/2PP4/3K3R w - - 0 1
+
+So, should you capture the queen, the rook, the knight or the pawn? Actually, 
+capturing the queen might be the worst move you can make here, especially if 
+you're playing against a stronger opponent. The best move is to capture the 
+humble, lowly pawn. Then you'll be at most ten moves away from checkmate.
+
+Here's one way that could play out:
+
+*x* + 1. Nxe7+ Kf8
+*x* + 2. Qxf6+ Kf7
+*x* + 3. Nxg6+ Ke8
+*x* + 4. Rh8+ Bg8
+*x* + 5. Qe6+ Kd8
+*x* + 6. Qd5+ Ke8
+*x* + 7. Qe6+ Kd8
+*x* + 8. Qd5+ Ke8
+
+Uh oh, you better close the deal somehow or your opponent will get draw by 
+threefold repetition.
+
+*x* + 9. Rxg8# 1-0
+
+Even so, capturing the pawn at the beginning of this puzzle is still the best 
+option. But you might be able to win even more quickly, depending on how your 
+opponent tries to postpone the inevitable.
+
+*x* + 1. Nxe7+ Kf7
+*x* + 2. Rh7+ Kf8
+*x* + 3. Rh8+ Kf7
+*x* + 4. Qd5+ Kg7
+*x* + 5. Qg8# 1-0
+
+If you capture the pawn on f6, you can win even more quickly if your opponent 
+responds by having the bishop intercede.
+
+*x* + 1. Nxe7+ Kf8
+*x* + 2. Qxf6+ Bf7
+*x* + 3. Rh8# 1-0
+
+Your quickest path to victory is if your opponent plays Kg7.
+
+*x* + 1. Nxe7+ Kg7
+*x* + 2. Qxf6# 1-0
 
 ### Sometimes an ordinary pawn can do the trick
 
@@ -516,6 +704,36 @@ Stockfish comes up with an even better solution:
 A lone opponent king is the likeliest scenario for a potential stalemate, and 
 it's also the most disappointing way to not win, in my opinion.
 
+Here's another recent game stalled game of mine. With this one I had also made 
+my share of mistakes and blunders prior to crucial mistake. So did my opponent.
+
+ 36. Qd4?! Kdg8?!
+ 37. Qxd7 f6
+ 38. Bd4 Kh7
+ 39. Bxb6 f5
+ 40. a4 h5
+ 41. a5 h4
+ 42. Nxh4 f4
+ 43. Bd4 Kh6 
+ 44. Qxg7+ Kh5
+
+![Bishop protects queen](../diagrams/endgames/QueenProtectedByBishop.png) 
+
+ 45. Nf3?? 1/2-1/2
+
+Ouch.
+
+Rewind to 44. Qxg7+ Kh5. White play. Correct move is anything but Nf3.
+
+Notice how the knight on h4 can protect the queen if she moves to g6. I thought 
+about making that move, but stupidly I played Nf3. If instead I had moved the 
+queen, I probably would've won.
+
+ 45. Qg6+ Kxh4
+ 46. Bf6# 1-0
+
+Stockfish as White does the same.
+ 
 ## Opening puzzles
 
 If I've ever seen an opening puzzle, I don't remember.
@@ -534,21 +752,62 @@ But to identify an opportunity for checkmate with so many of their pieces and
 your own pieces in the way, and to see it through, that might mean you're a very 
 good player.
 
+For example, in this game, the middlegame was already underway.
+
+1. c3 b6 
+2. d4 Bb7 
+3. Bf4 Bc6?! 
+4. Qd3 Nf6 
+5. e4?? Bxe4 
+6. Qe3 h6?! 
+7. Bd3?? Bd5?? 
+8. Nh3?? Bxg2 
+9. Rg1 h5?? 
+10. Ng5?? Nd5?? 
+11. Qe5?! f6
+
+![Bishop can checkmate](../diagrams/BishopCanCheckmate.png)
+
+White to play. Your queen is in danger of capture. But if you move your queen, 
+that's a fail on this puzzle. I played Qf5 and the game dragged on for sixty-odd 
+more moves. I still won, but I could've won a lot sooner if I had tried to give 
+a check at this point, rather than blunder on to a perilous endgame.
+
+However, even with my move of Qf5, I still had another opportunity to win, 
+because my opponent failed to eliminate a vulnerability.
+
+12. Qf5 Nxf4?
+
+You want to protect your queen, but you also have to be willing to risk her at 
+the right time.
+
+13. Qg6+ Nxg6
+14. Bxg6# 1-0
+
 Be open to such possibilities. Most middlegame puzzles, however, are about 
 gaining advantages that will pay off in the endgame.
 
 For example, if you can deprive your opponent of their queen early on, and keep 
 your own queen, you're in better shape for the endgame.
 
-White to play. You've been trying to get your kingside knight to f7, to be able to capture either your opponent's unmoved queen or unmoved kingside rook.
+White to play. You've been trying to get your kingside knight to f7, to be able 
+to capture either your opponent's unmoved queen or unmoved kingside rook.
 
-It's a technique that's worked for you in the past. There's always the risk that your opponent will use their king to capture your knight, but then they forfeit the right to castle. However, against this particular opponent that would be a mistake.
+It's a technique that's worked for you in the past. There's always the risk that 
+your opponent will use their king to capture your knight, but then they forfeit 
+the right to castle. However, against this particular opponent that would be a 
+mistake.
 
 ![Should promote to bishop](../diagrams/endgames/ShouldUnderpromoteToBishop.png)
 
-To get your knight to f7, that piece needs to go to g5 first. But on this particular board, the opponent queen can capture your knight first. But... you've got your dark squares bishop ready to capture that queen. But... is your opponent going to take the bait? More likely they'll move a pawn to give the queen more freedom of movement.
+To get your knight to f7, that piece needs to go to g5 first. But on this 
+particular board, the opponent queen can capture your knight first. But... 
+you've got your dark squares bishop ready to capture that queen. But... is your 
+opponent going to take the bait? More likely they'll move a pawn to give the 
+queen more freedom of movement.
 
-The correct solution here is to immediately your opponent's queen with your dark squares bishop.
+The correct solution here is to immediately your opponent's queen with your dark 
+squares bishop.
 
 I understand that you don't want to lose your queen, but remember: getting the 
 king out of check takes precedence over saving the queen. It's okay to expose 
@@ -573,6 +832,27 @@ the other bishop to threaten your queen. Black to play:
 
 You should go ahead with your planned queen capture, because that has the added 
 bonus of putting the opponent king in check.
+
+### Breaking through a pawn shield
+
+You can have a definitive material advantage over your opponent, but if the 
+opponent king is shielded well enough, the path to checkmate might be very 
+unclear. Let's say you just put your opponent in check with a pawn and they 
+evaded that simply by moving the king.
+
+![Breaking through pawn shield](../diagrams/BreakingThroughPawnShield.png)
+
+FEN: 5b1r/4n1k1/5pPp/2p1p3/4P1Q1/5N1R/PPP2PP1/2KR1B2 w - - 0 1
+
+Okay, now what? White to play. You could play Bc4, but what does that get you? [FINISH WRITING]
+
+26. Qe6
+
+The hope here is that your opponent will maybe try to get the pawn on c5 closer to promotion so that then you can play Qf7+ and hopefully checkmate onr or two moves later. But the smart move would be 
+
+26. ... Nxg6
+
+thus thwarting your planned checkmate. Still, you can get to checkmate from here in twenty moves or less by gradually knocking out your opponent's remaining pieces.
 
 ### Checkmate in so many moves
 
