@@ -108,10 +108,21 @@ opening.
 
 1. Nc3 b5
 
-#### Van Geet opening reclassified as Mieses opening
+#### Sicilian defense, closed
+
+1. Nc3 c5
+2. e4
+
+##### Van Geet opening reclassified as Mieses opening
 
 1. Nc3 c5
 2. d3
+
+#### Van Geet opening reclassified as queen's pawn opening, Chigorin variation
+
+1. Nc3 d5
+2. d4 Na6
+3. e4
 
 #### Scandinavian defense, closed
 
@@ -187,6 +198,12 @@ defense.
 1. Nf3 Nc6
 2. e4
 
+#### Queen's pawn opening, Chigorin variation
+
+1. Nf3 Nf6
+2. Nc3 d5
+3. d4
+
 #### Queenside fianchetto variation
 
 1. Nf3 b6
@@ -205,6 +222,10 @@ defense.
 
 1. Nf3 d6
 2. e4 e5
+
+#### Queen's gambit invitation
+
+1. Nf3 e6
 
 #### Sicilian invitation
 
@@ -232,6 +253,20 @@ defense.
 2. e4 d6
 3. Bb5+ Nc6
 
+#### Dutch variation
+
+This opening can be considered a king's pawn opening if your second move is e4, 
+e.g.,
+
+1. Nf3 d5
+2. e4 e5
+3. Bb5+ Qd7
+4. Bxd7+ Bxd7
+5. exd5 ...
+
+This also illustrates the elephant gambit, in which Black makes an ill-advised 
+attempt to control the middle of the board.
+
 #### Reversed Mexican defense
 
 1. Nf3 d5
@@ -249,7 +284,21 @@ defense.
 2. e4 e5
 3. Bb5+ Nc6
 
-#### Englund gambit declined, reversed Alekhine, reversed Krebs variation
+#### Ross gambit
+
+1. Nf3 e5
+
+##### Englund gambit declined, reversed Alekhine variation
+
+1. Nf3 e5
+2. d4
+
+##### Dutch defense, Omega-Isis gambit
+
+1. Nf3 e5
+2. d4 f5
+
+##### Englund gambit declined, reversed Alekhine, reversed Krebs variation
 
 1. Nf3 e5
 2. d4 e4
@@ -259,20 +308,6 @@ defense.
 6. e3 d5
 7. Qh5+ g6
 8. Qg4 Bxg4
-
-#### Dutch variation
-
-This opening can be considered a king's pawn opening if your second move is e4, 
-e.g.,
-
-1. Nf3 d5
-2. e4 e5
-3. Bb5+ Qd7
-4. Bxd7+ Bxd7
-5. exd5 ...
-
-This also illustrates the elephant gambit, in which Black makes an ill-advised 
-attempt to control the middle of the board.
 
 #### Arctic defense
 
@@ -416,6 +451,11 @@ Should White capture the pawn that Black is offering up?
 2. e4 
 
 Will Black capture White's king's pawn?
+
+#### Bugayev attack
+
+1. b4 e5
+2. a3 
 
 #### Outflank variation
 
@@ -1501,12 +1541,17 @@ pawn opening by some analysts, e.g.,
 This one's good for getting your queen out early on. But if you also want to get 
 one of your bishops going early, choose another opening, like maybe king's pawn.
 
-However, King's Pawn Opening: MacLeod Attack
+1. c3 b5 2. h4 f5 3. e4 h6 4. Qh5+ g6 5. Qxg6# 1-0
+
+#### Sicilian defense, Alapin variation
+
+1. c3 c5
+2. e4
+
+#### Saragossa opening reclassied as king's pawn opening, MacLeod attack
 
 1. c3 e5
 2. e4 
-
-Sicilian defense: Alapin variation [FINISH WRITING]
 
 ### Queen's pawn: Mieses opening
 
@@ -1536,6 +1581,11 @@ way.
 But if the second move is the king's pawn forward two spaces,
 
 1. d3 e5
+2. e4
+
+then it's a king's pawn opening, Leonardis variation. Also the case for 
+
+1. d3 d5
 2. e4
 
 [FINISH WRITING]
@@ -1601,6 +1651,11 @@ way to exploit the situation.
 As with quite a few other openings, this one can be reclassified depending on 
 your second move.
 
+#### Indian game, pale face attack
+
+1. f3 Nf6
+2. d4 Nc6
+
 #### Barnes opening reclassified as Amar opening
 
 1. f3 e5 
@@ -1624,6 +1679,13 @@ For example:
 12. Qd4 f5 
 13. Qxe5+ Kf8 
 14. Qxh8# 1-0
+
+##### Amar opening, Krazy Kat variation
+
+1. f3 e5 
+2. Nh3 d5
+3. d4 Qh4+
+4. Nf2
 
 #### King's pawn opening, king's head opening
 

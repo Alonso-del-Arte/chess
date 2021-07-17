@@ -144,6 +144,16 @@ Here's a somewhat easier puzzle to illustrate that concept. Black to play:
 
 ![Near checkmate](../diagrams/endgames/ReadyForKnightBackedQueenCheckmate.png)
 
+Another Black to play puzzle to illustrate this concept: your opponent has just 
+moved their knight to h3, thwarting your plan to capture the rook on g1 and put 
+your opponent in check.
+
+![Queen must attack](../diagrams/endgames/QueenMustAttack.png)
+
+My first instinct in this situation is to instead use my bishop to capture the 
+rook on d2. Even against a very strong player, I can win in 25 moves. But there 
+is a much better move here. Can you figure it out?
+
 ### Take advantage of pinned pawns
 
 White to play. Black has just played Nd3, to avoid capture by your pawn on a3.
