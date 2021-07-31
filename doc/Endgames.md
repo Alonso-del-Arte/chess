@@ -148,7 +148,34 @@ FEN: 8/2P5/K2n4/2k5/r7/8/8/8 w - - 3 20
 
 ### Rook and a bishop
 
-[FINISH WRITING]
+Obviously the bishop is limited to half the board. Light squares or dark 
+squares, it doesn't matter, your opponent will try to keep their king on an 
+opposite color square, and whatever pawns they might have left arrayed on a 
+diagonal as if to tempt your bishop to an unwise capture.
+
+Checkmate is possible with a rook and a bishop, but it's tricky. Your opponent 
+will certainly try to capture your rook or your bishop. If the opponent king 
+gets close to both your rook and your bishop, you have to figure out a way to 
+prevent the capture of either. Generally it's easier to distance the rook. At 
+least that has been my experience.
+
+![King tries capture](../diagrams/endgames/AttemptRookOrBishopCapture.png)
+
+FEN: 6k1/7p/8/7P/5PK1/5rb1/8/8 b - - 3 10
+
+In this case, I moved my rook all the way to rank a. Soon all pawns were off the 
+board.
+
+As with practically all queenless endgames, the idea is to corner the opponent 
+king while being very careful to give him somewhere to move if you can't put him 
+in check (to avoid a stalemate) *and* also being careful not to repeat the same 
+position thrice (to avoid a draw).
+
+Your king will have to help out on this one.
+
+![Rook and bishop checkmate](../diagrams/endgames/KingRookBishopCheckmate.png)
+
+FEN: 8/8/8/8/K1k5/8/r7/2b5 w - - 42 40
 
 ### Two rooks
 
