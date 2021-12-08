@@ -104,21 +104,57 @@ opening.
 1. Nc3 Nf6
 2. d4
 
+##### Queen's pawn opening, Chigorin variation
+
+1. Nc3 Nf6
+2. d4 d5
+
 ##### Indian game, Maddigan gambit
 
 1. Nc3 Nf6
 2. d4 e5
 
+##### Alekhine's defense, Scandinavian variation
+
+1. Nc3 Nf6
+2. e4 d5
+3. exd5
+
+##### Vienna game, Falkbeer variation
+
+1. Nc3 Nf6
+2. e4 e5
+
+##### Four knights game, Scotch variation
+
+1. Nc3 Nf6
+2. e4 e5
+3. Nf3 Nc6
+4. d4 d6
+
 #### Laroche gambit
 
 1. Nc3 b5
 
-#### Sicilian defense, closed
+#### Sicilian two knights variation
+
+1. Nc3 c5
+2. Nf3 Nc6
+3. d4 cxd4
+4. Nxd4
+
+#### Sicilian defense, closed, traditional line
+
+1. Nc3 c5
+2. Nf3 Nc6
+3. e4
+
+##### Sicilian defense, closed
 
 1. Nc3 c5
 2. e4
 
-##### Sicilian defense, closed, traditional line
+###### Sicilian defense, closed, traditional line
 
 1. Nc3 c5
 2. e4 Nc6
@@ -128,6 +164,11 @@ opening.
 
 1. Nc3 c5
 2. d3
+
+#### Reversed Mexican defense
+
+1. Nc3 d5
+2. Nf3
 
 #### Van Geet opening reclassified as queen's pawn opening, Chigorin variation
 
@@ -139,14 +180,25 @@ opening.
 1. Nc3 d5
 2. e4 
 
-#### Reversed Nimzowitsch variation
-
-1. Nc3 e5
-
 #### Alekhine's defense, Scandinavian variation
 
 1. Nc3 d5
 2. e4 Nf6
+
+#### Reversed Nimzowitsch variation
+
+1. Nc3 e5
+
+##### Napoleon attack
+
+1. Nc3 e5
+2. Nf3 Nc6
+3. d4
+
+##### Billockus-Johansen gambit
+
+1. Nc3 e5
+2. Nf3 Bc5
 
 #### Pirc defense
 
@@ -190,7 +242,7 @@ defense.
 
 1. Nf3 Nc6
 
-##### R&eacute;ti opening reclassified as queen's pawn opening, Mikenas defense
+##### R&eacute;ti opening reclassified as queen's pawn opening, Mik&edot;nas defense
 
 1. Nf3 Nc6
 2. d4
@@ -207,6 +259,13 @@ defense.
 1. Nf3 Nc6
 2. e4
 
+###### French defense, normal variation
+
+1. Nf3 Nc6
+2. e4 Nf6
+3. Nc3 e6
+4. d4 d5
+
 #### Queen's pawn opening, Chigorin variation
 
 1. Nf3 Nf6
@@ -217,7 +276,33 @@ defense.
 
 1. Nf3 Nf6
 2. Nc3 g6
-3. d4
+
+#### Indian game, knights variation
+
+1. Nf3 Nf6
+2. d4
+
+#### Indian game, knights variation, East Indian defense
+
+1. Nf3 Nf6
+2. d4 g6
+
+#### Nimzowitsch defense declined
+
+1. Nf3 Nf6
+2. e4 Nc6
+3. d3 e5?
+
+##### King's pawn, Tayler opening
+
+1. Nf3 Nf6
+2. e4 Nc6
+3. d3 e5
+4. Be2
+
+#### Ware defense
+
+1. Nf3 a5
 
 #### Sicilian invitation
 
@@ -248,15 +333,29 @@ defense.
 #### Reversed Mexican defense
 
 1. Nf3 d5
-2. Nc3 Qd7
-3. e4
+2. Nc3 
+
+#### R&eacute;ti gambit
+
+1. Nf3 d5
+2. c4 
+
+##### R&eacute;ti gambit
+
+1. Nf3 d5
+2. c4 dxc4
 
 #### Zukertort variation
 
 1. Nf3 d5
 2. d4
 
-#### Zukertort variation
+##### Queen's pawn opening, Zukertort-Chigorin variation
+
+1. Nf3 d5
+2. d4 Nc6
+
+##### Queen's pawn opening, symmetrical variation
 
 1. Nf3 d5
 2. d4 Nf6
@@ -292,11 +391,29 @@ attempt to control the middle of the board.
 1. Nf3 d5
 2. e4
 
-#### Ruy L&oacute;pez opening, Spanish countergambit
+##### Elephant gambit
+
+1. Nf3 d5
+2. e4 e5
+
+###### Ruy L&oacute;pez opening, Spanish countergambit
 
 1. Nf3 d5
 2. e4 e5
 3. Bb5+ Nc6
+
+#### Old Indian attack
+
+1. Nf3 d5
+2. d3
+
+#### King's Indian attack
+
+1. Nf3 d5
+2. g3 Nc6
+3. Bg2 e5
+4. d3 Nf6
+5. O-O
 
 #### Ross gambit
 
@@ -326,15 +443,25 @@ attempt to control the middle of the board.
 #### Dutch variation
 
 1. Nf3 f5
-2. Nc3
+
+##### Dutch defense
+
+1. Nf3 f5
+2. d4
+
+#### Herrstrom gambit
+
+1. Nf3 g5
 
 #### Queen's gambit invitation
 
 1. Nf3 e6
-2. d4 d5
-3. Bg5
 
 #### Arctic defense
+
+1. Nf3 f6 
+
+There are a few different ways it could go very wrong for Black.
 
 1. Nf3 f6 
 2. e4 e6 
@@ -348,8 +475,10 @@ attempt to control the middle of the board.
 10. d4 a4 
 11. Bf4# 1-0
 
-That's the Arctic defense, and that particular game shows just one way out of 
-several it could go wrong for Black.
+##### R&eacute;ti reclassified as king's pawn, king's knight, Damiano variation
+
+1. Nf3 f6 
+2. e4 e5
 
 #### Polish defense
 
@@ -407,14 +536,26 @@ R&eacute;ti Opening: Dutch, Lisitsyn, Rydel-Bloodgood Gambit, 3.Ne5
 
 1. Nf3 g6
 
+##### Modern defense
+
+1. Nf3 g6
+2. d4
+
+##### Pirc defense, classical variation
+
+1. Nf3 g6
+2. e4 Bg7
+3. d4 d6
+4. Nc3 Nf6
+
+#### Queen's pawn opening, Zukertort variation
+
+1. Nf3 d5
+2. d4 c6
+
 #### Basman defense
 
 1. Nf3 h6
-
-#### Ware opening reclassified as R&eacute;ti opening
-
-1. a4 Nf6
-2. Nf3
 
 ### Kingside knight to rook's file: Amar opening
 
@@ -431,6 +572,12 @@ right off the bat.
 3. Na3 Qh4
 4. d4 cxd4
 
+#### French defense, Morphy gambit
+
+1. Nh3 d5
+2. d4 e6
+3. e4
+
 #### Barnes opening reclassified as Amar opening
 
 1. f3 e5 
@@ -440,8 +587,6 @@ right off the bat.
 
 1. f3 e5 
 2. Nh3 d5
-3. d4 Be6
-4. Bg5 f6
 
 ## Pawn two spaces forward
 
@@ -472,6 +617,11 @@ queenside castling.
 
 1. a4 c5
 2. e4 d6
+
+#### R&eacute;ti opening, potato variation
+
+1. a4 d5
+2. Nf3
 
 #### Meadow hay trap
 
@@ -595,6 +745,12 @@ This is an opening Bobby Fischer played in a championship
 1. c4 Nf6
 2. d4 d6
 
+##### King's Indian defense, normal variation
+
+1. c4 Nf6
+2. d4 d6
+3. Nc3 Bg7
+
 ##### Anglo-Indian defense, Achilles-Omega gambit
 
 1. c4 Nf6
@@ -632,16 +788,16 @@ Likely followed up with
 1. c4 d5
 2. Nf3
 
-##### Loehn gambit
-
-1. c4 d5
-2. cxd5 e6
-
 ##### Anglo-Scandinavian defense, Schulz gambit
 
 1. c4 d5
 2. cxd5 Nf6
 3. e4
+
+##### Loehn gambit
+
+1. c4 d5
+2. cxd5 e6
 
 #### King's English variation
 
@@ -662,10 +818,15 @@ Likely followed up with
 1. c4 e5
 2. Nf3
 
-##### Queen's pawn opening, Mikenas defense
+##### Queen's pawn opening, Mik&edot;nas defense
 
 1. c4 e5
 2. d4 Nc6
+
+###### Queen's gambit declined, Albin countergambit
+
+1. c4 e5
+2. d4 d5
 
 ##### The Whale variation
 
@@ -708,15 +869,25 @@ Likely followed up with
 2. Nf3 Nf6
 3. d4 b6
 
-##### Horowitz defense
+##### Queen's pawn opening, Horowitz defense
 
 1. c4 e6
 2. d4
+
+##### Queen's pawn opening, Zilbermint's gambit
+
+1. c4 e6
+2. d4 e5
 
 ##### Dutch defense, classical variation
 
 1. c4 e6
 2. d4 f5
+
+##### Queen's pawn opening, English defense
+
+1. c4 e6
+2. d4 b6
 
 ##### Queen's pawn opening, Keres transpositional variation
 
@@ -755,9 +926,14 @@ ignores other factors, such as how your opponent's skills compare to yours.
 
 1. d4 Na6
 
-#### Mikenas defense
+#### Mik&edot;nas defense
 
 1. d4 Nc6
+
+##### Mik&edot;nas defense
+
+1. d4 Nc6
+2. Nf3
 
 ##### Englund gambit
 
@@ -795,6 +971,12 @@ ignores other factors, such as how your opponent's skills compare to yours.
 
 1. d4 Nf6
 2. Nf3
+
+##### Indian game, Yusupov-Rubinstein system
+
+1. d4 Nf6
+2. Nf3 e6
+3. e3
 
 ###### Indian game, knights variation, East Indian defense
 
@@ -839,7 +1021,6 @@ Likely followed by
 
 1. d4 c5
 2. dxc5 b6
-3. cxb6 axb6
 
 #### Chigorin variation
 
@@ -850,6 +1031,11 @@ Likely followed by
 
 1. d4 d5
 2. Nc3 Nc6
+
+##### Chigorin variation
+
+1. d4 d5
+2. Nc3 Nf6
 
 ##### Chigorin, Irish gambit
 
@@ -872,6 +1058,29 @@ Likely followed by
 
 1. d4 d5
 2. Nf3
+
+##### Zukertort-Chigorin variation
+
+1. d4 d5
+2. Nf3 Nc6
+
+##### French defense, normal variation
+
+1. d4 d5
+2. Nf3 Nc6
+3. Nc3 e6
+4. e4 Nf6
+
+##### Symmetrical variation
+
+1. d4 d5
+2. Nf3 Nf6
+
+##### Chigorin variation
+
+1. d4 d5
+2. Nf3 Nf6
+3. Nc3
 
 ##### Anti-Torre attack
 
@@ -962,7 +1171,12 @@ the sacrifice of a bishop for a queen is quite worthwhile for White.
 
 1. d4 e5
 
-[FINISH WRITING]
+Will you follow with 2. dxe5?
+
+##### Englund gambit declined, reversed French variation
+
+1. d4 e5
+2. e3
 
 #### Dutch defense
 
@@ -1086,6 +1300,12 @@ OR
 1. e4 Nc6
 2. d4 e5
 3. Nc3
+
+##### Scotch game
+
+1. e4 Nc6
+2. d4 e5
+3. Nf3 exd4
 
 ##### Nimzowitsch defense, declined
 
@@ -1294,16 +1514,45 @@ You might as well use your kingside bishop to capture that pawn on file 'b'.
 1. e4 d5
 2. Nc3
 
-##### Scandinavian defense, Mieses-Kotr&ccaron; variation
+###### Scandinavian defense, closed, Dougherty gambit
 
 1. e4 d5
-2. exd5 Qxd5
+2. Nc3 dxe4
+3. f3
+
+###### Scandinavian defense, closed, Dougherty, pseudo-Diemer gambit
+
+1. e4 d5
+2. Nc3 dxe4
+3. f3 exf3
+
+##### Scandinavian defense, modern Portuguese variation
+
+1. e4 d5
+2. exd5 Nf6
+3. d4 Bg4
 
 ##### Scandinavian defense, modern variation
 
 1. e4 d5
 2. exd5 Nf6
 3. Bb5+
+
+##### Scandinavian defense
+
+1. e4 d5
+2. exd5 e5
+
+##### Scandinavian defense, Mieses-Kotr&ccaron; variation
+
+1. e4 d5
+2. exd5 Qxd5
+
+###### Scandinavian defense, Mieses-Kotr&ccaron; variation
+
+1. e4 d5
+2. exd5 Qxd5
+3. Nc3
 
 #### Potentially a center game
 
@@ -1343,18 +1592,41 @@ You might as well use your kingside bishop to capture that pawn on file 'b'.
 2. Nf3 Nc6
 3. Bb5 Nf6
 
+##### Tayler opening
+
+1. e4 e5
+2. Nf3 Nc6
+3. Be2 Nf6
+4. d3
+
 ##### Petrov's defense
 
 1. e4 e5
 2. Nf3 Nf6
 
-##### Petrov's defense, Steinitz attack
+###### Petrov's defense, Steinitz attack
 
 1. e4 e5
 2. Nf3 Nf6
 3. d4
 
-##### Petrov's defense, Urusov-Lichtenhein defense
+###### Petrov's defense, Steinitz attack, symmetrical center variation
+
+1. e4 e5
+2. Nf3 Nf6
+3. d4 Nxe4
+4. Bd3 d5
+5. dxe5
+
+OR
+
+1. e4 e5
+2. Nf3 Nf6
+3. d4 d5
+4. dxe5 Nxe4
+5. Bd3
+
+###### Petrov's defense, Urusov-Lichtenhein defense
 
 1. e4 e5
 2. Nf3 Nf6
@@ -1364,6 +1636,29 @@ You might as well use your kingside bishop to capture that pawn on file 'b'.
 
 1. e4 e5
 2. Nf3 d5
+
+##### Knight variation, elephant gambit ???
+
+1. e4 e5
+2. Nf3 d5
+3. exd5
+
+##### King's knight variation, McConnell defense ????
+
+1. e4 e5
+2. Nf3 d5
+3. exd5
+
+##### Latvian gambit
+
+1. e4 e5
+2. Nf3 f5
+
+###### Mason countergambit to the Latvian gambit
+
+1. e4 e5
+2. Nf3 f5
+3. d4
 
 ##### Philidor defense
 
@@ -1389,16 +1684,43 @@ You might as well use your kingside bishop to capture that pawn on file 'b'.
 2. Nf3 Bc5
 3. d4 exd4
 
-##### Knight variation, elephant gambit
+###### King's knight variation, McConnell defense
 
 1. e4 e5
-2. Nf3 d5
-3. exd5
+2. Nf3 Qf6
+
+###### King's knight variation, McConnell defense
+
+1. e4 e5
+2. Nf3 Qf6
+3. Bc4
 
 ##### Center game
 
 1. e4 e5
 2. d4
+
+###### Nimzowitsch defense, Kennedy variation
+
+1. e4 e5
+2. d4 Nc6
+
+###### Scotch game
+
+1. e4 e5
+2. d4 Nc6
+3. Nf3
+
+###### Scotch game
+
+1. e4 e5
+2. d4 Nc6
+3. Nf3 exd4
+
+##### Center game, Beyer gambit
+
+1. e4 e5
+2. d4 d5
 
 ###### Center game accepted
 
@@ -1413,12 +1735,24 @@ You might as well use your kingside bishop to capture that pawn on file 'b'.
 2. d4 exd4
 3. Nf3
 
+###### Center game accepted
+
+1. e4 e5
+2. d4 exd4
+3. Qxd4
+
 #### King's gambit
 
 1. e4 e5
 2. f4
 
 Will Black capture that bishop's pawn offered for sacrifice?
+
+##### Kimg's gambit declined, Falkbeer accepted, Nimzowitsch-Marshall countergambit
+
+1. e4 e5
+2. f4 d5
+3. exd5 c6
 
 ##### King's gambit accepted, Schurig gambit
 
@@ -1461,7 +1795,12 @@ This one looks like the Mieses opening, but if that king's pawn goes forward on
 the second move, it doesn't really matter anymore that the queen's pawn moved 
 first.
 
-#### Bishop's opening, Berlin defense
+#### Bishop's opening
+
+1. e4 e5
+2. Bc4
+
+##### Bishop's opening, Berlin defense
 
 1. e4 e5
 2. Bc4 Nf6
@@ -1504,6 +1843,11 @@ out as a queen's pawn opening.
 
 1. e4 b6
 
+##### Owen defense
+
+1. e4 b6
+2. d4 Bb7
+
 #### Caro-Kann defense
 
 1. e4 c6
@@ -1511,6 +1855,11 @@ out as a queen's pawn opening.
 #### Pirc defense
 
 1. e4 d6
+
+#### Pirc defense, spike attack
+
+1. e4 d6
+2. g4
 
 #### French defense
 
@@ -1526,36 +1875,58 @@ out as a queen's pawn opening.
 1. e4 e6
 2. Nf3
 
-##### Sicilian defense, French variation
+###### Sicilian defense, French variation
 
 1. e4 e6
 2. Nf3 c5
 3. d4 cxd4
 
-##### French defense, Perseus gambit
+###### French defense, Perseus gambit
 
 1. e4 e6
 2. Nf3 d5
 3. d4 
+
+###### French defense, normal variation
+
+1. e4 e6
+2. Nf3
+
+###### French defense, normal variation
+
+1. e4 e6
+2. Nf3 d5
+
+##### French defense, normal variation
+
+1. e4 e6
+2. d4 d5
+3. Nc3 Nc6
+4. Nf3 Nf6
+
+###### French defense, Morphy gambit
+
+1. e4 e6
+2. d4 d5
+3. Nh3
+
+###### St. George defense
+
+1. e4 e6
+2. d4 a6
 
 ##### French defense, king's Indian attack
 
 1. e4 e6
 2. d3
 
-##### French defense, normal variation
-
-1. e4 e6
-2. Nf3 d5
-3. d4
-
 ###### French defense, Perseus gambit
 
 1. e4 e6
 2. d4 d5
-3. Nf3 dxe4
+3. Nf3
 
-###### French defense, Perseus gambit
+###### French defense, Perseus gambit ?accepted?
 
 1. e4 e6
 2. d4 d5
@@ -1652,10 +2023,30 @@ King's Gambit Declined: Soller-Zilbermints Gambit
 
 1. f4 d5
 
+##### Dutch variation
+
+1. f4 d5
+2. Nf3
+
+##### Dutch variation
+
+1. f4 d5
+2. Nf3 c5
+
+##### Dutch variation, Sturm gambit
+
+1. f4 d5
+2. c4
+
 ##### Bird's opening reclassified as queen's pawn opening, Mason attack
 
 1. f4 d5
 2. d4
+
+##### Double duck formation
+
+1. f4 d5
+2. d4 f5
 
 ##### Dutch variation, Williams gambit
 
@@ -1681,7 +2072,17 @@ King's Gambit Declined: Soller-Zilbermints Gambit
 
 1. f4 e5
 
-#### From's gambit, Schlechter gambit
+##### From's gambit
+
+1. f4 e5
+2. d4
+
+##### From's gambit accepted
+
+1. f4 e5
+2. fxe5
+
+##### From's gambit, Schlechter gambit
 
 1. f4 e5
 2. fxe5 Nc6
@@ -1691,6 +2092,21 @@ King's Gambit Declined: Soller-Zilbermints Gambit
 1. f4 e5
 2. fxe5 d6
 3. exd6 Nf6
+
+##### From's gambit, Lasker variation
+
+1. f4 e5
+2. fxe5 d6
+3. exd6 Bxd6
+4. Nf3 g5
+
+##### From's gambit, Lasker variation
+
+1. f4 e5
+2. fxe5 d6
+3. exd6 Bxd6
+4. Nf3 g5
+5. d4 g4
 
 ##### Lasker gambit
 
@@ -1716,6 +2132,12 @@ King's Gambit Declined: Soller-Zilbermints Gambit
 1. f4 f5
 2. e4 e5
 
+#### King's gambit, Panteldakis countergambit
+
+1. f4 f5
+2. e4 e5
+3. exf5
+
 #### Panteldakis countergambit, Greco variation
 
 1. f4 f5
@@ -1730,14 +2152,6 @@ King's Gambit Declined: Soller-Zilbermints Gambit
 ### Kingside knight's pawn: Grob opening
 
 1. g4
-
-Your opponent might respond to this opening with the Alessi gambit.
-
-1. g4 f5
-2. gxf5
-
-I see no disadvantage for White to immediately capture that pawn. But you might 
-have other priorities at this point in the game.
 
 Generally this might not seem like a good opening for kingside castling. 
 However, if your opponent's king ventures far out enough to file f, kingside 
@@ -1765,11 +2179,15 @@ Sicilian defense: Grob variation
 1. g4 Nf6
 2. d4 Nxg4
 
+#### Bucker defense
+
+1. g4 Nh6
+
 #### ???
 
 1. g4 d5
 
-##### Grob opening reclassified as Queen's pawn opening, Z&uuml;rich Gambit
+##### Grob opening reclassified as Queen's pawn opening, Z&uuml;rich gambit
 
 1. g4 d5
 2. d4
@@ -1800,6 +2218,14 @@ Will your opponent capture the pawn on g4?
 
 1. g4 f5
 
+##### Alessi gambit (accepted? declined?)
+
+1. g4 f5
+2. gxf5
+
+I see no disadvantage for White to immediately capture that pawn. But you might 
+have other priorities at this point in the game.
+
 #### Grob opening reclassified as Van Geet opening
 
 1. g4 f5
@@ -1825,7 +2251,7 @@ took your pawn.
 ##### Pirc defense, spike attack
 
 1. g4 d6
-2. e4 Nf6
+2. e4
 
 ### Kingside rook's pawn: K&aacute;das opening
 
@@ -1920,14 +2346,29 @@ Nimzowitsch-Larsen:
 
 "Sicilian Defense: Snyder Variation" [FINISH WRITING]
 
-#### Indian game
+#### Indian variation
 
 1. b3 Nf6
+
+##### R&eacute;ti opening
+
+1. b3 Nf6
+2. Nf3
+
+###### R&eacute;ti opening
+
+1. b3 Nf6
+2. Nf3 Nf6
 
 ##### Indian game, Basque opening
 
 1. b3 Nf6
 2. d4
+
+##### Indian variation
+
+1. b3 Nf6
+2. Bb2 g6
 
 #### Defense with queenside rook's pawn
 
@@ -1995,6 +2436,15 @@ pawn opening by some analysts, e.g.,
 1. b3 e6
 2. e4 Nf6
 
+#### ???
+
+1. b3 g6
+
+##### Indian variation
+
+1. b3 g6
+2. Bb2 Nf6
+
 ### Queenside bishop's pawn: Saragossa opening
 
 1. c3
@@ -2020,6 +2470,11 @@ one of your bishops going early, choose another opening, like maybe king's pawn.
 1. c3 e5
 2. e4 
 
+#### Sicilian defense, Alapin variation
+
+1. c3 d6
+2. e4
+
 ### Queen's pawn: Mieses opening
 
 1. d3
@@ -2033,10 +2488,15 @@ one of your bishops going early, choose another opening, like maybe king's pawn.
 1. d3 Nf6
 2. e4
 
-#### Mieses opening reclassified as R&eacute;ti opening
+#### Mieses opening reclassified as Van Geet opening
 
 1. d3 d5
 2. Nc3
+
+#### Mieses opening reclassified as R&eacute;ti opening
+
+1. d3 d5
+2. Nf3
 
 #### Mieses opening reclassified as R&eacute;ti opening, old Indian attack
 
@@ -2103,6 +2563,12 @@ gonna lose no matter what opening I use.
 1. e3 Nf6
 2. Nf3
 
+#### Colle system
+
+1. e3 Nf6
+2. d4 e6
+3. Nf3 d5
+
 #### Van't Kruijs reclassified as queen's pawn opening
 
 1. e3 d5
@@ -2113,10 +2579,36 @@ gonna lose no matter what opening I use.
 1. e3 d5
 2. f4
 
+#### Englund gambit declined, reversed French variation
+
+1. e3 e5
+2. d4
+
 #### Englund gambit declined, French variation
 
 1. e3 e5
+2. d4 Nc6
+
+#### Englund gambit declined, reversed French variation
+
+1. e3 e5
 2. d4 d6
+
+#### ???
+
+1. e3 e6
+
+##### Indian game, Yusupov-Rubinstein system
+
+1. e3 e6
+2. Nf3 Nf6
+3. d4
+
+##### Colle system
+
+1. e3 e6
+2. d4 d5
+3. Nf3 Nf6
 
 ### Kingside bishop's pawn: Barnes opening
 
@@ -2227,6 +2719,17 @@ Also called "king's fianchetto opening."
 1. g3 d5
 2. Nf3
 
+##### King's Indian attack, Keres variation
+
+1. g3 d5
+2. Nf3 Bg4
+3. Bg2
+
+#### Sicilian invitation
+
+1. g3 c5
+2. Na3
+
 #### Sicilian defense: Lasker-Dunn attack
 
 1. g3 c5
@@ -2248,6 +2751,21 @@ Also called "king's fianchetto opening."
 1. g3 e5
 2. Nf3
 
+##### King's Indian, omega delta gambit
+
+1. g3 e5
+2. Nf3 d5
+
+#### King's Indian attack
+
+1. g3 e5
+2. Bg2 Nf6
+3. Nf3 Nc6
+4. O-O d5
+5. d3
+
+Note the early castling: you can't castle any faster than that.
+
 #### Hungarian opening reclassified as Amar opening
 
 1. g3 e5
@@ -2256,7 +2774,6 @@ Also called "king's fianchetto opening."
 #### Dutch defense
 
 1. g3 f5
-2. e4
 
 #### Dutch, Pachman gambit
 
@@ -2267,7 +2784,6 @@ Also called "king's fianchetto opening."
 #### Myers defense
 
 1. g3 g5
-2. e4 e6
 
 #### Symmetrical variation
 

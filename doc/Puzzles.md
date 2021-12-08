@@ -18,6 +18,18 @@ I've included several diagrams in this document, but also lots of notation.
 Sometimes I'll write "*x* + 1" to mean the first move after the position shown 
 in the diagram, "*x* + 2" for the second, etc.
 
+A lot of people, perhaps almost all people, expect each chess puzzle to have a 
+single unique correct solution. The incorrect solutions should be obviously bad, 
+because they lead to defeat, draw or very long and hard-fought victories that 
+depend on the opponent blundering more than you.
+
+However, humans and programs alike encounter lots of situations with multiple 
+correct solutions, and commentators disagree on what the best solution is.
+
+Because the goal here is training rather than elegance, I have included some 
+puzzles with more than one correct solution. I will try to indicate when that 
+is the case for all endgame puzzles. But not for middlegame or opening puzzles.
+
 ## Endgame puzzles
 
 In my opinion, endgame puzzles are the easiest. Sure we can put in some stymied 
@@ -153,6 +165,69 @@ your opponent in check.
 My first instinct in this situation is to instead use my bishop to capture the 
 rook on d2. Even against a very strong player, I can win in 25 moves. But there 
 is a much better move here. Can you figure it out?
+
+### Watch out for the opponent's remaining material
+
+I was playing one of the easy bots on a popular chess website. I was playing 
+White, the bot was playing Black. I had captured all of the bot's rooks, knights 
+and bishops, but not the queen, though I sure had tried.
+
+I sacrificed both bishops trying to capture the opponent queen, in gambits that 
+just didn't pay off. As for my knights, I think I just blundered them away.
+
+Now I had an advantage of 11 "points," and the opportunity for a queen and rook 
+checkmate. But that was by no means guaranteed, because if blundered my queen or 
+rook in the path of the opponent queen, the bot could seize an advantage.
+
+White to play. Black has just played 40. ... Kg8, the only valid move in 
+response to the latest check. 
+
+![Checkmate not guaranteed](../diagrams/endgames/QueenRookCheckmatePossible.png)
+
+FEN: 6k1/4Q3/4R1p1/2p2p2/p6P/6P1/PqP2P2/5RK1 w - - 2 41
+
+There are at least two correct solutions to this puzzle. Checkmate can be 
+achieved in three moves but not any fewer than that. One solution continues 
+thus:
+
+ 41. Rxg6+ Kh8
+
+If you then move your queen to file g, you might as well resign, because your 
+opponent will almost certainly seize on the opportunity created by your blunder.
+
+ 42. Qg7+ Qxg7
+
+Ouch. You should've played
+
+ 42. Qd8+
+
+or
+
+ 42. Qe8+
+
+or 
+
+ 42. Qf8+
+
+instead. None of those is checkmate because the opponent king can escape to h7. 
+But then you should be able to checkmate on the very next move, ending the game 
+transcript at line 43 (if your solution has a win at line 44, rewind to 42 and 
+look for the better move).
+
+Rewinding to 40, we see that
+
+ 41. Qe8+
+
+is also a solution that can lead to a win at line 43. The opponent king still 
+has to escape to h7, and the opponent pawn on g6 still gets captured.
+
+In terms of points, the solutions are the same: you end up with an advantage of 
+12 points and the game transcript ends at line 43. But maybe if we did a 
+centipawn analysis we might find that one solution ends up with slightly more 
+than 1200 centipawns and the other with slightly fewer than 1200.
+
+But maybe this second solution can be considered better, without doing the 
+centipawn analysis, because there's less risk of blundering your queen away.
 
 ### Take advantage of pinned pawns
 
@@ -895,6 +970,31 @@ Black to play. First thing you want to do is deprive White of their queen.
 *x* + 12. Kh2 Be5#
 
 [FINISH WRITING]
+
+### Ignore a promoted queen
+
+White to play. Black has just gotten a new queen by playing c1 = Q.
+
+![Ignore promoted queen](../diagrams/IgnorePromotedQueen.png)
+
+FEN: 8/k5p1/p2Q1p2/q1pB3p/1p5B/1P3N2/P2N1PPP/2q1RRK1 w - - 0 31
+
+Normally, if your opponent promotes a pawn and you have the means to capture the 
+promoted piece, you probably should. But not always. Sometimes it might be best 
+to ignore that promoted piece. Like in this scenario.
+
+ 31. Re7+ Qc7
+ 32. Qxc7#
+
+You can probably still win if you do capture that new queen, but most likely it 
+will take longer.
+
+ 31. Rxc1 Qd8
+ 32. Qxd8 a5
+ 33. Qc7+ Ka6
+ 34. Bb7+ Ka7
+ 35. Bc6+ Ka6
+ 36. Qb7#
 
 ## Unlikely scenarios
 
