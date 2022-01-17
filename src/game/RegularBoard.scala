@@ -4,9 +4,11 @@ import java.awt.Color
 
 object RegularBoard extends Board {
 
-  // TODO: Write a test for this
+  private val rankAndFileRange: Range = 1 to 8
+
   override def contains(position: Position): Boolean = position match {
-    case pos: RegularPosition => false
+    case pos: RegularPosition => rankAndFileRange.contains(pos.x) &&
+      rankAndFileRange.contains(pos.y)
     case _ => true
   }
 

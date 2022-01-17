@@ -8,9 +8,22 @@ class RegularBoardTest {
     println("contains")
     for (x <- 1 to 8) {
       for (y <- 1 to 8) {
-        val position = new PositionImpl(x, y)
+        val position = new RegularPosition(x, y)
         val msg = s"Board should contain position ${position.toString}"
         assert(RegularBoard.contains(position), msg)
+      }
+    }
+  }
+
+  @Test def testDoesNotContain(): Unit = {
+    val range = 1 to 8
+    for (x <- -256 to 256) {
+      for (y <- -256 to 256) {
+        val position = new RegularPosition(x, y)
+        if (!(range contains x) || !(range contains y)) {
+          val msg = s"Board should NOT contain ${position.toString}"
+          assert(!RegularBoard.contains(position), msg)
+        }
       }
     }
   }
