@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Assertions._
 
 class PositionTest {
 
-  class ExtraPositionImpl(x: Int, y: Int) extends Position(x, y) {
+  private class ExtraPositionImpl(x: Int, y: Int) extends Position(x, y) {
 
     override def translate(offset: RelativePosition): Position =
       new ExtraPositionImpl(this.x + offset.offsetX, this.y + offset.offsetY)

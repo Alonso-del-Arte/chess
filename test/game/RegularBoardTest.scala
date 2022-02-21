@@ -1,5 +1,6 @@
 package game
 
+import org.junit.jupiter.api.Assertions._
 import org.junit.jupiter.api.Test
 
 class RegularBoardTest {
@@ -26,6 +27,10 @@ class RegularBoardTest {
         }
       }
     }
+  }
+
+  @Test def testDoesNotContainPositionOfOtherType(): Unit = {
+    fail("Haven't written test yet")
   }
 
 }
