@@ -9,10 +9,19 @@ object RegularBoard extends Board {
   override def contains(position: Position): Boolean = position match {
     case pos: RegularPosition => rankAndFileRange.contains(pos.x) &&
       rankAndFileRange.contains(pos.y)
-    case _ => true
+    case _ => false
   }
 
-  // TODO: Write a test for this
-  override def getColor(position: Position): Color = Color.GRAY
+  override def getColor(position: Position): Color = {
+    if (this.contains(position)) {
+      if ((position.x + position.y) % 2 == 0) {
+        Color.BLACK
+      } else {
+        Color.WHITE
+      }
+    } else {
+      Color.MAGENTA
+    }
+  }
 
 }
