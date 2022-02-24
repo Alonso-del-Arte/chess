@@ -1,5 +1,7 @@
 package game
 
+import scala.util.Random
+
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.Assertions._
 
@@ -44,6 +46,43 @@ class RegularPositionTest {
         RegularPositionTest.checkTranslations(position)
       }
     }
+  }
+
+  @Test def testApply(): Unit = {
+    println("apply")
+    for (x <- 1 to 8) {
+      for (y <- 1 to 8) {
+        val s = s"${(x + 96).toChar}${(y + 48).toChar}"
+        val expected = new RegularPosition(x, y)
+        val actual = RegularPosition(s)
+        assertEquals(expected, actual)
+      }
+    }
+  }
+
+  @Test def testApplyRejectsEmptyStringPositionIndicator(): Unit = {
+    val t: Throwable = assertThrows(classOf[IllegalArgumentException], () => {
+      val badPosition = RegularPosition("")
+      println("Should not have been able to create " + badPosition.toString
+        + " with empty String")
+    })
+    println("Empty String indicator correctly caused exception")
+    val excMsg = t.getMessage
+    assert(excMsg != null, "Exception message should not be null")
+    println("\"" + excMsg + "\"")
+  }
+
+  @Test def testApplyRejectsTooShortPositionIndicator(): Unit = {
+    val s = Random.nextPrintableChar().toString
+    val t: Throwable = assertThrows(classOf[IllegalArgumentException], () => {
+      val badPosition = RegularPosition(s)
+      println("Should not have been able to create " + badPosition.toString
+        + " with String \"" + s + "\"")
+    })
+    println("String \"" + s + "\" correctly caused exception")
+    val excMsg = t.getMessage
+    assert(excMsg != null, "Exception message should not be null")
+    println("\"" + excMsg + "\"")
   }
 
 }

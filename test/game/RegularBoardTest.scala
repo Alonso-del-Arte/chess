@@ -42,6 +42,7 @@ class RegularBoardTest {
   }
 
   @Test def testGetColor(): Unit = {
+    println("getColor")
     for (x <- 1 to 8) {
       for (y <- 1 to 8) {
         val position = new RegularPosition(x, y)
