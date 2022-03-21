@@ -15,6 +15,8 @@ game. This document is not meant for an in-depth discussion of strategy.
 The diagrams in this document are to illustrate moves a player may make, not 
 to advise on what the best move may be in any particular situation.
 
+## Generalities
+
 There are two sides, White and Black. White always goes first, which 
 theoretically gives Black a slight advantage. The two sides take turns. No side 
 may skip a turn, but either side may concede the game.
@@ -23,8 +25,10 @@ The game is played on an 8 &times; 8 checkerboard. Each side gets sixteen
 pieces: one each of a king and a queen, two each of bishops, knights and rooks, 
 and eight each of pawns.
 
-The objective of the game is to trap your opponent's king. Of course your 
-opponent is trying to trap your king.
+The objective of the game is to trap your opponent's king so that there's no 
+escape: if he stays put, he's captured; if he moves, he's captured; and no other 
+piece can rescue him. Of course your opponent is trying to trap your king 
+likewise.
 
 There can only be one piece on a space at a time. Centering the pieces is a 
 preference, not a requirement: the important thing is that the placement of the 
@@ -39,11 +43,29 @@ only move two pieces: the captured piece, which is then moved off the board, and
 their own piece, which then takes the place of the captured piece (except in the 
 case of en passant).
 
+## Initial board state
+
 At the beginning of the game, the pieces are arranged in a specific manner, with
-each sides' pieces arrayed on opposite ends of the board.
-// TODO: Finish writing about initial board state
+each sides' pieces arrayed on opposite ends of the board. Horizontally,
+
+* Black's "officer" pieces start out on rank 8.
+* Black's pawns start out on rank 7.
+* White's pawns start out on rank 2.
+* White's "officer" pieces start out on rank 1.
+
+And vertically,
+
+* Kings start out on file 'e'.
+* Queens start out on file 'd'.
+* Bishops start out on files 'c' and 'f'.
+* Knights start out on files 'b' and 'g'.
+* Rooks start out on files 'a' and 'h'.
 
 ![Initial chess board state](http://www.chessvideos.tv/bimg/3atfetccehvg.png)
+
+The diagram is usually rotated 180&deg; for Black's viewpoint.
+
+## Moving and capturing
 
 The pieces move in specific ways when not capturing opposing pieces:
  
@@ -74,34 +96,46 @@ The pieces move in specific ways when not capturing opposing pieces:
  queen combines the abilities of the bishop and the rook, choosing to promote a 
  pawn to a bishop or a rook is generally considered a waste. And choosing to 
  promote to a knight is unlikely to be the best choice in the vast majority of 
- circumstances.
+ circumstances &mdash; but it is generally a better choice than a bishop or a 
+ rook.
  
-Even though only knights may jump other pieces, when playing on a physical board
-players are allowed to move any pieces by lifting it off the board and setting 
-it down on the destination space rather than dragging it across the board.
+Even though only knights may jump over other pieces, when playing on a physical 
+board players are allowed to move any piece by lifting it off the board and 
+setting it down on the destination space rather than dragging it across the 
+board.
  
 At the very beginning of the game, the only valid move for either side is to 
 move a pawn (which has clear access to the way forward), or move a knight (which 
 may jump over pawns). All the other pieces are blocked by pieces of their own 
 side from the first move until such time as the way is cleared for them.
+
+### Capturing
  
 If the space to which a piece would be allowed to move to if it was unoccupied 
 is instead occupied by piece of the opposing side, that piece may be captured. 
-Except if the capturing piece is a pawn, as pawns are only allowed to capture 
-diagonally forward (pawns are the only pieces that are allowed to capture on 
-spaces they would not otherwise be allowed to proceed to).
+
+For example, if it's Black's turn and Black's queen is alone on rank 'a' except 
+for one of White's rooks, the queen may capture that rook. Here we are not 
+concerned with whether that's the best move or not. 
+
+But if the capturing piece is a pawn, the piece to be captured must be one 
+square diagonally forward to the left or right of the capturing pawn. Pawns are 
+the only pieces that are allowed to capture on spaces they would not otherwise 
+be allowed to proceed to).
+
+#### En passant
 
 However, there is a wrinkle to pawn capture that may occasionally occur under 
 very specific circumstances. It's called "en passant," from the French for "in 
 passing."
 
 Even though you're unlikely to see it in normal game play, a computer program 
-must be ready for it. That's why I'll spend a litle bit of time explaining it. 
-I'm really going to need to add diagrams to explain this.
+must be ready for it. That's why I'll spend a few paragraphs explaining it.
 
 When a pawn is three ranks away from promotion, it might be close to capturing 
-an opponent pawn that has not moved so far. Specifically, an opponent pawn on 
-the file to the left or the right of the pawn approaching promotion.
+an opponent pawn that has not moved as much in the game so far. Specifically, an 
+opponent pawn on the file to the left or the right of the pawn approaching 
+promotion.
 
 If the opponent moves such a pawn forward one space, it can be captured by the 
 pawn nearing promotion. To avoid capture, the opponent might opt to move their 
@@ -171,6 +205,8 @@ in regular game play. You might play a thousand games and never once see en
 passant. But if you play just a hundred games, you will see castling more than 
 once.
 
+### Castling
+
 There are two kinds of castling: queenside castling (with the queen's rook) and 
 kingside castling. In either case, the king moves two spaces towards the rook to 
 be castled with, but the queenside rook must move one more space than the 
@@ -192,8 +228,8 @@ Of course in actual game play, even if both players choose to castle on the same
 side, they almost certainly would not mirror their moves.
 
 Castling is the only time in which a king may move more than one space in a 
-single turn, and the only time a player may move two pieces of the same side in 
-a single turn.
+single turn, and the only time a player may move two of their own pieces in a 
+single turn.
 
 Like en passant, castling also has requirements for when it may occur:
 
@@ -238,7 +274,9 @@ checkmate against you.
 Any further discussion of castling strategy is outside the scope of this 
 document.
 
-All this discusion of castling might cause players to forget that the king can 
+### More discussion of captures
+
+All this discussion of castling might cause players to forget that the king can 
 capture. This can be a very important fact when your king is on the run but 
 there's still a chance your opponent might screw up and unwittingly give up an 
 important piece like a rook or a bishop.
@@ -271,6 +309,8 @@ Among beginners, captures may occur because a player failed to notice one of
 their pieces was in the line of attack. Among more experienced players, either 
 side may choose to deliberately allow one of their pieces to be captured. This 
 is called a sacrifice, and may be part of a gambit to gain a tactical advantage.
+
+## Checks and mates
  
 However, if a king is threatened, that's a check and the threatened side must 
 neutralize that threat, either by moving the king to a safe position or by 
@@ -312,7 +352,7 @@ more concerned with moving their king away than with keeping up the pressure on
 your king.
  
 In both informal and tournament play either side has the option to concede if 
-they don't think they can win. Grandmsters often opt to stop a game, mutually 
+they don't think they can win. Grandmasters often opt to stop a game, mutually 
 acknowledging one side's win, even in situations where the imminent checkmate is 
 not obvious to onlookers.
 

@@ -298,6 +298,11 @@ defense.
 1. Nf3 Nf6
 2. d4
 
+##### Indian game, knights variation
+
+1. Nf3 Nf6
+2. d4 e6
+
 #### Indian game, knights variation, East Indian defense
 
 1. Nf3 Nf6
@@ -601,15 +606,15 @@ right off the bat.
 2. d4 e6
 3. e4
 
+#### Amar-Barnes, Krazy Kat variation
+
+1. Nh3 e5
+2. f3 d5
+
 #### Barnes opening reclassified as Amar opening
 
 1. f3 e5 
 2. Nh3 
-
-#### Amar-Barnes, Krazy Kat variation
-
-1. f3 e5 
-2. Nh3 d5
 
 ## Pawn two spaces forward
 
@@ -922,6 +927,12 @@ Likely followed up with
 2. Nf3 Nf6
 3. d4 b6
 
+##### Queen's gambit accepted, Rosenthal variation
+
+1. c4 e6
+2. Nf3 d5
+3. d4 dxc4
+
 ##### Queen's pawn opening, Horowitz defense
 
 1. c4 e6
@@ -1030,6 +1041,11 @@ ignores other factors, such as how your opponent's skills compare to yours.
 1. d4 Nf6
 2. Nf3 b5
 
+##### Indian game, knights variation
+
+1. d4 Nf6
+2. Nf3 e6
+
 ##### Indian game, Yusupov-Rubinstein system
 
 1. d4 Nf6
@@ -1047,6 +1063,12 @@ ignores other factors, such as how your opponent's skills compare to yours.
 2. Nf3 g6
 3. Nc3 d5
 
+##### East Indian, anti-Nimzo-Indian variation
+
+1. d4 Nf6 
+2. c4 e6 
+3. Nf3
+
 ###### King's Indian defense, normal variation
 
 1. d4 Nf6
@@ -1061,6 +1083,11 @@ ignores other factors, such as how your opponent's skills compare to yours.
 3. Nc3 Bg7
 4. e4 d6
 5. Nf3 O-O
+
+###### Indian game, omega gambit
+
+1. d4 Nf6
+2. e4
 
 ##### Indian game, canard variation
 
@@ -1216,6 +1243,12 @@ The most famous move sequence for the queen's pawn opening.
 2. c4 dxc4
 3. Nf3 c5
 4. e4
+
+##### Queen's gambit accepted, Rosenthal variation
+
+1. d4 d5
+2. c4 dxc4
+3. Nf3 e6
 
 ##### Queen's gambit, accepted, central variation
 
@@ -1769,6 +1802,12 @@ You might as well use your kingside bishop to capture that pawn on file 'b'.
 2. Nf3 Nf6
 3. d4
 
+###### Petrov's defense, Steinitz attack
+
+1. e4 e5
+2. Nf3 Nf6
+3. d4 Nxe4
+
 ###### Petrov's defense, Steinitz attack, symmetrical center variation
 
 1. e4 e5
@@ -2016,6 +2055,11 @@ out as a queen's pawn opening.
 1. d4 a6
 2. e4 e5
 
+##### St. George defense
+
+1. e4 a6
+2. d4
+
 #### Owen defense
 
 1. e4 b6
@@ -2108,6 +2152,13 @@ out as a queen's pawn opening.
 2. d4 d5
 3. Nh3
 
+###### French defense, exchange variation
+
+1. e4 e6
+2. d4 d5
+3. exd5 exd5
+4. Nf3
+
 ###### St. George defense
 
 1. e4 e6
@@ -2117,6 +2168,12 @@ out as a queen's pawn opening.
 
 1. e4 e6
 2. f4 d5
+
+###### French defense, la Bourdonnais variation, Reuter gambit
+
+1. e4 e6
+2. f4 d5
+3. Nf3 dxe4
 
 ###### French defense, Horwitz attack
 
@@ -2275,6 +2332,12 @@ King's Gambit Declined: Soller-Zilbermints Gambit
 
 1. f4 d5
 2. e4 e6
+
+##### French defense, La Bourdonnais variation, Reuter gambit
+
+1. f4 d5
+2. e4 e6
+3. Nf3 dxe4
 
 #### From's gambit
 
@@ -2825,6 +2888,13 @@ gonna lose no matter what opening I use.
 
 1. e3 e5
 2. d4 d6
+
+##### French defense, exchange variation
+
+1. e3 e5
+2. d4 exd4
+3. exd4 d5
+4. Nf3
 
 #### ???
 

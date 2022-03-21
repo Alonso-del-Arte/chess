@@ -19,11 +19,23 @@ class BoardState(val board: Board, val nextToPlay: Player,
                  val positionedPieces: Map[Position, Piece],
                  val capturedPieces: Set[Piece] = Set()) {
 
-  def move(piece: Piece, destination: Position): Unit = {
-    // TODO: Write tests for this
+  // TODO: Write tests for this
+  def move(moveSpec: MoveSpecification, opponent: Player)
+      : BoardState = {
     // The idea here is that this procedure will check whether destination is
     // empty or occupied by an opposing piece. But there will be no other move
     // validation whatsoever.
+    this
+  }
+
+  // TODO: Write tests for this
+  def exchange(clientMoveSpec: MoveSpecification,
+               guardMoveSpec: MoveSpecification, opponent: Player)
+      : BoardState = {
+    // The idea here is that this procedure is what will enable castling. The
+    // only validation here will be that the destination spaces are clear, not
+    // whether the path is safe and clear.
+    this
   }
 
 }
