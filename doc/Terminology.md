@@ -28,6 +28,9 @@ position of a piece is generally omitted. It is the most common notation in use
 today. The term "algebraic" is somewhat of a misnomer.
 * **Archbishop** &mdash; A nonstandard chess piece combining the capabilities of 
 the bishop and the knight.
+* **Atomic chess** &mdash; The most hilarious chess variant, in which captures 
+cause explosions that destroy the capturing piece and any non-pawn pieces in 
+immediately neighboring squares.
 
 ## B
 
@@ -143,6 +146,8 @@ enough to be considered mistakes or blunders.
 * **K** &mdash; Notation for king.
 * **King** &mdash; A player's most important chess piece, must be defended at 
 all costs. The piece typically has a crown with a cross.
+* **King of the hill** &mdash; A chess variant in which the first side to get 
+their king to one of the center squares wins. 
 * **Kingside** &mdash; The half of the board with the kings at the beginning of 
 the game, consisting of the files e, f, g and h. As an adjective, it refers to 
 the pieces initially on that side of the board, or to an event on that side of 
@@ -258,6 +263,8 @@ gaining it or losing it. For example, a series of checks that don't immediately
 lead to an opportunity for checkmate would still be worthwhile if you capture 
 some important pieces, or even just pawns standing in your way. You would be 
 said to have gained tempo, and your opponent would be said to have lost tempo.
+* **Three-check** &mdash; A chess variant in which the first side to check the 
+other thrice wins. 
 
 ## U
 

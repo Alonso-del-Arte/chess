@@ -149,6 +149,12 @@ opening.
 2. Nf3 Nc6
 3. e4
 
+#### Van Geet opening
+
+1. Nc3 c5
+2. d4 cxd4
+3. Qxd4 Nc6
+
 ##### Sicilian defense, closed
 
 1. Nc3 c5
@@ -1099,6 +1105,11 @@ ignores other factors, such as how your opponent's skills compare to yours.
 1. d4 Nf6
 2. g4 Nxg4
 
+###### Indian game, Tartakower attack
+
+1. d4 Nf6
+2. g3
+
 #### Knight to king's rook's file
 
 1. d4 Nh6
@@ -1203,6 +1214,12 @@ Likely followed by
 2. Nf3 Nf6
 3. Nc3
 
+###### Pseudo-Catalan variation
+
+1. d4 d5
+2. Nf3 Nf6
+3. g3
+
 ###### Torre attack
 
 1. d4 d5
@@ -1284,6 +1301,13 @@ early check.
 The best answer for Black is c6, forcing the White bishop to retreat or be 
 captured. But sometimes an easy bot playing Black will respond with Qd7. Then 
 the sacrifice of a bishop for a queen is quite worthwhile for White.
+
+##### Nimzowitsch defense, Scandinavian, exchange, Marshall gambit
+
+1. d4 d5
+2. e4 Nc6
+3. exd5 Qxd5
+4. Nc3
 
 ##### Caro-Kann defense, exchange variation
 
@@ -1476,6 +1500,13 @@ OR
 2. d4 e5
 3. Nf3 exd4
 
+##### Nimzowitsch defense, Scandinavian, exchange, Marshall gambit
+
+1. e4 Nc6
+2. d4 d5
+3. exd5 Qxd5
+4. Nc3
+
 ##### Nimzowitsch defense, declined
 
 1. e4 Nc6
@@ -1637,6 +1668,11 @@ You might as well use your kingside bishop to capture that pawn on file 'b'.
 1. e4 c5
 2. Nf3 Nc6
 3. Nc3 e5
+
+##### Sicilian defense, Jalalabad variation 
+
+1. e4 c5
+2. Nf3 e5
 
 ##### Sicilian defense, canal attack
 
@@ -1836,6 +1872,11 @@ OR
 1. e4 e5
 2. Nf3 Nf6
 3. Bc4 Nxe4
+
+##### Sicilian defense, Jalalabad variation 
+
+1. e4 e5
+2. Nf3 c5
 
 ##### Elephant gambit
 
@@ -2213,6 +2254,12 @@ the potential for a second move check.
 
 1. e4 g6
 
+###### Modern defense, three pawns attack
+
+1. e4 g6
+2. d4 Bg7
+3. f4 
+
 ##### Carr defense
 
 1. e4 h6
@@ -2235,7 +2282,13 @@ King's pawn opening, king's knight variation
 
 1. f4
 
-With this opening, be absolutely certain to also open an avenue of escape for 
+#### Myers defense
+
+1. f4 b5
+
+#### Bird's opening embarrassment
+
+With Bird's opening, be absolutely certain to also open an avenue of escape for 
 your king, or else risk an embarrassingly early checkmate. Like this:
 
 1. f4 e5
@@ -2430,6 +2483,12 @@ King's Gambit Declined: Soller-Zilbermints Gambit
 
 1. f4 g5
 
+#### Modern defense, three pawns attack
+
+1. f4 g6
+2. d4 Bg7
+3. e4 
+
 ### Kingside knight's pawn: Grob opening
 
 1. g4
@@ -2472,6 +2531,11 @@ Sicilian defense: Grob variation
 
 1. g4 d5
 2. d4
+
+##### Caro-Kann defense, spike variation
+
+1. g4 d5
+2. e4 c6
 
 ##### Grob gambit
 
@@ -2546,24 +2610,24 @@ side of the board with a bishop, e.g.,
 
 Schneider gambit
 
-Koola-Koola variation
+#### Koola-Koola variation
 
 1. h4 a5
 
 [TODO: FINISH WRITING]
 
-Sicilian defense, Myers attack
+#### Sicilian defense, Myers attack
 
 1. h4 c5
 2. e4 d6
 3. Bb5+
 
-Beginner's trap
+#### Beginner's trap
 
 1. h4 d5
 2. Rh3
 
-Pirc defense: Petruccioli attack
+#### Pirc defense, Petruccioli attack
 
 1. h4 d6
 2. e4
@@ -3015,6 +3079,11 @@ Also called "king's fianchetto opening."
 #### Indian defense
 
 1. g3 Nf6
+
+##### Indian game, Tartakower attack
+
+1. g3 Nf6
+2. d4
 
 #### King's Indian attack
 
