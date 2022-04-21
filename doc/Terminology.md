@@ -26,6 +26,8 @@ as the website's best program would play.
 and files of the board are numbered from White's perspective, and the starting 
 position of a piece is generally omitted. It is the most common notation in use 
 today. The term "algebraic" is somewhat of a misnomer.
+* **Antichess** &mdash; A chess variant in which one wins by playing in a way 
+that one would lose in regular chess. Captures are compulsory for both sides.
 * **Archbishop** &mdash; A nonstandard chess piece combining the capabilities of 
 the bishop and the knight.
 * **Atomic chess** &mdash; The most hilarious chess variant, in which captures 
@@ -75,6 +77,19 @@ must get their king out of danger, even if it means allowing some other piece to
 be captured.
 * **Checkmate** &mdash; A threat of capture to a player's king with no means of 
 escape. Depending on context, checkmates may be considered checks.
+* **Compulsory capture** &mdash; The requirement that a side that can capture 
+without putting their own king in immediate danger must capture. This 
+requirement is not present in regular chess but it is present in some variants. 
+Also, some chess programs might be programmed with compulsory capture, 
+especially for an easy level (the human opponent then is not bound by this 
+requirement). When bound by compulsory capture and two or more capture 
+opportunities present themselves, the player is generally free to choose any of 
+the opportunities, while a program might be programmed to choose the piece of 
+highest centipawn value (e.g., capture a queen rather than a bishop).
+* **Crazyhouse** &mdash; A chess variant in which captures grant the capturing 
+side the ability to place a piece of the same kind on an empty square as a move 
+later on. For example, if White captures a Black knight, White can later place a 
+White knight on an empty square later.
 
 ## D
 
@@ -164,6 +179,8 @@ may capture. It is quite a cumbersome precursor to Fog of War.
 
 ## L
 
+* **Losing chess** &mdash; Synonym for antichess.
+
 ## M
 
 * **Mate** &mdash; Synonym for checkmate. Theoretically it could also be used as 
@@ -230,6 +247,8 @@ of the board.
 ## R
 
 * **R** &mdash; Notation for rook.
+* **Racing kings** &mdash; A chess variant in which both kings start out on the 
+second rank and must race to the eighth rank to win. Checks are not allowed.
 * **Rank** &mdash; A row on a chessboard, generally notated with the digits 1 to 
 8, which follow the letter for the file. White pawns should be on rank 2 at the 
 beginning of the game, Black pawns on rank 7. 
