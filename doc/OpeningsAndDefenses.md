@@ -887,6 +887,11 @@ Likely followed up with
 1. c4 e5
 2. d4 d5
 
+###### English rat defense
+
+1. c4 e5
+2. d4 d6
+
 ##### The Whale variation
 
 1. c4 e5
@@ -910,13 +915,19 @@ Likely followed up with
 
 1. c4 c6
 
-#### Slav defense
+##### Slav defense
 
 1. c4 c6
 2. d4 d5
 3. Bd2 dxc4
 4. Qc2 b5
 5. d5 cxd5
+
+##### Accelerated Panov attack
+
+1. c4 c6
+2. e4 d5
+3. cxd5
 
 #### Agincourt defense
 
@@ -963,7 +974,7 @@ Likely followed up with
 
 1. c4 e6
 2. d4 Bb4+
-3. Nc3 Ba5
+3. Nc3
 
 #### Great snake variation
 
@@ -1354,7 +1365,12 @@ Will you follow with 2. dxe5?
 1. d4 e5
 2. Nf3
 
-##### Englund gambit declined, reversed French variation
+###### Vos gambit
+
+1. d4 e5
+2. Nf3
+
+###### Englund gambit declined, reversed French variation
 
 1. d4 e5
 2. e3
@@ -1382,6 +1398,16 @@ But if White's next move is e4, then this is a king's pawn opening.
 
 1. d4 d6
 2. Nf3
+
+##### Tartakower variation
+
+1. d4 d6
+2. Nf3 e5
+
+#### English rat defense
+
+1. d4 d6
+2. c4 e5
 
 #### Pirc defense
 
@@ -1919,6 +1945,17 @@ OR
 3. d4 Nf6
 4. dxe5 dxe5
 
+##### Philidor defense, exchange variation
+
+1. e4 e5
+2. Nf3 d6
+3. d4 exd4
+
+##### Damiano defense
+
+1. e4 e5
+2. Nf3 f6
+
 ##### Busch-Gass gambit
 
 1. e4 e5
@@ -2113,6 +2150,11 @@ out as a queen's pawn opening.
 #### Caro-Kann defense
 
 1. e4 c6
+
+##### Caro-Kann defense, accelerated Panov attack
+
+1. e4 c6
+2. c4
 
 ##### Caro-Kann defense, exchange variation
 

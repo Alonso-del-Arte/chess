@@ -130,8 +130,8 @@ which each player can only see their own pieces and the spaces where their
 pieces may move to. This is, in my opinion, the most interesting variant of all. 
 It is a little bit like Kriegspiel, which was invented long before anyone 
 thought about using computers for chess in any capacity. Aside from the limited 
-visibility, the only deviation from the traditional rules is that any check is 
-checkmate. Thus castling tends to be more effective in Fog of War than in 
+visibility, the only deviation from the traditional rules is that it is a 
+one-check game. Thus castling tends to be more effective in Fog of War than in 
 traditional chess.
 
 ## G
@@ -213,10 +213,13 @@ losing the game.
 
 * **O-O** &mdash; Notation for kingside castling.
 * **O-O-O** &mdash; Notation for queenside castling.
+* **One-check** &mdash; A chess variant in which a single check wins the game. 
+Or, as an adjective, to refer to a chess variant in which a single check wins 
+the game and there are other differences between regular chess and the variant.
 * **Opening** &mdash; A player's first few moves. To my knowledge I've never 
-seen this term in regards to chess used to mean a vulnerability in the 
-opponent's defense. Most openings are given special names, which are not quite 
-exactly standard. I will try to list the most common name for each opening.
+seen this term in regard to chess used to mean a vulnerability in the opponent's 
+defense. Most openings are given special names, which are not quite exactly 
+standard. I will try to list the most common name for each opening.
 * **Original** &mdash; A piece a player had at the beginning of the game, as 
 opposed to a piece obtained through pawn promotion. This term is not standard, 
 and some players might regard it as unnecessary. But I believe many who write 
