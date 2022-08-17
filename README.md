@@ -18,6 +18,11 @@ short term captures over longer-term strategy [FINISH WRITING]
 This project is currently in the research phase. At this point I'm focusing more 
 on studying the game than in programming it.
 
+The next phase will be to enable playing the game on the command line (e.g., if 
+you're playing White, you might type "e4" to make your first move).
+
+The second phase will be the graphical user interface.
+
 Scala 2.13 (with Java 8), JUnit 5.
 
 It would be a good idea to make sure all the terms in Terminology.md are in the 
