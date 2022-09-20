@@ -25,7 +25,7 @@ assignments:
 Because kingside castling and queenside castling are special moves, they get 
 special notations: O-O for kingside castling and O-O-O for queenside castling.
 
-As for the pawns, 
+As for the pawns, that depends on which system of notation we're using.
 
 ## Algebraic notation
 
@@ -33,6 +33,34 @@ As someone who's studied algebraic number theory, I don't see what's so
 "algebraic" about chess algebraic notation. So-called algebraic notation has 
 become so standard it might eventually be called just "notation" and 
 occasionally "standard notation" to distinguish it from other notations.
+
+On the very first move, no capture is possible. This means that a pawn on a 
+player's very first move can only move forward one or two spaces. Therefore, in 
+algebraic notation, we write what file the pawn started on ('a' through 'h') and 
+what rank that pawn ends on (3 or 4 for White, 6 or 5 for Black).
+
+For example, if White opens with the king's pawn forward two spaces and Black 
+responds with the queen's pawn forward two spaces, that would be notated
+
+1. e4 d5
+
+If Black instead responded with the kingside bishop's pawn, that would be 
+notated
+
+1. e4 f5
+
+Either way, a capture is possible for White on the next move. That would be 
+notated with the file the capturing pawn was on, followed by the lowercase 
+letter 'x', then the file and rank of the captured piece. Our game transcript 
+thus far would be either
+
+1. e4 d5
+2. exd5
+
+or 
+
+1. e4 d5
+2. exf5
 
 [FINISH WRITING]
 

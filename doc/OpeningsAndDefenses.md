@@ -35,6 +35,12 @@ characterization, e.g., in some cases when your first move is to move a pawn
 other than the king's pawn but your second move is to move your king's pawn to 
 e4, the opening might still be considered a king's pawn opening.
 
+The so-called "algebraic notation" is used in this document. See 
+[game notation](GameNotation.md#Algebraic notation) for more details. 
+
+This document also contains a few mentions of how these standard openings lead 
+to different strategies in some chess variants.
+
 ## Knight openings
 
 Either knight for a first move perhaps signals an intention to castle on that 
@@ -43,7 +49,7 @@ cons for the Fog of War chess variant. On the one hand, you don't get to see
 anything of your opponent's forces, but on the other hand you know them to be at 
 initial state at this point.
 
-### Queenside knight to rook's file: Durkin opening, or "Sodium Attack"
+### Queenside knight to rook's file: Durkin opening, or "sodium attack"
 
 1. Na3
 
@@ -58,6 +64,10 @@ other knight openings.
 
 However, I must acknowledge that Durkin himself won a few games with this 
 opening. He liked this opening so much he even wrote a pamphlet about it.
+
+In antichess (also known as "losing chess"), Black is likely to respond to this 
+opening with 1. ... b5. Since capture is mandatory in antichess, White must then 
+play 2. Nxb5.
 
 #### Sicilian defense, Kronberger variation
 
@@ -222,6 +232,14 @@ opening.
 1. Nc3 e5
 2. d4 d5
 
+##### Center game accepted, Paulsen-Berger variation
+
+1. Nc3 e5
+2. d4 exd4
+3. Qxd4 Nf6
+4. e4 Nc6
+5. Qe3
+
 #### Pirc defense
 
 1. Nc3 d6
@@ -233,6 +251,12 @@ opening.
 2. Nf3 d5
 3. e4 Nf6
 4. Bb5+ c6
+
+#### Modern defense, standard line
+
+1. Nc3 g6 
+2. d4 Bg7 
+3. e4 d6
 
 #### Modern defense
 
@@ -334,6 +358,11 @@ defense.
 #### Sicilian invitation
 
 1. Nf3 c5
+
+##### Indian game, Spielmann-Indian variation
+
+1. Nf3 c5
+2. d4 Nf6
 
 ##### Sicilian defense, old Sicilian variation
 
@@ -599,6 +628,10 @@ Black will probably respond by moving their queen's pawn one or two spaces
 forward, in either case threatening your knight with their queenside bishop 
 right off the bat.
 
+In antichess (also known as "losing chess"), Black is likely to respond to this 
+opening with 1. ... g5. Since capture is mandatory in antichess, White must then 
+play 2. Nxg5.
+
 #### Sicilian defense, brick variation
 
 1. Nh3 c5
@@ -617,6 +650,20 @@ right off the bat.
 1. Nh3 e5
 2. f3 d5
 
+#### Easy victory with the Amar opening
+
+I suppose it's not just with the Amar opening that you can set up a queen and 
+bishop 6-move checkmate, you can accomplish such a checkmate with any opening 
+that does not put pawns or knights on d3 or f3, provided that Black responds 
+with f6 and then fails to recognize the queen and bishop threat.
+
+1. Nh3 f6
+2. e4 b6
+3. Qh5+ g6
+4. Qd5 Bg7
+5. Bc4 a5
+6. Qf7# 1-0
+
 #### Barnes opening reclassified as Amar opening
 
 1. f3 e5 
@@ -626,8 +673,8 @@ right off the bat.
 
 Since pawns can initially move forward two spaces, it makes sense to take 
 advantage of this from the beginning of the game. Your opponent might respond by 
-moving their corresponding pawn forward two spaces, effectively stymying both 
-pawns until such time as either one of them can capture or is itself captured.
+moving their corresponding pawn forward two spaces, effectively stymieing both 
+pawns until such time as either one of them can capture or is captured.
 
 Another option is that your opponent might offer a pawn sacrifice. Then it'll be 
 up to you to decide to take them up on it or pass it up.
@@ -641,6 +688,20 @@ threatens to capture, as they're more interested in mobilizing their own pieces.
 
 This is a good way to get the queenside rook going, if you're not interested in 
 queenside castling.
+
+In the atomic chess variant, captures cause explosions that can kill off a king 
+if he's too close. Here, "too close" means any space the king could move to. But 
+if the capture occurs more than one space away from the king, the king is safe 
+for the time being, unless the removal of the exploded pieces exposes the king 
+to check or checkmate.
+
+So, with the Ware opening, if Black responds with anything other than d5 or d6, 
+you can play Ra3. If Black then still doesn't play d5 or d6, you can follow with 
+Rd3. And maybe after that Rxd7 for the kill.
+
+This can also work with the king's pawn, with the target winning move being 
+Rxe7. Of course in regular chess, such a strategy would just be the pointless 
+sacrifice of a rook. It might be worthwhile in the three-check variant, however.
 
 #### Ware opening reclassified as R&eacute;ti opening
 
@@ -670,9 +731,21 @@ pawn to capture my rook, so I had to make other plans. I still won the game.
 
 1. b4
 
-This doesn't immediately help the queenside rook get out,
+In the atomic chess variant, captures cause explosions that can kill off a king 
+if he's too close. Here, "too close" means any space the king could move to. 
+Here's one strategy you can try playing the Polish opening in atomic chess:
 
-Potential responses: Kucharkowski-Meybohm gambit
+1. b4 ...
+2. Ba3 ...
+3. b5 ...
+
+Then, depending on what Black's moves have been, you might or might not be able 
+to play Bxe7 for the kill. The easiest way for Black to counter this would be to 
+play 2. ... e5, which should then immediately deter you from playing 3. b5.
+
+I don't recommend this strategy for regular chess or even the three-check 
+variant. Unlike the similar strategy with the rook in the Ware opening, this 
+Polish bishop strategy doesn't even give an early check.
 
 #### Bucker defense
 
@@ -721,6 +794,11 @@ Will Black capture White's king's pawn?
 
 1. b4 e5
 2. a3 
+
+#### Kucharkowski-Meybohm gambit
+
+1. b4 e5 
+2. Bb2 Bxb4
 
 #### Outflank variation
 
@@ -802,6 +880,12 @@ This is an opening Bobby Fischer played in a championship
 2. d4 d6
 3. Nc3 Bg7
 
+##### King's Indian defense, advance anti-Gr&uuml;nfeld variation
+
+1. c4 Nf6
+2. d4 g6
+3. d5
+
 ##### Anglo-Indian defense, Achilles-Omega gambit
 
 1. c4 Nf6
@@ -857,6 +941,12 @@ Likely followed up with
 
 1. c4 d5
 2. cxd5 e6
+
+##### Anglo-Scandinavian, Malvinas variation
+
+1. c4 d5
+2. cxd5 Qxd5
+3. Nc3 Qa5
 
 #### King's English variation
 
@@ -1016,6 +1106,11 @@ ignores other factors, such as how your opponent's skills compare to yours.
 1. d4 Nc6
 2. Nf3
 
+##### Mik&edot;nas defense
+
+1. d4 Nc6
+2. Nf3 d5
+
 ##### Englund gambit
 
 1. d4 Nc6
@@ -1057,6 +1152,11 @@ ignores other factors, such as how your opponent's skills compare to yours.
 
 1. d4 Nf6
 2. Nf3 b5
+
+##### Indian game, Spielmann-Indian variation
+
+1. d4 Nf6
+2. Nf3 c5
 
 ##### Indian game, knights variation
 
@@ -1101,6 +1201,12 @@ ignores other factors, such as how your opponent's skills compare to yours.
 4. e4 d6
 5. Nf3 O-O
 
+##### King's Indian defense, advance anti-Gr&uuml;nfeld variation
+
+1. d4 Nf6
+2. c4 g6
+3. d5
+
 ###### Indian game, omega gambit
 
 1. d4 Nf6
@@ -1116,10 +1222,20 @@ ignores other factors, such as how your opponent's skills compare to yours.
 1. d4 Nf6
 2. g4 Nxg4
 
+###### Indian game, Basque opening
+
+1. d4 Nf6
+2. b3
+
 ###### Indian game, Tartakower attack
 
 1. d4 Nf6
 2. g3
+
+###### Indian game, pawn push variation
+
+1. d4 Nf6 
+2. d5
 
 #### Knight to king's rook's file
 
@@ -1320,6 +1436,28 @@ the sacrifice of a bishop for a queen is quite worthwhile for White.
 3. exd5 Qxd5
 4. Nc3
 
+###### Blackmar gambit
+
+1. d4 d5 
+2. e4 dxe4
+
+Depending on what your opponent does next, you might be able to pull off a quick 
+victory.
+
+3. Bb5+ Bd7 
+4. Bc4 a5 
+5. Qh5 Nc6 
+6. Qxf7# 1-0
+
+This would also work:
+
+6. Bxf7# 1-0
+
+###### Center game, Beyer gambit (Blackmar-Diemer gambit declined)
+
+1. d4 d5
+2. e4 e5
+
 ##### Caro-Kann defense, exchange variation
 
 1. d4 d5
@@ -1328,11 +1466,6 @@ the sacrifice of a bishop for a queen is quite worthwhile for White.
 
 Both sides end up one pawn poorer, but White might be feeling pressure to either 
 put Black in check (e.g., Bb5+) or prepare to castle.
-
-###### Center game, Beyer gambit (Blackmar-Diemer gambit declined)
-
-1. d4 d5
-2. e4 e5
 
 ###### French defense, normal variation
 
@@ -1358,7 +1491,7 @@ put Black in check (e.g., Bb5+) or prepare to castle.
 
 1. d4 e5
 
-Will you follow with 2. dxe5?
+Will you follow with 2. dxe5? That would be Englund gambit accepted.
 
 ##### Englund gambit declined, reversed Alekhine variation
 
@@ -1369,6 +1502,19 @@ Will you follow with 2. dxe5?
 
 1. d4 e5
 2. Nf3
+
+###### Englund gambit accepted
+
+1. d4 e5 
+2. dxe5
+
+###### Englund gambit accepted, Hartlaub-Charlick gambit
+
+1. d4 e5 
+2. dxe5 d6
+
+If you go down this path, you might have to trade queens way too early in the 
+game.
 
 ###### Englund gambit declined, reversed French variation
 
@@ -1615,13 +1761,11 @@ Qdxe3+ 15. Ne2 Qh4+ 16. Kf1 Qhf2# 0-1
 
 1. e4 Nf6
 2. e5 Ne4
-3. d3
 
-##### Alekhine's defense, Mar&ocric;czy variation
+##### Alekhine's defense, Mar&oacute;czy variation
 
 1. e4 Nf6
-2. d3 d5
-3. Qe2
+2. d3 
 
 ##### Alekhine's defense, Krejcik variation
 
@@ -1821,6 +1965,12 @@ You might as well use your kingside bishop to capture that pawn on file 'b'.
 1. e4 e5
 2. Nf3 Nc6
 3. d4
+
+##### Scotch game, Lolli variation
+
+1. e4 e5
+2. Nf3 Nc6
+3. d4 Nxd4
 
 ##### Scotch game
 
@@ -2035,6 +2185,14 @@ OR
 2. d4 exd4
 3. Qxd4
 
+###### Center game accepted, Paulsen-Berger variation
+
+1. e4 e5 
+2. d4 exd4 
+3. Qxd4 Nc6 
+4. Qe3 Nf6 
+5. Nc3
+
 #### King's gambit
 
 1. e4 e5
@@ -2161,6 +2319,11 @@ out as a queen's pawn opening.
 1. e4 c6
 2. d4 d5
 3. exd5 cxd5
+
+##### Caro-Kann defense, spike variation
+
+1. e4 c6 
+2. g4 d5
 
 #### Pirc defense
 
@@ -2295,6 +2458,12 @@ the potential for a second move check.
 ##### Modern defense
 
 1. e4 g6
+
+###### Modern defense, standard line
+
+1. e4 g6 
+2. d4 Bg7 
+3. Nc3 d6
 
 ###### Modern defense, three pawns attack
 
@@ -2613,6 +2782,14 @@ Will your opponent capture the pawn on g4?
 I see no disadvantage for White to immediately capture that pawn. But you might 
 have other priorities at this point in the game.
 
+If you're playing Black, take care to give your king an out. Otherwise, you 
+might suffer an embarrassing defeat along these lines:
+
+2. ... Nf6 
+3. e4 g5 
+4. e5 Nd5 
+5. Qh5# 1-0
+
 #### Grob opening reclassified as Van Geet opening
 
 1. g4 f5
@@ -2650,13 +2827,42 @@ side of the board with a bishop, e.g.,
 1. h4 d5
 2. g4 Bxg4
 
-Schneider gambit
+In the atomic chess variant, captures cause explosions that can kill off a king 
+if he's too close. Here, "too close" means any space the king could move to. 
+Here's one strategy you can try playing the K&aacute;das opening in atomic 
+chess:
+
+1. h4 ...
+2. Rh3 ...
+3. Re3 ...
+
+Then, depending on what Black's moves have been, you might or might not be able 
+to play Rxe7 for the kill. One way for Black to counter this is to move some of 
+their central pawns forward. Or, more easily, put the knights in the way.
+
+??? Schneider gambit ????
 
 #### Koola-Koola variation
 
 1. h4 a5
 
 [TODO: FINISH WRITING]
+
+#### Sicilian defense, Myers attack
+
+1. h4 c5
+2. e4 Nc6
+
+##### Sicilian defense, Myers beat-down
+
+This short game demonstrates the importance of giving your king a way out of 
+early checks, or else it might be an early checkmate...
+
+1. h4 c5
+2. e4 Nc6
+3. Bc4 h6
+4. Qh5 Nb8
+5. Bxf7# 1-0
 
 #### Sicilian defense, Myers attack
 
@@ -2878,6 +3084,7 @@ one of your bishops going early, choose another opening, like maybe king's pawn.
 #### Alekhine defense, Mar&oacute;czy variation
 
 1. d3 Nf6
+2. e4
 
 #### Leonardis variation
 
