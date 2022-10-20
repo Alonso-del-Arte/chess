@@ -818,6 +818,25 @@ queen, I probably would've won.
  46. Bf6# 1-0
 
 Stockfish as White does the same.
+
+### Pinned pieces can still help against the opponent
+
+Sometimes a pinned piece can prevent you from making what would in any case be a 
+bad move. For example, in this White to play puzzle, you might immediately 
+assume it's one of those puzzles where you sacrifice a rook to one of your 
+opponent's rooks in order to corner the opponent king.
+
+![Pinned rook might help](../diagrams/endgames/PinnedRookStillHelps.png)
+
+FEN: k2r1r2/1p4p1/P1P4N/1N3q2/2p2P2/R2RB2p/1B1QP3/1K3nb1 w - - 0 1
+
+But in this puzzle you actually can't play Rxd8+, because that rook is 
+protecting your king from your opponent's queen. The correct move involves your 
+other rook, but without moving it just yet.
+
+To throw you off from the correct answer, we might say that the move immediately 
+prior to the board shown above was one of Black's pawns inching a bit closer to 
+promotion.
  
 ## Opening puzzles
 

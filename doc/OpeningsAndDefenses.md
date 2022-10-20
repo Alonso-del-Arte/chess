@@ -174,7 +174,6 @@ opening.
 
 1. Nc3 c5
 2. e4 Nc6
-3. Nf3 e5
 
 ##### Van Geet opening reclassified as Mieses opening
 
@@ -1839,6 +1838,12 @@ You might as well use your kingside bishop to capture that pawn on file 'b'.
 2. Nf3 Nc6
 3. Nc3 e5
 
+##### Sicilian defense, Nimzowitsch, closed
+
+1. e4 c5
+2. Nf3 Nf6
+3. Nc3
+
 ##### Sicilian defense, Jalalabad variation 
 
 1. e4 c5
@@ -2094,6 +2099,12 @@ OR
 2. Nf3 d6
 3. d4 Nf6
 4. dxe5 dxe5
+
+##### Philidor defense, Hanham variation
+
+1. e4 e5 
+2. Nf3 d6 
+3. d4 Nd7
 
 ##### Philidor defense, exchange variation
 
@@ -2622,7 +2633,7 @@ King's Gambit Declined: Soller-Zilbermints Gambit
 1. f4 e5
 2. fxe5 Nc6
 
-##### From's gambit, Platz 
+##### From's gambit, Platz gambit
 
 1. f4 e5
 2. fxe5 Ne7
