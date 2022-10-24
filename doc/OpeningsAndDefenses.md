@@ -175,6 +175,12 @@ opening.
 1. Nc3 c5
 2. e4 Nc6
 
+###### Sicilian defense, pin variation
+
+1. Nc3 c5
+2. e4 e6
+3. Nf3
+
 ##### Van Geet opening reclassified as Mieses opening
 
 1. Nc3 c5
@@ -1863,6 +1869,12 @@ You might as well use your kingside bishop to capture that pawn on file 'b'.
 4. Bc4 Bg4
 5. d4 d5
 6. Bxd5
+
+##### Sicilian defense, pin variation
+
+1. e4 c5 
+2. Nf3 e6 
+3. Nc3
 
 ##### Sicilian defense, brick variation
 
