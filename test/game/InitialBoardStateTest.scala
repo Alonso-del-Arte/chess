@@ -16,6 +16,7 @@ class InitialBoardStateTest {
   }
 
   @Test def testPositionedPieces(): Unit = {
+    println("positionedPieces")
     val expected = Map(RegularPosition("a8") -> game.pieces.black.QueenSideRook,
       RegularPosition("b8") -> game.pieces.black.QueenSideKnight,
       RegularPosition("c8") -> game.pieces.black.QueenSideBishop,
@@ -50,6 +51,12 @@ class InitialBoardStateTest {
       RegularPosition("h1") -> game.pieces.white.KingSideRook)
     val actual = InitialBoardState.positionedPieces
     assertEquals(expected, actual)
+  }
+
+  @Test def testCapturedPieces(): Unit = {
+    println("capturedPieces")
+    val msg = "Initial board state should have no captured pieces"
+    assert(InitialBoardState.capturedPieces.isEmpty, msg)
   }
 
 }

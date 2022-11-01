@@ -3,13 +3,21 @@ package game
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.Assertions._
 
+import scala.util.Random
+
 class RelativePositionRangeTest {
 
   @Test def testDetermineStep(): Unit = {
     println("determineStep")
-    val start = new RelativePosition(-7, 8)
-    val finish = new RelativePosition(-8, 8)
-    val expected = new RelativePosition(-1, 0)
+    val stepX = Random.nextInt(16) - 8
+    val stepY = Random.nextInt(16) - 8
+    val startX = Random.nextInt(32) - 16
+    val finishX = startX + stepX
+    val startY = Random.nextInt(32) - 16
+    val finishY = startY + stepY
+    val start = new RelativePosition(startX, startY)
+    val finish = new RelativePosition(finishX, finishY)
+    val expected = new RelativePosition(stepX, stepY)
     val actual = RelativePositionRange.determineStep(start, finish)
     assertEquals(expected, actual)
   }
