@@ -1,6 +1,6 @@
 package game.pieces
 
-import game.{Black, White}
+import game.{Black, Neutral, Player, RelativePositionRange, White}
 
 import org.junit.jupiter.api.Assertions._
 import org.junit.jupiter.api.Test
@@ -41,6 +41,23 @@ class PieceTest {
     assertEquals(Black, game.pieces.black.KingSideBishopPawn.affiliation)
     assertEquals(Black, game.pieces.black.KingSideKnightPawn.affiliation)
     assertEquals(Black, game.pieces.black.KingSideRookPawn.affiliation)
+  }
+
+  @Test def testCanJumpOver(): Unit = {
+    val piece = new PieceImpl
+    assert(!piece.canJumpOver,
+      "Piece not specifically a knight can't jump over other pieces")
+  }
+
+  @Test def testCaptureSameAsMove(): Unit = {
+    val piece = new PieceImpl
+    assert(piece.captureSameAsMove,
+      "Piece not specifically a pawn captures same as moves")
+  }
+
+  private class PieceImpl extends Piece {
+    override val affiliation: Player = Neutral
+    override val possibleMoves: Set[RelativePositionRange] = Set()
   }
 
 }
