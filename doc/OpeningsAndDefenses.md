@@ -146,20 +146,24 @@ opening.
 
 1. Nc3 b5
 
-#### Sicilian two knights variation
+#### Potentially Sicilian defense
+
+1. Nc3 c5
+
+##### Sicilian two knights variation
 
 1. Nc3 c5
 2. Nf3 Nc6
 3. d4 cxd4
 4. Nxd4
 
-#### Sicilian defense, closed, traditional line
+##### Sicilian defense, closed, traditional line
 
 1. Nc3 c5
 2. Nf3 Nc6
 3. e4
 
-#### Van Geet opening
+##### Van Geet opening
 
 1. Nc3 c5
 2. d4 cxd4
@@ -186,22 +190,26 @@ opening.
 1. Nc3 c5
 2. d3
 
-#### Reversed Mexican defense
+#### Potentially Scandinavian defense
+
+1. Nc3 d5
+
+##### Reversed Mexican defense
 
 1. Nc3 d5
 2. Nf3
 
-#### Van Geet opening reclassified as queen's pawn opening, Chigorin variation
+##### Van Geet opening reclassified as queen's pawn opening, Chigorin variation
 
 1. Nc3 d5
 2. d4 
 
-#### Scandinavian defense, closed
+##### Scandinavian defense, closed
 
 1. Nc3 d5
 2. e4 
 
-#### Alekhine's defense, Scandinavian variation
+##### Alekhine's defense, Scandinavian variation
 
 1. Nc3 d5
 2. e4 Nf6
@@ -317,39 +325,43 @@ defense.
 3. Nc3 e6
 4. d4 d5
 
-#### Queen's pawn opening, Chigorin variation
+#### Potentially Indian game
+
+1. Nf3 Nf6
+
+##### Queen's pawn opening, Chigorin variation
 
 1. Nf3 Nf6
 2. Nc3 d5
 3. d4
 
-#### Indian game, knights variation, East Indian defense
+##### Indian game, knights variation, East Indian defense
 
 1. Nf3 Nf6
 2. Nc3 g6
 
-#### Indian game, knights variation
+##### Indian game, knights variation
 
 1. Nf3 Nf6
 2. d4
 
-##### Indian game, knights variation
+###### Indian game, knights variation
 
 1. Nf3 Nf6
 2. d4 e6
 
-#### Indian game, knights variation, East Indian defense
+###### Indian game, knights variation, East Indian defense
 
 1. Nf3 Nf6
 2. d4 g6
 
-#### Nimzowitsch defense declined
+##### Nimzowitsch defense declined
 
 1. Nf3 Nf6
 2. e4 Nc6
 3. d3 e5?
 
-##### King's pawn, Tayler opening
+###### King's pawn, Tayler opening
 
 1. Nf3 Nf6
 2. e4 Nc6
@@ -374,52 +386,54 @@ defense.
 1. Nf3 c5
 2. e4 Nc6
 
-##### Sicilian defense, Alapin variation
+###### Sicilian defense, Alapin variation
 
 1. Nf3 c5
 2. e4 Nc6
 3. c3
 
-##### Sicilian defense
+###### Sicilian defense
 
 1. Nf3 c5
 2. e4 d6
 
-##### Sicilian defense, canal attack
+###### Sicilian defense, canal attack
 
 1. Nf3 c5
 2. e4 d6
 3. Bb5+ Nc6
 
-#### Reversed Mexican defense
+#### Potentially a R&eacute;ti gambit
+
+1. Nf3 d5
+
+##### Reversed Mexican defense
 
 1. Nf3 d5
 2. Nc3 
 
-#### R&eacute;ti gambit
+##### R&eacute;ti gambit
 
 1. Nf3 d5
 2. c4 
 
-##### R&eacute;ti gambit
+###### R&eacute;ti gambit
 
 1. Nf3 d5
 2. c4 dxc4
 
-#### Zukertort variation
+##### Zukertort variation
 
 1. Nf3 d5
 2. d4
 
-##### Queen's pawn opening, Zukertort-Chigorin variation
+###### Queen's pawn opening, Zukertort-Chigorin variation
 
 1. Nf3 d5
 2. d4 Nc6
 
-###### French defense, normal variation
+This can continue as the French defense, normal variation:
 
-1. Nf3 d5
-2. d4 Nc6
 3. Nc3 e6
 4. e4
 
@@ -428,7 +442,7 @@ defense.
 1. Nf3 d5
 2. d4 Nf6
 
-#### Zukertort opening reclassified as queen's pawn opening, Chigorin variation
+###### Zukertort opening reclassified as queen's pawn opening, Chigorin variation
 
 1. Nf3 d5
 2. d4 Nf6
@@ -440,7 +454,7 @@ defense.
 2. d4 c5
 3. dxc5 b6
 
-#### Dutch variation
+##### Dutch variation
 
 This opening can be considered a king's pawn opening if your second move is e4, 
 e.g.,
@@ -454,28 +468,26 @@ e.g.,
 This also illustrates the elephant gambit, in which Black makes an ill-advised 
 attempt to control the middle of the board.
 
-#### Tennison gambit
+##### Tennison gambit
 
 1. Nf3 d5
 2. e4
 
-##### Elephant gambit
+###### Elephant gambit
 
 1. Nf3 d5
 2. e4 e5
 
-###### Ruy L&oacute;pez opening, Spanish countergambit
+This can continue as the Ruy L&oacute;pez opening, Spanish countergambit:
 
-1. Nf3 d5
-2. e4 e5
 3. Bb5+ Nc6
 
-#### Old Indian attack
+##### Old Indian attack
 
 1. Nf3 d5
 2. d3
 
-#### King's Indian attack
+##### King's Indian attack
 
 1. Nf3 d5
 2. g3 Nc6
@@ -492,12 +504,12 @@ attempt to control the middle of the board.
 1. Nf3 e5
 2. d4
 
-##### Dutch defense, Omega-Isis gambit
+###### Dutch defense, Omega-Isis gambit
 
 1. Nf3 e5
 2. d4 f5
 
-##### Englund gambit declined, reversed Alekhine, reversed Krebs variation
+###### Englund gambit declined, reversed Alekhine, reversed Krebs variation
 
 1. Nf3 e5
 2. d4 e4
