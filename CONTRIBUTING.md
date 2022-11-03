@@ -1,6 +1,6 @@
-This project is now open to Hacktoberfest 2022.
+This project will be open to Hacktoberfest 2023.
 
-# Guidelines for Hacktoberfest 2022 Contributors
+# Guidelines for Hacktoberfest 2023 Contributors
 
 I will consider pull requests associated with an issue and I will also consider 
 pull requests associated with a TODO (considered an Action Item in NetBeans). I 
