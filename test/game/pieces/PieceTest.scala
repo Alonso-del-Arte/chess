@@ -51,6 +51,7 @@ class PieceTest {
   }
 
   @Test def testCaptureSameAsMove(): Unit = {
+    println("captureSameAsMove")
     val piece = new PieceImpl
     assert(piece.captureSameAsMove,
       "Piece not specifically a pawn captures same as moves")
