@@ -14,6 +14,12 @@ class RookTest {
       "Rook shouldn't be able to jump over other pieces")
   }
 
+  @Test def testCaptureSameAsMove(): Unit = {
+    println("captureSameAsMove")
+    val rook = new RookImpl
+    assert(rook.captureSameAsMove, "A rook captures same as moves")
+  }
+
   private class RookImpl extends Rook {
     override val affiliation: Player = Neutral
 

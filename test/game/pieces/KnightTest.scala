@@ -14,6 +14,12 @@ class KnightTest {
       "Knights should be able to jump over other pieces")
   }
 
+  @Test def testCaptureSameAsMove(): Unit = {
+    println("captureSameAsMove")
+    val knight = new KnightImpl
+    assert(knight.captureSameAsMove, "A knight captures same as moves")
+  }
+
   private class KnightImpl extends Knight {
     override val affiliation: Player = Neutral
   }

@@ -14,6 +14,12 @@ class QueenTest {
       "Queen shouldn't be able to jump over other pieces")
   }
 
+  @Test def testCaptureSameAsMove(): Unit = {
+    println("captureSameAsMove")
+    val queen = new QueenImpl
+    assert(queen.captureSameAsMove, "A queen captures same as moves")
+  }
+
   private class QueenImpl extends Queen {
     override val affiliation: Player = Neutral
 
