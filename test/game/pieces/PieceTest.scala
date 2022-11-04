@@ -44,6 +44,7 @@ class PieceTest {
   }
 
   @Test def testCanJumpOver(): Unit = {
+    println("canJumpOver")
     val piece = new PieceImpl
     assert(!piece.canJumpOver,
       "Piece not specifically a knight can't jump over other pieces")
