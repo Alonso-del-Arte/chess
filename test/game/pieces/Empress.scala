@@ -14,5 +14,6 @@ import game.RelativePositionRange
  */
 abstract class Empress extends Piece {
   override val possibleMoves: Set[RelativePositionRange] = Set()
+  override val canJumpOver: Boolean = true
 
 }
