@@ -9,5 +9,6 @@ import game.RelativePositionRange
  */
 abstract class Horse extends Piece {
   override val possibleMoves: Set[RelativePositionRange] = Set()
+  override val captureSameAsMove: Boolean = false
 
 }
