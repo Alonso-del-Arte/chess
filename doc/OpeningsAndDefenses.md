@@ -720,6 +720,10 @@ This can also work with the king's pawn, with the target winning move being
 Rxe7. Of course in regular chess, such a strategy would just be the pointless 
 sacrifice of a rook. It might be worthwhile in the three-check variant, however.
 
+In antichess, Black is likely to respond with b5, which then means you must 
+respond with axb5. Then Black won't offer anything else for capture, because 
+then you must play Rxa7. But at least Black is then forced to play Rxa7 as well.
+
 #### Ware opening reclassified as R&eacute;ti opening
 
 1. a4 Nf6
@@ -916,6 +920,24 @@ This is an opening Bobby Fischer played in a championship
 
 1. c4 c5
 
+##### Symmetrical, four knights variation
+
+1. c4 c5 
+2. Nc3 Nc6 
+3. Nf3 Nf6
+
+##### Symmetrical, three knights system
+
+1. c4 c5 
+2. Nc3 Nf6 
+3. Nf3 d5
+
+OR 
+
+1. c4 c5 
+2. Nf3 Nf6 
+3. Nc3 d5
+
 ##### Old Benoni defense
 
 1. c4 c5
@@ -1012,6 +1034,11 @@ Likely followed up with
 
 1. c4 f5
 2. e4
+
+##### Hickman gambit accepted
+
+1. c4 f5
+2. e4 fxe4
 
 #### English defense
 
@@ -1174,6 +1201,11 @@ ignores other factors, such as how your opponent's skills compare to yours.
 
 1. d4 Nf6
 2. Nf3 c5
+
+##### Indian game, Tartakower defense
+
+1. d4 Nf6 
+2. Nf3 d6
 
 ##### Indian game, knights variation
 
@@ -1542,10 +1574,15 @@ game.
 
 1. d4 f5
 
-##### Dutch Defense: Staunton gambit accepted
+##### Dutch defense, Staunton gambit accepted
 
 1. d4 f5
 2. e4 fxe4
+
+##### French defense, Franco-Hiva gambit
+
+1. d4 f5 
+2. e4 e6 
 
 #### Borg defense
 
@@ -2439,6 +2476,11 @@ out as a queen's pawn opening.
 2. d4 d5
 3. exd5 exd5
 4. Nf3
+
+###### French defense, Franco-Hiva gambit
+
+1. e4 e6 
+2. d4 f5
 
 ###### St. George defense
 
@@ -3369,6 +3411,16 @@ Also called "king's fianchetto opening."
 1. g3 Nf6
 2. d4
 
+#### Sicilian invitation
+
+1. g3 c5
+2. Na3
+
+#### Sicilian defense: Lasker-Dunn attack
+
+1. g3 c5
+2. e4
+
 #### King's Indian attack
 
 1. g3 d5
@@ -3379,16 +3431,6 @@ Also called "king's fianchetto opening."
 1. g3 d5
 2. Nf3 Bg4
 3. Bg2
-
-#### Sicilian invitation
-
-1. g3 c5
-2. Na3
-
-#### Sicilian defense: Lasker-Dunn attack
-
-1. g3 c5
-2. e4
 
 ##### King's Indian attack
 
@@ -3444,6 +3486,13 @@ Note the early castling: you can't castle any faster than that.
 #### Myers defense
 
 1. g3 g5
+
+#### Lasker Simul special variation
+
+1. g3 h5 
+2. Nf3
+
+Very rare, occurs in much less than 1% of games. Black favored to win.
 
 #### Symmetrical variation
 
