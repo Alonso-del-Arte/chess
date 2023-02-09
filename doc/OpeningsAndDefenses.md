@@ -1693,6 +1693,11 @@ opening instead.
 1. e4 Na6
 2. Nf3 Nh6
 
+##### Nimzowitsch defense declined, Franco-Nimzowitsch variation
+
+1. e4 Na6
+2. Nf3 e6
+
 #### Nimzowitsch defense
 
 1. e4 Nc6
@@ -2069,6 +2074,13 @@ You might as well use your kingside bishop to capture that pawn on file 'b'.
 3. Be2 Nf6
 4. d3
 
+OR
+
+1. e4 e5 
+2. Nf3 Nc6 
+3. d3 Nf6 
+4. Be2
+
 ##### Petrov's defense
 
 1. e4 e5
@@ -2339,7 +2351,10 @@ first.
 
 1. e4 g5
 
-Zilbermint's gambit ???
+#### Borg defense, Borg gambit
+
+1. e4 g5
+2. d4 Bg7
 
 #### Goldsmith defense
 
@@ -2405,6 +2420,11 @@ out as a queen's pawn opening.
 
 1. e4 d6
 2. Nf3
+
+##### Pirc defense, Harmonist variation
+
+1. e4 d6 
+2. f4
 
 #### Pirc defense, spike attack
 
@@ -2770,6 +2790,11 @@ King's Gambit Declined: Soller-Zilbermints Gambit
 #### Hobbs gambit
 
 1. f4 g5
+
+#### Pirc defense, Harmonist variation
+
+1. f4 d6 
+2. e4
 
 #### Modern defense, three pawns attack
 

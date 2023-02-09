@@ -160,6 +160,18 @@ thought about using computers for chess in any capacity. Aside from the limited
 visibility, the only deviation from the traditional rules is that it is a 
 one-check game. Thus castling tends to be more effective in Fog of War than in 
 traditional chess.
+* **Fork** &mdash; When a piece of one side simultaneously threatens two of the 
+opponent's pieces. The threatened pieces are then said to be forked. When one of 
+the forked pieces is the opponent's king in check, this usually means the 
+opponent must move the king to safety and allow the forking piece to capture the 
+other forked piece. 
+ 
+![Forking check](../diagrams/ForkForRook.png)
+
+FEN: r1bk2n1/1pp2N1n/p5pr/1Bb2P1p/3pP3/3P4/PPPQ2PP/R3K2R b KQ - 2 14
+
+Example of a fork. The Black king must move off d8, so then White can capture 
+the rook on h6.
 
 ## G
 
@@ -282,6 +294,8 @@ chess programs wind up needing to make this distinction.
 
 * **Pawn** &mdash; The lowest ranking pieces, each player gets eight of them. 
 Pawns are notated by their position, without the letter P.
+* **Pin** &mdash; When a piece must stay in place to protect a more valuable 
+piece from capture, or to protect the king from check.
 * **Polish opening** &mdash; The opening in which White begins by playing the 
 queenside knight's pawn forward two spaces. See Openings for more details.
 * **Promotion** &mdash; When a pawn reaches the opponent's home row, it is 
@@ -334,11 +348,24 @@ get the king out of check, or to not lose a more valuable piece than the piece
 that gets captured (e.g., giving up a knight to keep a queen).
 * **Saragossa opening** &mdash; The opening in which White begins by playing the 
 queenside bishop's pawn forward one space. See Openings for more details.
+* **Skewer** &mdash; When a piece of one side threatens one of the opponent's 
+pieces in such a way that the opponent must move that piece out of the way and 
+allow the capture of a less valuable piece. In the case of a skewering check, 
+the opponent must move the king to safety and allow the capture of the other 
+piece, such as a rook. Queens, rooks and bishops are all able to skewer an 
+opponent's piece.
 * **Stalemate** &mdash; When a player is not in check but is unable to make any 
 move whatsoever. For example, if the king is safe in its current space but would 
 be in check if it moves in any direction, the remaining pawns are stymied by 
 opposing pawns, and other pieces are pinned because moving them would leave the 
 king exposed.
+
+![Skewer for rook](../diagrams/endgames/SkewerForRook.png)
+
+FEN: r2k1QN1/6P1/1pp1b1Q1/1pb4p/3p4/3P4/PPP3PP/R3K2R b KQ - 0 24
+
+Example of a skewering check. The Black king must move out of the way of the 
+newly promoted White queen, which can then capture the Black rook.
 
 ## T
 
