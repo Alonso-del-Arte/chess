@@ -10,10 +10,15 @@ regardless of the difficulty level.
 * On Easy, the computer will only look one move ahead, and prioritize short term 
 checks and captures over longer-term strategy. When playing Black, the computer 
 will choose its response to White's opening randomly without regard for 
-vulnerabilities that might thus be exposed.
+vulnerabilities that might thus be exposed. There will be unlimited undo for any 
+reason.
 * On Medium, the computer will look ahead at more moves, but still prioritize 
-short term captures over longer-term strategy [FINISH WRITING]
-* On Hard, [FINISH WRITING]
+short term advantages over longer-term strategy. When playing Black, the 
+computer will choose its response so as to avoid vulnerabilities. Undo will be 
+limited to reversing the loss of a queen, bishop, knight or rook, or to avoid 
+stalemate or draw.
+* On Hard, the computer will prioritize long term strategy over short term 
+advantages. Undo will be limited to avoiding stalemate or draw.
 
 This project is currently in the research phase. At this point I'm focusing more 
 on studying the game than in programming it.
