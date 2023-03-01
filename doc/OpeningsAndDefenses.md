@@ -1314,6 +1314,11 @@ Likely followed by
 
 2. ... Qa5+ 
 
+##### Old Benoni defense, Schlenker defense
+
+1. d4 c5 
+2. dxc5 Na6
+
 ##### Old Benoni defense, Cormorant gambit
 
 1. d4 c5
@@ -1929,6 +1934,12 @@ You might as well use your kingside bishop to capture that pawn on file 'b'.
 1. e4 c5 
 2. Nf3 e6 
 3. Nc3
+
+##### Sicilian defense, Marshall counterattack
+
+1. e4 c5 
+2. Nf3 e6 
+3. d4 d5
 
 ##### Sicilian defense, brick variation
 
