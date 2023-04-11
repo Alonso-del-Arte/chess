@@ -37,8 +37,8 @@ Also called losing chess.
 * **Archbishop** &mdash; A nonstandard chess piece combining the capabilities of 
 the bishop and the knight.
 * **Atomic chess** &mdash; The most hilarious chess variant, in which captures 
-cause explosions that destroy the capturing piece and any non-pawn pieces in 
-immediately neighboring squares.
+cause explosions that destroy the capturing piece, the captured piece and any 
+non-pawn pieces in immediately neighboring squares.
 
 ## B
 
@@ -73,6 +73,9 @@ than where the captured piece was.
 * **Castling** &mdash; A special move in which the king and a rook come together 
 for the king's protection. See [the game rules](GameRules.md#Castling) for 
 details. Castling is not allowed in some variants, like antichess.
+* **Center game** &mdash; Openings in which both White and Black make plays for 
+the center of the board with pawns. See [Openings](OpeningsAndDefenses.md) for 
+more details.
 * **Centipawn** &mdash; A measure of a position's value in terms of pawns. Some 
 chess engines use centipawns to compare moves. A captured pawn means a loss of 
 100 centipawns for the player who lost that pawn. Other than a pawn being worth 
@@ -115,8 +118,14 @@ White knight on an empty square later.
 
 ## D
 
+* **Danish gambit** &mdash; A variation on the center game in which White offers 
+Black two pawns early on. See [Openings](OpeningsAndDefenses.md) for more 
+details.
 * **Descriptive notation** &mdash; An older notation in which each player's 
 moves are reckoned from the player's perspective.
+* **Dunst opening** &mdash; When Black responds to the Van Geet opening by 
+moving the queen's pawn forward two spaces. See 
+[Openings](OpeningsAndDefenses.md) for more details.
 * **Durkin opening** &mdash; The opening in which White begins by playing the 
 queenside knight to the queenside edge of the board. Robert T. Durkin championed 
 this opening. See Openings for more details.
@@ -347,7 +356,8 @@ careless, or because the opponent forced the player to give up a piece so as to
 get the king out of check, or to not lose a more valuable piece than the piece 
 that gets captured (e.g., giving up a knight to keep a queen).
 * **Saragossa opening** &mdash; The opening in which White begins by playing the 
-queenside bishop's pawn forward one space. See Openings for more details.
+queenside bishop's pawn forward one space. See 
+[Openings](OpeningsAndDefenses.md) for more details.
 * **Skewer** &mdash; When a piece of one side threatens one of the opponent's 
 pieces in such a way that the opponent must move that piece out of the way and 
 allow the capture of a less valuable piece. In the case of a skewering check, 
@@ -359,6 +369,8 @@ move whatsoever. For example, if the king is safe in its current space but would
 be in check if it moves in any direction, the remaining pawns are stymied by 
 opposing pawns, and other pieces are pinned because moving them would leave the 
 king exposed.
+* **Suicide chess** &mdash; Synonym for antichess, and not, as I thought at 
+first, atomic chess.
 
 ![Skewer for rook](../diagrams/endgames/SkewerForRook.png)
 

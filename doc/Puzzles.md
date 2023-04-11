@@ -166,7 +166,7 @@ My first instinct in this situation is to instead use my bishop to capture the
 rook on d2. Even against a very strong player, I can win in 25 moves. But there 
 is a much better move here. Can you figure it out?
 
-### Watch out for the opponent's remaining material
+### Watch out for the opponent's remaining material...
 
 I was playing one of the easy bots on a popular chess website. I was playing 
 White, the bot was playing Black. I had captured all of the bot's rooks, knights 
@@ -228,6 +228,29 @@ than 1200 centipawns and the other with slightly fewer than 1200.
 
 But maybe this second solution can be considered better, without doing the 
 centipawn analysis, because there's less risk of blundering your queen away.
+
+### ... but remember that the points don't matter in a stalemate
+
+Black has just obtained a new queen knowing full well that she can be captured 
+two different ways. White to play:
+
+![Distracting promotion](../diagrams/endgames/DistractWithPromotion.png)
+
+FEN: 4R3/8/7k/5Q2/5P1N/8/1B5P/q4RK1 w - - 0 57
+
+But replacing a lost queen wasn't the point of Black's desperate promotion. The 
+point was to distract White. By capturing Black's new queen, White has a 
+material advantage of 27 points.
+
+But White has also made the colossal blunder of leaving Black's king safe in his 
+square with nowhere to go. Which is to say this is a stalemate. White has 
+squandered away a victory with an advantage of 18 points for a stalemate with an 
+essentially worthless advantage of 27 points.
+
+What should White have played here instead? There are at least two very good 
+options for immediate checkmate, and decent options for checkmate in two or 
+three moves. You can figure out one of the two very good options by remembering 
+the lesson of putting your queen close when you can.
 
 ### Take advantage of pinned pawns
 

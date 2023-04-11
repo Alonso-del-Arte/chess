@@ -190,9 +190,12 @@ opening.
 1. Nc3 c5
 2. d3
 
-#### Potentially Scandinavian defense
+#### Dunst opening
 
 1. Nc3 d5
+
+Of course Black doesn't expect White to respond with 2. Nxd5, because then Black 
+can capture that knight without risk.
 
 ##### Reversed Mexican defense
 
@@ -1886,6 +1889,16 @@ You might as well use your kingside bishop to capture that pawn on file 'b'.
 1. e4 c5
 2. Nc3 Nc6
 
+##### Sicilian defense, delayed Alapin variation
+
+1. e4 c5 
+2. Nf3 d6 
+3. c3
+
+May continue thus:
+
+3. ... Nf6
+
 ##### Sicilian defense, old Sicilian variation
 
 1. e4 c5
@@ -2273,6 +2286,17 @@ OR
 1. e4 e5
 2. d4 exd4
 3. Nf3 Bc5
+
+###### Danish gambit
+
+1. e4 e5 
+2. d4 exd4 
+3. c3
+
+Instead of capturing Black's pawn, White offers Black another pawn.
+
+Black can accept the gambit with 3. ... dxc5. Or Black can respond with the 
+S&ouml;rensen or Capablanca defense and offer White a pawn with 3. ... d5. 
 
 ###### Center game accepted
 
@@ -3174,6 +3198,16 @@ one of your bishops going early, choose another opening, like maybe king's pawn.
 1. c3 Nc6
 2. e4 e5
 3. Nf3
+
+#### Sicilian defense, delayed Alapin variation
+
+1. c3 c5
+2. Nf3 d6
+3. e4
+
+May continue thus:
+
+3. ... Nf6
 
 #### Sicilian defense, Alapin variation
 
