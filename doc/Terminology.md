@@ -73,6 +73,8 @@ than where the captured piece was.
 * **Castling** &mdash; A special move in which the king and a rook come together 
 for the king's protection. See [the game rules](GameRules.md#Castling) for 
 details. Castling is not allowed in some variants, like antichess.
+* **Center** &mdash; The four squares on the board that each has a corner that 
+is the geometrical center of the board.
 * **Center game** &mdash; Openings in which both White and Black make plays for 
 the center of the board with pawns. See [Openings](OpeningsAndDefenses.md) for 
 more details.
@@ -369,6 +371,8 @@ move whatsoever. For example, if the king is safe in its current space but would
 be in check if it moves in any direction, the remaining pawns are stymied by 
 opposing pawns, and other pieces are pinned because moving them would leave the 
 king exposed.
+* ** Strong point method** &mdash; After the game begins 1. e4 e5, Black tries 
+to keep a pawn on e5 regardless of what trades or threats White might make.
 * **Suicide chess** &mdash; Synonym for antichess, and not, as I thought at 
 first, atomic chess.
 

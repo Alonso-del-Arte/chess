@@ -109,6 +109,13 @@ the player opens this way.
 If my second move had been Nf3, some analysts might consider this a R&eacute;ti 
 opening.
 
+##### Four knights game, Scotch variation
+
+1. Nc3 Nc6 
+2. Nf3 Nf6 
+3. e4 e5 
+4. d4 
+
 #### Indian game
 
 1. Nc3 Nf6
@@ -2045,6 +2052,12 @@ May continue thus:
 
 1. e4 e5
 
+Reuben Fine devotes an entire chapter of his book (1989) to openings beginning 
+in this way. Chapter 2 (p. 6) begins thus:
+
+> Both White's and Black's initial moves here are perfectly natural and normal: 
+both assist development and affect vital central squares.
+
 ##### Vienna game
 
 1. e4 e5
@@ -2055,11 +2068,46 @@ May continue thus:
 1. e4 e5
 2. Nf3 
 
+##### King's knight opening
+
+1. e4 e5
+2. Nf3 Nc6
+
 ##### Scotch game
 
 1. e4 e5
 2. Nf3 Nc6
 3. d4
+
+###### Scotch game, normal line
+
+1. e4 e5
+2. Nf3 Nc6
+3. d4 exd4
+4. Nxd4 Nf6
+5. Nc3 Bb4
+6. Nxc6 bxc6
+7. Bd3 d5
+8. exd5 cxd5
+9. O-O O-O
+10. Bg5 c6
+11. Qf3 Be7
+12. Rae1 Rb8
+13. Nd1 Re8
+14. h3 Be6
+
+##### Four knights game
+
+1. e4 e5 
+2. Nf3 Nc6 
+3. Nc3 Nf6
+
+###### Four knights game, Scotch variation
+
+1. e4 e5 
+2. Nf3 Nc6 
+3. Nc3 Nf6
+4. d4
 
 ##### Scotch game, Lolli variation
 
@@ -2085,11 +2133,37 @@ May continue thus:
 2. Nf3 Nc6
 3. Bb5 Nf6
 
-##### Ruy L&oacute;pez opening, Spanish countergambit
+##### Ruy L&oacute;pez opening
+
+1. e4 e5
+2. Nf3 Nc6
+3. Bb5 
+
+###### Ruy L&oacute;pez opening, Spanish countergambit
 
 1. e4 e5
 2. Nf3 Nc6
 3. Bb5 d5
+
+##### Two knights' defense
+
+1. e4 e5
+2. Nf3 Nc6
+3. Bc4 Nf6
+
+##### Giuoco piano
+
+1. e4 e5
+2. Nf3 Nc6
+3. Bc4 Bc5
+
+##### Max Lange opening
+
+1. e4 e5
+2. Nf3 Nc6
+3. Bc4 Bc5
+4. O-O Nf6
+5. d4 
 
 ##### Tayler opening
 
@@ -2582,10 +2656,21 @@ out as a queen's pawn opening.
 This defense gives Black the same vulnerability the Barnes opening gives White, 
 the potential for a second move check.
 
-1. e4 f6
+In his book, international grandmaster Reuben Fine (1989, p. 1) singles this 
+defense out as particularly bad.
+
+> The reply is bad, so bad in fact that it will not be found in any collection 
+of standard opening moves. What to do about it? The man who has memorized oodles 
+and oodles of moves without understanding them is at a loss; he will not even be 
+able to give a reason why the move is bad. But the man who knows that Black has 
+neglected the centre, deprived his KN of its best square, and weakened his King 
+position will find it a simple matter to refute his opponent's faulty play.
+
+The game could continue:
+
 2. Qh5+ g6
 
- an embarrassing early checkmate. FINISH WRITING
+This easily leads to an embarrassing early checkmate against Black.
 
 ##### Modern defense
 
