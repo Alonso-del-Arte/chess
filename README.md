@@ -20,6 +20,9 @@ stalemate or draw.
 * On Hard, the computer will prioritize long term strategy over short term 
 advantages. Undo will be limited to avoiding stalemate or draw.
 
+This project will not include machine learning or any of the other things that 
+generally fall under the umbrella of "artificial intelligence."
+
 This project is currently in the research phase. At this point I'm focusing more 
 on studying the game than in programming it.
 
