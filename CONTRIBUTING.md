@@ -28,3 +28,8 @@ cheating.
 
 Per the license, this program could be used for many different purposes. The 
 chief purposes should be to practice chess and to study the game.
+
+Also, I would appreciate chess puzzles for the Puzzles.md file. You can use 
+Lichess to generate the FENs. As for the accompanying text, besides the "White 
+to play" or "Black to play" indication, you can either write it up yourself or 
+leave it to me.
