@@ -6,4 +6,4 @@
 (1989).
 * David Levens, *Chess Basics*. London: Hamlyn (2018).
 * John Nunn, *New Ideas in the Four Knights*. New York: Henry Holt and Company (1993).
-* Jan Przewoznik and Malcolm Pein, *The Blumenfeld Gambit*. Oxford, etc.: Pergamon Chess (1991).
+* Jan Przewo&zacute;nik and Malcolm Pein, *The Blumenfeld Gambit*. Oxford, etc.: Pergamon Chess (1991).

@@ -1262,49 +1262,35 @@ May continue with
 
 4. d5
 
-###### Blumfeld gambit
+###### Blumenfeld gambit
 
 1. d4 Nf6 
 2. c4 e6 
 3. Nf3 c5
 4. d5 b5
 
-Gambit accepted:
+Gambit accepted, main line:
 
 5. dxe6 fxe6
 6. cxb5 d5
 
-Gambit declined:
+This might continue with 7. Nc3 or 7. e3 or 7. g3 or 7. Bf4 or 7. Bg5.
+
+Gambit accepted, other line:
+
+6. ... Bb7
+
+Gambit declined, main line:
 
 5. Bg5
 
-Black might respond
+Black might respond 5. ... bxc4 or 5. ... exd5 or 5. ... d6 or 5. ... h6 or 5. 
+... Bb7 or 5. ... Qa5+ or 5. ... Qb6.
 
-5. ... bxc4
+Other lines for declining the gambit: 5. Nc3, 5. a4, 5. e4, 5. Bf4, 5. Qc2.
 
-or
-
-5. ... exd5
-
-or 
-
-5. ... d6
-
-or 
-
-5. ... h6
-
-or 
-
-5. ... Bb7
-
-or
-
-5. ... Qa5+
-
-or 
-
-5. ... Qb6
+The book by Przewo&zacute;nik (see the [bibliography](Bibliography.md) goes in 
+depth on this gambit.
 
 ###### King's Indian defense, normal variation
 

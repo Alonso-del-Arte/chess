@@ -65,6 +65,9 @@ minutes. Compare ''rapid chess''.
 
 ## C
 
+* **Candidate master** &mdash; An official title awarded by FIDE to some good 
+players who might eventualy meet the requirements for international master or 
+grandmaster. 
 * **Capture** &mdash; The act of taking an opponent's piece and moving it off 
 the board. Only knights can jump over intervening pieces of either side to 
 capture. Only pawns capture in a different way from their non-capture moves, and 
@@ -104,6 +107,7 @@ are notated with two plus signs (++) or the pound sign (#).
 * **Clemenz opening** &mdash; The opening in which White begins by playing the 
 kingside rook's pawn forward one space. See [Openings](OpeningsAndDefenses.md) 
 for more details.
+* **CM** &mdash; Abbreviation for candidate master.
 * **Compulsory capture** &mdash; The requirement that whenever a side that can 
 capture without putting their own king in immediate danger must capture. This 
 requirement is not present in regular chess but it is present in some variants. 
@@ -113,6 +117,8 @@ requirement). When bound by compulsory capture and two or more capture
 opportunities present themselves, the player is generally free to choose any of 
 the opportunities, while a program might be programmed to choose the piece of 
 highest centipawn value (e.g., capture a queen rather than a bishop).
+* **Countergambit** &mdash; When a player declines a gambit by instead offering 
+one of their own pawns for sacrifice.
 * **Crazyhouse** &mdash; A chess variant in which captures grant the capturing 
 side the ability to place a piece of the same kind on an empty square as a move 
 later on. For example, if White captures a Black knight, White can later place a 
@@ -189,7 +195,8 @@ the rook on h6.
 * **Gambit** &mdash; An opening in which a player risks a sacrifice. It is a 
 gamble whether the opponent will take the bait or not.
 * **GM** &mdash; Abbreviation for grandmaster.
-* **Grandmaster** &mdash; A title awarded to the very best chess players. 
+* **Grandmaster** &mdash; An official title awarded by FIDE to the very best 
+chess players. The title is irrevocable except due to cheating. 
 * **Grob opening** &mdash; The opening in which White begins by playing the 
 kingside knight's pawn forward two spaces. See Openings for more details.
 
@@ -204,12 +211,15 @@ kingside knight's pawn forward one space. See Openings for more details.
 
 ## I
 
+* **IM** &mdash; Abbreviation for international master.
 * **Inaccuracy** &mdash; A move that is just not all that good when a better 
 move was possible. Some commentators use this term to mean bad moves that aren't bad 
 enough to be considered mistakes or blunders.
 * **In-between move** &mdash; Synonym for Zwischenzug.
 * **Intermediate move** &mdash; Synonym for Zwischenzug.
 * **Intermezzo** &mdash; Synonym for Zwischenzug.
+* **International master** &mdash; An official title awarded by FIDE to very 
+good players who don't meet the requirements for grandmaster.
 
 ## J
 
@@ -305,6 +315,9 @@ chess programs wind up needing to make this distinction.
 
 * **Pawn** &mdash; The lowest ranking pieces, each player gets eight of them. 
 Pawns are notated by their position, without the letter P.
+* **Piece** &mdash; A token that is moved on a chess board. Sometimes this term 
+is used to mean only pieces that are kings, queens, bishops, knights or rooks, 
+excluding the pawns.
 * **Pin** &mdash; When a piece must stay in place to protect a more valuable 
 piece from capture, or to protect the king from check.
 * **Polish opening** &mdash; The opening in which White begins by playing the 
