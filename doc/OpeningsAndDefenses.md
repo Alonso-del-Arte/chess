@@ -762,6 +762,10 @@ pawn to capture my rook, so I had to make other plans. I still won the game.
 
 1. b4
 
+If you want to follow up this opening with d4 in the three check variant, be 
+sure to play c3 first. That way, your opponent can't then play Bxb4+, putting 
+him or her one check closer to winning.
+
 In the atomic chess variant, captures cause explosions that can kill off a king 
 if he's too close. Here, "too close" means any space the king could move to. 
 Here's one strategy you can try playing the Polish opening in atomic chess:
@@ -776,7 +780,7 @@ play 2. ... e5, which should then immediately deter you from playing 3. b5.
 
 I don't recommend this strategy for regular chess or even the three-check 
 variant. Unlike the similar strategy with the rook in the Ware opening, this 
-Polish bishop strategy doesn't even give an early check.
+Polish bishop strategy doesn't even give an early check to your opponent's king.
 
 #### Bucker defense
 
@@ -830,6 +834,10 @@ Will Black capture White's king's pawn?
 
 1. b4 e5 
 2. Bb2 Bxb4
+
+#### Dutch defense
+
+1. b4 f5
 
 #### Outflank variation
 
@@ -1239,11 +1247,64 @@ ignores other factors, such as how your opponent's skills compare to yours.
 2. Nf3 g6
 3. Nc3 d5
 
-##### East Indian, anti-Nimzo-Indian variation
+##### Indian game, East Indian defense
 
 1. d4 Nf6 
 2. c4 e6 
-3. Nf3
+
+###### East Indian, anti-Nimzo-Indian variation
+
+1. d4 Nf6 
+2. c4 e6 
+3. Nf3 c5
+
+May continue with
+
+4. d5
+
+###### Blumfeld gambit
+
+1. d4 Nf6 
+2. c4 e6 
+3. Nf3 c5
+4. d5 b5
+
+Gambit accepted:
+
+5. dxe6 fxe6
+6. cxb5 d5
+
+Gambit declined:
+
+5. Bg5
+
+Black might respond
+
+5. ... bxc4
+
+or
+
+5. ... exd5
+
+or 
+
+5. ... d6
+
+or 
+
+5. ... h6
+
+or 
+
+5. ... Bb7
+
+or
+
+5. ... Qa5+
+
+or 
+
+5. ... Qb6
 
 ###### King's Indian defense, normal variation
 
@@ -1603,6 +1664,11 @@ game.
 
 1. d4 g5
 
+#### Goldsmith, picklepuss defense
+
+1. d4 h5 
+2. e4 Nf6
+
 #### St. George defense
 
 1. d4 a6
@@ -1654,6 +1720,11 @@ move.
 1. d4 e6
 2. Nc3 d5
 3. e4 f5
+
+###### Indian game, knights variation
+
+1. d4 e6
+2. Nf3 Nf6
 
 ###### Torre attack
 
@@ -2468,6 +2539,11 @@ first.
 #### Goldsmith defense
 
 1. e4 h5
+
+##### Goldsmith, picklepuss defense
+
+1. e4 h5
+2. d4 Nf6
 
 #### St. George defense
 
