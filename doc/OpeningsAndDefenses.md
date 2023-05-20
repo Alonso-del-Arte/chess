@@ -2247,6 +2247,8 @@ OR
 2. Nf3 Nf6
 3. d4
 
+Also called Russian game, modern attack.
+
 ###### Petrov's defense, Steinitz attack
 
 1. e4 e5
@@ -2308,6 +2310,19 @@ OR
 
 1. e4 e5
 2. Nf3 f5
+
+Very long ago this was called the Greco countergambit. But in the early 20th 
+Century, several Latvian chess players like K&amacr;rlis 
+B&emacr;ti&ncedil;&scaron; used it to great effect in their games. So it was 
+renamed "Latvian gambit" at the 1937 FIDE Congress.
+
+See Kosten (2001) for a comprehensive study.
+
+###### Latvian gambit, main line
+
+1. e4 e5
+2. Nf3 f5
+3. Nxe5 Qf6
 
 ###### Mason countergambit to the Latvian gambit
 
