@@ -1247,6 +1247,11 @@ ignores other factors, such as how your opponent's skills compare to yours.
 2. Nf3 g6
 3. Nc3 d5
 
+##### Indian game, accelerated variation
+
+1. d4 Nf6 
+2. c4 b6
+
 ##### Indian game, East Indian defense
 
 1. d4 Nf6 
@@ -1291,6 +1296,20 @@ Other lines for declining the gambit: 5. Nc3, 5. a4, 5. e4, 5. Bf4, 5. Qc2.
 
 The book by Przewo&zacute;nik (see the [bibliography](Bibliography.md) goes in 
 depth on this gambit.
+
+##### Bogo-Indian defense, Wade-Smyslov variation
+
+1. d4 Nf6 
+2. c4 e6 
+3. Nf3 Bb4+ 
+4. Bd2 a5
+
+##### Bogo-Indian defense, V&imacr;toli&ncedil;&scaron; variation
+
+1. d4 Nf6 
+2. c4 e6 
+3. Nf3 Bb4+ 
+4. Bd2 c5
 
 ###### King's Indian defense, normal variation
 
@@ -1357,6 +1376,12 @@ An unlikely defense, has probably never occurred in tournament play.
 #### Polish defense
 
 1. d4 b5
+
+##### Queen's pawn opening, Polish, Spassky gambit accepted
+
+1. d4 b5 
+2. e4 Bb7 
+3. Bxb5 Bxe4
 
 #### Old Benoni defense
 
@@ -2018,6 +2043,11 @@ May continue thus:
 2. Nf3 e6 
 3. d4 d5
 
+##### Sicilian defense, hyper-accelerated dragon variation
+
+1. e4 c5 
+2. Nf3 g6
+
 ##### Sicilian defense, brick variation
 
 1. e4 c5
@@ -2038,6 +2068,11 @@ May continue thus:
 
 1. e4 c5
 2. d4 cxd4
+
+#### Sicilian defense, McDonnell attack
+
+1. e4 c5 
+2. f4 e6
 
 ##### Sicilian defense, Alapin variation
 
@@ -2645,11 +2680,17 @@ out as a queen's pawn opening.
 1. e4 a6
 2. d4
 
-#### Owen defense
+#### Owen's defense
 
 1. e4 b6
 
-##### Owen defense
+##### Owen's defense, Hekili-Loa gambit
+
+1. e4 b6
+2. d4 c5
+3. dxc5 Nc6
+
+##### Owen's defense
 
 1. e4 b6
 2. d4 Bb7
@@ -2916,7 +2957,7 @@ King's Gambit Declined: Soller-Zilbermints Gambit
 #### Sicilian defense, McDonnell attack
 
 1. f4 c5
-2. e4
+2. e4 e6
 
 #### Dutch variation
 
