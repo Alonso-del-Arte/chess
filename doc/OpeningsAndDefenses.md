@@ -2202,6 +2202,77 @@ both assist development and affect vital central squares.
 2. Nf3 Nc6
 3. Bb5 d5
 
+###### Ruy L&oacute;pez, Morphy defense
+
+1. e4 e5
+2. Nf3 Nc6
+3. Bb5 a6
+4. Ba4
+
+####### Ruy L&oacute;pez, main line
+
+1. e4 e5
+2. Nf3 Nc6
+3. Bb5 a6
+4. Ba4 Nf6
+
+####### Closed Ruy L&oacute;pez
+
+1. e4 e5
+2. Nf3 Nc6
+3. Bb5 a6
+4. Ba4 Nf6
+5. O-O Be7
+
+####### Closed Spanish, Karpov system
+
+1. e4 e5
+2. Nf3 Nc6
+3. Bb5 a6
+4. Ba4 Nf6
+5. O-O Be7
+6. Re1 b5
+7. Bb3 d6
+8. c3 O-O
+9. h3 Nd7
+
+The main line continues:
+
+10. d4 Bf6
+11. a4 Bb7
+
+####### Closed Spanish, Zaitsev system
+
+Also called Ruy L&oacute;pez, Flohr system.
+
+1. e4 e5
+2. Nf3 Nc6
+3. Bb5 a6
+4. Ba4 Nf6
+5. O-O Be7
+6. Re1 b5
+7. Bb3 d6
+8. c3 O-O
+9. h3 Bb7
+
+The main line continues:
+
+10. d4 Re8
+11. Nbd2 Bf8
+12. a4 h6
+13. Bc2 exd4
+14. cxd4 Nb4
+15. Bb1 c5
+
+####### Closed Ruy L&oacute;pez, Averbakh variation
+
+1. e4 e5
+2. Nf3 Nc6
+3. Bb5 a6
+4. Ba4 Nf6
+5. O-O Be7
+6. Re1 d6
+
 ##### Two knights' defense
 
 1. e4 e5
@@ -2476,6 +2547,11 @@ Will Black capture that bishop's pawn offered for sacrifice?
 1. e4 e5
 2. f4 exf4
 3. Bd3
+
+##### King's gambit, Panteldakis countergambit
+
+1. e4 e5
+2. f4 f5
 
 ##### King's gambit declined, Keene defense
 

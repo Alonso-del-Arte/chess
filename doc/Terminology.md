@@ -107,6 +107,9 @@ are notated with two plus signs (++) or the pound sign (#).
 * **Clemenz opening** &mdash; The opening in which White begins by playing the 
 kingside rook's pawn forward one space. See [Openings](OpeningsAndDefenses.md) 
 for more details.
+* **Closed** &mdash; Said of an opening or early game board state in which pawn 
+congestion limits the mobility of the queen, bishops or rooks, requiring the 
+player to rely more on the knights to attack.
 * **CM** &mdash; Abbreviation for candidate master.
 * **Compulsory capture** &mdash; The requirement that whenever a side that can 
 capture without putting their own king in immediate danger must capture. This 
@@ -302,6 +305,9 @@ the game and there are other differences between regular chess and the variant
 chess).
 * **O-O** &mdash; Notation for kingside castling.
 * **O-O-O** &mdash; Notation for queenside castling.
+* **Open** &mdash; Said of an opening or early game board state in which it is 
+fairly easy for the queen, bishops and rooks to move about the board on account 
+of low pawn congestion.
 * **Opening** &mdash; A player's first few moves. To my knowledge I've never 
 seen this term in regard to chess used to mean a vulnerability in the opponent's 
 defense. Most openings are given special names, which are not quite exactly 
