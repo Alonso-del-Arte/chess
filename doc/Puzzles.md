@@ -152,6 +152,27 @@ Your opponent might figure out what you're trying to do, and they have a
 definite numerical advantage of "officer" pieces, but they're all currently 
 blocked.
 
+This next puzzle has a little more context before the moment of putting your 
+queen close to your opponent's king. This is not a proper puzzle in that it has 
+two solutions, but the two solutions are the same idea of putting your queen 
+very close to your opponent's king because she's supported by another piece, a 
+bishop this time.
+
+Black has just played Kg7 to dodge a check from one of White's knights. Not the 
+best move Black could have made, but that's not the point of this puzzle. White 
+to play:
+
+![Near checkmate](../diagrams/endgames/DiscoveredQueenCheck.png)
+
+FEN: r4r2/p3b1k1/1n3Np1/5b1p/1PRQ1P2/4n2N/qBP1B1PP/5RK1 w - - 1 29
+
+This is one of those where the first move in the puzzle is quite obvious: Nxf6+, 
+move a knight so your queen can threaten your opponent's king. It doesn't matter 
+that both of your knights can be captured, because Black's priority is getting 
+out of check. The best move for Black would be Kf7, but Black blunders yet again 
+with Kg8, Kh7 or Kh6. There's one move that works for all three of those, and an 
+extra option if Black plays Kg8.
+
 Here's a somewhat easier puzzle to illustrate that concept. Black to play:
 
 ![Near checkmate](../diagrams/endgames/ReadyForKnightBackedQueenCheckmate.png)
