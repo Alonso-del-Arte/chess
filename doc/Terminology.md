@@ -27,10 +27,13 @@ and files of the board are numbered from White's perspective, and the starting
 position of a piece is generally omitted. It is the most common notation in use 
 today. The term "algebraic" is somewhat of a misnomer.
 * **Amar opening** &mdash; The opening in which White begins by playing the 
-kingside knight to the kingside edge of the board. See Openings for more 
-details.
+kingside knight to the kingside edge of the board. See 
+[Openings](OpeningsAndDefenses.md#Kingside-knight-to-rook's-file:-Amar-opening) 
+for more details.
 * **Anderssen opening** &mdash; The opening in which White begins by playing the 
-queenside rook's pawn forward one space. See Openings for more details.
+queenside rook's pawn forward one space. See 
+[Openings](OpeningsAndDefenses.md#Queenside-rook's-pawn:-Anderssen-opening) for 
+more details.
 * **Antichess** &mdash; A chess variant in which one wins by playing in a way 
 that one would lose in regular chess. Captures are compulsory for both sides. 
 Also called losing chess.
@@ -134,12 +137,37 @@ Black two pawns early on. See [Openings](OpeningsAndDefenses.md) for more
 details.
 * **Descriptive notation** &mdash; An older notation in which each player's 
 moves are reckoned from the player's perspective.
+* **Discovered check** &mdash; A check that arises when a piece (which may be a 
+pawn) moves in such a way that another piece suddenly has a clear line of attack 
+to the opponent's king.
+* **Double attack** &mdash; Another term for fork.
+* **Double check** &mdash; A special kind of discovered check in which a king is 
+threatened simultaneously by two of the opponent's pieces, one of them usually 
+but not always being a knight. Even if the checked side has pieces that can 
+capture both of the attacking pieces, neither can be captured at the moment, 
+because, in chess, a player can only capture one of the opponent's pieces in a 
+single turn. Therefore, the only option in a double check is for the threatened 
+king to move out of the way of the threats. Sometimes notated with two plus 
+signs.
 * **Dunst opening** &mdash; When Black responds to the Van Geet opening by 
 moving the queen's pawn forward two spaces. See 
 [Openings](OpeningsAndDefenses.md) for more details.
 * **Durkin opening** &mdash; The opening in which White begins by playing the 
 queenside knight to the queenside edge of the board. Robert T. Durkin championed 
 this opening. See Openings for more details.
+
+The following diagram illustrates both discovered check and double check. White 
+to play.
+
+![About to double check](../diagrams/endgames/AboutToDoubleCheck.png)
+
+FEN: 5rk1/2p3p1/2P4p/2rN4/1n6/5PP1/Q3P3/3BK3 w - - 0 1
+
+If White plays Ne7+, that puts Black in check not just because the knight 
+threatens the square the king is on, but also because now the queen has a direct 
+line of attack to the opponent's king. Black has a knight that can capture 
+White's queen, but that doesn't neutralize the threat from White's knight. 
+Therefore, the Black king must move to file h.
 
 ## E
 
@@ -160,7 +188,7 @@ pawn. See [the game rules](GameRules.md#En passant) for details.
 
 * **F&eacute;d&eacute;ration Internationale des &Eacute;checs** &mdash; The 
 International Chess Federation, which sets many standards for chess accepted 
-worldwide.
+worldwide. Known by the acronym FIDE even where French isn't widely spoken.
 * **Fianchetto** &mdash; A sequence of developing moves that gives a bishop 
 access to a long diagonal of the board. For example, open by moving one of your 
 knight's pawns forward one space, then on your next turn move the bishop next to 
@@ -172,11 +200,11 @@ opportunity to capture the opponent's rook on the other side of the board.
 lowercase letters 'a' to 'h'. At the beginning of the game, the rooks are on 
 files 'a' and 'h', knights on files 'b' and 'g', bishops on files 'c' and 'f', 
 queens on file 'd', and kings on file 'e'.
-* **Fog of War** &mdash; A chess variant almost always played on a computer, in 
+* **Fog of War** &mdash; A chess variant almost always played on computers, in 
 which each player can only see their own pieces and the spaces where their 
 pieces may move to. This is, in my opinion, the most interesting variant of all. 
-It is a little bit like Kriegspiel, which was invented long before anyone 
-thought about using computers for chess in any capacity. Aside from the limited 
+It is somewhat like Kriegspiel, which was invented long before anyone thought 
+about using computers for chess in any capacity. Aside from the limited 
 visibility, the only deviation from the traditional rules is that it is a 
 one-check game. Thus castling tends to be more effective in Fog of War than in 
 traditional chess.
@@ -191,7 +219,9 @@ other forked piece.
 FEN: r1bk2n1/1pp2N1n/p5pr/1Bb2P1p/3pP3/3P4/PPPQ2PP/R3K2R b KQ - 2 14
 
 Example of a fork. The Black king must move off d8, so then White can capture 
-the rook on h6.
+the rook on h6. Black might follow with Nxh6, but that would be a mistake, since 
+then it's easier for White to make more dangerous incursions into Black's 
+territory, such as with Qxh6.
 
 ## G
 

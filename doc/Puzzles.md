@@ -434,9 +434,9 @@ repeat moves to draw by repetition.
 
 *x* + 11. Qf4# 1-0
 
-A really good player might decide to concede rather than try for a draw. A 
-program on a hard setting will make you work the checkmate, and you'll have to 
-take care to avoid a stalemate.
+A very good player might decide to concede rather than try for a draw. A program
+on a hard setting will make you work the checkmate, and you'll have to take care 
+to avoid a stalemate.
 
 *x* + 1. Rf5+ Kg4 
 
@@ -638,7 +638,7 @@ But your opponent has that light squares bishop...
 *x* + 1. ... Bxe4
 
 The whole thing just goes downhill from there. The best you can hope for is a 
-draw, afer an internecine battle that leaves your opponent with just their king 
+draw, after an internecine battle that leaves your opponent with just their king 
 and a knight, and you with only your knight.
 
 The correct solution to this puzzle is to move your queen's pawn to d4. 
@@ -881,7 +881,44 @@ other rook, but without moving it just yet.
 To throw you off from the correct answer, we might say that the move immediately 
 prior to the board shown above was one of Black's pawns inching a bit closer to 
 promotion.
- 
+
+### Best defense against a queen capture might be a double check
+
+Given how powerful the queen is, you don't want to lose her if the sacrifice is 
+not absolutely necessary. White to play.
+
+![About to double check](../diagrams/endgames/AboutToDoubleCheck.png)
+
+FEN: 5rk1/2p3p1/2P4p/2rN4/1n6/5PP1/Q3P3/3BK3 w - - 0 1
+
+You might be tempted to play Nxb4+, which seems like a good move at the moment, 
+but if your opponent is a much better player than you are, the best outcome for 
+you might be a twenty-odd move stalemate. There's a better move with which you 
+can win in less than twenty moves even against a stronger opponent.
+
+### Resign gracefully, but not prematurely
+
+It's good sportsmanship to resign a chess game when it's clear that you can't 
+win. However, even in the face of your opponent's obvious numerical advantage, 
+even if you've lost your queen, it's not always clear that you can't possibly 
+win. In fact, you might be able to eke out a surprising win if you have some 
+pieces in the right places.
+
+In this next one, White has just played Rb8+, putting Black in check. Black to 
+play.
+
+![Black's subtle advantage](../diagrams/endgames/BlacksSubtleAdvantage.png)
+
+FEN: 1R2k2r/4ppp1/2n5/P2R2P1/P3P3/3Nbppb/1Q1n4/B6K b - - 0 1
+
+If you're playing Black, you might be thinking about resigning. If you play 
+Nxb8, you're just delaying the inevitable, right? Eventually that queen and rook 
+are going to trap you on your home row, is what it looks like.
+
+If you do play Nxb8, you still have a subtle advantage that you can use for 
+checkmate in forty or so. But actually, there's a much, much quicker checkmate 
+here.
+
 ## Opening puzzles
 
 If I've ever seen an opening puzzle, I don't remember.

@@ -36,7 +36,7 @@ other than the king's pawn but your second move is to move your king's pawn to
 e4, the opening might still be considered a king's pawn opening.
 
 The so-called "algebraic notation" is used in this document. See 
-[game notation](GameNotation.md#Algebraic notation) for more details. 
+[game notation](GameNotation.md#Algebraic-notation) for more details. 
 
 This document also contains a few mentions of how these standard openings lead 
 to different strategies in some chess variants.
