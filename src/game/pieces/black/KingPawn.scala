@@ -1,7 +1,3 @@
 package game.pieces.black
 
-import game.pieces.Pawn
-
-object KingPawn extends Pawn with BlackPiece {
-
-}
+object KingPawn extends BlackPawn with BlackPiece

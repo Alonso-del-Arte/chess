@@ -1,7 +1,3 @@
 package game.pieces.white
 
-import game.pieces.Pawn
-
-object QueenSideBishopPawn extends Pawn with WhitePiece {
-
-}
+object QueenSideBishopPawn extends WhitePawn with WhitePiece

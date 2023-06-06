@@ -1,7 +1,5 @@
 package game.pieces.lightgray
 
-import game.pieces.Pawn
-
-object TowersPawn extends Pawn with LightGrayPiece {
+object TowersPawn extends LightGrayPawn with LightGrayPiece {
 
 }

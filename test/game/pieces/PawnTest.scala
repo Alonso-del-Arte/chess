@@ -1,7 +1,6 @@
 package game.pieces
 
-import game.{Neutral, Player}
-
+import game.{Neutral, Player, RelativePosition, RelativePositionRange}
 import org.junit.jupiter.api.Assertions._
 import org.junit.jupiter.api.Test
 
@@ -16,7 +15,8 @@ class PawnTest {
 
   private class PawnImpl extends Pawn {
     override val affiliation: Player = Neutral
-
+    override val possibleMoves: Set[RelativePositionRange] =
+      Set(RelativePositionRange(new RelativePosition(0, 1)))
   }
 
 }
