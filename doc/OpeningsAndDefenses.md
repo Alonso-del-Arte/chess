@@ -2550,7 +2550,7 @@ Instead of capturing Black's pawn, White offers Black another pawn.
 Black can accept the gambit with 3. ... dxc5. Or Black can respond with the 
 S&ouml;rensen or Capablanca defense and offer White a pawn with 3. ... d5. 
 
-###### Center game accepted
+###### Center game accepted, continuation
 
 1. e4 e5
 2. d4 exd4

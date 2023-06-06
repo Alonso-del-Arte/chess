@@ -1100,6 +1100,35 @@ will take longer.
 
 [FINISH WRITING]
 
+### You can still castle despite a threat to your rook
+
+It's a fair assumption at this point that you know the requirements for 
+castling. For one thing, the king must not be in check. The king must not even 
+pass through a threatened square. But the rules don't actually forbid castling 
+if it's the rook that's under threat.
+
+In the following scenario, White can foresee that Black hopes to play Qa1+. 
+Trying to block with one of the knights would merely delay the inevitable. White 
+to play. Improbably, neither the king nor the kingside rook have moved from 
+their starting positions. Keep that in mind as you decide what move White should 
+make at this point.
+
+![Can still castle](../diagrams/endgames/CastleDespiteThreatenedRook.png)
+
+FEN: 4nk1r/6b1/4p1p1/1P1p4/p2P4/P3P3/qn1N1NP1/4K2R w K - 0 1
+
+That's right, in this scenario, White should castle kingside, and White can do 
+that even though the White rook is under threat from the Black rook.
+
+If White castles, Black can still win, but it's going to be a hard-fought 
+victory. But by castling, White still has a fighting chance to win, or at least 
+cause a stalemate.
+
+Generally, though, it's probably a bad idea to castle with a rook under threat. 
+Without that White knight on f2 in the scenario, and the Black queen having so 
+many obstacles to get to the other edge of the board, castling would be a very 
+bad idea here.
+
 ### Castling leads to checkmate
 
 [FINISH WRITING]

@@ -17,6 +17,10 @@ what spaces of the board your pieces can move to. Your opponent likewise has a
 limited view of the board. It is a one-check game. Therefore, castling is 
 generally advantageous, much more so than in regular chess.
 
+Also called "dark chess." Closely related to **Kriegspiel**, which was played 
+long before anyone thought of using computers for chess. Kriegspiel was played 
+with three boards
+
 ## King of the hill
 
 Four squares in the center of the board, d4, e4, d5 and e5, are marked as a 

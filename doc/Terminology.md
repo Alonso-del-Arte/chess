@@ -135,6 +135,7 @@ White knight on an empty square later.
 * **Danish gambit** &mdash; A variation on the center game in which White offers 
 Black two pawns early on. See [Openings](OpeningsAndDefenses.md) for more 
 details.
+* **Dark chess** &mdash; Synonym for fog of war.
 * **Descriptive notation** &mdash; An older notation in which each player's 
 moves are reckoned from the player's perspective.
 * **Discovered check** &mdash; A check that arises when a piece (which may be a 
@@ -392,6 +393,10 @@ second rank and must race to the eighth rank to win. Checks are not allowed.
 beginning of the game, Black pawns on rank 7. 
 * **Rapid chess** &mdash; A timed game with each player getting 20 or 25 minutes 
 each. Compare ''blitz chess''.
+* **Recapture** &mdash; When a player captures an opponent's piece that recently 
+captured one of that player's pieces. There's no capturing the same piece twice 
+in a single game of regular chess (that might occur in the crazyhouse variant, 
+but it's unlikely to be referred to as a recapture).
 * **Rook** &mdash; A piece shaped like a tower, capable of moving in straight 
 lines provided there are no pieces of its own side in the way. Each player gets 
 two of them. At the beginning of the game, the four rooks are placed on the four 

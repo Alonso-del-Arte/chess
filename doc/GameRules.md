@@ -15,15 +15,23 @@ game. This document is not meant for an in-depth discussion of strategy.
 The diagrams in this document are to illustrate moves a player may make, not 
 to advise on what the best move may be in any particular situation.
 
+In this document, the terms "piece" and "pieces" will be understood to include a 
+pawn or pawns. When it is necessary to distinguish between pawns and pieces that 
+are not pawns, the distinction will be made abundantly clear.
+
 ## Generalities
 
 There are two sides, White and Black. White always goes first, which 
 theoretically gives Black a slight advantage. The two sides take turns. No side 
 may skip a turn, but either side may concede the game.
 
-The game is played on an 8 &times; 8 checkerboard. Each side gets sixteen 
-pieces: one each of a king and a queen, two each of bishops, knights and rooks, 
-and eight each of pawns.
+The game is played on an 8 &times; 8 checkerboard. The checkerboard is placed so 
+that White has a light-colored corner square at his or her right hand, and the 
+same is also true for Black.
+
+Each side gets sixteen pieces: one each of a king and a queen, two each of 
+bishops, knights and rooks, and eight each of pawns. The initial placement of 
+these will be illustrated in the next section.
 
 The objective of the game is to trap your opponent's king so that there's no 
 escape: if he stays put, he's captured; if he moves, he's captured; and no other 
@@ -32,16 +40,30 @@ likewise.
 
 There can only be one piece on a space at a time. Centering the pieces is a 
 preference, not a requirement: the important thing is that the placement of the 
-pieces be unambiguous. It is an actual rule that once you touch a piece you're 
-committed to moving that piece that turn. This rule is generally enforced even 
-in an informal context, though it may be relaxed for coaching.
+pieces be unambiguous, by making sure the base of a piece is strictly within a 
+light- or dark-colored square, and not straddling a square of the opposite 
+color.
 
-When not capturing an opponent's piece, a player may only move one piece of 
-their side (except in the special case of castling, in which case they may move 
-two pieces of their own side). When capturing an opponent's piece, a player may 
-only move two pieces: the captured piece, which is then moved off the board, and 
-their own piece, which then takes the place of the captured piece (except in the 
-case of en passant).
+It is an actual rule that once you touch a piece you're committed to moving that 
+piece that turn, and must make a valid move with that piece even if it is 
+strategically disadvantageous. This rule is generally enforced even in an 
+informal context, though it may be relaxed for coaching.
+
+When not capturing an opponent's piece, a player may only move one piece (except 
+in the special case of castling, in which case he or she moves two pieces of his 
+or her own side).
+
+When capturing an opponent's piece, a player may only move two pieces: the 
+captured piece, which is then moved off the board, and their own piece, which 
+then takes the place of the captured piece (except in the case of en passant, 
+which will be explained later on in this document).
+
+Under no circumstance can a player legally change the position of more than two 
+pieces in a single turn. I'm not aware of any chess variants in which this is 
+not the case.
+
+In an informal context, a player may request to take back a move, and the 
+opponent may grant that request.
 
 ## Initial board state
 
@@ -97,7 +119,9 @@ The pieces move in specific ways when not capturing opposing pieces:
  pawn to a bishop or a rook is generally considered a waste. And choosing to 
  promote to a knight is unlikely to be the best choice in the vast majority of 
  circumstances &mdash; but it is generally a better choice than a bishop or a 
- rook.
+ rook. To my knowledge, antichess is the only variant in which a pawn can 
+ promote to a king. I don't know of any variants that allow pawns to decline 
+ promotion.
  
 Even though only knights may jump over other pieces, when playing on a physical 
 board players are allowed to move any piece by lifting it off the board and 
@@ -129,6 +153,11 @@ However, there is a wrinkle to pawn capture that may occasionally occur under
 very specific circumstances. It's called "en passant," from the French for "in 
 passing."
 
+Each time an opportunity for en passant capture presents itself to a player, 
+that player must either invoke that right and make that capture in that turn, or 
+permanently forfeit the right to that particular en passant capture, even if the 
+opponent does not again move the pawn that could have been captured en passant.
+
 Even though you're unlikely to see it in normal game play, a computer program 
 must be ready for it. That's why I'll spend a few paragraphs explaining it.
 
@@ -138,8 +167,8 @@ opponent pawn on the file to the left or the right of the pawn approaching
 promotion.
 
 If the opponent moves such a pawn forward one space, it can be captured by the 
-pawn nearing promotion. To avoid capture, the opponent might opt to move their 
-pawn forward two spaces.
+pawn nearing promotion. To avoid capture, the opponent might opt to move his or 
+her pawn forward two spaces.
 
 However, the player with the pawn approaching promotion may decide to invoke the 
 en passant rule and capture the opponent pawn as if it had moved forward only 
@@ -162,18 +191,19 @@ Let's say Black chooses to capture that queen's pawn.
 ![Center game accepted](../diagrams/openings/CenterGameAccepted.png)
 
 So far this is a realistic scenario, and a quite normal pawn capture. This is 
-called "center game accepted."
+called "[center game accepted](OpeningsAndDefenses.md#Center-game-accepted)."
 
 But now let's suppose, strictly for the sake of this example, that White wants 
 to move their queenside bishop's pawn without Black capturing it. If White moves 
 that pawn just one space forward, Black can capture that pawn the same way as 
-the White queen's pawn. So White decides to move the queenside bishop's pawn 
-forward two spaces.
+the White queen's pawn just one turn ago. So White decides to move the queenside 
+bishop's pawn forward two spaces.
 
 ![Potential for en passant](../diagrams/openings/PotentialForEnPassant.png)
 
-Maybe Black doesn't care about that particular pawn. But Black could invoke the 
-en passant rule and capture that pawn anyway.
+Maybe Black doesn't care about that particular pawn, and Black may forfeit the 
+right to en passant. But if Black does want to invoke the en passant rule, then 
+that en passant capture must be the very next thing that happens in the game.
 
 ![En passant](../diagrams/openings/EarlyEnPassant.png)
 
@@ -196,9 +226,9 @@ position to require the opponent king to delegate capturing the pesky pawn. -->
 Depending on the system of notation in use, a special notation for en passant 
 capture may be necessary.
 
-An en passant capture must occur as soon as the opportunity arises or else the 
-player forfeits the right to the en passant capture. This is even if the 
-opponent does not move the pawn that could have been captured en passant.
+I reiterate that en passant capture must occur as soon as the opportunity arises 
+or else the player forfeits the right to the en passant capture. This is even if 
+the opponent does not move the pawn that could have been captured en passant.
 
 Even without that stricture, the conditions for en passant are unlikely to occur 
 in regular game play. You might play a thousand games and never once see en 
@@ -249,6 +279,19 @@ Like en passant, castling also has requirements for when it may occur:
  rook will end up, but this is not required, and it wouldn't matter if it's an 
  opposing knight that's threatening the space where the king would end up).
 
+However, castling is still allowed if the castling rook is under threat of 
+capture, as long as the requirements listed above are still met. In the 
+following very unrealistic White to play scenario in which White rather 
+improbably meets the requirements for kingside castling, it is actually the best 
+move.
+
+![Can still castle](../diagrams/endgames/CanStillCastle.png)
+
+FEN: 1R2qkrq/2N1p1p1/1p6/1P5r/pn1P4/P7/1nP2NP1/4K2R w K - 0 1
+
+Whether it's good strategy to castle with a rook under threat is a matter that   
+is a matter that's outside the scope of this document.
+
 On a physical set, the castling player generally performs the move with two 
 hands, one for the king and one for the pertinent rook. At least that's the case 
 for informal play. Tournament play might require one-handed castling.
@@ -276,10 +319,24 @@ document.
 
 ### More discussion of captures
 
+#### Captures by the king
+
+As we saw in the previous section, the rules for castling also forbid a king 
+from passing through a square from which he may be captured, even if he would 
+otherwise end up on a safe square.
+
 All this discussion of castling might cause players to forget that the king can 
 capture. This can be a very important fact when your king is on the run but 
 there's still a chance your opponent might screw up and unwittingly give up an 
 important piece like a rook or a bishop.
+
+A king may not move to a square where he might be captured by one of the 
+opponent's pieces. However, if the opponent is foolish enough to place a piece 
+on a square immediately next to the king without support, the king can capture 
+that piece.
+
+Since the king can capture, the king can also approach the opponent's pieces, 
+of course taking care not to move to a threatened square.
 
 Depending on the situation, it might be a good idea for your king to approach an
 opponent's pieces in certain ways (assuming the target position is not otherwise 
@@ -293,7 +350,26 @@ threatened):
  diagonally but taking care to use squares of the opposite color (e.g., if the 
  bishop is on a dark space, approach on a light space).
  * A king should not approach an opponent's queen, at least not without a 
- broader strategy in mind.
+ broader strategy in mind. A king may not move to any square directly 
+ neighboring an opponent's queen. But as discussed earlier, the rules don't 
+ forbid either player from foolishly placing a piece, including a queen, other 
+ than a king where the opponent's king can capture that piece.
+
+Here's an example of a foolish approach to the opponent's king. Black to play.
+
+![Ill-advised queen approach](../diagrams/endgames/IllAdvisedQueenApproach.png)
+
+FEN: 5k2/b3p2p/3p4/1P6/p2P1N1N/P1n5/1nP1q1P1/4R1K1 b - - 0 1
+
+Black's plan is to push White's king to the corner. Rightfully wary of White's 
+rook and knights, Black foolishly decides to move the queen to the dark-colored 
+square right next to the White king.
+
+The Black queen would be protected by the Black bishop if there wasn't that 
+White pawn blocking the Black bishop's path. So the White king can easily 
+capture the Black queen.
+
+#### Other considerations pertaining to captures
 
 The promotion of pawns, combined with the preference of players to promote pawns
 to queens means that theoretically one side could have nine queens. That would 
@@ -302,8 +378,14 @@ problem for a program such as this one to draw all those queens on the screen.
  
 I think such a scenario could occur among players playing precisely with the 
 goal of making that happen, rather playing to win. More likely, among players of
-roughly equal ability, each side is only able to promote one or two pawns. That 
-means more than four queens on the board at any given time are highly unlikely.
+roughly equal ability, each side is only able to promote one or two pawns, if 
+any.
+
+Being well aware of an opponent's intention to promote a pawn, a player may try 
+to place obstacles in the way of promotion, or allow the promotion to happen but 
+immediately capture the promoted piece. This means that having more than four 
+queens on the board at any given time is essentially impossible in a competitive 
+game.
  
 Among beginners, captures may occur because a player failed to notice one of 
 their pieces was in the line of attack. Among more experienced players, either 
@@ -311,11 +393,21 @@ side may choose to deliberately allow one of their pieces to be captured. This
 is called a sacrifice, and may be part of a gambit to gain a tactical advantage.
 
 ## Checks and mates
- 
-However, if a king is threatened, that's a check and the threatened side must 
-neutralize that threat, either by moving the king to a safe position or by 
-having another piece intervene to defend the king. The king can't be sacrificed, 
-because capturing the opponent's king is the whole point of the game.
+
+A king can't be sacrificed. If a king is threatened, that's a check and the 
+threatened side must neutralize that threat. Depending on the available moves, 
+the threat may be neutralized one of three ways:
+
+ * By moving the king to a safe position.
+ * Or by having another piece intervene to defend the king.
+ * Or by capturing the threatening piece.
+
+If all three of these options are available, or just two, the threatened player 
+has a choice to make. But if only one of these options is available, that's what 
+the threatened player must do if the game is to keep going.
+
+The king can't be sacrificed, because trapping the opponent's king is the whole 
+point of the game.
  
 Because the king must be defended at all costs, a player can sometimes be forced 
 to give up a valuable piece (like a rook) in order to get the king out of the 
@@ -333,7 +425,7 @@ threatened pieces, or ignore the threat altogether.
 The player may not ignore a threat to the king, though sometimes, a player, too 
 engrossed with devising a line of attack for the opponent's king, may fail to 
 notice their own king is in danger. For that reason, players sometimes announce 
-a check by saying "check."
+a check by saying "check" (this is extremely rare in tournament play).
 
 Then the player with the endangered king understands that the only valid moves 
 are moves that neutralize the threat. However, if there's no way under the rules 
@@ -386,18 +478,3 @@ lot of mistakes.
 Additional rules apply for timed play (with a clock). In some games, a player 
 who takes too long to decide on a move simply "forfeits on time." I've lost that 
 way several times.
-
-## Variants
-
-There are several variants of chess. The ones that interest me the most, 
-personally, are the ones that don't diverge too much from the official game. And 
-honestly, some variants, like Horde, might be much more of a programming 
-challenge than I care to undertake.
-
- * **Fog of War** or **Dark Chess** &mdash; You can only see your own pieces 
- and the squares your pieces may move to. This means that at the beginning each 
- player can only see half the board. Putting the opponent's king in check is 
- suffficient to win. Hence castling could be much more useful than in Fog of War 
- than in normal play. As far as I know, this variant is only played on a 
- computer.
- * **Kriegspiel** &mdash; A forerunner of Fog of War. There are three boards
