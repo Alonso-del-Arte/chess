@@ -1,15 +1,12 @@
 package notation
 
-import game.{BoardState, RegularBoard, RegularPosition}
+import game.{BoardState, InitialBoardState, RegularBoard, RegularPosition}
 
 object ForsythEdwardsNotation {
 
-  def parseFEN(s: String): ForsythEdwardsNotation = {
-    val boardState = new BoardState(RegularBoard, game.Black,
-      Map(new RegularPosition(1, 1) -> game.pieces.white.QueenSideRook,
-      new RegularPosition(2, 1) -> game.pieces.white.QueenSideKnight))
-    new ForsythEdwardsNotation(boardState)
-  }
+  // TODO: Write tests for other board states
+  def parseFEN(s: String): ForsythEdwardsNotation =
+    new ForsythEdwardsNotation(InitialBoardState)
 
 }
 
