@@ -1,3 +1,3 @@
 package game.pieces.white
 
-object KingPawn extends WhitePawn with WhitePiece
+object KingPawn extends WhitePawn
