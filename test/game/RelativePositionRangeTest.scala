@@ -1,9 +1,26 @@
 package game
 
+import game.RelativePositionRangeTest.makeRange
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.Assertions._
 
 import scala.util.Random
+
+object RelativePositionRangeTest {
+
+  private def makeRange: RelativePositionRange = {
+    val stepX = Random.nextInt(16) - 8
+    val stepY = Random.nextInt(16) - 8
+    val startX = Random.nextInt(32) - 16
+    val finishX = startX + stepX
+    val startY = Random.nextInt(32) - 16
+    val finishY = startY + stepY
+    val start = new RelativePosition(startX, startY)
+    val finish = new RelativePosition(finishX, finishY)
+    new RelativePositionRange(start, finish)
+  }
+
+}
 
 class RelativePositionRangeTest {
 
@@ -22,18 +39,14 @@ class RelativePositionRangeTest {
     assertEquals(expected, actual)
   }
 
-  @Test
-  def testReferentialEquality(): Unit = {
-    val stepX = Random.nextInt(16) - 8
-    val stepY = Random.nextInt(16) - 8
-    val startX = Random.nextInt(32) - 16
-    val finishX = startX + stepX
-    val startY = Random.nextInt(32) - 16
-    val finishY = startY + stepY
-    val start = new RelativePosition(startX, startY)
-    val finish = new RelativePosition(finishX, finishY)
-    val range = new RelativePositionRange(start, finish)
+  @Test def testReferentialEquality(): Unit = {
+    val range = makeRange
     assertEquals(range, range)
+  }
+
+  @Test def testNotEqualsNull(): Unit = {
+    val range = makeRange
+    assertNotEquals(range, null)
   }
 
 }
