@@ -49,4 +49,9 @@ class RelativePositionRangeTest {
     assertNotEquals(range, null)
   }
 
+  @Test def testNotEqualsDiffClass(): Unit = {
+    val range = makeRange
+    assertNotEquals(range, range.toString)
+  }
+
 }
