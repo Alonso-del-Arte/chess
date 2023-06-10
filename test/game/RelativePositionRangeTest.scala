@@ -54,4 +54,13 @@ class RelativePositionRangeTest {
     assertNotEquals(range, range.toString)
   }
 
+  @Test def testNotEqualsDiffStart(): Unit = {
+    val rangeA = makeRange
+    val rangeAStart = rangeA.start
+    val diffStart = new RelativePosition(rangeAStart.offsetX + 1,
+      rangeAStart.offsetY - 1)
+    val rangeB = new RelativePositionRange(diffStart, rangeA.finish)
+    assertNotEquals(rangeA, rangeB)
+  }
+
 }
