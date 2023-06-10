@@ -22,7 +22,8 @@ class RelativePositionRange(val start: RelativePosition,
   def apply(index: Int): RelativePosition = new RelativePosition(0, 0)
 
   override def equals(obj: Any): Boolean = obj match {
-    case other: RelativePositionRange => this.start == other.start
+    case other: RelativePositionRange => (this.start == other.start) &&
+      (this.finish == other.finish)
     case _ => false
   }
 
