@@ -69,4 +69,13 @@ class RelativePositionRangeTest {
     assertEquals(someRange, sameRange)
   }
 
+  @Test def testNotEqualsDiffFinish(): Unit = {
+    val rangeA = makeRange
+    val rangeAFinish = rangeA.finish
+    val diffFinish = new RelativePosition(rangeAFinish.offsetX - 1,
+      rangeAFinish.offsetY + 1)
+    val rangeB = new RelativePositionRange(rangeA.start, diffFinish)
+    assertNotEquals(rangeA, rangeB)
+  }
+
 }
