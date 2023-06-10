@@ -63,4 +63,10 @@ class RelativePositionRangeTest {
     assertNotEquals(rangeA, rangeB)
   }
 
+  @Test def testEquals(): Unit = {
+    val someRange = makeRange
+    val sameRange = new RelativePositionRange(someRange.start, someRange.finish)
+    assertEquals(someRange, sameRange)
+  }
+
 }
