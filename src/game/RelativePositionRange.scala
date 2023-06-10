@@ -21,8 +21,10 @@ class RelativePositionRange(val start: RelativePosition,
   // TODO: Write tests for this
   def apply(index: Int): RelativePosition = new RelativePosition(0, 0)
 
-//  override def equals(obj: Any): Boolean
-//      = obj.isInstanceOf[RelativePositionRange]
+  override def equals(obj: Any): Boolean = obj match {
+    case other: RelativePositionRange => this.start == other.start
+    case _ => false
+  }
 
   // TODO: Write tests for this
   override def hashCode(): Int = 0
