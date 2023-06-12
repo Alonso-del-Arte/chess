@@ -10,8 +10,10 @@ object RelativePositionRange {
   }
 
   // TODO: Write tests for this
-  def apply(startAndEnd: RelativePosition): RelativePositionRange =
-    new RelativePositionRange(STAY_PUT, startAndEnd)
+  def apply(startAndEnd: RelativePosition): RelativePositionRange = {
+    val transposed = new RelativePosition(startAndEnd.offsetY, startAndEnd.offsetX)
+    new RelativePositionRange(transposed, startAndEnd)
+  }
 
 }
 
