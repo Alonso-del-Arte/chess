@@ -9,10 +9,9 @@ object RelativePositionRange {
       finish.offsetY - start.offsetY)
   }
 
-  // TODO: Write tests for this
   def apply(startAndEnd: RelativePosition): RelativePositionRange = {
     val transposed = new RelativePosition(startAndEnd.offsetY, startAndEnd.offsetX)
-    new RelativePositionRange(transposed, startAndEnd)
+    new RelativePositionRange(startAndEnd, startAndEnd)
   }
 
 }
