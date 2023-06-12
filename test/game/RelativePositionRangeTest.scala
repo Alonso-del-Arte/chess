@@ -24,6 +24,17 @@ object RelativePositionRangeTest {
 
 class RelativePositionRangeTest {
 
+  @Test def testCompanionObjectApply(): Unit = {
+    val offsetX = Random.nextInt(8) - 4
+    val offsetY = Random.nextInt(8) - 4
+    val expected = new RelativePosition(offsetX, offsetY)
+    val spotAppliedRange = RelativePositionRange(expected)
+    val actualStart = spotAppliedRange.start
+    val actualFinish = spotAppliedRange.finish
+    assertEquals(expected, actualStart)
+    assertEquals(expected, actualFinish)
+  }
+
   @Test def testDetermineStep(): Unit = {
     println("determineStep")
     val stepX = Random.nextInt(16) - 8
