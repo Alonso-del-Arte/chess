@@ -19,9 +19,25 @@ opening, and then have the computer choose one at random. A human player might
 make a systematic study of each opening, but they will probably prioritize 
 studying defenses to the more common openings.
 
+According to Schiller (2005), the main goals of the opening are to control the 
+center, castle and "connect" the rooks (meaning that the two rooks defend each 
+other on the home row.
+
+Of course Schiller also notes that your opponent will try to thwart your 
+accomplishment of these goals. An early check is unlikely to lead to checkmate 
+too soon, but it could obliterate your ability to castle, for example.
+
+Maybe I overlooked it, but in his book Schiller does not mention the "rule" of 
+not moving a piece more than twice in the opening. Observing that stricture 
+tends to be a natural consequence of castling and connecting the rooks.
+
+But if you miscalculate and need to "undo" an imprudent move in the opening, or 
+if you see an opportunity for an early checkmate against your opponent, then by 
+all means, move that piece twice.
+
 Theoretically, Black could choose any of the twenty possible moves to respond 
-regardless of White's first move, but the vast majority of players and programs 
-choose a first move that they believe will best counter White's perceived 
+to White's first move, but the vast majority of players and programs playing 
+Black choose a first move that they believe will best counter White's perceived 
 intentions.
 
 In this document, I intend to cover all twenty possible openings, but for each 
@@ -2112,6 +2128,11 @@ May continue thus:
 2. Nc3 dxe4
 3. f3 exf3
 
+#### Scandinavian defense
+
+1. e4 d5
+2. exd5
+
 ##### Scandinavian defense, modern Portuguese variation
 
 1. e4 d5
@@ -2139,6 +2160,11 @@ May continue thus:
 1. e4 d5
 2. exd5 Qxd5
 3. Nc3
+
+Most likely the Black queen will evade the White knight's threat. Main line 
+continues:
+
+3. ... Qa5
 
 #### Potentially a center game
 
@@ -2308,11 +2334,98 @@ The main line continues:
 5. O-O Be7
 6. Re1 d6
 
+#### Italian game
+
+1. e4 e5
+2. Nf3 Nc6
+3. Bc4
+
 ##### Two knights' defense
 
 1. e4 e5
 2. Nf3 Nc6
 3. Bc4 Nf6
+
+###### Fegatello attack
+
+Also known as the fried liver attack.
+
+1. e4 e5 
+2. Nf3 Nc6 
+3. Bc4 Nf6 
+4. Ng5 ...
+
+It's considered bad form to move one piece more than once in the opening. But 
+White might value winning more than playing elegantly.
+
+White's goal here is to play Bxf7+, thus completely denying Black the ability to 
+castle: even if 4. ... Kxf7 was a valid response at this point (it's not, on 
+account of White's knight on g5), that would still mean the Black king has moved 
+and is therefore unable to castle either queenside or kingside. Black has one 
+very obvious way to thwart that plan.
+
+4. ... d5 
+5. exd5 Nxd5?! 
+
+And then, even though the bishop can't support the knight's incursion...
+
+6. Nxf7
+
+![Fegatello attack](../diagrams/openings/FriedLiverAttack.png)
+
+FEN: r1bqkb1r/ppp2Npp/2n5/3np3/2B5/8/PPPP1PPP/RNBQK2R b KQkq - 0 6
+
+The best move for Black out of several bad options here is 6. ... Kxf7. If Black 
+is desperate to both not lose the queen and still castle, Black can move the 
+queen, sacrificing the kingside rook and very definitively losing the ability to 
+castle kingside.
+
+###### Traxler counterattack
+
+Also known as the Wilkes-Barre variation.
+
+1. e4 e5 
+2. Nf3 Nc6 
+3. Bc4 Nf6 
+4. Ng5 ...
+
+Then Black chooses to ignore the threat to the kingside bishop's pawn and 
+threaten White's own kingside bishop's pawn.
+
+4. ... Bc5
+
+The main line of this counterattack is
+
+5. Nxf7 Bxf2+
+
+White might not be able to take advantage of the fork after all. The obvious 
+move
+
+6. Kxf2 ...
+
+is not such a good idea since Black is likely to follow with 
+
+6. ... Nxe4+
+
+possibly leading to 
+
+7. Kg1 Qh4
+
+and the specter of an embarrassingly early checkmate by Black with 8. ... Qf2#.
+
+Let's now backtrack to 
+
+4. ... Bc5
+
+A better response for White is to follow through with the earlier plan to force 
+the Black king to move from his original position, forfeiting Black's right to 
+castle.
+
+5. Bxf7+ ...
+
+Then the best way for Black to dodge is
+
+5. ... Ke7.
 
 ##### Giuoco piano
 
@@ -3237,6 +3350,8 @@ took your pawn.
 
 1. h4
 
+Also called Desprez opening.
+
 Your opponent will quite predictably try to make an early incursion into your 
 side of the board with a bishop, e.g.,
 
@@ -3256,7 +3371,9 @@ Then, depending on what Black's moves have been, you might or might not be able
 to play Rxe7 for the kill. One way for Black to counter this is to move some of 
 their central pawns forward. Or, more easily, put the knights in the way.
 
-??? Schneider gambit ????
+#### Schneider gambit
+
+1. h4 g5
 
 #### Koola-Koola variation
 

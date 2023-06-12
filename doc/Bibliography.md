@@ -6,6 +6,8 @@ Henry Holt and Company (1993).
 Sons (2016).
 * Reuben Fine, *The Ideas Behind the Chess Openings*. New York: Random House 
 (1989).
+* Ron Harman and Shaun Taulbut, *Winning with the Scandinavian*. New York: Henry 
+Holt and Company (1993).
 * Tony Kosten, *The Latvian Gambit Lives!*. London: B.T. Batsford (2001).
 * David Levens, *Chess Basics*. London: Hamlyn (2018).
 * Jessica Era Martins, *Chess Strategy for Beginners: Winning Maneuvers to 
@@ -14,3 +16,4 @@ Master the Game*. Oakland, California: Rockridge Press (2022).
 (1993).
 * Jan Przewo&zacute;nik and Malcolm Pein, *The Blumenfeld Gambit*. Oxford, etc.: 
 Pergamon Chess (1991).
+* Eric Schiller, *First Chess Openings*. Las Vegas: Cardoza Publishing (2005).

@@ -197,8 +197,8 @@ I sacrificed both bishops trying to capture the opponent queen, in gambits that
 just didn't pay off. As for my knights, I think I just blundered them away.
 
 Now I had an advantage of 11 "points," and the opportunity for a queen and rook 
-checkmate. But that was by no means guaranteed, because if blundered my queen or 
-rook in the path of the opponent queen, the bot could seize an advantage.
+checkmate. But that was by no means guaranteed, because if I blundered my queen 
+or rook in the path of the opponent queen, the bot could seize an advantage.
 
 White to play. Black has just played 40. ... Kg8, the only valid move in 
 response to the latest check. 
@@ -272,6 +272,24 @@ What should White have played here instead? There are at least two very good
 options for immediate checkmate, and decent options for checkmate in two or 
 three moves. You can figure out one of the two very good options by remembering 
 the lesson of putting your queen close when you can.
+
+### Sometimes a sacrifice can win the game
+
+Just as the points don't matter for stalemate, they don't matter for checkmate 
+either. In the following scenario, White has a clear advantage of 8 points, and 
+the potential to promote two pawns one after the other. But Black can actually 
+win this game by giving White an even greater point advantage. Black to play:
+
+![Should sacrifice rook](../diagrams/endgames/ShouldSacrificeRook.png)
+
+FEN: 2kr4/2pp1P1P/R6N/1P1Pb3/3B2Q1/7B/q6r/5RK1 b - - 0 1
+
+My first instinct here is that I want to put my queen right next to that rook 
+I've got so close to the White king. But both g2 and f2 are abundantly protected 
+by White pieces, so it would be foolish to move the Black queen to either of 
+those squares. And yet, this is a checkmate in two puzzle.
+
+Hint: no need to sacrifice your queen here.
 
 ### Take advantage of pinned pawns
 
