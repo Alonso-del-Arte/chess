@@ -101,11 +101,18 @@ class RelativePositionRangeTest {
 
   @Test def testHashCode(): Unit = {
     println("hashCode")
-//    for {
-//      x <- -7 to 7
-//      y <- -7 to -7
-//    } yield new game.RelativePosition(x, y)
-    fail("Haven't written test yet")
+    val positions = for {
+      x <- -7 to 7
+      y <- -7 to -7
+    } yield new RelativePosition(x, y)
+    val ranges = for {
+      start <- positions
+      finish <- positions
+    } yield new RelativePositionRange(start, finish)
+    val hashes = ranges.map(_.hashCode())
+    val expected = ranges.toSet.size
+    val actual = hashes.toSet.size
+    assertEquals(expected, actual)
   }
 
 }
