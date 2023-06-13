@@ -53,7 +53,9 @@ class RelativePositionRangeTest {
   @Test def testToString(): Unit = {
     println("toString")
     val range = makeRange
-    val expected = s"${range.start.toString}to${range.finish.toString}"
+    val startStr = range.start.toString.replace(" ", "")
+    val finishStr = range.finish.toString.replace(" ", "")
+    val expected = s"${startStr}to${finishStr}"
     val actual = range.toString.replace(" ", "")
     assertEquals(expected, actual)
   }
