@@ -50,6 +50,14 @@ class RelativePositionRangeTest {
     assertEquals(expected, actual)
   }
 
+  @Test def testToString(): Unit = {
+    println("toString")
+    val range = makeRange
+    val expected = s"${range.start.toString}to${range.finish.toString}"
+    val actual = range.toString.replace(" ", "")
+    assertEquals(expected, actual)
+  }
+
   @Test def testReferentialEquality(): Unit = {
     val range = makeRange
     assertEquals(range, range)
@@ -87,6 +95,15 @@ class RelativePositionRangeTest {
       rangeAFinish.offsetY + 1)
     val rangeB = new RelativePositionRange(rangeA.start, diffFinish)
     assertNotEquals(rangeA, rangeB)
+  }
+
+  @Test def testHashCode(): Unit = {
+    println("hashCode")
+//    for {
+//      x <- -7 to 7
+//      y <- -7 to -7
+//    } yield new game.RelativePosition(x, y)
+    fail("Haven't written test yet")
   }
 
 }
