@@ -29,7 +29,6 @@ class RelativePositionRange(val start: RelativePosition,
     case _ => false
   }
 
-  // TODO: Write tests for this
-  override def hashCode(): Int = 0
+  override def hashCode: Int = (this.start.hashCode << 8) + this.finish.hashCode
 
 }
