@@ -2090,7 +2090,12 @@ May continue thus:
 1. e4 c5 
 2. f4 e6
 
-##### Sicilian defense, Alapin variation
+#### Sicilian defense, Snyder variation
+
+1. e4 c5 
+2. b3
+
+#### Sicilian defense, Alapin variation
 
 1. e4 c5
 2. c3
@@ -2132,6 +2137,25 @@ May continue thus:
 
 1. e4 d5
 2. exd5
+
+#### Scandinavian defense, modern variation
+
+1. e4 d5
+2. exd5 Nf6
+
+##### Scandinavian defense, Panov transfer
+
+1. e4 d5
+2. exd5 Nf6
+3. c4 c6
+
+##### Icelandic gambit
+
+Also called Palme gambit.
+
+1. e4 d5
+2. exd5 Nf6
+3. c4 e6
 
 ##### Scandinavian defense, modern Portuguese variation
 
@@ -3475,8 +3499,6 @@ Nimzowitsch-Larsen:
 3. e4 Bc5 
 4. Bd3 Qxf2#
 
-"Sicilian Defense: Snyder Variation" [FINISH WRITING]
-
 #### Indian variation
 
 1. b3 Nf6
@@ -3525,7 +3547,12 @@ early checks.
 
 1. b3 c5
 
-#### Classical variation
+#### Sicilian defense, Snyder variation
+
+1. b3 c5
+2. e4
+
+### Classical variation
 
 1. b3 d5
 
