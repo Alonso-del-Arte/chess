@@ -2,8 +2,11 @@
 
 At the beginning of the game, White has only twenty possible moves: move one of 
 the two knights to the left or to the right, or move one of the eight pawns one 
-space forward or two. Of those twenty possible openings, players tend to use 
+space forward or two. Of those twenty possible first moves, players tend to use 
 only four or five.
+
+Likewise, Black has twenty possible responses to White's first move, but some 
+responses make more sense than others. 
 
 Some openings are more advantageous than others, but remember: good players can 
 often figure out how to overcome disadvantages, and bad players can often 
@@ -2269,6 +2272,19 @@ both assist development and affect vital central squares.
 2. Nf3 Nc6
 3. c3
 
+##### Ponziani opening, Jaennisch counterattack
+
+1. e4 e5
+2. Nf3 Nc6
+3. c3 Nf6
+
+###### Ponziani opening, Jaennisch, Breyer opening
+
+1. e4 e5
+2. Nf3 Nc6
+3. c3 Nf6
+4. d3
+
 ##### Berlin defense
 
 1. e4 e5
@@ -2760,6 +2776,11 @@ This one looks like the Mieses opening, but if that king's pawn goes forward on
 the second move, it doesn't really matter anymore that the queen's pawn moved 
 first.
 
+##### MacLeod attack
+
+1. e4 e5 
+2. c3
+
 #### Bishop's opening
 
 1. e4 e5
@@ -2851,6 +2872,11 @@ out as a queen's pawn opening.
 
 1. e4 c6 
 2. g4 d5
+
+##### Caro-Kann defense, Euwe attack
+
+1. e4 c6 
+2. b3
 
 #### Pirc defense
 
@@ -3593,6 +3619,11 @@ pawn opening by some analysts, e.g.,
 
 1. b3 b6
 
+##### Caro-Kann defense, Euwe attack
+
+1. b3 c6 
+2. e4
+
 #### French defense, Horwitz attack
 
 1. b3 e6
@@ -3616,6 +3647,13 @@ one of your bishops going early, choose another opening, like maybe king's pawn.
 
 1. c3 b5 2. h4 f5 3. e4 h6 4. Qh5+ g6 5. Qxg6# 1-0
 
+###### Ponziani opening, Jaennisch, Breyer opening
+
+1. c3 Nc6
+2. e4 Nf6
+3. d3 e5
+4. Nf3
+
 #### Ponziani opening
 
 1. c3 Nc6
@@ -3637,7 +3675,7 @@ May continue thus:
 1. c3 c5
 2. e4
 
-#### Saragossa opening reclassied as king's pawn opening, MacLeod attack
+#### Saragossa opening reclassified as king's pawn opening, MacLeod attack
 
 1. c3 e5
 2. e4 
