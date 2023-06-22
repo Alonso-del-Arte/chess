@@ -1,6 +1,5 @@
 package game
 
-import game.RelativePositionRangeTest.makeRange
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.Assertions._
 
@@ -52,31 +51,31 @@ class RelativePositionRangeTest {
 
   @Test def testToString(): Unit = {
     println("toString")
-    val range = makeRange
+    val range = RelativePositionRangeTest.makeRange
     val startStr = range.start.toString.replace(" ", "")
     val finishStr = range.finish.toString.replace(" ", "")
-    val expected = s"${startStr}to${finishStr}"
+    val expected = s"${startStr}to$finishStr"
     val actual = range.toString.replace(" ", "")
     assertEquals(expected, actual)
   }
 
   @Test def testReferentialEquality(): Unit = {
-    val range = makeRange
+    val range = RelativePositionRangeTest.makeRange
     assertEquals(range, range)
   }
 
   @Test def testNotEqualsNull(): Unit = {
-    val range = makeRange
+    val range = RelativePositionRangeTest.makeRange
     assertNotEquals(range, null)
   }
 
   @Test def testNotEqualsDiffClass(): Unit = {
-    val range = makeRange
+    val range = RelativePositionRangeTest.makeRange
     assertNotEquals(range, range.toString)
   }
 
   @Test def testNotEqualsDiffStart(): Unit = {
-    val rangeA = makeRange
+    val rangeA = RelativePositionRangeTest.makeRange
     val rangeAStart = rangeA.start
     val diffStart = new RelativePosition(rangeAStart.offsetX + 1,
       rangeAStart.offsetY - 1)
@@ -85,13 +84,13 @@ class RelativePositionRangeTest {
   }
 
   @Test def testEquals(): Unit = {
-    val someRange = makeRange
+    val someRange = RelativePositionRangeTest.makeRange
     val sameRange = new RelativePositionRange(someRange.start, someRange.finish)
     assertEquals(someRange, sameRange)
   }
 
   @Test def testNotEqualsDiffFinish(): Unit = {
-    val rangeA = makeRange
+    val rangeA = RelativePositionRangeTest.makeRange
     val rangeAFinish = rangeA.finish
     val diffFinish = new RelativePosition(rangeAFinish.offsetX - 1,
       rangeAFinish.offsetY + 1)
@@ -109,7 +108,7 @@ class RelativePositionRangeTest {
       start <- positions
       finish <- positions
     } yield new RelativePositionRange(start, finish)
-    val hashes = ranges.map(_.hashCode())
+    val hashes = ranges.map(_.hashCode)
     val expected = ranges.toSet.size
     val actual = hashes.toSet.size
     assertEquals(expected, actual)
