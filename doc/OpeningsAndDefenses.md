@@ -2148,9 +2148,25 @@ May continue thus:
 
 ##### Scandinavian defense, Panov transfer
 
+Also called Scandinavian gambit (see Harman and Taulbut, 1993, Chapter 6).
+
 1. e4 d5
 2. exd5 Nf6
 3. c4 c6
+
+###### Panov-Botvinnik attack
+
+1. e4 d5
+2. exd5 Nf6
+3. c4 c6
+4. d4
+
+The recommended response for Black is 4. ... cxd5. This leads to a position that 
+can also arise from the Caro-Kann defense or from the Tarrasch variation of the 
+queen's gambit declined. The continuation 4. ... b5 "was popular in Yugoslavia 
+for a time but cannot really be recommended for serious play."
+
+See Harman and Taulbut, 1993, Chapter 7, for an in-depth discussion.
 
 ##### Icelandic gambit
 
@@ -2159,6 +2175,24 @@ Also called Palme gambit.
 1. e4 d5
 2. exd5 Nf6
 3. c4 e6
+
+![Icelandic gambit](../diagrams/openings/IcelandicGambit.png)
+
+See Harman and Taulbut, 1993, Chapter 8, for an in-depth discussion.
+
+###### Icelandic gambit declined
+
+1. e4 d5
+2. exd5 Nf6
+3. c4 e6
+4. d4
+
+###### Icelandic gambit accepted
+
+1. e4 d5
+2. exd5 Nf6
+3. c4 e6
+4. dxe6
 
 ##### Scandinavian defense, modern Portuguese variation
 
@@ -2192,6 +2226,7 @@ Most likely the Black queen will evade the White knight's threat. Main line
 continues:
 
 3. ... Qa5
+4. d4 Nf6
 
 #### Potentially a center game
 

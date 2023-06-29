@@ -520,6 +520,27 @@ White to play. You have a pawn close to promotion. But your opponent has a pawn 
 
 FINISH WRITING
 
+### Don't always be eager to capture an opponent's queen
+
+In this king of the hill game, Black has played terribly and White has a +30 
+advantage. But White has made the strategic mistake of dragging this game out 
+too long, and forgetting that you can win king of the hill with regular 
+checkmate. Black to play.
+
+![Don't capture queen](../diagrams/endgames/DoNotCaptureQueen.png)
+
+FEN: Q1B3k1/3R1pp1/1P2Nr2/P1r2QK1/3P1P1P/1N4n1/7B/4R3 b - - 0 1
+
+Here I'm tempted to  play Nxf5. But then White would probably respond with Rd8+, 
+and from there it's just a simple matter of the White knight helping.
+
+Losing to White can be held off for a few more moves if instead Black plays 
+Rcxf5+.
+
+But there's actually a way for Black to win despite the overwhelming White 
+advantage. Can you find the move that makes White regret having gotten that 
+second queen?
+
 ### All capture targets are potentially high value
 
 White to play. You have one knight that you have managed to put in a position to 
@@ -1113,6 +1134,26 @@ will take longer.
  34. Bb7+ Ka7
  35. Bc6+ Ka6
  36. Qb7#
+
+### A false choice
+
+Again I reiterate that while it's often good to capture your opponent's queen, 
+one should not lose sight of the ultimate goal of the game: checkmate.
+
+In response to Bg4+, Black played Qf5. Now this presents a choice for White: 
+which piece to use to capture the Black queen? White to play:
+
+![A false choice](../diagrams/FalseChoice.png)
+
+FEN: 7Q/1brp4/p1nbk3/1p2pqB1/4P1B1/1P4P1/P1P2P1P/R4RK1 w - - 5 35
+
+With exf5+, White gets a pawn closer to promotion, but Black can then easily 
+evade with Kd5 and gets a fighting chance for a win. With Bxf5+ instead, White 
+prevents Black from playing Kd5, and even if Black suddenly plays very 
+accurately, White can still get checkmate in eight moves.
+
+However, this is a false choice, as White can actually achieve checkmate much 
+quicker without capturing the Black queen. Can you find the better move?
 
 ## Unlikely scenarios
 
