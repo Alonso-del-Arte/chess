@@ -2,6 +2,8 @@
 
 * Anatoly Bikhovsky, *The Closed Spanish: Karpov/Zaitsev Systems*. New York: 
 Henry Holt and Company (1993).
+* M. M. Botvinnik, *Computers in Chess: Solving Inexact Search Problems*, 
+translated by Arthur A. Brown. New York: Springer-Verlag (1984).
 * James Eade, *Chess for Dummies*, 4th ed. Hoboken, New Jersey: John Wiley &amp; 
 Sons (2016).
 * Reuben Fine, *The Ideas Behind the Chess Openings*. New York: Random House 
