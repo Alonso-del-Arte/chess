@@ -397,6 +397,11 @@ defense.
 3. d3 e5
 4. Be2
 
+##### R&eacute;ti opening, quiet system
+
+1. Nf3 Nf6 
+2. e3
+
 #### Ware defense
 
 1. Nf3 a5
