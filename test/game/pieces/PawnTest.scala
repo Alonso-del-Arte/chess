@@ -18,7 +18,8 @@ class PawnTest {
     val msg = "Pawn shouldn't capture same as move"
     assert(!pawn.captureSameAsMove, msg)
   }
-  private class PawnImpl extends Pawn {
+
+  private[pieces] class PawnImpl extends Pawn {
     override val affiliation: Player = Neutral
     override val possibleMoves: Set[RelativePositionRange] =
       Set(RelativePositionRange(new RelativePosition(0, 1)))
