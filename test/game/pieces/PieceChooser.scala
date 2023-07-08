@@ -1,6 +1,6 @@
 package game.pieces
 
-import game.{Neutral, Player, RelativePositionRange}
+import game.{Player, RelativePositionRange}
 
 object PieceChooser {
 
@@ -13,5 +13,17 @@ object PieceChooser {
 
   // TODO: Write tests for this
   def choosePawn(side: Player): Pawn = this.choosePawn
+
+  // TODO: Write tests for this
+  def chooseOfficerPiece: Piece = this.choosePawn
+
+  // TODO: Write tests for this
+  def chooseOfficerPiece(side: Player): Piece = this.choosePawn
+
+  // TODO: Write tests for this
+  def choosePiece: Piece = this.choosePawn
+
+  // TODO: Write tests for this
+  def choosePiece(side: Player): Piece = this.choosePawn
 
 }
