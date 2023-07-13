@@ -5,6 +5,7 @@ import game.{Black, DarkGray, LightGray, Player, RelativePositionRange, White}
 import scala.util.Random
 
 object PieceChooser {
+  private val allSides: List[Player] = List(White, Black, DarkGray, LightGray)
   private val whitePawns: List[Pawn] = List(game.pieces.white.QueenSideRookPawn,
     game.pieces.white.QueenSideKnightPawn,
     game.pieces.white.QueenSideBishopPawn, game.pieces.white.QueenPawn,
@@ -26,11 +27,9 @@ object PieceChooser {
   private val mapSidesToPawns: Map[Player, List[Pawn]] = Map(White -> whitePawns,
     Black -> blackPawns, DarkGray -> darkGrayPawns, LightGray -> lightGrayPawns)
 
-  // TODO: Write tests for this
-  def choosePawn: Pawn = new Pawn {
-    override val affiliation: Player = new Player {}
-    override val possibleMoves: Set[RelativePositionRange] = Set()
-
+  def choosePawn: Pawn = {
+    val side = this.allSides(Random.nextInt(this.allSides.size))
+    this.choosePawn(side)
   }
 
   def choosePawn(side: Player): Pawn = {
