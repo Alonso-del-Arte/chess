@@ -247,11 +247,13 @@ kingside knight's pawn forward one space. See Openings for more details.
 
 * **IM** &mdash; Abbreviation for international master.
 * **Inaccuracy** &mdash; A move that is just not all that good when a better 
-move was possible. Some commentators use this term to mean bad moves that aren't bad 
-enough to be considered mistakes or blunders.
+move was possible. Some commentators use this term to mean bad moves that aren't 
+bad enough to be considered mistakes or blunders.
 * **In-between move** &mdash; Synonym for Zwischenzug.
 * **Intermediate move** &mdash; Synonym for Zwischenzug.
 * **Intermezzo** &mdash; Synonym for Zwischenzug.
+* **International Chess Day** &mdash; The day July 20, recognized by the United 
+Nations with a 2019 resolution. FIDE was founded in Paris on July 20, 1924.
 * **International master** &mdash; An official title awarded by FIDE to very 
 good players who don't meet the requirements for grandmaster.
 

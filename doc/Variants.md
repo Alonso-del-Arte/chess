@@ -70,6 +70,47 @@ notated N@h6. This may be followed by + or # when appropriate.
 
 [FINISH WRITING]
 
+## Variant for testing purposes
+
+In all the variants explained so far, the initial board state is the same as in 
+traditional chess, and the two sides are White and Black, and White goes first.
+
+But in this testing variant, which I will only flesh out enough to help with 
+testing regular chess play, the two sides are Dark Gray and Light Gray, and 
+either may go first.
+
+Also, instead of a king, each side gets an emperor; an empress instead of a 
+queen, one pointy hat guy instead of two bishops; one horse instead of two 
+knights; one tower instead of two rooks; and five pawns instead of eight.
+
+However, this variant may be played with a standard set. The initial board state 
+is somewhat asymmetrical:
+
+![Variant initial state](../diagrams/TestingVariantInitialBoardState.png)
+
+FEN: 3qkbnr/3ppppp/8/8/8/8/PPPPP3/RNBQK3 w Qk - 0 1
+
+And so one side may only castle queenside and the other only kingside. However, 
+if there are no pieces between the emperor and the tower, castling is allowed 
+even if the emperor is in check and even if he must pass through a threatened 
+square, provided he ends up on a relatively safe square.
+
+Furthermore, castling is also allowed if the emperor has moved from his original 
+square but has since returned. The tower must not have moved prior to castling, 
+however.
+
+Pawns may promote to emperors but they may not stay pawns upon reaching the 
+opponent's home row.
+
+An emperor of one side may be captured, and the game continues if that side has 
+other emperors, or any empresses.
+
+A check to an emperor must be addressed, unless the only way to address it 
+requires putting another emperor in check.
+
+A threat to an empress of one side may be ignored if that side still has other 
+empresses, or any emperors.
+
 ## Racing kings
 
 [FINISH WRITING]

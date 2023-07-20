@@ -317,6 +317,15 @@ defeat.
 
 Moral of the story: Remember that a pinned pawn is unable to capture.
 
+This other White to play puzzle makes this lesson even clearer.
+
+![Knight should be fearless](../diagrams/endgames/KnightNoFearPinnedPawn.png)
+
+FEN: 2kr4/BpppR1P1/p4b2/P2N3r/8/P2n1QP1/5P2/q1R3K1 w - - 0 1
+
+Resist the temptation to capture that pesky queen. You can still win if you play 
+Rxa1 at this point, but it might take you a couple dozen moves.
+
 ### Don't forget about your bishop
 
 Black to play. White just moved a knight closer to the Black king in a risky 

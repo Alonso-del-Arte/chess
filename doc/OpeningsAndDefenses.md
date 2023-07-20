@@ -1381,6 +1381,11 @@ depth on this gambit.
 1. d4 Nf6
 2. g3
 
+###### Indian game, Tartakower attack, Ueberlinger gambit
+
+1. d4 Nf6
+2. g3 e5
+
 ###### Indian game, pawn push variation
 
 1. d4 Nf6 
@@ -2382,7 +2387,69 @@ The main line continues:
 10. d4 Bf6
 11. a4 Bb7
 
-####### Closed Spanish, Zaitsev system
+A significant portion of Karpov (1994) deals with the Karpov system, though of 
+course Karpov doesn't call it that.
+
+###### Closed Spanish, Chigorin system
+
+1. e4 e5
+2. Nf3 Nc6
+3. Bb5 a6
+4. Ba4 Nf6
+5. O-O Be7
+6. Re1 b5
+7. Bb3 d6
+8. c3 O-O
+9. h3 Na3
+
+This is "one of the most time-honoured variations in chess theory," however, it 
+"is seen much more rarely now than it used to be &mdash; either because it is 
+simply not in fashion or because clear-cut methods of obtaining the initiative 
+have been discovered for White." (Karpov, 1994, p. 7)
+
+###### Closed Spanish, Breyer system
+
+1. e4 e5
+2. Nf3 Nc6
+3. Bb5 a6
+4. Ba4 Nf6
+5. O-O Be7
+6. Re1 b5
+7. Bb3 d6
+8. c3 O-O
+9. h3 Nb8
+
+Like the Chigorin system, the Breyer system "with 9 ... &#x2658; is not in vogue 
+nowadays either." (Karpov, 1994, p. 7)
+
+###### Closed Spanish, Smyslov system
+
+1. e4 e5
+2. Nf3 Nc6
+3. Bb5 a6
+4. Ba4 Nf6
+5. O-O Be7
+6. Re1 b5
+7. Bb3 d6
+8. c3 O-O
+9. h3 h6
+10. d4 Re8
+11. Nbd2 Bf8
+12. Nf1
+
+May continue
+
+12. ... Bb7
+
+or 
+
+12. ... Bd7
+
+This system "has been completely superseded by the immediate 9 ... &#x265D;b7 
+[of the Zaitsev system] which aims to save a tempo, since in some cases Black 
+can do without ... h7-h6." (Karpov, 1994, p.s 7 &mdash; 8).
+
+###### Closed Spanish, Zaitsev system
 
 Also called Ruy L&oacute;pez, Flohr system.
 
@@ -3985,7 +4052,6 @@ Also called "king's fianchetto opening."
 #### Sicilian invitation
 
 1. g3 c5
-2. Na3
 
 #### Sicilian defense: Lasker-Dunn attack
 
@@ -4032,12 +4098,20 @@ Also called "king's fianchetto opening."
 4. O-O d5
 5. d3
 
-Note the early castling: you can't castle any faster than that.
+Note the early castling: you can't castle any faster than that (though there are 
+other ways to castle as fast as that).
 
 #### Hungarian opening reclassified as Amar opening
 
 1. g3 e5
 2. Nh3 d5
+
+###### Indian game, Tartakower attack, Ueberlinger gambit
+
+1. g3 e5
+2. d4 Nf6
+
+A transposition of a queen's pawn opening.
 
 #### Dutch defense
 
