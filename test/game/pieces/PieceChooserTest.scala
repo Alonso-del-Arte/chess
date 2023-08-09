@@ -84,4 +84,13 @@ class PieceChooserTest {
     })
   }
 
+  @Test def testChooseOfficerPiece(): Unit = {
+    println("chooseOfficerPiece")
+    val iterCount = this.allOfficerPieces.size * 12
+    val actual = {
+      for (_ <- 1 to iterCount) yield PieceChooser.chooseOfficerPiece
+    }.toSet
+    assertEquals(this.allOfficerPieces, actual)
+  }
+
 }
