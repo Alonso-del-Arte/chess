@@ -60,8 +60,10 @@ object PieceChooser {
     list(Random.nextInt(list.size))
   }
 
-  // TODO: Write tests for this
-  def chooseOfficerPiece: Piece = this.choosePawn
+  def chooseOfficerPiece: Piece = {
+    val side = this.allSides(Random.nextInt(this.allSides.size))
+    this.chooseOfficerPiece(side)
+  }
 
   def chooseOfficerPiece(side: Player): Piece = {
     val list = this.mapSidesToOfficerPieces(side)
