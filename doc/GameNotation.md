@@ -31,8 +31,8 @@ As for the pawns, that depends on which system of notation we're using.
 
 As someone who's studied algebraic number theory, I don't see what's so 
 "algebraic" about chess algebraic notation. So-called algebraic notation has 
-become so standard it might eventually be called just "notation" and 
-occasionally "standard notation" to distinguish it from other notations.
+become so standard it is often called just "notation," and occasionally 
+"standard notation" to distinguish it from other notations.
 
 On the very first move, no capture is possible. This means that a pawn on a 
 player's very first move can only move forward one or two spaces. Therefore, in 
@@ -70,6 +70,6 @@ or
 
 ## Descriptive notation
 
-An older notation [FINISH WRITING]
+An older notation seen in older books and articles. [FINISH WRITING]
 
 [FINISH WRITING]

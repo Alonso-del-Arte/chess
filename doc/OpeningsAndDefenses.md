@@ -6,7 +6,8 @@ space forward or two. Of those twenty possible first moves, players tend to use
 only four or five.
 
 Likewise, Black has twenty possible responses to White's first move, but some 
-responses make more sense than others. 
+responses make more sense than others. Black will usually try to counteract 
+White's presumptive strategy.
 
 Some openings are more advantageous than others, but remember: good players can 
 often figure out how to overcome disadvantages, and bad players can often 
@@ -35,13 +36,8 @@ not moving a piece more than twice in the opening. Observing that stricture
 tends to be a natural consequence of castling and connecting the rooks.
 
 But if you miscalculate and need to "undo" an imprudent move in the opening, or 
-if you see an opportunity for an early checkmate against your opponent, then by 
-all means, move that piece twice.
-
-Theoretically, Black could choose any of the twenty possible moves to respond 
-to White's first move, but the vast majority of players and programs playing 
-Black choose a first move that they believe will best counter White's perceived 
-intentions.
+if you see an opportunity for an early checkmate against your opponent by moving 
+a piece twice, then by all means, move that piece a second time in the opening.
 
 In this document, I intend to cover all twenty possible openings, but for each 
 opening only the most likely defenses for Black to respond with.
@@ -533,6 +529,11 @@ This can continue as the Ruy L&oacute;pez opening, Spanish countergambit:
 
 1. Nf3 e5
 
+##### Ross gambit accepted
+
+1. Nf3 e5
+2. Nxe5
+
 ##### Englund gambit declined, reversed Alekhine variation
 
 1. Nf3 e5
@@ -562,6 +563,15 @@ This can continue as the Ruy L&oacute;pez opening, Spanish countergambit:
 
 1. Nf3 f5
 2. d4
+
+###### Dutch defense, Lisitsyn, Rydel-Bloodgood gambit
+
+1. Nf3 f5
+2. e4 fxe4
+
+May continue
+
+3. Ne5
 
 #### Herrstrom gambit
 
@@ -611,15 +621,10 @@ if your second move is Nf3, e.g.,
 1. Nc3 Nf6
 2. Nf3
 
-Nimzowitsch Defense Declined: Colorado Countergambit Accepted
+##### Nimzowitsch defense declined, Colorado countergambit accepted
 
-1. Nf3 f5 2. e4 Nc6 3. exf5 h5 4. Bd3 Rb8 5. f6 d6 6. fxg7 Bxg7 7. Bg6+ Kf8 8.
-Ng5 Nf6 9. Ne6+ Bxe6 10. Nc3 Nd4 11. Nb5 Kg8 12. Nxd4 Bf7 13. Bxf7+ Kf8 14. Ne6+
-Kxf7 15. Nxd8+ Kg6 16. Ne6 c6 17. Nxg7 Kxg7 18. Qf3 Ra8 19. Qg3+ Ng4 20. Qc3+
-Ne5 21. d4 Rhb8 22. dxe5 Rc8 23. exd6+ Kg6 24. dxe7 c5 25. O-O Rc7 26. Bf4 Rc6
-27. Qf3 Kf7 28. Bg5+ Kg6 29. Bh4 Rb6 30. Qe3 a6 31. e8=Q+ Rxe8 32. Qxe8+ Kh7 33.
-Qf7+ Kh6 34. Rae1 c4 35. Re6+ Rxe6 36. Qxe6+ Kg7 37. Rd1 a5 38. Rd7+ Kf8 39.
-Qf6+ Ke8 40. Re7+ Kd8 41. Qf8# 1-0
+1. Nf3 f5 
+2. e4 Nc6 
 
 R&eacute;ti Opening: Dutch, Lisitsyn, Rydel-Bloodgood Gambit, 3.Ne5
 
@@ -686,9 +691,7 @@ play 2. Nxg5.
 #### Sicilian defense, brick variation
 
 1. Nh3 c5
-2. e4 e5
-3. Na3 Qh4
-4. d4 cxd4
+2. e4 
 
 #### French defense, Morphy gambit
 
@@ -1827,6 +1830,11 @@ opening instead.
 #### Nimzowitsch defense
 
 1. e4 Nc6
+
+##### Nimzowitsch defense declined, Colorado countergambit accepted
+
+1. e4 Nc6 
+2. Nf3 f5 
 
 ##### Scandinavian, Bogoljubov-Vehre variation
 
@@ -3873,7 +3881,7 @@ Which means almost a 1-in-2 chance you will lose. But of course those are odds
 without knowing anything about your opponent.
 
 For what it's worth, I can beat all the easy computer programs, like Stockfish 
-level 1) with this opening. For the hard programs, like Stockfish level 8, I'm 
+level 1, with this opening. For the hard programs, like Stockfish level 8, I'm 
 gonna lose no matter what opening I use.
 
 #### Van't Kruijs reclassified as R&eacute;ti opening, quiet system

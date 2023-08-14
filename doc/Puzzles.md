@@ -30,6 +30,9 @@ Because the goal here is training rather than elegance, I have included some
 puzzles with more than one correct solution. I will try to indicate when that 
 is the case for all endgame puzzles. But not for middlegame or opening puzzles.
 
+And remember what Lasker said about when you see a good move: look for a better 
+move. That is the case with many of these puzzles.
+
 ## Endgame puzzles
 
 In my opinion, endgame puzzles are the easiest. Sure we can put in some stymied 
@@ -1164,6 +1167,21 @@ accurately, White can still get checkmate in eight moves.
 However, this is a false choice, as White can actually achieve checkmate much 
 quicker without capturing the Black queen. Can you find the better move?
 
+### Don't forget about the queen's other ability
+
+We can think of the queen as a more powerful rook. But that might lead us to 
+ignore a queen's other ability. This puzzle is Black to play. You might be 
+rightfully worried that White might play Qa8+, but relax, you've got that knight 
+ready to play Nxa8, so don't worry about playing Nxd5 right now, there's a much 
+better move for you to play.
+
+![Enough rope](../diagrams/endgames/QueensOtherAbility.png)
+
+FEN: 2k5/p1pN2q1/1n6/3Q2pB/1B2Pr2/pP1P3P/P6N/6K1 b - - 0 1
+
+If you figure out the right move, you'll have checkmate in three to five moves, 
+if your opponent doesn't just decide to resign right then and there.
+
 ## Unlikely scenarios
 
 [FINISH WRITING]
@@ -1215,4 +1233,20 @@ As I remember that the king's pawn opening is the most popular chess opening, I
 realize that makes this scenario even more unlikely. Also, White moving their 
 pawn only one space forward would've led to the same outcome.
 
-[FINISH WRITING]
+### King cornered by opponent king and knight?
+
+This one is a subtly unlikely scenario, but it is still instructive: sometimes 
+you've got to give your opponent enough rope to hang themselves with and avoid 
+stalemate. Black to play.
+
+![Enough rope](../diagrams/endgames/EnoughRope.png)
+
+FEN: K1k5/n7/P7/4p3/4Pp2/5P2/8/8 b - - 0 1
+
+It's a wonder White hasn't already captured the Black knight. But this is the 
+situation you find yourself in. The worst thing you could do here is to abandon 
+your knight in a foolhardy attempt to capture the White pawn in the center, 
+because White has a pawn much closer to promotion.
+
+So the right move here is a knight move, but you still have to be careful not to 
+deadlock.

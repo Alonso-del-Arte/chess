@@ -13,6 +13,11 @@ first to surpass Kasparov's rating.
 
 ## E
 
+* **Arpad Elo** &mdash; Professor of physics at Marquette University, he 
+intented the system of chess ratings that now bears his name. He's documented to 
+have had achieved a rating of 2065 under his own system, and rated 2266 under 
+the old Harkness system which his system superseded.
+
 ## F
 
 * **Robert "Bobby" James Fischer** &mdash; Child prodigy U.&nbsp;S. chess 
@@ -32,6 +37,9 @@ champion, later world champion.
 rating in the world, 2851, from 1999 until Magnus Carlsen surpassed him in 2013.
 
 ## L
+
+* **Emanuel Lasker** &mdash; Second world chess champion, he held the title for 
+almost three decades.
 
 ## M
 

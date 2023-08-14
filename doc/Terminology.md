@@ -107,6 +107,16 @@ both players have lost their kings. Checks are notated with the plus sign.
 * **Checkmate** &mdash; A threat of capture to a player's king with no means of 
 escape. Depending on context, checkmates may be considered checks. Checkmates 
 are notated with two plus signs (++) or the pound sign (#).
+* **Class A** &mdash; A USCF tournament player rated at 1800 or higher but less 
+than 2000 in the Elo rating system.
+* **Class B** &mdash; A USCF tournament player rated at 1600 or higher but less 
+than 1800 in the Elo rating system.
+* **Class C** &mdash; A USCF tournament player rated at 1400 or higher but less 
+than 1600 in the Elo rating system.
+* **Class D** &mdash; A USCF tournament player rated at 1200 or higher but less 
+than 1400 in the Elo rating system.
+* **Class E** &mdash; A USCF tournament player rated lower than 1200 in the Elo 
+rating system.
 * **Clemenz opening** &mdash; The opening in which White begins by playing the 
 kingside rook's pawn forward one space. See [Openings](OpeningsAndDefenses.md) 
 for more details.
@@ -172,6 +182,8 @@ Therefore, the Black king must move to file h.
 
 ## E
 
+* **Elo rating** &mdash; A player's chess rating according to a system devised 
+by Arpad Elo.
 * **Endgame** &mdash; The last few moves of a game in which most or all pieces 
 have moved from their initial positions. Among players of roughly equal ability, 
 both players have had pieces captured but usually both players still have pawns 
@@ -184,6 +196,8 @@ unassisted.
 queenside bishop's pawn forward two spaces. See Openings for more details.
 * **En passant** &mdash; A special move in which a pawn captures an opponent 
 pawn. See [the game rules](GameRules.md#En passant) for details.
+* **Expert** &mdash; A USCF tournament player rated at 2000 or higher but less 
+than 2200 in the Elo rating system.
 
 ## F
 
@@ -259,6 +273,9 @@ good players who don't meet the requirements for grandmaster.
 
 ## J
 
+* **"J'adoube"** &mdash; French for "I adjust," said by a player about to adjust 
+a piece, temporarily suspending the touch-move rule.
+
 ## K
 
 * **K** &mdash; Notation for king.
@@ -294,6 +311,10 @@ may capture. It is quite a cumbersome precursor to Fog of War.
 
 ## M
 
+* **Major piece** &mdash; A queen or a rook. Two major pieces are better able to 
+force checkmate against the opponent king than two minor pieces.
+* **Master** &mdash; A USCF tournament player rated at 2200 or higher but less 
+than 2400 in the Elo rating system.
 * **Mate** &mdash; Synonym for checkmate. Theoretically it could also be used as 
 a synonym for stalemate, but I have never seen it used that way.
 * **Material** &mdash; Synonym for a player's pieces. When a player deliberately 
@@ -310,6 +331,8 @@ mobilize (and castled if they so desired and were able to), and ends when
 stalemate becomes a possibility. 
 * **Mieses opening** &mdash; The opening in which White begins by playing the 
 queen's pawn forward one space. See Openings for more details.
+* **Minor piece** &mdash; A bishop or a knight. Two minor pieces are not as able 
+to force checkmate against the opponent as two major pieces.
 * **Missed win** &mdash; When a player fails to notice an opportunity for 
 checkmate.
 * **Mistake** &mdash; A technically valid move that puts the player at a 
@@ -328,16 +351,19 @@ details.
 
 ## O
 
-* **Officer piece** &mdash; A non-pawn piece. This term is not at all standard. 
+* **Officer piece** &mdash; A non-pawn piece. This term is not at all standard, 
+often just the term "piece" is used to mean an officer piece and exclude pawns. 
 Officer pieces at the beginning of the game are valued at more than 100 
-centipawns.
+centipawns each.
 * **One-check** &mdash; A chess variant in which a single check wins the game. 
 Or, as an adjective, to refer to a chess variant in which a single check wins 
 the game and there are other differences between regular chess and the variant 
 (e.g., Fog of War is a one-check variant with one other difference from regular 
 chess).
-* **O-O** &mdash; Notation for kingside castling.
-* **O-O-O** &mdash; Notation for queenside castling.
+* **O-O** &mdash; Notation for kingside castling. Rendered as "0-0" in some 
+books.
+* **O-O-O** &mdash; Notation for queenside castling. Rendered as "0-0-0" in some 
+books.
 * **Open** &mdash; Said of an opening or early game board state in which it is 
 fairly easy for the queen, bishops and rooks to move about the board on account 
 of low pawn congestion.
@@ -352,6 +378,11 @@ chess programs wind up needing to make this distinction.
 
 ## P
 
+* **Passed pawn** &mdash; A pawn that can't be stopped from promotion by any 
+opposing pawns. If such a pawn can be captured by a higher-ranking piece, that 
+pawn is still considered a passed pawn.
+* **Patzer** &mdash; A chess player who does not progress beyond the beginner 
+level after playing many games.
 * **Pawn** &mdash; The lowest ranking pieces, each player gets eight of them. 
 Pawns are notated by their position, without the letter P.
 * **Piece** &mdash; A token that is moved on a chess board. Sometimes this term 
@@ -361,6 +392,7 @@ excluding the pawns.
 piece from capture, or to protect the king from check.
 * **Polish opening** &mdash; The opening in which White begins by playing the 
 queenside knight's pawn forward two spaces. See Openings for more details.
+* **Potzer** &mdash; Alternate spelling for patzer.
 * **Promotion** &mdash; When a pawn reaches the opponent's home row, it is 
 promoted to a queen, bishop, knight or rook. Players almost always choose a 
 queen. Theoretically this could lead to a total of eighteen queens on the board. 
@@ -373,6 +405,8 @@ notation for the promoted piece (usually Q for queen).
 ## Q
 
 * **Q** &mdash; Notation for queen.
+* **Quad** &mdash; A kind of tournament in which the entrants are divided into 
+four groups according to their Elo ratings.
 * **Queen** &mdash; A player's most powerful piece, combining the capabilities 
 of the bishop and the rook. The piece typically has a crown without a cross. The 
 White queen starts out on d1, the Black queen starts out on d8.
@@ -403,6 +437,8 @@ but it's unlikely to be referred to as a recapture).
 lines provided there are no pieces of its own side in the way. Each player gets 
 two of them. At the beginning of the game, the four rooks are placed on the four 
 corners of the board.
+* **Round-robin** &mdash; A type of tournament in which each player gets to play 
+against all other players in the tournament.
 
 ## S
 
@@ -413,9 +449,15 @@ not a sacrifice if a piece gets captured because the player losing the piece was
 careless, or because the opponent forced the player to give up a piece so as to 
 get the king out of check, or to not lose a more valuable piece than the piece 
 that gets captured (e.g., giving up a knight to keep a queen).
+* **Sandbagger** &mdash; A tournament player who deliberately loses in a low 
+stakes tournament to artificially reduce his rating to a lower class and win a 
+class prize at a higher stakes tournament. "Calling a player a sandbagger is one 
+of the worst chess-related insults!" (Eade, 2016)
 * **Saragossa opening** &mdash; The opening in which White begins by playing the 
 queenside bishop's pawn forward one space. See 
 [Openings](OpeningsAndDefenses.md) for more details.
+* **Senior master** &mdash; A USCF tournament player rated at 2400 or higher in 
+the Elo rating system.
 * **Skewer** &mdash; When a piece of one side threatens one of the opponent's 
 pieces in such a way that the opponent must move that piece out of the way and 
 allow the capture of a less valuable piece. In the case of a skewering check, 
@@ -427,10 +469,13 @@ move whatsoever. For example, if the king is safe in its current space but would
 be in check if it moves in any direction, the remaining pawns are stymied by 
 opposing pawns, and other pieces are pinned because moving them would leave the 
 king exposed.
-* ** Strong point method** &mdash; After the game begins 1. e4 e5, Black tries 
+* **Strong point method** &mdash; After the game begins 1. e4 e5, Black tries 
 to keep a pawn on e5 regardless of what trades or threats White might make.
 * **Suicide chess** &mdash; Synonym for antichess, and not, as I thought at 
 first, atomic chess.
+* **Swiss gambit** &mdash; When a player in a tournament run according to the 
+Swiss system tries to draw a game so as to get paired up with a less able player 
+in the next round.
 
 ![Skewer for rook](../diagrams/endgames/SkewerForRook.png)
 
@@ -448,7 +493,10 @@ lead to an opportunity for checkmate would still be worthwhile if you capture
 some important pieces, or even just pawns standing in your way. You would be 
 said to have gained tempo, and your opponent would be said to have lost tempo.
 * **Three-check** &mdash; A chess variant in which the first side to check the 
-other thrice wins. 
+other thrice wins. However, checkmate still wins the game even if it's only the 
+first or second check by that player.
+* **Touch-move rule** &mdash; The rule that a player must move a piece he 
+touches, provided there is a legal move to be made with that piece.
 
 ## U
 
@@ -460,6 +508,9 @@ promotion is generally less advantageous than choosing a queen. As a rule of
 thumb, underpromotion should be used only for an immediate check or to avoid 
 stalemate.
 * **Unforced error** &mdash; Synonym for blunder.
+* **United States Chess Federation** &mdash; The governing body for chess in the 
+United States.
+* **USCF** &mdash; Acronym for the United States Chess Federation.
 
 ## V
 
