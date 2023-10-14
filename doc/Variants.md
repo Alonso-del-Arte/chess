@@ -70,6 +70,18 @@ notated N@h6. This may be followed by + or # when appropriate.
 
 [FINISH WRITING]
 
+## Wrong corners
+
+This variant arises when the person setting up the board minds the rule each 
+queen should be on a square of her own color but neglects or ignores the rule 
+that the corner at each player's left must be a dark-colored square.
+
+![Variant initial state](../diagrams/WrongCorners.png)
+
+If you fail to notice this before making your first move, I suppose your only 
+choice is to keep going and try not to compound the mistake by castling your 
+queen instead of your king.
+
 ## Variant for testing purposes
 
 In all the variants explained so far, the initial board state is the same as in 
