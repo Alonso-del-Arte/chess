@@ -13,6 +13,9 @@ first to surpass Kasparov's rating.
 
 ## D
 
+* **Robert T. Durkin** &mdash; Chess player from Milwaukee who won quite a few 
+important games with the opening 1. Na3, which is now named after him.
+
 ## E
 
 * **Arpad Elo** &mdash; Professor of physics at Marquette University, he 
@@ -56,3 +59,12 @@ almost three decades.
 series *The Queen's Gambit*.
 * **Polg&aacute;r Judit** &mdash; Chess grandmaster from Hungary, widely 
 regarded as the strongest woman to ever play the game.
+* **Daniel Eduardo Pulvett Marin** &mdash; Chess grandmaster playing for Spain 
+who is almost completely blind.
+
+## Q
+
+## R
+
+* **Richard Selig R&eacute;ti** &mdash; Chess champion and author of books and 
+articles about chess. The opening 1. Nf3 is named after him.
