@@ -2,6 +2,8 @@
 
 ## A
 
+* **Viswanathan Anand** &mdash; Chess grandmaster before Magnus Carlsen.
+
 ## B
 
 ## C
