@@ -33,3 +33,6 @@ Also, I would appreciate chess puzzles for the Puzzles.md file. You can use
 Lichess to generate the FENs. As for the accompanying text, besides the "White 
 to play" or "Black to play" indication, you can either write it up yourself or 
 leave it to me.
+
+I reserve the right to ignore pull requests during the weekend. Unless maybe the 
+end of Hacktoberfest falls on a weekend.
