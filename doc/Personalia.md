@@ -37,6 +37,7 @@ champion, later world champion.
 
 * **Garry Kasparov** &mdash; Chess grandmaster from Russia, he had the highest 
 rating in the world, 2851, from 1999 until Magnus Carlsen surpassed him in 2013.
+* **Vladimir Kramnik** &mdash; Chess grandmaster.
 
 ## L
 
