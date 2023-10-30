@@ -19,7 +19,8 @@ generally advantageous, much more so than in regular chess.
 
 Also called "dark chess." Closely related to **Kriegspiel**, which was played 
 long before anyone thought of using computers for chess. Kriegspiel was played 
-with three boards
+with three boards and required an arbiter to keep track of what pieces are 
+visible to each player.
 
 ## King of the hill
 
@@ -70,17 +71,28 @@ notated N@h6. This may be followed by + or # when appropriate.
 
 [FINISH WRITING]
 
-## Wrong corners
+## Misplaced royals, or royals misplaced
 
 This variant arises when the person setting up the board minds the rule each 
 queen should be on a square of her own color but neglects or ignores the rule 
 that the corner at each player's left must be a dark-colored square.
 
-![Variant initial state](../diagrams/WrongCorners.png)
+The result of this mix-up is that the kings and queens wind up on the wrong 
+squares relative to each other. Queenside castling is still one square longer 
+than kingside castling, but apparently occurs on the right rather than the left.
+
+![Variant initial state](../diagrams/MisplacedRoyals.png)
+
+OR
+
+![Variant initial state](../diagrams/RoyalsMisplaced.png)
 
 If you fail to notice this before making your first move, I suppose your only 
 choice is to keep going and try not to compound the mistake by castling your 
 queen instead of your king.
+
+As this variant is common among beginners, it might be necessary to announce all 
+checks, explain castling and pretend there's no en passant.
 
 ## Variant for testing purposes
 
