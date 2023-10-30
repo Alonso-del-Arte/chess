@@ -1071,6 +1071,17 @@ Likely followed up with
 1. c4 e5
 2. e4
 
+###### Dresden opening
+
+1. c4 e5
+2. e4 Nc6
+3. Nf3
+
+##### Great Snake, Adorj&aacute;n defense
+
+1. c4 e5
+2. e4 g6
+
 #### Anglo-Dutch defense
 
 1. c4 f5
@@ -1158,6 +1169,11 @@ Likely followed up with
 #### Great snake variation
 
 1. c4 g6
+
+##### Great Snake, Adorj&aacute;n defense
+
+1. c4 g6
+2. e4 e5
 
 ##### King's Indian defense
 
@@ -1515,6 +1531,16 @@ Likely followed by
 2. Nf3 Nf6
 3. g3
 
+###### London system
+
+1. d4 d5 
+2. Nf3 Nf6 
+3. Bf4
+
+Even if Black does not play d5 or Nf6, it is still possible for White to set up 
+a neat trap in a which an early check leads to queen capture by causing the 
+[FINISH WRITING]
+
 ###### Torre attack
 
 1. d4 d5
@@ -1567,6 +1593,12 @@ The most famous move sequence for the queen's pawn opening.
 1. d4 d5
 2. c4 dxc4
 3. e4
+
+###### Queen's gambit accepted, accelerated Mannheim variation
+
+1. d4 d5
+2. c4 dxc4
+3. Qa4+
 
 ###### Slav defense
 
@@ -1675,6 +1707,11 @@ Will you follow with 2. dxe5? That would be Englund gambit accepted.
 
 1. d4 e5 
 2. dxe5
+
+###### Englund gambit accepted, mosquito gambit
+
+1. d4 e5 
+2. dxe5 Qh4
 
 ###### Englund gambit accepted, Hartlaub-Charlick gambit
 
@@ -2270,6 +2307,12 @@ both assist development and affect vital central squares.
 
 1. e4 e5
 2. Nf3 Nc6
+
+###### Dresden opening
+
+1. e4 e5
+2. Nf3 Nc6
+3. c4
 
 ##### Scotch game
 
