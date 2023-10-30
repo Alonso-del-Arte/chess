@@ -15,6 +15,10 @@ Black king starts out on e8.
 
 ## A
 
+* **Absolute pin** &mdash; A pin in which a piece protects the king. The pinned 
+piece can't be moved until either the king moves or the threatening piece moves 
+or is captured. An absolute pin can't be ignored, since the rules of the game 
+forbid moves that expose a player's own king to the opponent's attack.
 * **Accuracy** &mdash; How well someone plays. The fewer blunders, the higher 
 the accuracy. Winning is good, winning with high accuracy is better. Of course 
 it's possible to play with greater accuracy than your opponent and still lose 
@@ -250,6 +254,12 @@ kingside knight's pawn forward two spaces. See Openings for more details.
 
 ## H
 
+* **Hanging piece** &mdash; A piece that can be captured by sacrificing a piece 
+of lesser value, or which can be captured with no sacrifice at all (Martin, p. 
+26). For example, given a rook that can be captured by a knight which in turn is 
+captured by a pawn, the rook is said to be a hanging piece. Or if the rook in 
+the scenario was not protected by a pawn, it would be said to be hanging even if 
+captured by another rook or a queen.
 * **Horde** &mdash; A chess variant in which White has only a bunch of pawns 
 over most of the board. Horde is played on a standard board, but the radically 
 different complement of pieces requires radically different rules and strategy. 
@@ -389,7 +399,8 @@ Pawns are notated by their position, without the letter P.
 is used to mean only pieces that are kings, queens, bishops, knights or rooks, 
 excluding the pawns.
 * **Pin** &mdash; When a piece must stay in place to protect a more valuable 
-piece from capture, or to protect the king from check.
+piece from capture, or to protect the king from check. The former is called a 
+relative pin, the latter an absolute pin.
 * **Polish opening** &mdash; The opening in which White begins by playing the 
 queenside knight's pawn forward two spaces. See Openings for more details.
 * **Potzer** &mdash; Alternate spelling for patzer.
@@ -433,6 +444,10 @@ each. Compare ''blitz chess''.
 captured one of that player's pieces. There's no capturing the same piece twice 
 in a single game of regular chess (that might occur in the crazyhouse variant, 
 but it's unlikely to be referred to as a recapture).
+* **Relative pin** &mdash; A pin in which a piece protects a more valuable piece 
+that is not the king. For example, a knight protecting a queen from capture. A 
+player subject to a relative pin may choose to ignore the pin. While that may be 
+strategically disadvantageous, it is not against the rules of the game.
 * **Rook** &mdash; A piece shaped like a tower, capable of moving in straight 
 lines provided there are no pieces of its own side in the way. Each player gets 
 two of them. At the beginning of the game, the four rooks are placed on the four 
@@ -476,6 +491,8 @@ first, atomic chess.
 * **Swiss gambit** &mdash; When a player in a tournament run according to the 
 Swiss system tries to draw a game so as to get paired up with a less able player 
 in the next round.
+* **System** &mdash; A series of moves which a player can play without too many 
+adjustments regardless of the opponent's moves.
 
 ![Skewer for rook](../diagrams/endgames/SkewerForRook.png)
 
