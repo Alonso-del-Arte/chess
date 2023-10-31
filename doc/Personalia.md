@@ -51,8 +51,8 @@ frequently).
 
 ## K
 
-* **Anatoly Karpov** &mdash; Chess world champion for ten years starting in 
-1975.
+* **Anatoly Karpov** &mdash; Chess world champion, the only one to become world 
+champion by forfeit, he successfully defended his title for almost ten years.
 * **Rustam Kasimdzhanov** &mdash; FIDE world champion in 2004.
 * **Garry Kasparov** &mdash; Chess grandmaster from Russia, he had the highest 
 rating in the world, 2851, from 1999 until Magnus Carlsen surpassed him in 2013.
