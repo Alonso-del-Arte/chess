@@ -81,11 +81,11 @@ The result of this mix-up is that the kings and queens wind up on the wrong
 squares relative to each other. Queenside castling is still one square longer 
 than kingside castling, but apparently occurs on the right rather than the left.
 
-![Variant initial state](../diagrams/MisplacedRoyals.png)
+![Variant initial state](../diagrams/openings/MisplacedRoyals.png)
 
 OR
 
-![Variant initial state](../diagrams/RoyalsMisplaced.png)
+![Variant initial state](../diagrams/openings/RoyalsMisplaced.png)
 
 If you fail to notice this before making your first move, I suppose your only 
 choice is to keep going and try not to compound the mistake by castling your 
@@ -97,7 +97,8 @@ checks, explain castling and pretend there's no en passant.
 ## Variant for testing purposes
 
 In all the variants explained so far, the initial board state is the same as in 
-traditional chess, and the two sides are White and Black, and White goes first.
+traditional chess, or very close to it. The two sides are White and Black, and 
+White goes first.
 
 But in this testing variant, which I will only flesh out enough to help with 
 testing regular chess play, the two sides are Dark Gray and Light Gray, and 
