@@ -100,6 +100,14 @@ move as a bishop, knight or rook in a given move.
 
 ## Atomic
 
+This is another variant in which captures have special significance. When a 
+capture occurs, it's not just the captured piece that is removed from the board. 
+The capturing piece is also removed, as well as any non-pawn pieces that 
+happened to be in the immediately neighboring squares.
+
+Played on the computer, each capture is accompanied by the sound of an 
+explosion. [FINISH WRITING]
+
 [FINISH WRITING]
 
 ## Antichess
