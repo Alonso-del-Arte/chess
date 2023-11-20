@@ -63,6 +63,41 @@ Placements of other pieces are notated with the appropriate letter (one of Q, B,
 N or R) followed by '@' and the position. For example, a knight placed at h6 is 
 notated N@h6. This may be followed by + or # when appropriate.
 
+## Power-up by capture
+
+To my knowledge, no one else has published anything about this 
+crazyhouse-inspired chess variant, but I'm sure someone else has thought about 
+it.
+
+In this variant, "officer" pieces can gain abilities by capturing certain other 
+pieces. Specifically:
+
+* A king who captures any of an opponent's queen, bishops, knights or rooks 
+gains the ability to move as that captured piece.
+* A queen who captures an opponent's knight gains the ability to move like a 
+knight. No special abilities are conferred from capturing a bishop or a rook 
+because she already has their abilities.
+* A bishop who captures an opponent's queen or rook gains the ability to move 
+like a rook.
+* A bishop who captures an opponent's knight gains the ability to move like a 
+knight.
+* A knight who captures any of an opponent's queen, bishops or rooks gains the 
+ability to move as that captured piece.
+* A rook that captures an opponent's queen or bishop gains the ability to move 
+like a bishop.
+* A rook that captures an opponent's knight gains the ability to move like a 
+knight.
+
+Pawns can't gain abilities in this manner. For example, a pawn who captures the  
+opponent's knight doesn't gain the ability to move like a knight. However, if 
+that pawn promotes to a queen and *then* captures the opponent's other knight, 
+that pawn promoted to queen can then move like a knight.
+
+It should go without saying that abilities can't be combined in a single move. 
+Just as a  regular queen must choose to move as a bishop or as a rook in a given 
+move but not both, a queen with the ability to move like a knight must choose to 
+move as a bishop, knight or rook in a given move.
+
 ## Atomic
 
 [FINISH WRITING]
