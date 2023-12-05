@@ -106,6 +106,10 @@ Just as a  regular queen must choose to move as a bishop or as a rook in a given
 move but not both, a queen with the ability to move like a knight must choose to 
 move as a bishop, knight or rook in a given move.
 
+### Playing power-up by capture on a physical board
+
+Although like Fog of War [FINISH WRITING]
+
 ## Atomic
 
 This is another variant in which captures have special significance. When a 
@@ -192,5 +196,14 @@ empresses, or any emperors.
 [FINISH WRITING]
 
 ## Horde
+
+In this very creepy variant, Black starts out with the usual complement of 
+pieces: king, queen, two bishops, two knights, two rooks and eight pawns. But 
+White starts out with thirty-six pawns, no king, no queen, no bishops, no 
+knights, no rooks.
+
+However, the usual rules for pawn promotion still apply, so White can still 
+obtain queens, bishops, knights or rooks. So White can win with a standard 
+checkmate, but Black can only win by capturing all of White's pieces.
 
 [FINISH WRITING]
