@@ -14,8 +14,16 @@ regular checkmate before giving three checks.
 At the beginning of the game, you can only see the half of the board with your 
 pieces. As you move your pieces, your view of the board changes according to 
 what spaces of the board your pieces can move to. Your opponent likewise has a 
-limited view of the board. It is a one-check game. Therefore, castling is 
-generally advantageous, much more so than in regular chess.
+limited view of the board.
+
+This is one of the few variants in which you can capture your opponent's king. 
+If you can see your opponent's king on your turn, you should capture him. Then 
+you win the game.
+
+Therefore, castling is generally advantageous in Fog of War, much more so than 
+in regular chess. Safely ensconsed behind a shield of pawns with a rook at your 
+king's side, the only way your opponent can learn your castling status is with a 
+very reckless move.
 
 Also called "dark chess." Closely related to **Kriegspiel**, which was played 
 long before anyone thought of using computers for chess. Kriegspiel was played 
