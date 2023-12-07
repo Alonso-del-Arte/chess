@@ -191,10 +191,6 @@ requires putting another emperor in check.
 A threat to an empress of one side may be ignored if that side still has other 
 empresses, or any emperors.
 
-## Racing kings
-
-[FINISH WRITING]
-
 ## Horde
 
 In this very creepy variant, Black starts out with the usual complement of 
@@ -205,5 +201,9 @@ knights, no rooks.
 However, the usual rules for pawn promotion still apply, so White can still 
 obtain queens, bishops, knights or rooks. So White can win with a standard 
 checkmate, but Black can only win by capturing all of White's pieces.
+
+[FINISH WRITING]
+
+## Racing kings
 
 [FINISH WRITING]
