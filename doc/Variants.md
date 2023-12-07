@@ -206,4 +206,8 @@ checkmate, but Black can only win by capturing all of White's pieces.
 
 ## Racing kings
 
+Despite its strong creepiness, horde still bears a lot more similarity to 
+regular chess than racing kings. There are no pawns at all in racing kings, and  
+no checkmate either. You're not even allowed to put the opponent king in check.
+
 [FINISH WRITING]
