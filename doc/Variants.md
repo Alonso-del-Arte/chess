@@ -9,6 +9,10 @@ away.
 First side to put the other in check thrice wins the game. Or you can win with a 
 regular checkmate before giving three checks.
 
+This variant presents no problem for playing on a physical board. However, it 
+would be helpful to use some kind of tokens, like coins or bottle caps, to 
+count how many times each player has checked the other.
+
 ## Fog of War
 
 At the beginning of the game, you can only see the half of the board with your 
@@ -36,6 +40,9 @@ Four squares in the center of the board, d4, e4, d5 and e5, are marked as a
 special area. If one side can get their king to one of those squares, they win 
 the game. Or you can win with a regular checkmate, which might be the only way 
 you can win if you're playing against an evenly matched opponent.
+
+On a physical board, the special area could be demarcated with yarn, or with a 
+cellophane square cut to size to place over the four squares.
 
 ## Pawns only at first
 
@@ -71,6 +78,9 @@ while the move stricture applies. Two possibilities suggest themselves:
 
 I have not yet verified how this stalling would occur.
 
+The main difficulty for playing on a physical board might be if the first 
+promotion is to a queen.
+
 ## Crazyhouse
 
 Captures give the capturing side the ability to place a piece of the same kind 
@@ -104,6 +114,8 @@ by + or # when appropriate.
 Placements of other pieces are notated with the appropriate letter (one of Q, B, 
 N or R) followed by '@' and the position. For example, a knight placed at h6 is 
 notated N@h6. This may be followed by + or # when appropriate.
+
+This variant would be very cumbersome for playing on a physical board.
 
 ## Power-up by capture
 
