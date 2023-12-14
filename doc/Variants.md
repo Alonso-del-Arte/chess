@@ -37,6 +37,40 @@ special area. If one side can get their king to one of those squares, they win
 the game. Or you can win with a regular checkmate, which might be the only way 
 you can win if you're playing against an evenly matched opponent.
 
+## Pawns only at first
+
+Normally, we are advised to not move too many pawns in the opening. Like maybe 
+only one pawn, preferably.
+
+But in this variant, you can only move pawns, until either
+
+* A pawn is promoted, and/or
+* A king is in check.
+
+Once either of those happen, both players are subsequently free to move any of 
+their pieces according to the rules of regular chess.
+
+With the move restriction turned off, castling is allowed subject to the same 
+rules as in regular chess. And remember: in regular chess you can castle even if 
+the castling rook is under threat, as long as the king is not under threat and 
+does not move through a threatened square.
+
+If castling occurs in this variant, it's likelier to be kingside, since 
+queenside castling is likely to be inhibited by the opponent's queen. But 
+without a pawn shield, castling on either side is probably inadvisable.
+
+Obviously this variant gets the game to an endgame state very quickly, as the 
+first non-pawn moves of the game are likely to involve both players losing their 
+queens.
+
+What is much less clear to me is what happens if there are no valid pawn moves 
+while the move stricture applies. Two possibilities suggest themselves:
+
+* Regard it as a stalemate, thus ending the game.
+* Or allow other pieces to be moved, thus letting the game go on.
+
+I have not yet verified how this stalling would occur.
+
 ## Crazyhouse
 
 Captures give the capturing side the ability to place a piece of the same kind 
