@@ -197,6 +197,16 @@ your opponent's pawn, you should probably choose the pawn.
 Conversely, you want to offer your most valuable pieces for capture early on in 
 the game. It can be tricky sometimes.
 
+En passant is allowed in antichess, and it's even mandatory if there are no 
+other possible captures for the player on whose turn the opportunity arises.
+
+Castling is not allowed in antichess. It could make for a quick way to get your 
+rooks out, maybe.
+
+A pawn that reaches the opponent's home row is promoted the same as in regular 
+chess, but with one more option: you can promote a pawn to a king. And in fact, 
+that's usually the best choice.
+
 This variant is also called "losing chess" or "suicide chess."
 
 ## Misplaced royals, or royals misplaced
