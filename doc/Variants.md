@@ -178,9 +178,26 @@ capture all of the opponent's pieces.
 But in antichess, you always want to have fewer pieces than your opponent, 
 because the goal of the game is to have all your pieces captured.
 
-[FINISH WRITING]
+To that end, captures are mandatory in antichess: if it's your turn and you can 
+capture one of your opponent's pieces, then that's the only move you can make in 
+antichess.
 
-Also called "losing chess" or "suicide chess."
+If, on the other hand, there are two or more captures available to you on your 
+turn, you have a choice as to what move to make, but it must be a capture. In 
+that situation, you generally want to choose the piece with the lowest point 
+valuation.
+
+The valuations are the same as in regular chess (that is, a queen is worth nine 
+points, a rook five points, a bishop or a knight three points and a pawn one 
+point), but kings are worth zero points.
+
+So, for example, if you have a choice between capturing your opponent's queen or 
+your opponent's pawn, you should probably choose the pawn.
+
+Conversely, you want to offer your most valuable pieces for capture early on in 
+the game. It can be tricky sometimes.
+
+This variant is also called "losing chess" or "suicide chess."
 
 ## Misplaced royals, or royals misplaced
 
