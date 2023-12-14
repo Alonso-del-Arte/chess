@@ -170,7 +170,17 @@ explosion. [FINISH WRITING]
 
 ## Antichess
 
+In regular chess and most variants, you generally want to have more pieces than 
+your opponent, sacrificing pieces only for tactical advantage. Some players 
+sometimes forget that the goal of chess is to trap the opponent's king, not 
+capture all of the opponent's pieces.
+
+But in antichess, you always want to have fewer pieces than your opponent, 
+because the goal of the game is to have all your pieces captured.
+
 [FINISH WRITING]
+
+Also called "losing chess" or "suicide chess."
 
 ## Misplaced royals, or royals misplaced
 
