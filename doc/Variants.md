@@ -285,6 +285,8 @@ However, the usual rules for pawn promotion still apply, so White can still
 obtain queens, bishops, knights or rooks. So White can win with a standard 
 checkmate, but Black can only win by capturing all of White's pieces.
 
+[TODO: Figure out which pawns can move two spaces forward on their first move]
+
 [FINISH WRITING]
 
 ## Racing kings
