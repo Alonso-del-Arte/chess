@@ -2882,6 +2882,11 @@ S&ouml;rensen or Capablanca defense and offer White a pawn with 3. ... d5.
 
 Will Black capture that bishop's pawn offered for sacrifice?
 
+##### King's gambit declined, mafia defense
+
+1. e4 e5 
+2. f4 c5
+
 ##### Kimg's gambit declined, Falkbeer accepted, Nimzowitsch-Marshall countergambit
 
 1. e4 e5
@@ -3274,6 +3279,11 @@ King's Gambit Declined: Soller-Zilbermints Gambit
 
 1. f4 Nf6
 2. d4
+
+#### King's gambit declined, mafia defense
+
+1. f4 c5
+2. e4 e5
 
 #### Sicilian defense, McDonnell attack
 
