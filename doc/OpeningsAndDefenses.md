@@ -2283,7 +2283,7 @@ continues:
 3. ... Qa5
 4. d4 Nf6
 
-#### Potentially a center game
+#### Open game
 
 1. e4 e5
 
@@ -2943,6 +2943,15 @@ first.
 
 1. e4 e5 
 2. c3
+
+#### Portuguese opening
+
+1. e4 e5
+2. Bb5
+
+This opening is rare in regular chess, as Black likely responds
+
+2. ... c6
 
 #### Bishop's opening
 
