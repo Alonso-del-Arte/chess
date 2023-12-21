@@ -17,8 +17,36 @@ count how many times each player has checked the other.
 
 At the beginning of the game, you can only see the half of the board with your 
 pieces. As you move your pieces, your view of the board changes according to 
-what spaces of the board your pieces can move to. Your opponent likewise has a 
-limited view of the board.
+what spaces of the board your pieces can move to.
+
+![Fog of War at first](../diagrams/openings/InitialBoardStateFogOfWar.png)
+
+Your opponent likewise has a limited view of the board. The only way to know 
+what your opponent is doing is to correctly deduce what's going on from the 
+information available to you. This becomes harder as the game progresses.
+
+For example, say White plays the king's pawn opening, 1. e4. White gains a view 
+of: the squares a6 and b5, because the kingside bishop can potentially move to 
+one of those on White's second turn; the square e5, because the king's pawn can 
+potentially move there next; and of h5, because the queen can potentially move 
+there next.
+
+![Fog of War, initial](../diagrams/openings/KingsPawnOpeningFogOfWar.png)
+
+White loses sight of e3, but there's no way Black can threaten that square for 
+at least the next two turns. Maybe Black plays 1. ... e5, in which case White 
+loses sight of e5, because now White can't play 2. e5.
+
+If instead Black had played 1. ... d5, White would now become aware of the Black 
+queen's pawn, because White could now play 2. exd5. In our scenario with 1. e4 
+e5, however, White foolishly plays 2. Bb5 instead.
+
+![Portuguese, Fog of War](../diagrams/openings/PortugueseOpeningFogOfWar.png)
+
+On the plus side, Black might fail to deduce from the loss of visibility of the 
+b5 square that playing 2. ... d5 or 2. ... d6, both of which would be invalid 
+moves in regular chess, are merely inadvisable in this variant. Then White would 
+win by playing 3. Bxe8#, a move that would be impossible in regular chess.
 
 This is one of the few variants in which you can capture your opponent's king. 
 If you can see your opponent's king on your turn, you should capture him. Then 
