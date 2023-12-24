@@ -99,12 +99,14 @@ first non-pawn moves of the game are likely to involve both players losing their
 queens.
 
 What is much less clear to me is what happens if there are no valid pawn moves 
-while the move stricture applies. Two possibilities suggest themselves:
+for either side while the move stricture applies. Two possibilities suggest 
+themselves:
 
 * Regard it as a stalemate, thus ending the game.
 * Or allow other pieces to be moved, thus letting the game go on.
 
-I have not yet verified how this stalling would occur.
+I have verified, thanks to Tavon Strange, that such stalling can occur in this 
+variant. Also thanks to Christopher Woods for his help researching this variant.
 
 The main difficulty for playing on a physical board might be if the first 
 promotion is to a queen.
