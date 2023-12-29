@@ -479,6 +479,8 @@ allow the capture of a less valuable piece. In the case of a skewering check,
 the opponent must move the king to safety and allow the capture of the other 
 piece, such as a rook. Queens, rooks and bishops are all able to skewer an 
 opponent's piece.
+* **Smurfing** &mdash; When a very good player pretends to play poorly. The 
+metaphor here being that the player is a giant pretending to be a tiny creature.
 * **Stalemate** &mdash; When a player is not in check but is unable to make any 
 move whatsoever. For example, if the king is safe in its current space but would 
 be in check if it moves in any direction, the remaining pawns are stymied by 
@@ -490,7 +492,7 @@ to keep a pawn on e5 regardless of what trades or threats White might make.
 first, atomic chess.
 * **Swiss gambit** &mdash; When a player in a tournament run according to the 
 Swiss system tries to draw a game so as to get paired up with a less able player 
-in the next round.
+in the next round. Or it may refer to the opening 1. f4 f5 2. e4.
 * **System** &mdash; A series of moves which a player can play without too many 
 adjustments regardless of the opponent's moves.
 

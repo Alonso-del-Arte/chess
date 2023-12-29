@@ -2949,6 +2949,8 @@ first.
 1. e4 e5
 2. Bb5
 
+![Portuguese opening](../diagrams/openings/PortugueseOpening.png)
+
 This opening is rare in regular chess, as Black likely responds
 
 2. ... c6

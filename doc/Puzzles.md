@@ -914,6 +914,15 @@ queen, I probably would've won.
 
 Stockfish as White does the same.
 
+### Sometimes it's a draw
+
+Lichess calls this "Pawns Ending XIV." White to play, but it doesn't really 
+matter, the game is a hopeless draw.
+
+![Pawns Ending XIV](../diagrams/endgames/PawnsEndingXIV.png)
+
+FEN: 7K/8/k1P5/7p/8/8/8/8 w - - 0 1
+
 ### Pinned pieces can still help against the opponent
 
 Sometimes a pinned piece can prevent you from making what would in any case be a 
@@ -969,6 +978,14 @@ are going to trap you on your home row, is what it looks like.
 If you do play Nxb8, you still have a subtle advantage that you can use for 
 checkmate in forty or so. But actually, there's a much, much quicker checkmate 
 here.
+
+### Sometimes allow promotion
+
+FINISH WRITING
+
+![Maybe allow promotion](../diagrams/endgames/MaybeAllowPromotion.png)
+
+FEN: 1k6/ppr5/b3p3/1P6/1N3Q2/N5p1/PP2p1r1/1K2R2B w - - 0 1
 
 ## Opening puzzles
 
@@ -1232,6 +1249,10 @@ and give your opponent an opportunity to put you on the run.
 As I remember that the king's pawn opening is the most popular chess opening, I 
 realize that makes this scenario even more unlikely. Also, White moving their 
 pawn only one space forward would've led to the same outcome.
+
+### Queens still in the endgame
+
+[FINISH WRITING]
 
 ### King cornered by opponent king and knight?
 

@@ -7,7 +7,7 @@ them, as concisely and completely as I can. This document should not be
 regarded as binding. If it's found to contradict the official reference, this 
 document should be amended to be in agreement with the official reference.
 
-There will be occasional references to strategy, mostly to explain what the 
+There will be occasional mentions of strategy, mostly to explain what the 
 motivation might be for a particular type of move, but the focus here is on what 
 makes a move valid, not whether it's the best move at any given moment in the 
 game. This document is not meant for an in-depth discussion of strategy.
@@ -77,15 +77,25 @@ each sides' pieces arrayed on opposite ends of the board. Horizontally,
 
 And vertically,
 
-* Kings start out on file 'e'.
-* Queens start out on file 'd'.
+* Kings start out on file 'e'. White's king starts out on a dark-colored square just 
+to the right of the board's central vertical line from White's perspective, and 
+Black's king starts out on a light-colored square just to the left of the 
+board's central vertical line from Black's perspective.
+* Queens start out on file 'd'. White's queen starts out on a light-colored 
+square just to the left of the board's central vertical line from White's 
+perspective, and Black's queen starts out on a dark-colored square just to the 
+right of the board's central vertical line from Black's perspective.
 * Bishops start out on files 'c' and 'f'.
 * Knights start out on files 'b' and 'g'.
 * Rooks start out on files 'a' and 'h'.
 
 ![Initial chess board state](http://www.chessvideos.tv/bimg/3atfetccehvg.png)
 
-The diagram is usually rotated 180&deg; for Black's viewpoint.
+The diagram is usually rotated 180&deg; for Black's viewpoint. For example, if 
+White begins with the king's pawn opening, the board should look like this for 
+Black:
+
+![Initial, Black's view](../diagrams/openings/BlacksInitialPerspective.png)
 
 ## Moving and capturing
 
@@ -452,7 +462,10 @@ Tournament play may add rules regarding concessions that may have consequences
 for the unfolding of the tournament.
  
 There also arise situations in which neither side can win. That's a stalemate.
-// TODO: Write regarding rules for determining stalemate has occurred 
+Neither king is in check, but the king of the player whose turn it is to move 
+can't move anywhere because the squares are either occupied by his own pieces or 
+threatened by the opponent's pieces, and none of that player's other pieces can 
+make any valid moves either.
 
 There can also be a draw without a stalemate. If the same sequence of moves is 
 repeated thrice, without any captures, that's a draw by repetition. Here's a 
