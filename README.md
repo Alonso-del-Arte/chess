@@ -31,7 +31,13 @@ you're playing White, you might type "e4" to make your first move).
 
 The second phase will be the graphical user interface.
 
-Scala 2.13 (with Java 8), JUnit 5.
+This is a Scala 2.13 project with Java 8. Although I have upgraded my computer 
+to Java 21, I have not figured out how to use it with Scala and the IntelliJ 
+IDEA.
+
+I'm using JUnit 5 for the testing framework, I have no intention of switching 
+this project to any other testing framework, not even the one I wrote myself 
+(though I will switch some of my other projects).
 
 It would be a good idea to make sure all the terms in Terminology.md are in the 
 project dictionary.
