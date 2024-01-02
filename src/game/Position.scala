@@ -15,6 +15,8 @@ abstract class Position(val x: Int, val y: Int) {
     base + (this.x << 16) + this.y
   }
 
+  def isOffsetWithinBounds(offset: RelativePosition, board: Board): Boolean
+
   def translate(offset: RelativePosition): Position
 
 }
