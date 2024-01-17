@@ -3839,6 +3839,13 @@ one of your bishops going early, choose another opening, like maybe king's pawn.
 2. e4 e5
 3. Nf3
 
+##### Ponziani opening, Jaenisch Neumann gambit
+
+1. c3 Nc6
+2. e4 e5
+3. Nf3 Nf6
+4. Bc4
+
 #### Sicilian defense, delayed Alapin variation
 
 1. c3 c5
@@ -3854,6 +3861,13 @@ May continue thus:
 1. c3 c5
 2. e4
 
+##### Bad response to the Saragossa opening
+
+1. c3 d5
+
+This is especially bad in the three check variant, since it gives White an 
+opportunity for an early check with 2. Qa4+.
+
 #### Saragossa opening reclassified as king's pawn opening, MacLeod attack
 
 1. c3 e5
@@ -3863,6 +3877,13 @@ May continue thus:
 
 1. c3 d6
 2. e4
+
+##### Worst response to the Saragossa opening
+
+1. c3 d6
+
+This is especially bad in the three check variant, since it gives White an 
+opportunity for an early check with 2. Qa4+.
 
 ### Queen's pawn: Mieses opening
 
