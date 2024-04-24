@@ -452,6 +452,11 @@ defense.
 1. Nf3 d5
 2. c4 dxc4
 
+###### R&eacute;ti gambit declined, advance variation
+
+1. Nf3 d5 
+2. c4 d4
+
 ##### Zukertort variation
 
 1. Nf3 d5
@@ -646,6 +651,11 @@ R&eacute;ti Opening: Dutch, Lisitsyn, Rydel-Bloodgood Gambit, 3.Ne5
 
 1. Nf3 d6
 2. e4 e5
+
+###### Wade defense
+
+1. Nf3 d6
+2. e4 Bg4
 
 #### Queen's gambit invitation
 
@@ -3060,6 +3070,11 @@ out as a queen's pawn opening.
 
 1. e4 d6
 2. Nf3
+
+###### Wade defense
+
+1. e4 d6
+2. Nf3 Bg4
 
 ##### Pirc defense, Harmonist variation
 
