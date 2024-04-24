@@ -200,6 +200,11 @@ unassisted.
 queenside bishop's pawn forward two spaces. See Openings for more details.
 * **En passant** &mdash; A special move in which a pawn captures an opponent 
 pawn. See [the game rules](GameRules.md#En passant) for details.
+* **En prise** &mdash; Said of a piece exposed to capture in certain situations. 
+There is much disagreement as to what exactly constitutes en prise. Some authors 
+expect the piece in question to be undefended, others expect the piece to have 
+been placed in a vulnerable position unintentionally, or to be defended but only 
+slightly less than what would constitute a pointless sacrifice, etc.
 * **Expert** &mdash; A USCF tournament player rated at 2000 or higher but less 
 than 2200 in the Elo rating system.
 
