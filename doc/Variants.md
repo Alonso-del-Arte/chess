@@ -194,15 +194,15 @@ the letter 'N' (for "knight") attached to her.
 
 Or we could make a special chess set in which the queens have detachable crowns, 
 the bishops have detachable miters, the knights have detachable manes and the 
-rooks have detachable parapetti.
+rooks have detachable parapets.
 
 Upon capturing an opponent's officer piece using a player's officer piece, the 
 capturing player would remove the captured piece's crown, miter, mane or 
-parapetto, and place it on the capturing piece.
+parapet, and place it on the capturing piece.
 
 However, we would ask that players exercise judiciousness in taking such 
 trophies. For example, if a queen captures an opponent's bishop or rook, there's 
-no need to take the captured piece's miter or parapetto, since the queen already 
+no need to take the captured piece's miter or parapet, since the queen already  
 has the ability to move as a bishop and as a rook. 
 
 ## Atomic
