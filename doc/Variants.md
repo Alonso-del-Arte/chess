@@ -127,7 +127,7 @@ very important. Capturing a promoted queen, bishop, knight or rook entitles the
 capturing player to place a pawn, not what the captured pawn had promoted to.
 
 For this reason, as a matter strategy, you should be bolder with promoted queens 
-in this variants than with queens in regular chess, because if they're captured, 
+in this variant than with queens in regular chess, because if they're captured, 
 the capturing player just gets a pawn to place.
 
 Conversely, you should be much more careful with original queens, because if one 
@@ -172,7 +172,7 @@ like a bishop.
 * A rook that captures an opponent's knight gains the ability to move like a 
 knight.
 
-Pawns can't gain abilities in this manner. For example, a pawn who captures the  
+Pawns can't gain abilities in this manner. For example, a pawn who captures the 
 opponent's knight doesn't gain the ability to move like a knight. However, if 
 that pawn promotes to a queen and *then* captures the opponent's other knight, 
 that pawn promoted to queen can then move like a knight.
@@ -184,7 +184,26 @@ move as a bishop, knight or rook in a given move.
 
 ### Playing power-up by capture on a physical board
 
-Although like Fog of War [FINISH WRITING]
+Although like Fog of War this variant is perhaps played by computer, unlike Fog 
+of War this variant is theoretically more amenable to being played on a physical 
+board.
+
+If nothing else, pieces with enhanced abilities can be indicated with Post-It 
+notes. For example, a queen that captures a knight would get a Post-It note with 
+the letter 'N' (for "knight") attached to her.
+
+Or we could make a special chess set in which the queens have detachable crowns, 
+the bishops have detachable miters, the knights have detachable manes and the 
+rooks have detachable parapetti.
+
+Upon capturing an opponent's officer piece using a player's officer piece, the 
+capturing player would remove the captured piece's crown, miter, mane or 
+parapetto, and place it on the capturing piece.
+
+However, we would ask that players exercise judiciousness in taking such 
+trophies. For example, if a queen captures an opponent's bishop or rook, there's 
+no need to take the captured piece's miter or parapetto, since the queen already 
+has the ability to move as a bishop and as a rook. 
 
 ## Atomic
 
