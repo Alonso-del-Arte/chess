@@ -182,6 +182,11 @@ Just as a  regular queen must choose to move as a bishop or as a rook in a given
 move but not both, a queen with the ability to move like a knight must choose to 
 move as a bishop, knight or rook in a given move.
 
+This variant has more possibilities for stalemate than regular chess. For 
+example, a knight-enhanced queen would be likelier than a regular queen to trap 
+the opponent's king in such a way that the only safe option is for that king to 
+not move at all.
+
 ### Playing power-up by capture on a physical board
 
 Although like Fog of War this variant is perhaps played by computer, unlike Fog 
