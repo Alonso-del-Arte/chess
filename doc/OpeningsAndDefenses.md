@@ -442,6 +442,17 @@ defense.
 1. Nf3 d5
 2. Nc3 
 
+##### Santasiere's folly
+
+1. Nf3 d5 
+2. b4
+
+When Anthony Edward Santasiere played White, he preferred to begin with 1. Nf3. 
+In such a game that his opponent responded with 1. ... d5, Santasiere intended 
+to play 2. c4, but accidentally touched his queenside knight's pawn instead. 
+Encouraged by the results of that game, he started playing the opening 
+deliberately.
+
 ##### R&eacute;ti gambit
 
 1. Nf3 d5
@@ -863,6 +874,14 @@ Should White capture the pawn that Black is offering up?
 #### Scandinavian defense
 
 1. b4 d5
+
+##### Santasiere's folly
+
+1. b4 d5 
+2. Nf3
+
+This transposition is an opening that comes from a mistake by a player who did 
+not play the Polish opening all that often.
 
 ##### Scandinavian defense, Zilbermints gambit
 
