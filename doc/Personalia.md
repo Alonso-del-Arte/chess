@@ -90,6 +90,8 @@ articles about chess. The opening 1. Nf3 is named after him.
 
 ## S
 
+* **Anthony Edward Santasiere** &mdash; Middle school math teacher best known 
+today for Santasiere's folly.
 * **Vasily Smyslov** &mdash; Chess world champion in 1957.
 * **Boris Spassky** &mdash; Chess world champion in 1969.
 * **Wilhelm Steinitz** &mdash; Chess player acknowledged as the first world 
