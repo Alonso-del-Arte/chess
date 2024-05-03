@@ -876,6 +876,12 @@ Will Black capture White's king's pawn?
 1. b4 e5
 2. a3 
 
+###### King's knight opening, Pachman wing gambit
+
+1. b4 e5
+2. e4 Nc6
+3. Nf3
+
 #### Kucharkowski-Meybohm gambit
 
 1. b4 e5 
@@ -2326,6 +2332,12 @@ both assist development and affect vital central squares.
 
 1. e4 e5
 2. Nf3 Nc6
+
+###### King's knight opening, Pachman wing gambit
+
+1. e4 e5
+2. Nf3 Nc6
+3. b4
 
 ###### Dresden opening
 
