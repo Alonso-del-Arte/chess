@@ -1312,6 +1312,12 @@ ignores other factors, such as how your opponent's skills compare to yours.
 1. d4 Nf6 
 2. Nf3 d6
 
+##### Pirc defense, Roscher gambit
+
+1. d4 Nf6 
+2. Nf3 d6
+3. e4
+
 ##### Indian game, knights variation
 
 1. d4 Nf6
@@ -3120,6 +3126,12 @@ out as a queen's pawn opening.
 
 1. e4 d6
 2. Nf3 Bg4
+
+##### Pirc defense, Roscher gambit
+
+1. e4 d6 
+2. d4 Nf6 
+3. Nf3
 
 ##### Pirc defense, Harmonist variation
 
