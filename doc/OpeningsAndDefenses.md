@@ -2854,6 +2854,11 @@ See Kosten (2001) for a comprehensive study.
 2. Nf3 Qf6
 3. Bc4
 
+##### The Whale variation
+
+1. e4 e5 
+2. c4
+
 ##### Center game
 
 1. e4 e5
