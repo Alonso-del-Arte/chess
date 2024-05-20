@@ -1650,6 +1650,11 @@ The most famous move sequence for the queen's pawn opening.
 2. c4 dxc4
 3. Qa4+
 
+###### Queen's gambit declined, Albin countergambit
+
+1. d4 d5
+2. c4 e5
+
 ###### Slav defense
 
 1. d4 d5
