@@ -205,6 +205,10 @@ There is much disagreement as to what exactly constitutes en prise. Some authors
 expect the piece in question to be undefended, others expect the piece to have 
 been placed in a vulnerable position unintentionally, or to be defended but only 
 slightly less than what would constitute a pointless sacrifice, etc.
+* **Even trade** &mdash; When a player uses a piece to capture an opponent's 
+piece of the same worth, and that piece is immediately captured by the opponent. 
+For example, a player uses a rook to capture an opponent's rook, and the 
+capturing rook is then itself captured on the opponent's turn.
 * **Expert** &mdash; A USCF tournament player rated at 2000 or higher but less 
 than 2200 in the Elo rating system.
 
@@ -521,6 +525,12 @@ other thrice wins. However, checkmate still wins the game even if it's only the
 first or second check by that player.
 * **Touch-move rule** &mdash; The rule that a player must move a piece he 
 touches, provided there is a legal move to be made with that piece.
+* **Trade** &mdash; When a player sacrifices a piece in order to capture one of 
+the opponent's pieces. For example, White uses a bishop to capture Black's rook 
+that the king is castled with, and the Black king immediately captures that 
+bishop.
+* **Trading queens** &mdash; When one player uses a queen to capture an 
+opponent's queen, and the opponent immediately captures the player's queen.
 
 ## U
 
