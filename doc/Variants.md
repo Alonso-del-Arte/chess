@@ -351,12 +351,14 @@ no checkmate either. You're not even allowed to put the opponent king in check.
 
 [TOOD: Placeholder for diagram]
 
-The goal of the game is to get your king to the finish line first. As in regular 
-chess, White goes first, giving White a definite advantage on getting to the 
-finish line first. But Black can inhibit the White king's progress by placing 
-pieces so that the White king would have to move into check to get closer to the 
-finish line. As in regular chess, a king can't move into check. The only way 
-would seem to be to capture that blockading piece.
+The goal in this variant is to get your king to the finish line first. As in 
+regular chess, White goes first, giving White a definite advantage on getting to 
+the finish line first.
+
+But Black can inhibit the White king's progress by placing pieces so that the 
+White king would have to move into check to get closer to the finish line. As in 
+regular chess, a king can't move into check. The only way would seem to be to 
+capture that blockading piece.
 
 [TOOD: Placeholder for diagram]
 
