@@ -346,10 +346,12 @@ checkmate, but Black can only win by capturing all of White's pieces.
 ## Racing kings
 
 Despite its strong creepiness, horde still bears a lot more similarity to 
-regular chess than racing kings. There are no pawns at all in racing kings, and  
+regular chess than racing kings. There are no pawns at all in racing kings, and 
 no checkmate either. You're not even allowed to put the opponent king in check.
 
 ![Racing kings at first](../diagrams/openings/RacingKingsStart.png)
+
+FEN: 8/8/8/8/8/8/krbnNBRK/qrbnNBRQ w - - 0 1
 
 The goal in this variant is to get your king to the finish line first. As in 
 regular chess, White goes first, giving White a definite advantage on getting to 
@@ -361,5 +363,7 @@ regular chess, a king can't move into check. The only way would seem to be to
 capture that blockading piece.
 
 ![Racing kings endgame](../diagrams/endgames/RacingKingsNearFinishLine.png)
+
+FEN: 8/q7/3K4/1k6/8/8/1rbnNBR1/1rbnNBRQ w - - 8 5
 
 [FINISH WRITING]
