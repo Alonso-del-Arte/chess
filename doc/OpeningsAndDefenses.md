@@ -1351,6 +1351,12 @@ ignores other factors, such as how your opponent's skills compare to yours.
 1. d4 Nf6 
 2. c4 b6
 
+##### Old Indian defense
+
+1. d4 Nf6 
+2. c4 d6 
+3. Nf3
+
 ##### Indian game, East Indian defense
 
 1. d4 Nf6 
@@ -1558,6 +1564,17 @@ Likely followed by
 1. d4 d5
 2. Nf3
 
+Can continue
+
+2. ... e6
+3. Bg5
+
+White hopes Black will either play 3. ... Qxg5, which then leads to 4. Nxg5, or 
+some other move which then allows White to play 4. Bxd8. Most of the time, 
+however, the Black queen eludes capture as Black either moves the queen to 
+safety or blocks the planned capture in some way, likely with 3. ... f6, or, far 
+less likely, 3. ... Be7.
+
 ##### Zukertort-Chigorin variation
 
 1. d4 d5
@@ -1620,6 +1637,15 @@ The most famous move sequence for the queen's pawn opening.
 1. d4 d5
 2. c4
 
+Will Black capture that defenseless pawn?
+
+##### Queen's gambit declined, Austrian variation
+
+1. d4 d5 
+2. c4 c5
+
+Rather than take White's pawn, Black decides to offer up a pawn.
+
 ##### Queen's gambit accepted
 
 1. d4 d5
@@ -1673,6 +1699,11 @@ The most famous move sequence for the queen's pawn opening.
 3. cxd5 cxd5
 
 Neither side has an advantage, both sides are exposed.
+
+##### Queen's gambit declined
+
+1. d4 d5
+2. c4 e6
 
 ##### Blackmar-Diemer gambit
 
@@ -2166,13 +2197,18 @@ May continue thus:
 5. d4 d5
 6. Bxd5
 
-##### Sicilian defense, pin variation
+##### Sicilian defense, French variation
+
+1. e4 c5 
+2. Nf3 e6
+
+###### Sicilian defense, pin variation
 
 1. e4 c5 
 2. Nf3 e6 
 3. Nc3
 
-##### Sicilian defense, Marshall counterattack
+###### Sicilian defense, Marshall counterattack
 
 1. e4 c5 
 2. Nf3 e6 
