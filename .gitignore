@@ -45,3 +45,10 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Miscellaneous
+scratchpad.txt
+src/draft/
+src/secrets/
+test/draft/
+test/secrets/
