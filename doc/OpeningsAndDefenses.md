@@ -2998,6 +2998,12 @@ S&ouml;rensen or Capablanca defense and offer White a pawn with 3. ... d5.
 2. d4 exd4
 3. Qxd4
 
+###### Center game accepted, normal variation
+
+1. e4 e5 
+2. d4 exd4 
+3. Qxd4 Nc6
+
 ###### Center game accepted, Paulsen-Berger variation
 
 1. e4 e5 
