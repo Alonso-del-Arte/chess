@@ -1994,6 +1994,12 @@ OR
 2. d4 e5
 3. Nf3 exd4
 
+##### Nimzowitsch defense, Kennedy, Linksspringer variation
+
+1. e4 Nc6 
+2. d4 e5 
+3. d5
+
 ##### Nimzowitsch defense, Scandinavian, exchange, Marshall gambit
 
 1. e4 Nc6
