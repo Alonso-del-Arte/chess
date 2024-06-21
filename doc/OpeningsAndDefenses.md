@@ -2477,12 +2477,23 @@ both assist development and affect vital central squares.
 2. Nf3 Nc6
 3. c3 Nf6
 
+May continue 
+
+4. Bc4
+
 ###### Ponziani opening, Jaennisch, Breyer opening
 
 1. e4 e5
 2. Nf3 Nc6
 3. c3 Nf6
 4. d3
+
+###### Ponziani opening, Jaenisch-Neumann gambit
+
+1. e4 e5 
+2. Nf3 Nc6 
+3. Bc4 Nf6 
+4. c3
 
 ##### Berlin defense
 
