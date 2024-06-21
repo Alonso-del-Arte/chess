@@ -2488,13 +2488,6 @@ May continue
 3. c3 Nf6
 4. d3
 
-###### Ponziani opening, Jaenisch-Neumann gambit
-
-1. e4 e5 
-2. Nf3 Nc6 
-3. Bc4 Nf6 
-4. c3
-
 ##### Berlin defense
 
 1. e4 e5
@@ -2738,6 +2731,13 @@ castle.
 Then the best way for Black to dodge is
 
 5. ... Ke7.
+
+###### Ponziani opening, Jaenisch-Neumann gambit
+
+1. e4 e5 
+2. Nf3 Nc6 
+3. Bc4 Nf6 
+4. c3
 
 ##### Giuoco piano
 
