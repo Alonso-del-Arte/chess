@@ -3243,7 +3243,12 @@ out as a queen's pawn opening.
 1. e4 e6
 2. Nc3
 
-##### French defense, knight variation
+##### French defense, knight variation ??? TODO: Doublecheck which variation this is
+
+1. e4 e6
+2. Nf3
+
+###### French defense, normal variation ??? TODO: Doublecheck which variation this is
 
 1. e4 e6
 2. Nf3
@@ -3254,21 +3259,16 @@ out as a queen's pawn opening.
 2. Nf3 c5
 3. d4 cxd4
 
+###### French defense, normal variation ??? TODO: Doublecheck which variation this is
+
+1. e4 e6
+2. Nf3 d5
+
 ###### French defense, Perseus gambit
 
 1. e4 e6
 2. Nf3 d5
 3. d4 
-
-###### French defense, normal variation
-
-1. e4 e6
-2. Nf3
-
-###### French defense, normal variation
-
-1. e4 e6
-2. Nf3 d5
 
 ##### French defense, normal variation
 
