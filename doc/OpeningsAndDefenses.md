@@ -3270,6 +3270,15 @@ out as a queen's pawn opening.
 2. Nf3 d5
 3. d4 
 
+###### French defense, knight variation, Franco-Hiva gambit
+
+1. e4 e6 
+2. Nf3 f5
+
+Should White play 3. exf5? And then would Black follow with 3. ... exf5, leaving 
+both players exposed to an early check with 4. Qe2+ or, perhaps less likely, 4. 
+... Qe7+?
+
 ##### French defense, normal variation
 
 1. e4 e6
