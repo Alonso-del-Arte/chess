@@ -2765,6 +2765,9 @@ Then the best way for Black to dodge is
 2. Nf3 Nc6 
 3. Be2
 
+This is one of the quickest ways to get ready for castling. The bishop on e2 
+absolutely discourages Black from trying to capture the e4 pawn.
+
 ###### Tayler opening
 
 1. e4 e5
