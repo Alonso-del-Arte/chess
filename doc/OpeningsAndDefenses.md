@@ -4425,6 +4425,10 @@ OR
 
 1. h3
 
-A rather awkward opening that wastes initial momentum, in my opinion.
+A rather awkward opening that wastes initial momentum, in my opinion. The only 
+thing I can say to justify this opening is that it prepares a Luft for your 
+to-be castled king long before there's a need for it. But you also forfeit the 
+ability to castle on your fourth move.
 
-[TODO: FINISH WRITING]
+But of course a grandmaster can win with this opening, and a beginner can lose 
+with 1. e4.
