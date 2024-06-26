@@ -69,6 +69,7 @@ dark brown color, or some other dark color.
 * **Blitz chess** &mdash; A timed game with each player getting three to five 
 minutes. Compare ''rapid chess''.
 * **Blunder** &mdash; A very bad mistake that could cost the player the game.
+* **Breath** &mdash; Synonym for Luft.
 
 ## C
 
@@ -228,6 +229,7 @@ opportunity to capture the opponent's rook on the other side of the board.
 lowercase letters 'a' to 'h'. At the beginning of the game, the rooks are on 
 files 'a' and 'h', knights on files 'b' and 'g', bishops on files 'c' and 'f', 
 queens on file 'd', and kings on file 'e'.
+* **Flight square** &mdash; Synonym for Luft.
 * **Fog of War** &mdash; A chess variant almost always played on computers, in 
 which each player can only see their own pieces and the spaces where their 
 pieces may move to. This is, in my opinion, the most interesting variant of all. 
@@ -327,6 +329,21 @@ may capture. It is quite a cumbersome precursor to Fog of War.
 ## L
 
 * **Losing chess** &mdash; Synonym for antichess.
+* **Luft** &mdash; German for air, used in chess to mean a square that a castled 
+king, otherwise trapped on his home row, can escape to, avoiding or at least 
+postponing checkmate. Such a square is provided by having a pawn, generally the 
+kingside's rook pawn, move from the pawn's starting row. Generally not 
+capitalized in English.
+
+The following diagram illustrates Luft for the White king. Black to play.
+
+![Luft](../diagrams/endgames/Luft.png)
+
+FEN: 3r4/1kp4Q/8/b7/3r4/7P/5PP1/R2R2K1 b - - 0 1
+
+Black will most likely play Rxd1+. Then White responds Rxd1, and Black responds 
+with Rxd1+. This would be checkmate, except White played h3 long before, leaving 
+h2 available for the White king to escape to.
 
 ## M
 
