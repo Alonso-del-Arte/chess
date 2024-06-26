@@ -4432,3 +4432,6 @@ ability to castle on your fourth move.
 
 But of course a grandmaster can win with this opening, and a beginner can lose 
 with 1. e4.
+
+And besides, Black playing precisely will not want to sacrifice the dark squares 
+bishop, in order to attack the White king on the Luft square.
