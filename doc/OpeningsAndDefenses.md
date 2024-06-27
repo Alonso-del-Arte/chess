@@ -2787,6 +2787,18 @@ OR
 1. e4 e5
 2. Nf3 Nf6
 
+###### Petrov's defense, classical variation
+
+Most of the time, White feels no urgency to capture Black's king's pawn.
+
+1. e4 e5 
+2. Nf3 Nf6 
+3. Nxe5 
+
+In the Damiano variation, Black might retaliate with 
+
+3. ... Nxe4
+
 ###### Petrov's defense, Steinitz attack
 
 1. e4 e5
