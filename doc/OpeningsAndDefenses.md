@@ -2890,6 +2890,11 @@ See Kosten (2001) for a comprehensive study.
 2. Nf3 f5
 3. d4
 
+##### Gunderam gambit
+
+1. e4 e5 
+2. Nf3 c6
+
 ##### Philidor defense
 
 1. e4 e5
