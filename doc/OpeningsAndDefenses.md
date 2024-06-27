@@ -3342,6 +3342,11 @@ both players exposed to an early check with 4. Qe2+ or, perhaps less likely, 4.
 1. e4 e6
 2. d4 a6
 
+###### Pirc defense, small center defense
+
+1. e4 e6 
+2. d4 d6
+
 ###### French defense, la Bourdonnais variation
 
 1. e4 e6
