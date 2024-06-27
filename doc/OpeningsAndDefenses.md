@@ -2799,6 +2799,8 @@ In the Damiano variation, Black might retaliate with
 
 3. ... Nxe4
 
+Thus both sides have lost their king's pawns.
+
 ###### Petrov's defense, Steinitz attack
 
 1. e4 e5
