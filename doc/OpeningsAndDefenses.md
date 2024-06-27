@@ -3238,6 +3238,15 @@ out as a queen's pawn opening.
 2. d4 Nf6 
 3. Nf3
 
+###### Pirc defense, small center defense
+
+1. e4 d6 
+2. d4 e6
+
+Generally, you want to control the center. That's considered a basic principle 
+of sound chess playing. But here Black decides that's jut not as much of a 
+priority in the opening.
+
 ##### Pirc defense, Harmonist variation
 
 1. e4 d6 
