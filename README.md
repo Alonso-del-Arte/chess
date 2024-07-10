@@ -39,8 +39,8 @@ I'm using JUnit 5 for the testing framework, I have no intention of switching
 this project to any other testing framework, not even the one I wrote myself 
 (though I will switch some of my other projects).
 
-It would be a good idea to make sure all the terms in Terminology.md are in the 
-project dictionary.
+It would be a good idea to make sure all the terms in 
+[Terminology](Terminology.md) are in the project dictionary.
 
 I've decided to use the 
 [ChessVideos.tv Diagram Generator](https://www.chessvideos.tv/chess-diagram-generator.php). 
