@@ -3070,6 +3070,8 @@ Will Black capture that bishop's pawn offered for sacrifice?
 1. e4 e5
 2. f4 f5
 
+Two pairs of enemy pawns facing off just slightly off center.
+
 ##### King's gambit declined, Keene defense
 
 1. e4 e5
