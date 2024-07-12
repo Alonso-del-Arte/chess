@@ -106,7 +106,11 @@ The pieces move in specific ways when not capturing opposing pieces:
  of the game, and which will be described later on).
  * A queen may move to any unoccupied spaces in a straight line, including 
  diagonals, provided all the spaces en route are also unoccupied. Essentially a 
- queen's moves combines the moves of a bishop and a rook.
+ queen's moves combines the moves of a bishop and a rook. However, a queen may 
+ not combine these capabilities in a single turn. That is to say, she may not 
+ start moving like a rook and then switch to moving like a bishop in the same 
+ turn, nor start moving like a bishop and then switch to moving like a rook in 
+ the same turn.
  * A bishop may move to any unoccupied spaces in a diagonal line, provided the 
  spaces in between are also unoccupied. On account of the checkerboard, a side's 
  two bishops should be on differently colored spaces. If they are not, there was 
