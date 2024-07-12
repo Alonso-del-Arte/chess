@@ -89,8 +89,6 @@ play 2. Nxb5.
 1. Na3 c5
 2. e4 Nc6
 
-[TODO: FINISH WRITING]
-
 ### Queenside knight to bishop's file: Van Geet opening
 
 1. Nc3
@@ -3426,6 +3424,11 @@ This easily leads to an embarrassing early checkmate against Black.
 1. e4 g6
 2. d4 Bg7
 3. f4 
+
+###### Modern defense, three pawns attack
+
+1. e4 g6
+2. f4
 
 ##### Carr defense
 
