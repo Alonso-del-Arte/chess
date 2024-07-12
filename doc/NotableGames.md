@@ -58,10 +58,24 @@ Kasparov played White, Ballantyne played Black.
 8. Nc3 Qa5 
 9. Nc4 Qc7 
 10. e4 e5 
+
+At this point, the game has coincidentally unfolded the same as a game between 
+two grandmasters from a couple of decades prior. Kasparov diverges from the 
+earlier game in the next move.
+
 11. Be3 exd4 
 12. Bxd4 Bc5 
 13. Bxc5 Nxc5 
 14. f3 O-O 
+
+Kasparov hasn't castled yet, even though he could castle queenside. Not sure 
+whether to ascribe that to overconfidence on Kasparov's part or the strategic 
+calculation that kingside castling is best in all but a few unconventional 
+openings.
+
+Indeed Kasparov puts off kingside castling almost to the last minute, as 
+Ballantyne makes preparations to beat Kasparov on his king's home row.
+
 15. Qf2 Qe7 
 16. Be2 b5 
 17.Na5 Rac8 
@@ -92,6 +106,9 @@ Kasparov played White, Ballantyne played Black.
 42. Kh2 Nxa4 
 43. Bh5 g6 
 44. Qf6 1-0
+
+Ballantyne resigns, but it's an impressive finish because she actually has 
+slightly more material than Kasparov, just not positioned as strategically.
 
 ## Notable for appearing in a TV show not specifically about chess
 
