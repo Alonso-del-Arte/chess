@@ -10,8 +10,8 @@ First side to put the other in check thrice wins the game. Or you can win with a
 regular checkmate before giving three checks.
 
 This variant presents no problem for playing on a physical board. However, it 
-would be helpful to use some kind of tokens, like coins or bottle caps, to 
-count how many times each player has checked the other.
+would be helpful to use some kind of token, like coins or bottle caps, to count 
+how many times each player has checked the other.
 
 ## Fog of War
 
