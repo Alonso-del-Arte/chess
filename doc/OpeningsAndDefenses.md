@@ -3647,6 +3647,8 @@ King's Gambit Declined: Soller-Zilbermints Gambit
 
 1. f4 g5
 
+Should White capture that hanging pawn or instead seek to develop other pieces?
+
 #### Pirc defense, Harmonist variation
 
 1. f4 d6 
