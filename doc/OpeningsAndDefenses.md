@@ -3354,6 +3354,12 @@ both players exposed to an early check with 4. Qe2+ or, perhaps less likely, 4.
 1. e4 e6
 2. f4 d5
 
+May continue 
+
+3. e5
+
+which is a good choice for White in the king of hill variant of the game.
+
 ###### French defense, la Bourdonnais variation, Reuter gambit
 
 1. e4 e6
