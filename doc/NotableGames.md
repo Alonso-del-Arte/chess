@@ -40,13 +40,67 @@ went on and Dreev won. On review, the move 30. ... O-O was stricken from the
 transcript, as well as every move after that, but Dreev's win was allowed to 
 stand.
 
+## Notable for showcasing future talent
+
+In 2008, Garry Kasparov played several talented young players in Harlem 
+simultaneously. The grandmaster won all the games, but Rochelle Ballantyne 
+really made him work for the win.
+
+Kasparov played White, Ballantyne played Black.
+
+1. d4 d5 
+2. Nf3 Nf6 
+3. c4 c6 
+4. Qc2 Bg4 
+5. Ne5 Bh5 
+6. cxd5 Qxd5 
+7. e3 Nbd7 
+8. Nc3 Qa5 
+9. Nc4 Qc7 
+10. e4 e5 
+11. Be3 exd4 
+12. Bxd4 Bc5 
+13. Bxc5 Nxc5 
+14. f3 O-O 
+15. Qf2 Qe7 
+16. Be2 b5 
+17.Na5 Rac8 
+18. a3 Rfd8 
+19. O-O Ne6 
+20. Rfd1 Qc7 
+21. Nb3 Nf4 
+22. Bf1 a5 
+23. Nc5 Ng6 
+24. Rac1 Ne5 
+25. Be2 Qe7 
+26. h3 h6 
+27. a4 b4 
+28. Nb1 Rxd1+ 
+29. Rxd1 Rd8 
+30. Nd2 Nfd7 
+31. Nb7 Ra8 
+32. Nb3 Qe6 
+33. Qe3 f5 
+34. N3c5 Nxc5 
+35. Nxc5 Qa2 
+36. Qd4 Re8 
+37. exf5 Bf7 
+38. f4 Nc4 
+39. Ne6 Bxe6 
+40. fxe6 Nxb2 
+41. Rd2 Qb1+ 
+42. Kh2 Nxa4 
+43. Bh5 g6 
+44. Qf6 1-0
+
 ## Notable for appearing in a TV show not specifically about chess
 
 ### Star Trek
 
 *Star Trek*, retroactively referred to as "the original series" (TOS) introduced 
 3D chess. However, sequel series sometimes showed games of traditional chess. In 
-at least two cases, these games were historical games available to the show's writers.
+at least two cases, these games were historical games available to the show's 
+writers.
 
 #### Donald Byrne vs. Bobby Fischer
 
