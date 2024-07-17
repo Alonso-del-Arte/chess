@@ -3525,10 +3525,9 @@ King's Gambit Declined: Soller-Zilbermints Gambit
 1. f4 d5
 2. Nf3
 
-##### Dutch variation
+May continue
 
-1. f4 d5
-2. Nf3 c5
+2. ... c5
 
 ##### Dutch variation, Sturm gambit
 
