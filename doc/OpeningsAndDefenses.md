@@ -2834,7 +2834,11 @@ OR
 1. e4 e5
 2. Nf3 Nf6
 3. d4 d6
-4. dxe5 dxe5
+4. dxe5 
+
+May continue with a recapture of the pawn.
+
+4. ... dxe5
 
 ###### Petrov's defense, Urusov-Lichtenhein defense
 
