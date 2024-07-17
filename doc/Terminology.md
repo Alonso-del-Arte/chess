@@ -543,9 +543,11 @@ first or second check by that player.
 * **Touch-move rule** &mdash; The rule that a player must move a piece he 
 touches, provided there is a legal move to be made with that piece.
 * **Trade** &mdash; When a player sacrifices a piece in order to capture one of 
-the opponent's pieces. For example, White uses a bishop to capture Black's rook 
-that the king is castled with, and the Black king immediately captures that 
-bishop.
+the opponent's pieces. A trade is worthwhile to the initiating player if it 
+results in a tactical advantage. For example, White uses a bishop to capture 
+Black's rook that the king is castled with, and the Black king immediately 
+captures that bishop. In this example, the Black king has been deprived the 
+protection of the castled rook.
 * **Trading queens** &mdash; When one player uses a queen to capture an 
 opponent's queen, and the opponent immediately captures the player's queen.
 
