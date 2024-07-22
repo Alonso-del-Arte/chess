@@ -1637,6 +1637,14 @@ The most famous move sequence for the queen's pawn opening.
 
 Will Black capture that defenseless pawn?
 
+##### Queen's gambit declined, Chigorin exchange variation
+
+1. d4 d5 
+2. c4 Nc6
+3. cxd5 Qxd5
+
+Thus Black denies White the opportunity to play the early check Qa4+.
+
 ##### Queen's gambit declined, Austrian variation
 
 1. d4 d5 
