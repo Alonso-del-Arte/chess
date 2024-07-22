@@ -1271,3 +1271,16 @@ because White has a pawn much closer to promotion.
 
 So the right move here is a knight move, but you still have to be careful not to 
 deadlock.
+
+### King cornered by own pawn?
+
+If you've only got your king and a knight, and your opponent has only the king, 
+checkmate is probably impossible.
+
+But if your opponent has a single pawn, checkmate might just be possible.
+
+![Against king and pawn](../diagrams/endgames/KingPawnvsKingKnight.png)
+
+FEN: K7/2k5/3n4/P7/8/8/8/8 b - - 0 1
+
+Checkmate in three. Hint: no intermediate checks.

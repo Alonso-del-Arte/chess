@@ -45,12 +45,44 @@ try to prevent that, if they have the means.
 
 ![Black has only pawns](../diagrams/endgames/BlackOnlyHasPawns.png)
 
+If each side has only a king and most of the pawns, things can be quite tricky. 
+This next scenario comes from a game Susan Polgar played on the day of the FIDE 
+centennial.
+
+![Pawn blockades](../diagrams/endgames/PawnBlockades.png)
+
+FEN: 8/6p1/2k2p1p/pp3P2/2pK2PP/P1P5/1P6/8 w - - 0 1
+
+Polgar was playing White, and here she had subtle advantage.
+
 ## Involving the knight
 
 ### One knight
 
-The king will have to help out on this one. Actually, no, checkmate is 
-impossible for you. And if your opponent is similarly bereft, it's a stalemate.
+If you only have one knight, and your opponent only has the king, the best you 
+can hope for is stalemate. 
+
+However... if your opponent has a single pawn, you might actually be able to get 
+checkmate in three. But it requires some careful positioning, and probably no 
+intermediate checks, making victory all the more satisfying.
+
+![Against king and pawn](../diagrams/endgames/KingPawnvsKingKnight.png)
+
+FEN: K7/2k5/3n4/P7/8/8/8/8 b - - 0 1
+
+_x_ + 1. ... Nb5
+
+This forbids White from playing Ka7. There's only one other possible move.
+
+_x_ + 2. a6 Kc8
+
+Now White really wishes skipping a turn was allowed in chess, since the only 
+possible move is a terrible choice. All hope of a pawn promotion is lost.
+
+_x_ + 3. a7 Nc7#
+
+But of course Black wasn't interested in capturing the pawn. Black was more 
+interested in smothering the enemy king in the corner.
 
 ### Two knights
 
