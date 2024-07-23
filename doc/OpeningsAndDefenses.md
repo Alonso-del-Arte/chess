@@ -3090,6 +3090,11 @@ Two pairs of enemy pawns facing off just slightly off center.
 Sometimes offense is the best defense. Of course White will simply block that 
 check with the knight's pawn.
 
+##### Bishop's opening
+
+1. e4 e5
+2. Bc4
+
 ##### Leonardis variation
 
 1. e4 e5
