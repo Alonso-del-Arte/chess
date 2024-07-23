@@ -3095,6 +3095,17 @@ check with the knight's pawn.
 1. e4 e5
 2. Bc4
 
+###### Scholar's mate
+
+1. e4 e5
+2. Bc4 Nc6
+3. Qh5 Nf6
+4. Qxf7#
+
+Black's crucial mistake here was 3. ... Nf6. But if Black knows White is 
+targeting Black's king's pawn, Black can stave off the fourth move embarrassment 
+with a simple move like g6.
+
 ##### Leonardis variation
 
 1. e4 e5
