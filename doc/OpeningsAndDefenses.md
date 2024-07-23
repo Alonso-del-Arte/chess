@@ -4367,6 +4367,19 @@ For example:
 1. f3 e5
 2. e4
 
+#### Fool's mate
+
+1. f3 e5
+2. g4 Qh4#
+
+Though 1. f3 is not the best opening, it can still be a competitive game for 
+White if White doesn't commit the blunder of 2. g4. Because then it doesn't 
+actually matter if Black played 1. ... e5 or 1. ... e6, as either move allows 
+Black to play 2. ... Qh4#.
+
+The general lesson here, I think, is to go for early checks, even if you're not 
+playing three check chess.
+
 ### Kingside knight's pawn: Hungarian opening
 
 1. g3
