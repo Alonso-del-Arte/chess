@@ -19,6 +19,26 @@ opponent's victory in doubt.
 
 [FINISH WRITING]
 
+## Talking during games
+
+Talking is not allowed during competitive games, except under certain 
+circumstances for matters directly related to the progress of the game. In a 
+coaching context, the conversation should probably still be limited to matters 
+pertinent to the game.
+
+### Adjusting pieces
+
+For the most part, pieces should only be moved when [FINISH WRITING]
+
+### Calling checks
+
+Among beginners, it might be necessary for a player to announce a check, just in 
+case the opponent [FINISH WRITING]
+
+### Calling for an arbiter
+
+[FINISH WRITING]
+
 ## One last word about the touch-move rule
 
 It would be rude to repeatedly touch pieces that can't be moved at the moment, 
