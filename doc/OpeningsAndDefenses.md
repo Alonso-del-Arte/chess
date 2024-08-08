@@ -2231,6 +2231,10 @@ May continue thus:
 1. e4 c5 
 2. Nf3 g6
 
+May continue 
+
+3. c3
+
 ##### Sicilian defense, brick variation
 
 1. e4 c5
@@ -3924,6 +3928,11 @@ Note that if your second move is your king's pawn forward two spaces, e.g.,
 then this is considered a king's pawn opening, and it's called the Mengarini 
 opening.
 
+Your opponent might seek to capture your e4 pawn with moves along these lines:
+
+2. ... Qh4
+3. Nf3 Qxe4+
+
 #### Sicilian defense, Mengarini variation
 
 1. a3 c5
@@ -4014,6 +4023,18 @@ Black will probably respond 2. ... Nf6.
 2. e4
 
 Black will probably capture your pawn.
+
+##### Classical atomic variation
+
+1. b3 d5
+2. Ba3
+
+This move doesn't make much sense in regular chess. But in atomic chess, as long 
+as Black does not play 2. ... c5 or 2. ... d6, White can play 
+
+3. Bxe7#
+
+for the kill. In regular chess, 3. Bxe7 would be a pointless sacrifice.
 
 ###### French defense, Horwitz attack
 
