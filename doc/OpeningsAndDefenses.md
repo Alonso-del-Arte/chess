@@ -3147,6 +3147,11 @@ first.
 1. e4 e5 
 2. c3
 
+###### MacLeod attack, Lasa gambit
+
+1. e4 e5 
+2. c3 f5
+
 #### Portuguese opening
 
 1. e4 e5
