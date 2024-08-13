@@ -431,6 +431,11 @@ defense.
 2. e4 d6
 3. Bb5+ Nc6
 
+#### R&eacute;ti opening, Sicilian invitation
+
+1. Nf3 c5 
+2. c3 Nf6
+
 #### Potentially a R&eacute;ti gambit
 
 1. Nf3 d5
@@ -4106,6 +4111,11 @@ one of your bishops going early, choose another opening, like maybe king's pawn.
 2. e4 e5
 3. Nf3 Nf6
 4. Bc4
+
+#### R&eacute;ti opening, Sicilian invitation
+
+1. c3 c5 
+2. Nf3 Nf6
 
 #### Sicilian defense, delayed Alapin variation
 
