@@ -57,7 +57,13 @@ And of course among grandmasters, FINISH WRITING
 
 ### Asking to take a move back
 
-FINISH WRITING
+In a coaching context, the student can certainly ask the teacher to take back a 
+particularly bad move, and the teacher may or may approve that request. In a 
+friendly game, one player may ask for a take back, and the other player should 
+grant that request.
+
+But in a tournament, a valid move can't be taken back. And of course any invalid 
+move must be undone and stricken from the record.
 
 ### Calling for an arbiter
 
