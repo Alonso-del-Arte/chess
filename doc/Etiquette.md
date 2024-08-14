@@ -4,6 +4,8 @@ Chess players are usually thought of as being polite and reserved. However,
 aside from the touch-move rule, there is very little in the rules of the game 
 regulating what is polite behavior.
 
+The statements in this document are more guidelines than rules.
+
 ## General principles
 
 One should always play to the best of one's ability, except within the context 
