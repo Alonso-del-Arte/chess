@@ -3260,6 +3260,11 @@ out as a queen's pawn opening.
 1. e4 c6 
 2. b3
 
+##### Caro-Kann defense, Breyer variation
+
+1. e4 c6 
+2. d3 d5
+
 #### Pirc defense
 
 1. e4 d6
@@ -4231,6 +4236,11 @@ R&eacute;ti opening, old Indian attack.
 
 1. Nc3 c5
 2. d3
+
+#### Caro-Kann defense, Breyer variation
+
+1. d3 c6 
+2. e4 d5
 
 ### King's pawn: Van't Kruijs opening
 
