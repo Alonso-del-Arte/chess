@@ -3285,6 +3285,11 @@ out as a queen's pawn opening.
 2. d4 Nf6 
 3. Nf3
 
+##### Pirc defense, Mar&oacute;czy defense
+
+1. e4 d6 
+2. d4 e5
+
 ###### Pirc defense, small center defense
 
 1. e4 d6 
