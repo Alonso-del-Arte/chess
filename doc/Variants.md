@@ -46,7 +46,7 @@ e5, however, White foolishly plays 2. Bb5 instead.
 On the plus side, Black might fail to deduce from the loss of visibility of the 
 b5 square that playing 2. ... d5 or 2. ... d6, both of which would be invalid 
 moves in regular chess, are merely inadvisable in this variant. Then White would 
-win by playing 3. Bxe8#, a move that would be impossible in regular chess.
+win by playing 3. Bxe8#, a move that would not be allowed in regular chess.
 
 This is one of the few variants in which you can capture your opponent's king. 
 If you can see your opponent's king on your turn, you should capture him. Then 
