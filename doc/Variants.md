@@ -57,10 +57,11 @@ in regular chess. Safely ensconsed behind a shield of pawns with a rook at your
 king's side, the only way your opponent can learn your castling status is with a 
 very reckless move.
 
-Also called "dark chess." Closely related to **Kriegspiel**, which was played 
-long before anyone thought of using computers for chess. Kriegspiel was played 
-with three boards and required an arbiter to keep track of what pieces are 
-visible to each player.
+This variant is also called "dark chess." It is closely related to 
+**Kriegspiel**, which was played long before anyone thought of using computers 
+for chess. Kriegspiel was played with three boards and required an arbiter to 
+keep track of what pieces are visible to each player. It must have been quite 
+cumbersome to play.
 
 ## King of the hill
 
