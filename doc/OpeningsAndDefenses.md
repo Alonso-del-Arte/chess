@@ -3030,8 +3030,15 @@ See Kosten (2001) for a comprehensive study.
 
 Instead of capturing Black's pawn, White offers Black another pawn.
 
-Black can accept the gambit with 3. ... dxc5. Or Black can respond with the 
-S&ouml;rensen or Capablanca defense and offer White a pawn with 3. ... d5. 
+Black can accept the gambit with 3. ... dxc3, and White might respond with 4. 
+Nxc3 or 4. Bc4. With either of these, White opens up paths for both bishops, 
+while Black's queenside bishop remains closed in by the queen, queenside knight 
+and three pawns.
+
+Or Black can respond with the S&ouml;rensen or Capablanca defense and offer 
+White a pawn with 3. ... d5. This has the advantage of allowing Black's light 
+squares bishop to leave the home row, and also gives Black's queen another way 
+to mobilize.
 
 ###### Center game accepted, continuation
 
