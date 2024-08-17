@@ -49,6 +49,11 @@ piece that turn, and must make a valid move with that piece even if it is
 strategically disadvantageous. This rule is generally enforced even in an 
 informal context, though it may be relaxed for coaching.
 
+However, you may adjust pieces that are not centered, but first you must 
+announce your intention to make such adjustments, preferably by saying 
+"J'adoube" (French for "I adjust"). It's a judgement call how far off center a 
+piece must be to be worth adjusting and potentially disrupting the game.
+
 When not capturing an opponent's piece, a player may only move one piece (except 
 in the special case of castling, in which case he or she moves two pieces of his 
 or her own side).
