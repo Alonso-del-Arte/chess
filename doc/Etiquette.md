@@ -55,7 +55,9 @@ that ignores the check.
 If your opponent does make such an invalid move, then you might say something 
 like "You're in check."
 
-And of course among grandmasters, FINISH WRITING
+And of course among grandmasters, calling checks and checkmates is unnecessary, 
+as they know well enough to notice them, and often in advance, so that games 
+frequently end well before checkmate is obvious to a beginner.
 
 ### Asking to take a move back
 
