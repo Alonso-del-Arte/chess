@@ -2166,6 +2166,10 @@ You might as well use your kingside bishop to capture that pawn on file 'b'.
 1. e4 c5
 2. Nf3 Nc6
 
+May continue
+
+3. d3
+
 ##### Sicilian defense, open
 
 1. e4 c5
