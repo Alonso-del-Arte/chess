@@ -59,6 +59,15 @@ And of course among grandmasters, calling checks and checkmates is unnecessary,
 as they know well enough to notice them, and often in advance, so that games 
 frequently end well before checkmate is obvious to a beginner.
 
+When a check is checkmate, some players might simply say "check" instead of 
+"checkmate." Depending on the skill levels of the players, and the perceived 
+skill levels of their opponents, this might be considered condescending.
+
+But it's best to assume that a player calling checkmate just "check" wasn't 
+completely certain and wanted to make sure first. After all, it would be far 
+more embarrassing to claim checkmate and then the opponent discovers it's merely 
+a check.
+
 ### Asking to take a move back
 
 In a coaching context, the student can certainly ask the teacher to take back a 
