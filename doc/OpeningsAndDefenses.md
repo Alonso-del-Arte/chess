@@ -4192,6 +4192,12 @@ opportunity for an early check with 2. Qa4+.
 1. d3 Nf6
 2. e4
 
+##### Sicilian defense, old Sicilian variation
+
+1. d3 c5 
+2. Nf3 Nc6 
+3. e4
+
 #### Mieses opening reclassified as Van Geet opening
 
 1. d3 d5
