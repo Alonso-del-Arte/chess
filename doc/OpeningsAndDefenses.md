@@ -2161,16 +2161,6 @@ You might as well use your kingside bishop to capture that pawn on file 'b'.
 1. e4 c5
 2. Nc3 Nc6
 
-##### Sicilian defense, delayed Alapin variation
-
-1. e4 c5 
-2. Nf3 d6 
-3. c3
-
-May continue thus:
-
-3. ... Nf6
-
 ##### Sicilian defense, old Sicilian variation
 
 1. e4 c5
@@ -2198,6 +2188,16 @@ May continue thus:
 
 1. e4 c5
 2. Nf3 e5
+
+##### Sicilian defense, delayed Alapin variation
+
+1. e4 c5 
+2. Nf3 d6 
+3. c3
+
+May continue thus:
+
+3. ... Nf6
 
 ##### Sicilian defense, canal attack
 
