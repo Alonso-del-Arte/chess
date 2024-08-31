@@ -3020,11 +3020,9 @@ See Kosten (2001) for a comprehensive study.
 2. d4 exd4
 3. Nf3
 
-###### Center game accepted, Kieseritzky variation
+May continue
 
-1. e4 e5
-2. d4 exd4
-3. Nf3 Bc5
+3. ... Bc5
 
 ###### Danish gambit
 
