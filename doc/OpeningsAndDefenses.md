@@ -1730,6 +1730,12 @@ Rather than take White's pawn, Black decides to offer up a pawn.
 
 Neither side has an advantage, both sides are exposed.
 
+###### Slav defense, Diemer gambit
+
+1. d4 d5
+2. c4 c6
+3. e4
+
 ##### Queen's gambit declined
 
 1. d4 d5
