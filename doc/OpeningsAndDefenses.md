@@ -2825,6 +2825,11 @@ OR
 1. e4 e5
 2. Nf3 Nf6
 
+May continue 
+
+3. d3 Nc6 
+4. Be2
+
 ###### Petrov's defense, classical variation
 
 Most of the time, White feels no urgency to capture Black's king's pawn.
