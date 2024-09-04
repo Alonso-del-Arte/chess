@@ -1574,6 +1574,13 @@ Likely followed by
 Can continue
 
 2. ... e6
+
+and then
+
+3. g3
+
+or 
+
 3. Bg5
 
 White hopes Black will either play 3. ... Qxg5, which then leads to 4. Nxg5, or 
@@ -4559,6 +4566,18 @@ Very rare, occurs in much less than 1% of games. Black favored to win.
 
 1. g3 e6 
 2. Nf3
+
+##### Zukertort variation
+
+1. g3 e6 
+2. Nf3 d5
+
+Can continue 
+
+3. d4
+
+The bad thing about this one is that Black is likely to play 3. ... Bb4+, making 
+this opening inadvisable for three-check chess.
 
 #### Symmetrical variation
 
