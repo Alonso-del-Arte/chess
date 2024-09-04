@@ -600,6 +600,10 @@ May continue
 
 1. Nf3 e6
 
+May continue 
+
+2. g3
+
 #### Arctic defense
 
 1. Nf3 f6 
@@ -4550,6 +4554,11 @@ A transposition of a queen's pawn opening.
 2. Nf3
 
 Very rare, occurs in much less than 1% of games. Black favored to win.
+
+#### R&eacute;ti opening, queen's gambit invitation
+
+1. g3 e6 
+2. Nf3
 
 #### Symmetrical variation
 
