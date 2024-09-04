@@ -539,7 +539,15 @@ This can continue as the Ruy L&oacute;pez opening, Spanish countergambit:
 ##### King's Indian attack
 
 1. Nf3 d5
-2. g3 Nc6
+2. g3 
+
+Can continue
+
+2. ... e6
+
+or
+
+2. ... Nc6
 3. Bg2 e5
 4. d3 Nf6
 5. O-O
