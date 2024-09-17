@@ -1147,6 +1147,11 @@ Likely followed up with
 1. c4 e5
 2. e4 g6
 
+##### King's English variation
+
+1. c4 e5 
+2. g3 d6
+
 #### Anglo-Dutch defense
 
 1. c4 f5
@@ -4585,6 +4590,11 @@ A transposition of a queen's pawn opening.
 2. Nf3
 
 Very rare, occurs in much less than 1% of games. Black favored to win.
+
+#### King's English variation
+
+1. g3 d6 
+2. c4 e5 
 
 #### R&eacute;ti opening, queen's gambit invitation
 
