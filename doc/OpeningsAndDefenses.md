@@ -2312,6 +2312,11 @@ May continue
 3. exd5 Qxd5
 4. Be2
 
+##### Sicilian defense, Lasker-Dunne variation
+
+1. e4 c5
+2. g3 d5
+
 ##### Sicilian defense, Bowdler attack
 
 1. e4 c5
@@ -4495,7 +4500,7 @@ Also called "king's fianchetto opening."
 
 1. g3 c5
 
-#### Sicilian defense: Lasker-Dunn attack
+#### Sicilian defense: Lasker-Dunne attack
 
 1. g3 c5
 2. e4
