@@ -552,6 +552,12 @@ or
 4. d3 Nf6
 5. O-O
 
+###### King's Indian attack, double fianchetto variation
+
+1. Nf3 d5 
+2. g3 g6 
+3. d4
+
 #### Ross gambit
 
 1. Nf3 e5
