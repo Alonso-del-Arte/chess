@@ -1826,6 +1826,12 @@ put Black in check (e.g., Bb5+) or prepare to castle.
 1. d4 d5
 2. Qd3 Nf6
 
+##### Siberian attack
+
+1. d4 d5
+2. Qd3 Nf6
+3. Nc3
+
 #### Englund gambit
 
 1. d4 e5
