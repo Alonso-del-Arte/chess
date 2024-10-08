@@ -227,6 +227,12 @@ can capture that knight without risk.
 1. Nc3 d5
 2. d4 
 
+##### Siberian attack
+
+1. Nc3 d5
+2. d4 Nf6
+3. Qd3
+
 ##### Scandinavian defense, closed
 
 1. Nc3 d5
