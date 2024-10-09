@@ -2531,6 +2531,13 @@ both assist development and affect vital central squares.
 3. Nc3 Nf6
 4. d4
 
+###### Four knights game, Italian variation
+
+1. e4 e5 
+2. Nf3 Nc6 
+3. Nc3 Nf6 
+4. Bc4 Nxe4
+
 ##### Scotch game, Lolli variation
 
 1. e4 e5
