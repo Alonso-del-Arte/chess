@@ -242,7 +242,9 @@ traditional chess.
 opponent's pieces. The threatened pieces are then said to be forked. When one of 
 the forked pieces is the opponent's king in check, this usually means the 
 opponent must move the king to safety and allow the forking piece to capture the 
-other forked piece. 
+other forked piece.
+* **Four knights game** &mdash; An opening involving both of White's knights and 
+both of Black's knights.
  
 ![Forking check](../diagrams/ForkForRook.png)
 
@@ -540,6 +542,8 @@ said to have gained tempo, and your opponent would be said to have lost tempo.
 * **Three-check** &mdash; A chess variant in which the first side to check the 
 other thrice wins. However, checkmate still wins the game even if it's only the 
 first or second check by that player.
+* **Three knights game** &mdash; An opening involving both of White's knights 
+and one of Black's knights. May go on to be a four knights game.
 * **Touch-move rule** &mdash; The rule that a player must move a piece he 
 touches, provided there is a legal move to be made with that piece.
 * **Trade** &mdash; When a player sacrifices a piece in order to capture one of 
