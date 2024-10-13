@@ -463,6 +463,12 @@ deliberately.
 1. Nf3 d5
 2. c4 
 
+###### Caro-Kann defensive system
+
+1. Nf3 d5 
+2. c4 c6 
+3. cxd5 cxd5
+
 ###### R&eacute;ti gambit accepted
 
 1. Nf3 d5
