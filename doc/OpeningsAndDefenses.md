@@ -442,10 +442,6 @@ defense.
 1. Nf3 c5 
 2. c3 Nf6
 
-#### Potentially a R&eacute;ti gambit
-
-1. Nf3 d5
-
 ##### Reversed Mexican defense
 
 1. Nf3 d5
@@ -467,7 +463,7 @@ deliberately.
 1. Nf3 d5
 2. c4 
 
-###### R&eacute;ti gambit
+###### R&eacute;ti gambit accepted
 
 1. Nf3 d5
 2. c4 dxc4
