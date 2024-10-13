@@ -1179,9 +1179,11 @@ Likely followed up with
 1. c4 b6
 2. d4
 
-#### Caro-Kann Defensive System
+#### Caro-Kann defensive system
 
-1. c4 c6
+1. c4 c6 
+2. Nf3 d5 
+3. cxd5 cxd5
 
 ##### Slav defense
 
