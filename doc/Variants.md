@@ -78,7 +78,7 @@ cellophane square cut to size to place over the four squares.
 Normally, we are advised to not move too many pawns in the opening. Like maybe 
 only one pawn, preferably.
 
-But in this variant, you can only move pawns, until one of the following 
+But in this variant, you can only move pawns, until any one of the following 
 happens:
 
 * A king is in check, or
