@@ -78,12 +78,14 @@ cellophane square cut to size to place over the four squares.
 Normally, we are advised to not move too many pawns in the opening. Like maybe 
 only one pawn, preferably.
 
-But in this variant, you can only move pawns, until either
+But in this variant, you can only move pawns, until one of the following 
+happens:
 
-* A pawn is promoted, and/or
-* A king is in check.
+* A king is in check, or
+* A pawn is promoted, or
+* No pawn moves are available.
 
-Once either of those happen, both players are subsequently free to move any of 
+Once any of those happen, both players are subsequently free to move any of 
 their pieces according to the rules of regular chess.
 
 With the move restriction turned off, castling is allowed subject to the same 
@@ -99,15 +101,10 @@ Obviously this variant gets the game to an endgame state very quickly, as the
 first non-pawn moves of the game are likely to involve both players losing their 
 queens.
 
-What is much less clear to me is what happens if there are no valid pawn moves 
-for either side while the move stricture applies. Two possibilities suggest 
-themselves:
-
-* Regard it as a stalemate, thus ending the game.
-* Or allow other pieces to be moved, thus letting the game go on.
-
-I have verified, thanks to Tavon Strange, that such stalling can occur in this 
-variant. Also thanks to Christopher Woods for his help researching this variant.
+It wasn't clear to me is what happens if there are no valid pawn moves for 
+either side while the move stricture applies. I verified, thanks to Tavon 
+Strange, that such stalling can occur in this variant. Also thanks to 
+Christopher Woods for his help researching this variant.
 
 The main difficulty for playing on a physical board might be if the first 
 promotion is to a queen.
