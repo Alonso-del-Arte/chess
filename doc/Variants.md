@@ -110,7 +110,8 @@ Strange, that such stalling can occur in this variant. Also thanks to
 Christopher Woods for his help researching this variant.
 
 The main difficulty for playing on a physical board might be if the first 
-promotion is to a queen.
+promotion is to a queen, since most likely no queens have been captured at that 
+point.
 
 ## Crazyhouse
 
