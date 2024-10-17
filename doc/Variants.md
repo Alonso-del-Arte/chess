@@ -88,6 +88,9 @@ happens:
 Once any of those happen, both players are subsequently free to move any of 
 their pieces according to the rules of regular chess.
 
+Just in case it needs to be said: captures by pawns count as pawn moves. But 
+most likely pawns will only capture other pawns while the stricture applies.
+
 With the move restriction turned off, castling is allowed subject to the same 
 rules as in regular chess. And remember: in regular chess you can castle even if 
 the castling rook is under threat, as long as the king is not under threat and 
