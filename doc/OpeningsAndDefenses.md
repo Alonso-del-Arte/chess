@@ -460,6 +460,8 @@ deliberately.
 
 ##### R&eacute;ti gambit
 
+In some references, this is called *the* R&eacute;ti opening.
+
 1. Nf3 d5
 2. c4 
 
