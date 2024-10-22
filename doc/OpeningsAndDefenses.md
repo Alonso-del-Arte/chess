@@ -474,6 +474,10 @@ deliberately.
 1. Nf3 d5
 2. c4 dxc4
 
+May continue
+
+3. Qa4+
+
 ###### R&eacute;ti gambit declined, advance variation
 
 1. Nf3 d5 
