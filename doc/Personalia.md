@@ -86,7 +86,7 @@ who is almost completely blind.
 ## R
 
 * **Richard Selig R&eacute;ti** &mdash; Chess champion and author of books and 
-articles about chess. The opening 1. Nf3 is named after him.
+articles about chess. The opening 1. Nf3 is sometimes named after him.
 
 ## S
 
@@ -101,3 +101,18 @@ champion since 1886.
 
 * **Mikhail Tal** &mdash; Chess world champion in 1960.
 * **Veselin Topalov** &mdash; FIDE world champion in 2005.
+
+## U
+
+## V
+
+## W
+
+## X
+
+## Y
+
+## Z
+
+* **Johannes Hermann Zukertort** &mdash; Polish-born British chess champion, 
+founder of *Chess Monthly*.
