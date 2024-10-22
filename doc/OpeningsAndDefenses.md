@@ -478,6 +478,8 @@ May continue
 
 3. Qa4+
 
+This is a very smart move for White in three-check chess.
+
 ###### R&eacute;ti gambit declined, advance variation
 
 1. Nf3 d5 
