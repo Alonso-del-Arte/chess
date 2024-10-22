@@ -487,6 +487,10 @@ This is a very smart move for White in three-check chess.
 1. Nf3 d5 
 2. c4 d4
 
+This has the effect of inhibiting White's queenside knight, as it would be a 
+pointless sacrifice for White to play 3. Nc3, because Black would almost 
+certainly respond with 3. ... dxc3.
+
 ##### Zukertort variation
 
 1. Nf3 d5
