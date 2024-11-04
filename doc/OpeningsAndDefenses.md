@@ -1595,6 +1595,12 @@ Likely followed by
 1. d4 d5
 2. Nc3 e5
 
+##### Chigorin fianchetto defense
+
+1. d4 d5 
+2. Nc3 g6 
+3. Nf3 Bg7
+
 ##### Chigorin, Alburt defense
 
 1. d4 d5
