@@ -2287,6 +2287,10 @@ May continue thus:
 1. e4 c5 
 2. Nf3 e6
 
+May continue 
+
+3. d4 cxd4
+
 ###### Sicilian defense, pin variation
 
 1. e4 c5 
