@@ -2312,6 +2312,10 @@ May continue
 
 3. c3
 
+or
+
+3. Bc4
+
 ##### Sicilian defense, brick variation
 
 1. e4 c5
