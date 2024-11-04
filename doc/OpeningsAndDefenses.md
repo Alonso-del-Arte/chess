@@ -2115,7 +2115,12 @@ OR
 
 1. e4 Nf6
 
-##### Alekhine's Defense: John Tracy gambit
+##### Alekhine's defense, Scandinavian variation
+
+1. e4 Nf6 
+2. Nc3 d5
+
+##### Alekhine's defense, John Tracy gambit
 
 1. e4 Nf6
 2. Nf3 
