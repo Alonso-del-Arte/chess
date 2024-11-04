@@ -1,6 +1,13 @@
-This project is now open to Hacktoberfest 2023.
+This project might be open to Hacktoberfest 2025.
 
-# Guidelines for Hacktoberfest 2023 Contributors
+# Guidelines for Hacktoberfest 2025 Contributors
+
+If you wish to participate on this repository for Hacktoberfest 2025, get your 
+first pull request for this repository in before October 14. I will not be 
+rushed to merge pull requests that I then undo in November.
+
+Also, I may rely on other people to evaluate pull requests. In that case, be 
+sure to address any concerns that they bring up.
 
 I will consider pull requests associated with an issue and I will also consider 
 pull requests associated with a TODO (considered an Action Item in NetBeans). I 
