@@ -1714,6 +1714,12 @@ Will Black capture that defenseless pawn?
 
 Thus Black denies White the opportunity to play the early check Qa4+.
 
+##### Queen's gambit declined, Marshall-Tan gambit
+
+1. d4 d5 
+2. c4 Nf6 
+3. cxd5 c6
+
 ##### Queen's gambit declined, Austrian variation
 
 1. d4 d5 
