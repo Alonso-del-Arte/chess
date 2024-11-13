@@ -1704,7 +1704,8 @@ The most famous move sequence for the queen's pawn opening.
 1. d4 d5
 2. c4
 
-Will Black capture that defenseless pawn?
+Will Black capture that defenseless pawn? If so, that's accepting the gambit, 
+otherwise it's declined.
 
 ##### Queen's gambit declined, Chigorin exchange variation
 
