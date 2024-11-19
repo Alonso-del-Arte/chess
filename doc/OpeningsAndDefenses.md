@@ -942,6 +942,17 @@ Black hopes to play 2. ... Bxb4.
 1. b4 e5
 2. a3 
 
+#### Polish blunder
+
+1. b4 e5
+2. d4
+
+Black's best next move is 
+
+2. ... Bxb4+
+
+especially in three check chess.
+
 ###### King's knight opening, Pachman wing gambit
 
 1. b4 e5
