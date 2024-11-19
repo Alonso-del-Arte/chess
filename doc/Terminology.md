@@ -522,7 +522,8 @@ first, atomic chess.
 Swiss system tries to draw a game so as to get paired up with a less able player 
 in the next round. Or it may refer to the opening 1. f4 f5 2. e4.
 * **System** &mdash; A series of moves which a player can play without too many 
-adjustments regardless of the opponent's moves.
+adjustments regardless of the opponent's moves. Examples of systems include the 
+London system and the Zukertort system.
 
 ![Skewer for rook](../diagrams/endgames/SkewerForRook.png)
 
