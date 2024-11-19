@@ -931,6 +931,12 @@ not play the Polish opening all that often.
 
 Will Black capture White's king's pawn?
 
+#### Common response to Polish opening
+
+1. b4 e5
+
+Black hopes to play 2. ... Bxb4.
+
 #### Bugayev attack
 
 1. b4 e5
