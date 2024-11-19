@@ -942,6 +942,9 @@ Black hopes to play 2. ... Bxb4.
 1. b4 e5
 2. a3 
 
+The idea here is to discourage Black from playing 2. ... Bxb4. But this move 
+further delays White from making a play for control of the center.
+
 #### Polish blunder
 
 1. b4 e5
