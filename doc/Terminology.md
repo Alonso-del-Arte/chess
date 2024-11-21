@@ -584,6 +584,8 @@ game). More radical variants may use different boards and/or different pieces.
 
 ## W
 
+* **Waiting move** &mdash; A move that does not really commit to an attack but 
+is not really a mistake nor a blunder.
 * **Ware opening** &mdash; The opening in which White begins by playing the 
 queenside rook's pawn forward two spaces. See Openings for more details.
 * **White** &mdash; The player who always goes first, or the group of pieces 
