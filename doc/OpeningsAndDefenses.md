@@ -1269,6 +1269,11 @@ Likely followed up with
 1. c4 e6 
 2. Nf3 a6
 
+Black's first move here is not very committal, and the second move, of the 
+queenside rook's pawn, is even less so. It might be a waiting move, with Black 
+trying not to commit resources to any particular defense or offense without a 
+clearer idea of what White might be trying to do.
+
 ##### Queen's pawn opening, Horowitz defense
 
 1. c4 e6
