@@ -1094,6 +1094,15 @@ OR
 2. Nf3 Nf6 
 3. d4
 
+##### Symmetrical variation, hedgehog system
+
+1. c4 c5 
+2. Nf3 Nf6 
+3. g3 b6 
+4. Bg2 Bb7 
+5. O-O e6 
+6. Nc3 Be7
+
 ##### Old Benoni defense
 
 1. c4 c5
