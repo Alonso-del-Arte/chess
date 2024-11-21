@@ -1264,6 +1264,11 @@ Likely followed up with
 2. Nf3 d5
 3. g3
 
+##### Agincourt defense
+
+1. c4 e6 
+2. Nf3 a6
+
 ##### Queen's pawn opening, Horowitz defense
 
 1. c4 e6
