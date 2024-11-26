@@ -724,12 +724,17 @@ R&eacute;ti Opening: Dutch, Lisitsyn, Rydel-Bloodgood Gambit, 3.Ne5
 
 May continue
 
-2. e4
+2. c4 Nf6
 
 ##### Modern defense
 
 1. Nf3 g6
 2. d4
+
+##### Kingside fianchetto variation
+
+1. Nf3 g6
+2. e4
 
 ##### Pirc defense, classical variation
 
