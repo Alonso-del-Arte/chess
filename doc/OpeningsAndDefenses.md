@@ -1500,6 +1500,12 @@ Other lines for declining the gambit: 5. Nc3, 5. a4, 5. e4, 5. Bf4, 5. Qc2.
 The book by Przewo&zacute;nik (see the [bibliography](Bibliography.md) goes in 
 depth on this gambit.
 
+##### Queen's Indian defense
+
+1. d4 Nf6 
+2. c4 e6 
+3. Nf3 b6
+
 ##### Bogo-Indian defense, Wade-Smyslov variation
 
 1. d4 Nf6 
