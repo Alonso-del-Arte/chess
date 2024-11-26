@@ -330,6 +330,10 @@ defense.
 
 1. Nf3 Nc6
 
+May continue
+
+2. c4 e5
+
 ##### R&eacute;ti opening reclassified as queen's pawn opening, Mik&edot;nas defense
 
 1. Nf3 Nc6
