@@ -1097,13 +1097,18 @@ OR
 2. Nf3 Nf6 
 3. Nc3 d5
 
-##### Symmetrical anti-Benoni variation
+##### Symmetrical variation
+
+1. c4 c5 
+2. Nf3 Nf6
+
+###### Symmetrical anti-Benoni variation
 
 1. c4 c5 
 2. Nf3 Nf6 
 3. d4
 
-##### Symmetrical variation, hedgehog system
+###### Symmetrical variation, hedgehog system
 
 1. c4 c5 
 2. Nf3 Nf6 
