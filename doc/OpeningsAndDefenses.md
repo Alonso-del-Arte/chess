@@ -1953,6 +1953,13 @@ Will you follow with 2. dxe5? That would be Englund gambit accepted.
 1. d4 e5 
 2. dxe5
 
+###### Englund gambit accepted, Soller gambit
+
+1. d4 e5 
+2. dxe5 f6
+
+How far is White willing to go to try for an early pawn promotion?
+
 ###### Englund gambit accepted, mosquito gambit
 
 1. d4 e5 
