@@ -3591,6 +3591,11 @@ both players exposed to an early check with 4. Qe2+ or, perhaps less likely, 4.
 2. d4 d5
 3. e5
 
+Both sides have two stymied pawns each, and each side can threaten the 
+opponent's king on the next move. But on the plus side for White, Black has to 
+do a lot more work to threaten White's queen, whereas White might be able to 
+play Bg5 soon, hoping to play Bxd8 later on.
+
 ###### French defense, Franco-Hiva gambit
 
 1. e4 e6 
