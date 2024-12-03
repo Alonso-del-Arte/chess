@@ -1965,6 +1965,19 @@ How far is White willing to go to try for an early pawn promotion?
 1. d4 e5 
 2. dxe5 Qh4
 
+The Black queen essentially becomes a pesky mosquito for White to shoo away. 
+Possible continuations include
+
+3. Nf3
+
+and the far less worthwhile
+
+3. Be3
+
+to forestall the unlikely Black response
+
+3. ... Qxf2+
+
 ###### Englund gambit accepted, Hartlaub-Charlick gambit
 
 1. d4 e5 
