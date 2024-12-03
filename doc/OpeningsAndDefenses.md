@@ -3585,6 +3585,12 @@ both players exposed to an early check with 4. Qe2+ or, perhaps less likely, 4.
 3. exd5 exd5
 4. Nf3
 
+###### French defense, advance variation
+
+1. e4 e6
+2. d4 d5
+3. e5
+
 ###### French defense, Franco-Hiva gambit
 
 1. e4 e6 
