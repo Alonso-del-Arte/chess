@@ -3480,7 +3480,12 @@ out as a queen's pawn opening.
 1. e4 d6
 2. Nf3 Bg4
 
-##### Pirc defense, Roscher gambit
+##### Pirc defense
+
+1. e4 d6 
+2. d4 Nf6 
+
+###### Pirc defense, Roscher gambit
 
 1. e4 d6 
 2. d4 Nf6 
