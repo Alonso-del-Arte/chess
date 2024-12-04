@@ -1453,6 +1453,13 @@ ignores other factors, such as how your opponent's skills compare to yours.
 2. Nf3 g6
 3. Nc3 d5
 
+###### Torre attack, fianchetto defense
+
+1. d4 Nf6 
+2. Nf3 g6 
+3. Bg5 Bg7 
+4. e3 O-O
+
 ##### Indian game, accelerated variation
 
 1. d4 Nf6 
