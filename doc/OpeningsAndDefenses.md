@@ -3568,14 +3568,16 @@ both players exposed to an early check with 4. Qe2+ or, perhaps less likely, 4.
 ##### French defense, normal variation
 
 1. e4 e6
-2. d4 d5
+2. d4
 
-###### French defense, normal variation
+Might continue
 
-1. e4 e6
-2. d4 d5
+2. ... d5
+
+and
+
 3. Nc3 Nc6
-4. Nf3
+4. Nf3 // TODO: Doublecheck this line so far
 
 ###### French defense, Morphy gambit
 
