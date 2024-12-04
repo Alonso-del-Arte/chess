@@ -1458,6 +1458,9 @@ ignores other factors, such as how your opponent's skills compare to yours.
 1. d4 Nf6 
 2. Nf3 g6 
 3. Bg5 Bg7 
+
+Might continue
+
 4. e3 O-O
 
 ##### Indian game, accelerated variation
