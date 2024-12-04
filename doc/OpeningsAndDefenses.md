@@ -3378,7 +3378,12 @@ This opening is rare in regular chess, as Black likely responds
 #### D&uring;ras Gambit
 
 1. e4 f5
+
+Likely to continue
+
 2. Qh5+
+
+especially in three-check chess.
 
 #### Borg defense
 
