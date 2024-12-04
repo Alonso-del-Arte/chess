@@ -3529,12 +3529,7 @@ priority in the opening.
 1. e4 e6
 2. Nc3
 
-##### French defense, knight variation ??? TODO: Doublecheck which variation this is
-
-1. e4 e6
-2. Nf3
-
-###### French defense, normal variation ??? TODO: Doublecheck which variation this is
+##### French defense, knight variation
 
 1. e4 e6
 2. Nf3
