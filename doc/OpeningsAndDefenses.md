@@ -3139,6 +3139,9 @@ See Kosten (2001) for a comprehensive study.
 
 1. e4 e5
 2. Nf3 d6
+
+Often continues
+
 3. d4 Nf6
 
 ##### Philidor defense, Nimzowitsch variation
