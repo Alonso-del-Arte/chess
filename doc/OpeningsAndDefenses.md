@@ -2391,6 +2391,9 @@ May continue thus:
 1. e4 c5
 2. Nf3 d6
 3. Bb5+ Bd7
+
+? DOUBLECHECK ? Is the following still part of the main line?
+
 4. Bc4 Bg4
 5. d4 d5
 6. Bxd5
