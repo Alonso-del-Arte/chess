@@ -75,6 +75,9 @@ almost three decades, from 1894 to 1921.
 * **Bruce Pandolfini** &mdash; Chess coach, consultant on the Netflix television 
 series *The Queen's Gambit*.
 * **Tigran Petrosian** &mdash; Chess world champion in 1963, 1966.
+* **Fran&ccedil;ois-Andr&eacute; Danican Philidor** &mdash; French composer and 
+chess player. The Philidor defense is named after him. The smothered mate is 
+sometimes called "Philidor's legacy."
 * **Polg&aacute;r Judit** &mdash; Chess grandmaster from Hungary, widely 
 regarded as the strongest woman to ever play the game.
 * **Ruslan Ponomariov** &mdash; FIDE world champion in 2002.
