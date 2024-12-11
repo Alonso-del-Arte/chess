@@ -3094,6 +3094,11 @@ May continue with a recapture of the pawn.
 1. e4 e5
 2. Nf3 d5
 
+The upside for Black is that both bishops can potentially be activated very 
+soon. The ability of White to follow this with 3. Bb5+ makes this gambit a bad 
+idea for Black to play in three-check chess. It's generally a bad choice for 
+Black in general.
+
 ##### Knight variation, elephant gambit ???
 
 1. e4 e5
