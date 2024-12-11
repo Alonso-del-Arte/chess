@@ -1003,17 +1003,23 @@ FEN: 1k6/ppr5/b3p3/1P6/1N3Q2/N5p1/PP2p1r1/1K2R2B w - - 0 1
 
 ## Opening puzzles
 
-If I've ever seen an opening puzzle, I don't remember.
+The more endgame puzzles you solve, the more frequently chess websites like 
+Chess.com will give you opening puzzles. Opening puzzles are more difficult, 
+because checkmate is usually not the goal. Instead, opening puzzles are about 
+gaining a tactical advantage that will hopefully pay off in the middlegame or 
+the endgame.
 
-[FINISH WRITING]
+TODO: Two or three opening puzzles
+
+FINISH WRITING
 
 ## Middlegame puzzles
 
 In my opinion, the most satisfying win happens in the thick of the middlegame. 
-If you beat your opponent soon after the opening, it just means they made some 
-serious blunders early on. And if you beat them in an endgame in which they ran 
-you all over the board when they should've conceded earlier, that takes the edge 
-off your win.
+If you beat your opponent soon after the opening, it just means he or she made 
+some serious blunders early on. And if you beat him or her in an endgame in 
+which he or she ran you all over the board when they should've conceded earlier, 
+that takes the edge off your win.
 
 But to identify an opportunity for checkmate with so many of their pieces and 
 your own pieces in the way, and to see it through, that might mean you're a very 
