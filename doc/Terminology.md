@@ -507,6 +507,9 @@ allow the capture of a less valuable piece. In the case of a skewering check,
 the opponent must move the king to safety and allow the capture of the other 
 piece, such as a rook. Queens, rooks and bishops are all able to skewer an 
 opponent's piece.
+* **Smothered mate** &mdash; A checkmate in which the winning side's knight 
+delivers checkmate against the opponent king by forcing him to move to a corner, 
+surrounded by pieces of his own side, usually his castle pawns and castle rook.
 * **Smurfing** &mdash; When a very good player pretends to play poorly. The 
 metaphor here being that the player is a giant pretending to be a tiny creature.
 * **Stalemate** &mdash; When a player is not in check but is unable to make any 
