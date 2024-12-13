@@ -39,8 +39,12 @@ But if you miscalculate and need to "undo" an imprudent move in the opening, or
 if you see an opportunity for an early checkmate against your opponent by moving 
 a piece twice, then by all means, move that piece a second time in the opening.
 
-In this document, I intend to cover all twenty possible openings, but for each 
-opening only the most likely defenses for Black to respond with.
+In this document, I intend to cover all twenty possible first moves for White, 
+but for each of those only the most likely defenses for Black to respond with.
+
+Many of the openings and defenses listed in this document are named after famous 
+players who played those moves. There are also many openings and defenses named 
+after nationalities.
 
 This document is written from the perspective of White, meaning that you're 
 playing White and your opponent is playing Black.
