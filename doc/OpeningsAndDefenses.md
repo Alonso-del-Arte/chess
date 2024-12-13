@@ -46,6 +46,10 @@ Many of the openings and defenses listed in this document are named after famous
 players who played those moves. There are also many openings and defenses named 
 after nationalities.
 
+According to Sam Shankland, "all openings named after animals are nonsense." Not 
+everyone shares that absolutist position, though most of those openings are 
+indeed bad. Nevertheless they're worth studying.
+
 This document is written from the perspective of White, meaning that you're 
 playing White and your opponent is playing Black.
 
@@ -3759,6 +3763,17 @@ King's pawn opening, king's knight variation
 ### Kingside bishop's pawn: Bird's opening
 
 1. f4
+
+#### Horsefly defense
+
+1. f4 Nh6
+
+This is an opening that has fallen out of favor and remained a rarity for the 
+past hundred years. Some, like grandmaster Sam Shankland, would say that this is 
+because this is an objectively bad first move for Black. It certainly is 
+according to classical principles. With 1. f4, White at least controls one 
+square of the center. By responding with 1. ... Nh6, Black doesn't gain any 
+control of the center whatsoever.
 
 #### Myers defense
 
