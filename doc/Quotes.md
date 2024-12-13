@@ -8,6 +8,9 @@ Lasker[^1]
 &ldquo;The ability to play chess is the sign of a gentleman. The ability to play 
 chess well is the sign of a wasted life.&rdquo; &mdash; Paul Morphy
 
+&ldquo;All openings named after animals are nonsense.&rdquo; &mdash; Sam 
+Shankland
+
 &ldquo;Play the opening like a book, the middlegame like a magician, and the 
 endgame like a machine.&rdquo; &mdash; Rudolph Spielmann
 
