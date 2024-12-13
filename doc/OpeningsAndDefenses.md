@@ -2703,6 +2703,14 @@ both assist development and affect vital central squares.
 3. Nc3 Nf6 
 4. Bc4 Nxe4
 
+May continue
+
+5. Nxe4 d5
+
+Far less likely to continue
+
+5. O-O
+
 ##### Scotch game, Lolli variation
 
 1. e4 e5
