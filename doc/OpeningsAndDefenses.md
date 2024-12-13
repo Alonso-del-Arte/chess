@@ -1193,6 +1193,11 @@ Likely followed up with
 1. c4 e5
 2. Nf3
 
+May continue
+
+2. ... Nc6
+3. d4
+
 ##### Queen's pawn opening, Mik&edot;nas defense
 
 1. c4 e5
