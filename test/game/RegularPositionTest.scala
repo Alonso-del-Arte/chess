@@ -38,6 +38,46 @@ class RegularPositionTest {
     }
   }
 
+  @Test def testOffsetNotWithinBoundsTooFarWest(): Unit = {
+    val x = Random.nextInt(8) + 1
+    val y = Random.nextInt(8) + 1
+    val position = new RegularPosition(x, y)
+    val badRelX = -x - Random.nextInt(8)
+    val badOffset = new RelativePosition(badRelX, 0)
+    val msg = s"${badOffset.toString} too much for ${position.toString}"
+    assert (!position.isOffsetWithinBounds(badOffset, RegularBoard), msg)
+  }
+
+  @Test def testOffsetNotWithinBoundsTooFarSouth(): Unit = {
+    val x = Random.nextInt(8) + 1
+    val y = Random.nextInt(8) + 1
+    val position = new RegularPosition(x, y)
+    val badRelY = -y - Random.nextInt(8)
+    val badOffset = new RelativePosition(0, badRelY)
+    val msg = s"${badOffset.toString} too much for ${position.toString}"
+    assert (!position.isOffsetWithinBounds(badOffset, RegularBoard), msg)
+  }
+
+  @Test def testOffsetNotWithinBoundsTooFarEast(): Unit = {
+    val x = Random.nextInt(8) + 1
+    val y = Random.nextInt(8) + 1
+    val position = new RegularPosition(x, y)
+    val badRelX = (9 - x) + Random.nextInt(8)
+    val badOffset = new RelativePosition(badRelX, 0)
+    val msg = s"${badOffset.toString} too much for ${position.toString}"
+    assert (!position.isOffsetWithinBounds(badOffset, RegularBoard), msg)
+  }
+
+  @Test def testOffsetNotWithinBoundsTooFarNorth(): Unit = {
+    val x = Random.nextInt(8) + 1
+    val y = Random.nextInt(8) + 1
+    val position = new RegularPosition(x, y)
+    val badRelY = (9 - y) + Random.nextInt(8)
+    val badOffset = new RelativePosition(0, badRelY)
+    val msg = s"${badOffset.toString} too much for ${position.toString}"
+    assert (!position.isOffsetWithinBounds(badOffset, RegularBoard), msg)
+  }
+
   @Test def testTranslate(): Unit = {
     println("translate")
     for (x <- 1 to 8) {
