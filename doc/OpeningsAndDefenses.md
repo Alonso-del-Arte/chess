@@ -2291,6 +2291,12 @@ Qdxe3+ 15. Ne2 Qh4+ 16. Kf1 Qhf2# 0-1
 1. e4 Nf6
 2. e5 Ne4
 
+Playing as White, I'm generally not so concerned about losing that king's pawn 
+so early in the game. I'd be more concerned about Black playing 3. ... Nxf2, 
+potentially forking my queen and kingside rook. If I were to play 4. Kxf2, not 
+only would I lose the right to castle, I would be putting my king in a very 
+exposed position.
+
 ##### Alekhine's defense, Mar&oacute;czy variation
 
 1. e4 Nf6
