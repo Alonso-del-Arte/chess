@@ -20,7 +20,7 @@ class RegularPosition(x: Int, y: Int) extends Position(x, y) {
 
   // TODO: Write tests for this
   override def isOffsetWithinBounds(offset: RelativePosition,
-                                    board: Board): Boolean = true
+                                    board: Board): Boolean = false
 
   def translate(offset: RelativePosition): Position =
     new RegularPosition(this.x + offset.offsetX, this.y + offset.offsetY)
