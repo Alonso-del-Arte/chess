@@ -78,6 +78,26 @@ class RegularPositionTest {
     assert (!position.isOffsetWithinBounds(badOffset, RegularBoard), msg)
   }
 
+  @Test def testIsOffsetWithinBounds(): Unit = {
+    val x = Random.nextInt(8) + 1
+    val y = Random.nextInt(8) + 1
+    val position = new RegularPosition(x, y)
+    val minOffsetX = -x + 1
+    val minOffsetY = -y + 1
+    val maxOffsetX = 8 - x
+    val maxOffsetY = 8 - y
+    val msgPart = s"Should be able to offset ${position.toString} by "
+    for (offsetX <- minOffsetX to maxOffsetX) {
+      for (offsetY <- minOffsetY to maxOffsetY) {
+        val offset = new RelativePosition(offsetX, offsetY)
+        val msg = msgPart + offset.toString
+        assert (position.isOffsetWithinBounds(offset, RegularBoard), msg)
+      }
+    }
+  }
+
+  // TODO: Write tests for boards smaller than RegularBoard
+
   @Test def testTranslate(): Unit = {
     println("translate")
     for (x <- 1 to 8) {
