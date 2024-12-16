@@ -2297,6 +2297,10 @@ potentially forking my queen and kingside rook. If I were to play 4. Kxf2, not
 only would I lose the right to castle, I would be putting my king in a very 
 exposed position.
 
+If you're playing White in atomic chess, you might as well concede right now. 
+Black is hoping to play 3. ... Nxf2, which in atomic chess would cause the 
+explosion of your kingside knight, your kingside bishop and... your king.
+
 ##### Alekhine's defense, Mar&oacute;czy variation
 
 1. e4 Nf6
