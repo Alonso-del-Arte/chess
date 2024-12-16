@@ -138,6 +138,9 @@ requirement). When bound by compulsory capture and two or more capture
 opportunities present themselves, the player is generally free to choose any of 
 the opportunities, while a program might be programmed to choose the piece of 
 highest centipawn value (e.g., capture a queen rather than a bishop).
+* **Connecting the rooks** &mdash; The act of a player placing said player's 
+rooks so they defend each other on the home row, usually by developing the 
+queen, both bishops and both knights, and then castling.
 * **Countergambit** &mdash; When a player declines a gambit by instead offering 
 one of their own pawns for sacrifice.
 * **Crazyhouse** &mdash; A chess variant in which captures grant the capturing 
