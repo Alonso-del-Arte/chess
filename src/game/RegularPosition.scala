@@ -18,9 +18,12 @@ class RegularPosition(x: Int, y: Int) extends Position(x, y) {
 
   override def toString: String = s"${(x + 96).toChar}${(y + 48).toChar}"
 
-  // TODO: Write tests for this
   override def isOffsetWithinBounds(offset: RelativePosition,
-                                    board: Board): Boolean = false
+                                    board: Board): Boolean = {
+    val diffX = this.x + offset.offsetX
+    val diffY = this.y + offset.offsetY
+    (diffX > 0 && diffX < 9) && (diffY > 0 && diffY < 9)
+  }
 
   def translate(offset: RelativePosition): Position =
     new RegularPosition(this.x + offset.offsetX, this.y + offset.offsetY)
