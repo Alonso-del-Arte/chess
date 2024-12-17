@@ -14,6 +14,12 @@ object RegularPosition {
 
 }
 
+/**
+ * Represents a position on a regular chess board, such as for example e4.
+ * @param x The file as an integer, 1 for 'a' to 8 for 'h'. For example, 5 for
+ *          'e' in e4.
+ * @param y The column, at least 1, at most 8. For example, 4 in e4.
+ */
 class RegularPosition(x: Int, y: Int) extends Position(x, y) {
 
   override def toString: String = s"${(x + 96).toChar}${(y + 48).toChar}"
