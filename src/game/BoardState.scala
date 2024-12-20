@@ -22,9 +22,6 @@ class BoardState(val board: Board, val nextToPlay: Player,
   // TODO: Write tests for this
   def move(moveSpec: MoveSpecification, opponent: Player)
       : BoardState = {
-    // The idea here is that this procedure will check whether destination is
-    // empty or occupied by an opposing piece. But there will be no other move
-    // validation whatsoever.
     this
   }
 
