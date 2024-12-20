@@ -10,5 +10,5 @@ object MoveSpecification {
 
 class MoveSpecification(val piece: Piece, val start: Position,
                         val destination: Position,
-                        val meetsPrerequisites: Option[BoardState => Boolean]
+                        val prerequisites: Option[BoardState => Boolean]
                         = Option(MoveSpecification.tempFiller))
