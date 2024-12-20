@@ -3331,12 +3331,16 @@ to mobilize.
 2. d4 exd4 
 3. Qxd4 Nc6
 
+Black threatens to captures White's queen, who may have come out too early.
+
 ###### Center game accepted, Hall variation
 
 1. e4 e5 
 2. d4 exd4 
 3. Qxd4 Nc6 
 4. Qc4
+
+The White queen dodges capture for the time being.
 
 ###### Center game accepted, Paulsen-Berger variation
 
