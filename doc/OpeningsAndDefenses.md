@@ -2470,6 +2470,11 @@ or
 
 3. Bc4
 
+##### Sicilian defense, B&uuml;cker variation
+
+1. e4 c5 
+2. Nf3 h6
+
 ##### Sicilian defense, brick variation
 
 1. e4 c5
