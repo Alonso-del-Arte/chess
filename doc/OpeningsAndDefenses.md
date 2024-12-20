@@ -3617,15 +3617,13 @@ priority in the opening.
 2. Nf3 c5
 3. d4 cxd4
 
-###### French defense, normal variation ??? TODO: Doublecheck which variation this is
-
-1. e4 e6
-2. Nf3 d5
-
 ###### French defense, knight variation
 
 1. e4 e6
 2. Nf3 d5
+
+May continue
+
 3. e5
 
 ###### French defense, Perseus gambit
