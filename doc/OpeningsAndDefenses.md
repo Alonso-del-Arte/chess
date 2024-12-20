@@ -2236,6 +2236,9 @@ OR
 
 1. e4 Nf6
 
+A very viable alternative to 1. ... e5. White might then worry that Black 
+intends to play 2. ... Nxe4.
+
 ##### Alekhine's defense, Scandinavian variation
 
 1. e4 Nf6 
