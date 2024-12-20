@@ -3622,6 +3622,12 @@ priority in the opening.
 1. e4 e6
 2. Nf3 d5
 
+###### French defense, knight variation
+
+1. e4 e6
+2. Nf3 d5
+3. e5
+
 ###### French defense, Perseus gambit
 
 1. e4 e6
