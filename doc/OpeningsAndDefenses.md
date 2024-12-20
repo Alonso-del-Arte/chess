@@ -2164,6 +2164,11 @@ opening instead.
 
 1. e4 Nc6
 
+##### Nimzowitsch defense declined
+
+1. e4 Nc6 
+2. Nf3 
+
 ##### Nimzowitsch defense declined, Colorado countergambit accepted
 
 1. e4 Nc6 
