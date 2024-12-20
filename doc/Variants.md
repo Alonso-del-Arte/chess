@@ -4,6 +4,16 @@ There are several variants of chess. The following is not a complete list. These
 are arranged roughly in order from closest to traditional chess to farthest 
 away.
 
+## Romantic chess
+
+This variant by Micha&lstrok; Ryszard W&oacute;jcik, confusingly named after a 
+style of chess play emphasizing reckless gambits, was invented in 2017, and to 
+my knowledge can only be played on Apronus.com.
+
+This variant differs from regular chess only in that pawns can only promote to 
+knights. But what winds up happening most of the time is that one side wins by 
+checkmate long before any pawn can get close to promotion.
+
 ## Three-check
 
 First side to put the other in check thrice wins the game. Or you can win with a 
