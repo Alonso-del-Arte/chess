@@ -748,6 +748,10 @@ May continue
 1. Nf3 g6
 2. e4
 
+May continue
+
+2. ... Bg7
+
 ##### Pirc defense, classical variation
 
 1. Nf3 g6
