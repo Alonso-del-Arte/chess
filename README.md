@@ -32,8 +32,9 @@ you're playing White, you might type "e4" to make your first move).
 The second phase will be the graphical user interface.
 
 This is a Scala 2.13 project with Java 8. Although I have upgraded my computer 
-to Java 21, I have not figured out how to use it with Scala and the IntelliJ 
-IDEA.
+to Java 21 and Scala 3.4.2, I have not figured out how to use upgrade Scala in 
+IntelliJ IDEA, so this project will stay on Scala 2.13 or maybe upgrade to Scala 
+2.14.
 
 I'm using JUnit 5 for the testing framework, I have no intention of switching 
 this project to any other testing framework, not even the one I wrote myself 
