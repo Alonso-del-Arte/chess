@@ -3669,11 +3669,7 @@ both players exposed to an early check with 4. Qe2+ or, perhaps less likely, 4.
 Might continue
 
 2. ... d5
-
-and
-
-3. Nc3 Nc6
-4. Nf3 // TODO: Doublecheck this line so far
+3. e5
 
 ###### French defense, Morphy gambit
 
