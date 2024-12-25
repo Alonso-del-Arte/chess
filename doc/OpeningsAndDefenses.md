@@ -1805,7 +1805,12 @@ otherwise it's declined.
 
 Thus Black denies White the opportunity to play the early check Qa4+.
 
-##### Queen's gambit declined, Marshall-Tan gambit
+##### Queen's gambit declined, Marshall defense
+
+1. d4 d5 
+2. c4 Nf6 
+
+###### Queen's gambit declined, Marshall-Tan gambit
 
 1. d4 d5 
 2. c4 Nf6 
