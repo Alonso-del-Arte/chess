@@ -3348,6 +3348,9 @@ The White queen dodges capture for the time being.
 2. d4 exd4 
 3. Qxd4 Nc6 
 4. Qe3 Nf6 
+
+May continue 
+
 5. Nc3
 
 #### King's gambit
