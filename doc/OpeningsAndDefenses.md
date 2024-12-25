@@ -2425,6 +2425,10 @@ May continue thus:
 2. Nf3 d6
 3. Bb5+
 
+May continue
+
+3. ... Nd7
+
 ##### Sicilian defense, canal, main line
 
 1. e4 c5
