@@ -2697,6 +2697,10 @@ both assist development and affect vital central squares.
 2. Nf3 Nc6
 3. d4
 
+May continue
+
+3. ... exd4
+
 ###### Scotch game, normal line
 
 1. e4 e5
