@@ -168,6 +168,13 @@ because, in chess, a player can only capture one of the opponent's pieces in a
 single turn. Therefore, the only option in a double check is for the threatened 
 king to move out of the way of the threats. Sometimes notated with two plus 
 signs.
+* **Draw** &mdash; When the game ends with neither player a winner. Generally 
+notated "1/2 - 1/2". Stalemate is perhaps the most common kind of draw. It is 
+also possible for both players to agree that neither of them can win, as a sort 
+of simultaneous resignation.
+* **Draw by repetition** &mdash; When the same position occurs thrice in a game, 
+the game ends in a draw. Most likely to occur on consecutive turns, but it can 
+also occur on non-consecutive turns, especially in the endgame.
 * **Dunst opening** &mdash; When Black responds to the Van Geet opening by 
 moving the queen's pawn forward two spaces. See 
 [Openings](OpeningsAndDefenses.md) for more details.
@@ -520,10 +527,15 @@ surrounded by pieces of his own side, usually his castle pawns and castle rook.
 * **Smurfing** &mdash; When a very good player pretends to play poorly. The 
 metaphor here being that the player is a giant pretending to be a tiny creature.
 * **Stalemate** &mdash; When a player is not in check but is unable to make any 
-move whatsoever. For example, if the king is safe in its current space but would 
-be in check if it moves in any direction, the remaining pawns are stymied by 
-opposing pawns, and other pieces are pinned because moving them would leave the 
-king exposed.
+move whatsoever on his or her turn. Thus the game ends with no winner, since 
+skipping a turn is not allowed in chess. For example, if that player's king is 
+safe in his current space but would be in check if he moves in any direction, 
+the remaining pawns are stymied by opposing pawns, and other pieces are pinned 
+because moving them would leave the king exposed. Then that player can't make a 
+move and the game ends. Since stalemate is a kind of draw, the same notation 
+"1/2 - 1/2" is used as in other kinds of draws. In general parlance, this term 
+is often used to mean an impasse which could be resolved if both parties were 
+willing to make major compromises, or in some cases even minor compromises.
 * **Strong point method** &mdash; After the game begins 1. e4 e5, Black tries 
 to keep a pawn on e5 regardless of what trades or threats White might make.
 * **Suicide chess** &mdash; Synonym for antichess, and not, as I thought at 
