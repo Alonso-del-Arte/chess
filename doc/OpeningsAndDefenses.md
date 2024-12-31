@@ -3465,6 +3465,11 @@ first.
 1. e4 e5 
 2. c3 f5
 
+##### King's head opening
+
+1. e4 e5 
+2. f3
+
 #### Portuguese opening
 
 1. e4 e5
