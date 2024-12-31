@@ -9,9 +9,9 @@ The statements in this document are more guidelines than rules.
 ## General principles
 
 One should always play to the best of one's ability, except within the context 
-of coaching or testing. A player should do everything he can to win that is 
-allowed under the rules of the game, and under the rules of the tournament when 
-applicable.
+of coaching or testing. A player should do everything he or she can to win that 
+is allowed under the rules of the game, and under the rules of the tournament 
+when applicable.
 
 However, when it is clear that one has lost, one should resign rather than drag 
 the game out to checkmate by the opponent. If the opponent is considered to be 
@@ -19,7 +19,10 @@ very good, dragging the game out could be seen as an insult, meaning that the
 player believes that the opponent will make a blunder big enough to put the 
 opponent's victory in doubt.
 
-FINISH WRITING
+When playing with a clock, it is important to be mindful of not performing 
+certain actions on your opponent's time, if the action could be seen as an 
+attempt to distract your opponent and waste his or her allotted time to make a 
+move.
 
 ## Talking during games
 
@@ -71,7 +74,7 @@ a check.
 ### Asking to take a move back
 
 In a coaching context, the student can certainly ask the teacher to take back a 
-particularly bad move, and the teacher may or may approve that request. In a 
+particularly bad move, and the teacher may or may not approve that request. In a 
 friendly game, one player may ask for a take back, and the other player should 
 grant that request.
 
@@ -81,6 +84,65 @@ move must be undone and stricken from the record.
 ### Calling for an arbiter
 
 FINISH WRITING
+
+### Offering a draw
+
+It would obviously be bad manners to suggest that your opponent should resign,  
+as that clearly comes across as an insult to your opponent's ability. However, 
+offering a draw could also be seen as an insult, so one should be careful to 
+make that offer only when it's clear that the game is progressing towards a 
+point where there is an explicit reason for a draw under the rules (e.g., draw 
+by repetition).
+
+When playing with a clock, you must absolutely not offer the draw on your 
+opponent's time, as that could be seen as an attempt to distract your opponent.
+
+You may decline an offer to draw either by saying so or by making any valid 
+move, or maybe even by adjusting a piece, though that last option might come 
+across as disrespectful.
+
+It is entirely up to your discretion whether the move you make after declining 
+an offer to draw is or is not the move you would have made if there had been no 
+offer to draw made.
+
+If you offer to draw, and your opponent declines, you should continue playing 
+the game, not resign nor reiterate the draw offer, and continue playing until 
+reaching a more definitive position.
+
+### Emergencies
+
+It should go without saying that all these rules and guidelines go out the 
+window in the event of an emergency, such as an earthquake or other natural 
+disaster, or a threat from a person, such as an active shooter.
+
+Then evacuation or sheltering become more important than anything going on in 
+any particular game. Whether any particular game can be resumed at a later time 
+is something that should be sorted out only after the emergency has abated.
+
+Inventing an emergency is of course both bad manners and poor sportsmanship, and 
+potentially a crime.
+
+## Resignation
+
+Although you can technically resign at any point in the game, you should 
+generally not resign before the first capture of the game.
+
+At the grandmaster level, players often resign in situations in which players of 
+lesser ability can't yet foresee the winner. The perceived ability of your 
+opponent should be taken into account when deciding to resign. This is to say 
+that if it's very clear to you that your opponent should resign (such as in the 
+case of an overwhelming material advantage), you should not assume that it's 
+equally clear to your opponent.
+
+You should not resign as your opponent is pondering a move. When playing with a 
+clock, you should probably not resign on your opponent's time.
+
+After resigning, you should not immediately try to explain why you lost, as that 
+might be seen as an attempt to diminish the validity of your opponent's win.
+
+If your opponent resigns, you should accept the resignation without question, 
+even if you had plans for some very elegant moves. Something along the lines of 
+"good game" is probably the best response.
 
 ## One last word about the touch-move rule
 
