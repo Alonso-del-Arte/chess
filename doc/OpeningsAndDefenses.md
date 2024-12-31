@@ -1308,6 +1308,13 @@ May continue
 2. Nf3 d5
 3. g3
 
+May continue
+
+3. ... dxc4 
+4. Qa4+ Nd7 
+5. Bg2 a6 
+6. Qxc4 b5
+
 ##### Agincourt defense
 
 1. c4 e6 
