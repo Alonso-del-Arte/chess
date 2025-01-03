@@ -13,7 +13,9 @@ makes a move valid, not whether it's the best move at any given moment in the
 game. This document is not meant for an in-depth discussion of strategy.
 
 The diagrams in this document are to illustrate moves a player may make, not 
-to advise on what the best move may be in any particular situation.
+to advise on what the best move may be in any particular situation. See 
+[Endgames](Endgames.md), [Openings and Defenses](OpeningsAndDefenses.md) and 
+[Puzzles](Puzzles.md) for some discussion of strategy.
 
 In this document, the terms "piece" and "pieces" will be understood to include a 
 pawn or pawns. When it is necessary to distinguish between pawns and pieces that 
