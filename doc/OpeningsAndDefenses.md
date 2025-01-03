@@ -3404,6 +3404,11 @@ Will Black capture that bishop's pawn offered for sacrifice?
 
 Two pairs of enemy pawns facing off just slightly off center.
 
+##### King's gambit declined
+
+1. e4 e5 
+2. f4 d6
+
 ##### King's gambit declined, Keene defense
 
 1. e4 e5
@@ -4062,6 +4067,11 @@ Should White capture that hanging pawn or instead seek to develop other pieces?
 
 1. f4 d6 
 2. e4
+
+##### King's gambit declined
+
+1. f4 d6 
+2. e4 e5
 
 #### Modern defense, three pawns attack
 
