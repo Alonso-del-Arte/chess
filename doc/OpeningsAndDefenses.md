@@ -2535,6 +2535,10 @@ or
 1. e4 c5 
 2. b3
 
+May continue 
+
+2. ... e5
+
 #### Sicilian defense, Alapin variation
 
 1. e4 c5
