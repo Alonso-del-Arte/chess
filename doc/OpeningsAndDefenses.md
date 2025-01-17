@@ -2826,14 +2826,14 @@ May continue
 3. Bb5 a6
 4. Ba4
 
-####### Ruy L&oacute;pez, main line
+###### Ruy L&oacute;pez, main line
 
 1. e4 e5
 2. Nf3 Nc6
 3. Bb5 a6
 4. Ba4 Nf6
 
-####### Closed Ruy L&oacute;pez
+###### Closed Ruy L&oacute;pez
 
 1. e4 e5
 2. Nf3 Nc6
@@ -2841,7 +2841,7 @@ May continue
 4. Ba4 Nf6
 5. O-O Be7
 
-####### Closed Spanish, Karpov system
+###### Closed Spanish, Karpov system
 
 1. e4 e5
 2. Nf3 Nc6
@@ -2943,7 +2943,7 @@ The main line continues:
 14. cxd4 Nb4
 15. Bb1 c5
 
-####### Closed Ruy L&oacute;pez, Averbakh variation
+###### Closed Ruy L&oacute;pez, Averbakh variation
 
 1. e4 e5
 2. Nf3 Nc6
