@@ -2952,6 +2952,13 @@ The main line continues:
 5. O-O Be7
 6. Re1 d6
 
+###### Ruy L&oacute;pez opening, old Steinitz defense
+
+1. e4 e5 
+2. Nf3 Nc6 
+3. Bb5 d6 
+4. c3
+
 #### Italian game
 
 1. e4 e5
