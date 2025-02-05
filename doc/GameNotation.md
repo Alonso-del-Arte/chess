@@ -64,6 +64,50 @@ or
 
 [FINISH WRITING]
 
+As the game progresses, situations arise in which the notation could become 
+ambiguous if we're careless in our transcription. Consider for example this 
+Black to play scenario at move 47.
+
+![Ambiguities](../diagrams/endgames/PotentialNotationAmbiguities.png)
+
+If Black chooses to move one of the rooks to put the White king in check, the 
+notation 
+
+47. ... Re8+
+
+doesn't tell us which rook Black moved. Since both rooks are on their home rank, 
+we would need to also specify if Black moved the rook from a8 or the rook from 
+f8. The latter would properly be notated as 
+
+47. ... Rfe8+
+
+Either rook would be a bad choice at this particular juncture in the game. White 
+would likely respond
+
+48. Nxe8
+
+Black could compound the earlier blunder with 
+
+48. ... Rxe8+
+
+Notice there's no ambiguity now that Black is down to one rook, which with this 
+move White is likely to now capture also.
+
+In this particular scenario, it would be much better for Black to move a knight 
+to f3 to put the White king in check intead of either rook. Since they're both 
+on file 'h', notating the move as 
+
+47. ... Nf3+
+
+would be unclear. We would have to include the starting rank in our notation to 
+clarify which knight to move. Thus, we should write either 
+
+47. ... N2f3+
+
+or
+
+47. ... N4f3+
+
 [FINISH WRITING]
 
 [FINISH WRITING]
