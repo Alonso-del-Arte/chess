@@ -59,8 +59,22 @@ thus far would be either
 
 or 
 
-1. e4 d5
+1. e4 f5
 2. exf5
+
+When a game transcript is interspersed with several paragraphs of commentary, it 
+is sometimes a good idea to avoid repeating White's previous moves when resuming 
+the transcript, using an ellipsis in place of a move already given before. In 
+the example so far, suppose Black plays the kingside knight to halt the progress 
+of White's bishop. Instead of writing
+
+2. exf5 Nf6
+
+we can write
+
+2. ... Nf6
+
+since the move exf5 was already stated earlier.
 
 [FINISH WRITING]
 
