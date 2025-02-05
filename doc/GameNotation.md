@@ -108,6 +108,18 @@ or
 
 47. ... N4f3+
 
+Notational ambiguities can occur with queens or bishops, but that requires at 
+least one promotion. Since players almost always promote pawns to queens, 
+notational ambiguities with bishops are very rare.
+
+Pawn promotions are notated with the pawn move as usual followed by an equals 
+sign and then the letter for the chosen piece, one of Q, B, N or R for the 
+queen, bishop, knight or rook respectively in regular chess, or also K for king 
+in a variant of chess like antichess. In the example game, Black might get a 
+pawn over to b1 and choose to promote to a queen.
+
+60. ... b1 = Q
+
 [FINISH WRITING]
 
 [FINISH WRITING]
