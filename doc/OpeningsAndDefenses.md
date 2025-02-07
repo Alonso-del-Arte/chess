@@ -1360,6 +1360,13 @@ clearer idea of what White might be trying to do.
 1. c4 g6
 2. e4 e5
 
+##### Great snake variation
+
+1. c4 g6 
+2. g3 Bg7 
+3. Bg2 d6 
+4. Nf3 Nf6
+
 ##### King's Indian defense
 
 1. c4 g6
@@ -4958,6 +4965,13 @@ OR
 1. g3 g6
 2. Nf3 Bg7
 3. d4 c5
+
+#### Great snake variation
+
+1. g3 g6 
+2. Nf3 Bg7 
+3. Bg2 d6 
+4. c4 Nf6 
 
 ### Kingside rook's pawn: Clemenz opening
 
