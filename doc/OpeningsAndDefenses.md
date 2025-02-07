@@ -414,6 +414,16 @@ May continue
 1. Nf3 Nf6 
 2. e3
 
+##### King's Indian attack, symmetrical defense
+
+1. Nf3 Nf6 
+2. g3 g6 
+3. Bg2 Bg7
+
+May continue with both sides castling:
+
+4. O-O O-O
+
 #### Ware defense
 
 1. Nf3 a5
@@ -4826,6 +4836,16 @@ Also called "king's fianchetto opening."
 #### Indian defense
 
 1. g3 Nf6
+
+##### King's Indian attack, symmetrical defense
+
+1. g3 Nf6 
+2. Nf3 g6 
+3. Bg2 Bg7
+
+May continue with both sides castling:
+
+4. O-O O-O
 
 ##### Indian game, Tartakower attack
 
