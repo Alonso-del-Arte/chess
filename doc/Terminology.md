@@ -279,10 +279,13 @@ kingside knight's pawn forward two spaces. See Openings for more details.
 
 * **Hanging piece** &mdash; A piece that can be captured by sacrificing a piece 
 of lesser value, or which can be captured with no sacrifice at all (Martin, p. 
-26). For example, given a rook that can be captured by a knight which in turn is 
-captured by a pawn, the rook is said to be a hanging piece. Or if the rook in 
+26). For example, given a Black rook that can be captured by a White knight 
+which in turn is captured by a Black pawn, the Black rook is said to be a 
+hanging piece. In this example, White captures the Black rook, valued at roughly 
+5 points, by sacrificing a piece valued at roughly 3 points. Or if the rook in 
 the scenario was not protected by a pawn, it would be said to be hanging even if 
-captured by another rook or a queen.
+captured by another rook or by a queen, since the capturing side does not make a 
+sacrifice to achieve the capture.
 * **Horde** &mdash; A chess variant in which White has only a bunch of pawns 
 over most of the board. Horde is played on a standard board, but the radically 
 different complement of pieces requires radically different rules and strategy. 
