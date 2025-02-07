@@ -255,6 +255,10 @@ opponent must move the king to safety and allow the forking piece to capture the
 other forked piece.
 * **Four knights game** &mdash; An opening involving both of White's knights and 
 both of Black's knights.
+* **Free piece** &mdash; A piece that can be captured without any sacrifice by 
+the capturing side. For example, suppose White foolishly places the White queen 
+where she can be captured by a Black knight. The White queen is then said to be 
+a free piece. This is a subcategory of hanging pieces.
  
 ![Forking check](../diagrams/ForkForRook.png)
 
@@ -343,6 +347,7 @@ may capture. It is quite a cumbersome precursor to Fog of War.
 
 ## L
 
+* **Loose piece** &mdash; Synomym for free piece.
 * **Losing chess** &mdash; Synonym for antichess.
 * **Luft** &mdash; German for air, used in chess to mean a square that a castled 
 king, otherwise trapped on his home row, can escape to, avoiding or at least 
