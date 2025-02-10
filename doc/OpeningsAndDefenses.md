@@ -2438,7 +2438,12 @@ May continue
 1. e4 c5
 2. Nf3 e5
 
-##### Sicilian defense, delayed Alapin variation
+##### Open Sicilian
+
+1. e4 c5 
+2. Nf3 d6 
+
+###### Sicilian defense, delayed Alapin variation
 
 1. e4 c5 
 2. Nf3 d6 
@@ -2448,7 +2453,7 @@ May continue thus:
 
 3. ... Nf6
 
-##### Sicilian defense, canal attack
+###### Sicilian defense, canal attack
 
 1. e4 c5
 2. Nf3 d6
@@ -2458,7 +2463,7 @@ May continue
 
 3. ... Nd7
 
-##### Sicilian defense, canal, main line
+###### Sicilian defense, canal, main line
 
 1. e4 c5
 2. Nf3 d6
