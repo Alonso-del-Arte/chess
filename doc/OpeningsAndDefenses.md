@@ -2455,6 +2455,14 @@ conventional second move from Black might force White to abandon that strategy.
 1. e4 c5 
 2. Nf3 d6 
 
+###### Open Sicilian, Najdorf variation
+
+1. e4 c5 
+2. Nf3 d6 
+3. d4 cxd4 
+4. Nxd4 Nf6 
+5. Nc3 a6
+
 ###### Sicilian defense, delayed Alapin variation
 
 1. e4 c5 
