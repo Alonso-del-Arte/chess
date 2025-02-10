@@ -2438,6 +2438,18 @@ May continue
 1. e4 c5
 2. Nf3 e5
 
+##### Sicilian defense, O'Kelly variation
+
+1. e4 c5 
+2. Nf3 a6
+
+Black's queenside rook's pawn does nothing for control of the center. But this 
+is a defense that has been played considerably often in the past half century. 
+The best justification that I can find for Black moving that pawn on the second 
+turn is that Black wants to get a better idea of what White's strategy is. There 
+are plenty of moves White could be thinking of for the third move, and a more 
+conventional second move from Black might force White to abandon that strategy.
+
 ##### Open Sicilian
 
 1. e4 c5 
@@ -2474,18 +2486,6 @@ May continue
 4. Bc4 Bg4
 5. d4 d5
 6. Bxd5
-
-##### Sicilian defense, O'Kelly variation
-
-1. e4 c5 
-2. Nf3 a6
-
-Black's queenside rook's pawn does nothing for control of the center. But this 
-is a defense that has been played considerably often in the past half century. 
-The best justification that I can find for Black moving that pawn on the second 
-turn is that Black wants to get a better idea of what White's strategy is. There 
-are plenty of moves White could be thinking of for the third move, and a more 
-conventional second move from Black might force White to abandon that strategy.
 
 ##### Sicilian defense, French variation
 
