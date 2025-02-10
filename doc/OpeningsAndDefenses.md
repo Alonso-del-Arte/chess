@@ -2463,6 +2463,12 @@ conventional second move from Black might force White to abandon that strategy.
 4. Nxd4 Nf6 
 5. Nc3 a6
 
+This may continue to the poisoned pawn variation.
+
+6. Bg5 e6 
+7. f4 Qb6 
+8. Qd2 Qxb2
+
 ###### Sicilian defense, delayed Alapin variation
 
 1. e4 c5 
