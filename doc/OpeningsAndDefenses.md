@@ -2470,7 +2470,11 @@ the villainous chess grandmaster because he's too busy obsessively centering the
 chess pieces.
 
 6. Bg5 e6 
-7. f4 Qb6 
+7. f4 
+
+This is when the White pawn on b2 becomes poisoned.
+
+7. ... Qb6 
 
 It should be clear to White at this point that the Black queen intends to 
 capture the pawn on b2, as that pawn is currently defenseless. White should 
@@ -2480,7 +2484,15 @@ probably just let her.
 
 ![Poisoned pawn](../diagrams/openings/PoisonedPawn.png)
 
-After this, (FINISH WRITING))
+Next, Black hopes to be able to play 9. ... Qxa1+. White's best option to 
+counter Black's planned check might be the defensive move
+
+9. Rd1
+
+More aggressive options for White include 9. Rb1, so that Black is dissuaded 
+from playing 9. ... Qxb1, which of course would be followed with 10. Nxb1, or 9. 
+Nb3, so that Black is dissuaded from playing 9. ... Qxa1, which would be 
+followed by 10. Nxa1.
 
 ###### Sicilian defense, delayed Alapin variation
 
