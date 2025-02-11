@@ -2463,11 +2463,24 @@ conventional second move from Black might force White to abandon that strategy.
 4. Nxd4 Nf6 
 5. Nc3 a6
 
-This may continue to the poisoned pawn variation.
+This may continue to the famous poisoned pawn variation, which may very well 
+have inspired an entire episode of *Monk*. Of course in that episode, Adrian 
+Monk (Tony Shalhoub) gets nowhere near being able to play these moves against 
+the villainous chess grandmaster because he's too busy obsessively centering the 
+chess pieces.
 
 6. Bg5 e6 
 7. f4 Qb6 
+
+It should be clear to White at this point that the Black queen intends to 
+capture the pawn on b2, as that pawn is currently defenseless. White should 
+probably just let her.
+
 8. Qd2 Qxb2
+
+![Poisoned pawn](../diagrams/openings/PoisonedPawn.png)
+
+After this, (FINISH WRITING))
 
 ###### Sicilian defense, delayed Alapin variation
 
