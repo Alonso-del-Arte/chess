@@ -2862,6 +2862,12 @@ May continue
 3. c3 Nf6
 4. d3
 
+###### Konstantinopolsky variation
+
+1. e4 e5 
+2. Nf3 Nc6 
+3. g3
+
 ##### Berlin defense
 
 1. e4 e5
