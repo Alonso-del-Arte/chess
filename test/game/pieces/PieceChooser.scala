@@ -54,8 +54,7 @@ object PieceChooser {
   private val allPieces: List[Piece] = allPawns ++ allOfficerPieces
 
   def choosePawn: Pawn = {
-    val side = this.allSides(Random.nextInt(this.allSides.size))
-    this.choosePawn(side)
+    this.allPawns(Random.nextInt(this.allPawns.size))
   }
 
   def choosePawn(side: Player): Pawn = {
@@ -74,7 +73,7 @@ object PieceChooser {
   }
 
   def choosePiece: Piece = {
-    allPieces(Random.nextInt(allPieces.size))
+    this.allPieces(Random.nextInt(this.allPieces.size))
   }
 
   // TODO: Write tests for this
