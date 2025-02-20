@@ -1,6 +1,6 @@
 package game.pieces
 
-import game.{Black, DarkGray, LightGray, Player, RelativePositionRange, White}
+import game.{Black, DarkGray, LightGray, Player, White}
 
 import scala.util.Random
 
@@ -21,13 +21,15 @@ object PieceChooser {
       game.pieces.darkgray.PointyHatGuysPawn, game.pieces.darkgray.HorsesPawn,
       game.pieces.darkgray.TowersPawn)
   private val lightGrayPawns: List[Pawn] =
-    List(game.pieces.lightgray.EmperorsPawn, game.pieces.lightgray.EmpressesPawn,
+    List(game.pieces.lightgray.EmperorsPawn,
+      game.pieces.lightgray.EmpressesPawn,
       game.pieces.lightgray.PointyHatGuysPawn, game.pieces.lightgray.HorsesPawn,
       game.pieces.lightgray.TowersPawn)
-  private val allPawns: List[Pawn] = whitePawns ++ blackPawns ++ darkGrayPawns ++
-    lightGrayPawns
-  private val mapSidesToPawns: Map[Player, List[Pawn]] = Map(White -> whitePawns,
-    Black -> blackPawns, DarkGray -> darkGrayPawns, LightGray -> lightGrayPawns)
+  private val allPawns: List[Pawn] = whitePawns ++ blackPawns ++
+    darkGrayPawns ++ lightGrayPawns
+  private val mapSidesToPawns: Map[Player, List[Pawn]] =
+    Map(White -> whitePawns, Black -> blackPawns, DarkGray -> darkGrayPawns,
+      LightGray -> lightGrayPawns)
   private val whiteOfficerPieces: List[Piece] =
     List(game.pieces.white.QueenSideRook, game.pieces.white.QueenSideKnight,
       game.pieces.white.QueenSideBishop, game.pieces.white.Queen,
