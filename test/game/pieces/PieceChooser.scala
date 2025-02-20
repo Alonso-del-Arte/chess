@@ -24,6 +24,8 @@ object PieceChooser {
     List(game.pieces.lightgray.EmperorsPawn, game.pieces.lightgray.EmpressesPawn,
       game.pieces.lightgray.PointyHatGuysPawn, game.pieces.lightgray.HorsesPawn,
       game.pieces.lightgray.TowersPawn)
+  private val allPawns: List[Pawn] = whitePawns ++ blackPawns ++ darkGrayPawns ++
+    lightGrayPawns
   private val mapSidesToPawns: Map[Player, List[Pawn]] = Map(White -> whitePawns,
     Black -> blackPawns, DarkGray -> darkGrayPawns, LightGray -> lightGrayPawns)
   private val whiteOfficerPieces: List[Piece] =
@@ -49,6 +51,7 @@ object PieceChooser {
   private val mapSidesToOfficerPieces: Map[Player, List[Piece]] =
     Map(White -> whiteOfficerPieces, Black -> blackOfficerPieces,
       DarkGray -> darkGrayOfficerPieces, LightGray -> lightGrayOfficerPieces)
+  private val allPieces: List[Piece] = allPawns ++ allOfficerPieces
 
   def choosePawn: Pawn = {
     val side = this.allSides(Random.nextInt(this.allSides.size))
@@ -70,8 +73,9 @@ object PieceChooser {
     list(Random.nextInt(list.size))
   }
 
-  // TODO: Write tests for this
-  def choosePiece: Piece = this.choosePawn
+  def choosePiece: Piece = {
+    allPieces(Random.nextInt(allPieces.size))
+  }
 
   // TODO: Write tests for this
   def choosePiece(side: Player): Piece = this.choosePawn
