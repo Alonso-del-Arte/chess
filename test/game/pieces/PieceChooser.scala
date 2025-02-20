@@ -51,6 +51,7 @@ object PieceChooser {
       game.pieces.lightgray.Tower)
   private val allOfficerPieces: List[Piece] = whiteOfficerPieces ++
     blackOfficerPieces ++ darkGrayOfficerPieces ++ lightGrayOfficerPieces
+  private val totalNumberOfOfficerPices: Int = this.allOfficerPieces.size
   private val mapSidesToOfficerPieces: Map[Player, List[Piece]] =
     Map(White -> whiteOfficerPieces, Black -> blackOfficerPieces,
       DarkGray -> darkGrayOfficerPieces, LightGray -> lightGrayOfficerPieces)
@@ -66,7 +67,7 @@ object PieceChooser {
   }
 
   def chooseOfficerPiece: Piece = {
-    this.allOfficerPieces(Random.nextInt(this.allOfficerPieces.size))
+    this.allOfficerPieces(Random.nextInt(this.totalNumberOfOfficerPices))
   }
 
   def chooseOfficerPiece(side: Player): Piece = {
