@@ -27,6 +27,7 @@ object PieceChooser {
       game.pieces.lightgray.TowersPawn)
   private val allPawns: List[Pawn] = whitePawns ++ blackPawns ++
     darkGrayPawns ++ lightGrayPawns
+  private val totalNumberOfPawns: Int = this.allPawns.size
   private val mapSidesToPawns: Map[Player, List[Pawn]] =
     Map(White -> whitePawns, Black -> blackPawns, DarkGray -> darkGrayPawns,
       LightGray -> lightGrayPawns)
@@ -56,7 +57,7 @@ object PieceChooser {
   private val allPieces: List[Piece] = allPawns ++ allOfficerPieces
 
   def choosePawn: Pawn = {
-    this.allPawns(Random.nextInt(this.allPawns.size))
+    this.allPawns(Random.nextInt(this.totalNumberOfPawns))
   }
 
   def choosePawn(side: Player): Pawn = {
