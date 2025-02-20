@@ -2760,6 +2760,34 @@ both assist development and affect vital central squares.
 1. e4 e5
 2. Nf3 Nc6
 
+##### Four knights game
+
+1. e4 e5 
+2. Nf3 Nc6 
+3. Nc3 Nf6
+
+###### Four knights game, Scotch variation
+
+1. e4 e5 
+2. Nf3 Nc6 
+3. Nc3 Nf6
+4. d4
+
+###### Four knights game, Italian variation
+
+1. e4 e5 
+2. Nf3 Nc6 
+3. Nc3 Nf6 
+4. Bc4 Nxe4
+
+May continue
+
+5. Nxe4 d5
+
+Far less likely to continue
+
+5. O-O
+
 ###### King's knight opening, Pachman wing gambit
 
 1. e4 e5
@@ -2798,34 +2826,6 @@ May continue
 12. Rae1 Rb8
 13. Nd1 Re8
 14. h3 Be6
-
-##### Four knights game
-
-1. e4 e5 
-2. Nf3 Nc6 
-3. Nc3 Nf6
-
-###### Four knights game, Scotch variation
-
-1. e4 e5 
-2. Nf3 Nc6 
-3. Nc3 Nf6
-4. d4
-
-###### Four knights game, Italian variation
-
-1. e4 e5 
-2. Nf3 Nc6 
-3. Nc3 Nf6 
-4. Bc4 Nxe4
-
-May continue
-
-5. Nxe4 d5
-
-Far less likely to continue
-
-5. O-O
 
 ##### Scotch game, Lolli variation
 
