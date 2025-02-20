@@ -65,8 +65,7 @@ object PieceChooser {
   }
 
   def chooseOfficerPiece: Piece = {
-    val side = this.allSides(Random.nextInt(this.allSides.size))
-    this.chooseOfficerPiece(side)
+    this.allOfficerPieces(Random.nextInt(this.allOfficerPieces.size))
   }
 
   def chooseOfficerPiece(side: Player): Piece = {
