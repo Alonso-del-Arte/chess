@@ -5,7 +5,6 @@ import game.{Black, DarkGray, LightGray, Player, White}
 import scala.util.Random
 
 object PieceChooser {
-  private val allSides: List[Player] = List(White, Black, DarkGray, LightGray)
   private val whitePawns: List[Pawn] = List(game.pieces.white.QueenSideRookPawn,
     game.pieces.white.QueenSideKnightPawn,
     game.pieces.white.QueenSideBishopPawn, game.pieces.white.QueenPawn,
