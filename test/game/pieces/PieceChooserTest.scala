@@ -51,6 +51,11 @@ class PieceChooserTest {
     Map(White -> whiteOfficerPieces, Black -> blackOfficerPieces,
       DarkGray -> darkGrayOfficerPieces, LightGray -> lightGrayOfficerPieces)
   private val allPieces: Set[Piece] = allPawns ++ allOfficerPieces
+  private val mapSidesToPieces: Map[Player, Set[Piece]] =
+    Map(White -> (whitePawns ++ whiteOfficerPieces),
+      Black -> (blackPawns ++ blackOfficerPieces),
+      DarkGray -> (darkGrayPawns ++ darkGrayOfficerPieces),
+      LightGray -> (lightGrayPawns ++ lightGrayOfficerPieces))
 
   @Test def testChoosePawnOfGivenSide(): Unit = {
     val multiplier = 12
@@ -101,6 +106,18 @@ class PieceChooserTest {
       for (_ <- 1 to iterCount) yield PieceChooser.choosePiece
     }.toSet
     assertEquals(this.allPieces, actual)
+  }
+
+  @Test def testChoosePieceOfGivenSide(): Unit = {
+    val multiplier = 12
+    this.mapSidesToPieces.foreach(pair => {
+      val iterCount = pair._2.size * multiplier
+      val expected = pair._2
+      val actual = {
+        for (_ <- 1 to iterCount) yield PieceChooser.choosePiece(pair._1)
+      }.toSet
+      assertEquals(expected, actual)
+    })
   }
 
 }
