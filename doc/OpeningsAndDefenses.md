@@ -1684,6 +1684,10 @@ Likely followed by
 1. d4 c5
 2. dxc5 b6
 
+#### Closed game
+
+1. d4 d5
+
 #### Chigorin variation
 
 1. d4 d5
