@@ -1688,6 +1688,12 @@ Likely followed by
 
 1. d4 d5
 
+Both sides can develop their queenside bishops on their next turns, but getting 
+their queens out could be somewhat awkward.
+
+This contrasts with the open game, 1. e4 e5, which allows both sides to get 
+queens and bishops out much more easily.
+
 #### Chigorin variation
 
 1. d4 d5
@@ -2748,6 +2754,13 @@ in this way. Chapter 2 (p. 6) begins thus:
 
 > Both White's and Black's initial moves here are perfectly natural and normal: 
 both assist development and affect vital central squares.
+
+Each side has plenty of options for getting a queen or a bishop out on the very 
+next move, while also offering some protection against an immediate attack on 
+the king.
+
+This contrasts with the closed game, 1. d4 d5, in which both sides can get 
+bishops out on the next move but getting the queens out is somewhat constrained.
 
 ##### Vienna game
 
