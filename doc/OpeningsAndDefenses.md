@@ -1934,9 +1934,9 @@ early check.
 2. e4 dxe4
 3. Bb5+
 
-The best answer for Black is c6, forcing the White bishop to retreat or be 
-captured. But sometimes an easy bot playing Black will respond with Qd7. Then 
-the sacrifice of a bishop for a queen is quite worthwhile for White.
+The best answer for Black here is 3. ... c6, forcing the White bishop to retreat 
+or be captured. But sometimes an easy bot playing Black will respond with Qd7. 
+Then the sacrifice of a bishop for a queen is quite worthwhile for White.
 
 ##### Nimzowitsch defense, Scandinavian, exchange, Marshall gambit
 
