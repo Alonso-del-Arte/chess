@@ -1938,14 +1938,28 @@ The best answer for Black here is 3. ... c6, forcing the White bishop to retreat
 or be captured. But sometimes an easy bot playing Black will respond with Qd7. 
 Then the sacrifice of a bishop for a queen is quite worthwhile for White.
 
-##### Nimzowitsch defense, Scandinavian, exchange, Marshall gambit
+##### Nimzowitsch defense
+
+1. d4 d5
+2. e4 Nc6
+
+This is one way to decline the Blackmar-Diemer gambit.
+
+###### Nimzowitsch defense, Scandinavian, exchange, Marshall gambit
 
 1. d4 d5
 2. e4 Nc6
 3. exd5 Qxd5
 4. Nc3
 
-###### Blackmar gambit
+#### Berg countergambit
+
+1. d4 d5
+2. e4 c5
+
+This is a less common way to decline the Blackmar-Diemer gambit.
+
+###### Blackmar-Diemer gambit accepted
 
 1. d4 d5 
 2. e4 dxe4
@@ -1962,12 +1976,21 @@ This would also work:
 
 6. Bxf7# 1-0
 
-###### Center game, Beyer gambit (Blackmar-Diemer gambit declined)
+###### Center game, Beyer gambit
 
 1. d4 d5
 2. e4 e5
 
-##### Caro-Kann defense, exchange variation
+This is another way to decline the  Blackmar-Diemer gambit.
+
+##### Caro-Kann defense
+
+1. d4 d5
+2. e4 c6
+
+This is another way to decline the  Blackmar-Diemer gambit.
+
+###### Caro-Kann defense, exchange variation
 
 1. d4 d5
 2. e4 c6
@@ -1980,6 +2003,8 @@ put Black in check (e.g., Bb5+) or prepare to castle.
 
 1. d4 d5
 2. e4 e6
+
+This is another way to decline the  Blackmar-Diemer gambit.
 
 ##### Queen's pawn opening
 
