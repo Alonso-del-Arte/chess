@@ -2501,8 +2501,8 @@ conventional second move from Black might force White to abandon that strategy.
 This may continue to the famous poisoned pawn variation, which may very well 
 have inspired an entire episode of *Monk*. Of course in that episode, Adrian 
 Monk (Tony Shalhoub) gets nowhere near being able to play these moves against 
-the villainous chess grandmaster because he's too busy obsessively centering the 
-chess pieces.
+the villainous chess grandmaster (David Strathairn), because "the defective 
+detective" is too busy obsessively centering the chess pieces.
 
 6. Bg5 e6 
 7. f4 
