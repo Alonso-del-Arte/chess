@@ -1590,6 +1590,8 @@ depth on this gambit.
 2. c4 g6 
 3. Nc3 d5
 
+![Grunfeld](../diagrams/openings/GrunfeldDefense.png)
+
 ##### King's Indian defense, normal variation
 
 1. d4 Nf6
@@ -2503,6 +2505,8 @@ conventional second move from Black might force White to abandon that strategy.
 3. d4 cxd4 
 4. Nxd4 Nf6 
 5. Nc3 a6
+
+![Najdorf](../diagrams/openings/SicilianNajdorf.png)
 
 This may continue to the famous poisoned pawn variation, which may very well 
 have inspired an entire episode of *Monk*. Of course in that episode, Adrian 
