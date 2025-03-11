@@ -1584,7 +1584,13 @@ depth on this gambit.
 3. Nf3 Bb4+ 
 4. Bd2 c5
 
-###### King's Indian defense, normal variation
+##### Gr&uuml;nfeld defense
+
+1. d4 Nf6 
+2. c4 g6 
+3. Nc3 d5
+
+##### King's Indian defense, normal variation
 
 1. d4 Nf6
 2. c4 g6
