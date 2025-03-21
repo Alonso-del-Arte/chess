@@ -2818,6 +2818,10 @@ bishops out on the next move but getting the queens out is somewhat constrained.
 2. Nf3 Nc6 
 3. Nc3 Nf6
 
+Both sides are ready to attack the center and both sides are very close to 
+castling kingside, just needing to get their kingside bishops out. But getting 
+their queens into the action can be tricky.
+
 ###### Four knights game, Scotch variation
 
 1. e4 e5 
