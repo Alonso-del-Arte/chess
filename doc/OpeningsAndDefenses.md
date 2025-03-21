@@ -518,6 +518,8 @@ certainly respond with 3. ... dxc3.
 1. Nf3 d5
 2. d4
 
+More commonly 1. d4 d5 2. Nf3.
+
 ###### Queen's pawn opening, Zukertort-Chigorin variation
 
 1. Nf3 d5
