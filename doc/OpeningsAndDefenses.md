@@ -2829,6 +2829,11 @@ their queens into the action can be tricky.
 3. Nc3 Nf6
 4. d4
 
+May continue
+
+4. ... exd4 
+5. Nxd4
+
 ###### Four knights game, Italian variation
 
 1. e4 e5 
