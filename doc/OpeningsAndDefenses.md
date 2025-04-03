@@ -664,6 +664,11 @@ May continue
 
 2. g3
 
+##### French defense, knight variation
+
+1. Nf3 e6 
+2. e4 d5
+
 #### Arctic defense
 
 1. Nf3 f6 
