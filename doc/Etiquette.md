@@ -6,7 +6,9 @@ regulating acceptable behavior, good sportsmanship.
 
 The statements in this document are more guidelines than rules.
 
-## General principles
+## Guidelines for players
+
+### General principles
 
 One should always play to the best of one's ability, except within the context 
 of coaching or testing. A player should do everything he or she can to win that 
@@ -25,7 +27,7 @@ attempt to distract your opponent and waste his or her allotted time to make a
 move. In particular, adjusting pieces should be done on your time, not your 
 opponent's time.
 
-## Talking during games
+### Talking during games
 
 Talking is not allowed during competitive games, except under certain 
 circumstances for matters directly related to the progress of the game. In a 
@@ -35,7 +37,7 @@ pertinent to the game.
 Even in a friendly game, it might be best to limit off-topic conversation, as 
 your opponent might think you're trying to cause a distraction.
 
-### Adjusting pieces
+#### Adjusting pieces
 
 For the most part, pieces on the board should only be moved when being moved, 
 captured or promoted. And it's okay if a piece is slightly off-center. But if a 
@@ -49,7 +51,7 @@ It is important to make these announcements during your own turn, especially in
 a timed game. Making adjustments on your opponent's turn could be construed as 
 an attempt to create a distraction.
 
-### Calling checks
+#### Calling checks
 
 Among beginners, it might be necessary for a player to announce a check, just in 
 case the opponent fails to notice it. At any higher level, checks should not be 
@@ -72,7 +74,7 @@ completely certain and wanted to make sure first. After all, it would be far
 more embarrassing to claim checkmate and then the opponent discovers it's merely 
 a check.
 
-### Asking to take a move back
+#### Asking to take a move back
 
 In a coaching context, the student can certainly ask the teacher to take back a 
 particularly bad move, and the teacher may or may not approve that request. In a 
@@ -82,7 +84,7 @@ grant that request.
 But in a tournament, a valid move can't be taken back. And of course any invalid 
 move must be undone and stricken from the record.
 
-### Calling for an arbiter
+#### Calling for an arbiter
 
 Depending on the situation, players should try to resolve disagreements before 
 calling an arbiter. On the other hand, the prospect of calling an arbiter should 
@@ -95,7 +97,7 @@ is needed to fulfill a promotion.
 
 FINISH WRITING
 
-### Offering a draw
+#### Offering a draw
 
 It would obviously be bad manners to suggest that your opponent should resign, 
 as that clearly comes across as an insult to your opponent's ability. However, 
@@ -119,7 +121,7 @@ If you offer to draw, and your opponent declines, you should continue playing
 the game, not resign nor reiterate the draw offer, and continue playing until 
 reaching a more definitive position.
 
-### Emergencies
+#### Emergencies
 
 It should go without saying that all these rules and guidelines go out the 
 window in the event of an emergency, such as an earthquake or other natural 
@@ -132,7 +134,7 @@ is something that should be sorted out only after the emergency has abated.
 Inventing an emergency is of course both bad manners and poor sportsmanship, and 
 potentially a crime.
 
-## Resignation
+### Resignation
 
 Although you can technically resign at any point in the game, you should 
 generally not resign before the first capture of the game.
@@ -157,7 +159,7 @@ If your opponent resigns, you should accept the resignation without question,
 even if you had plans for some very elegant moves. Something along the lines of 
 "good game" is probably the best response.
 
-## One last word about the touch-move rule
+### One last word about the touch-move rule
 
 It would be rude to repeatedly touch pieces that can't be moved at the moment, 
 like any of the rooks at the very beginning of the game, without adjusting them 
@@ -165,3 +167,10 @@ within their squares and without announcing one's intention to do that.
 
 However, that kind of behavior is technically within the letter of the rules. 
 It's obviously against the spirit of the rules.
+
+## Guidelines for spectators
+
+When watching a chess match live, as in a tournament, spectators should not 
+comment on the game in a way that could distract the players.
+
+FINISH WRITING
