@@ -1315,6 +1315,11 @@ May continue
 2. Nf3 Nf6
 3. d4 b6
 
+##### Agincourt defense
+
+1. c4 e6
+2. Nf3 d5
+
 ##### Queen's gambit accepted, Rosenthal variation
 
 1. c4 e6
