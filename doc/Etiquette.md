@@ -2,7 +2,7 @@
 
 Chess players are usually thought of as being polite and reserved. However, 
 aside from the touch-move rule, there is very little in the rules of the game 
-regulating what is polite behavior.
+regulating acceptable behavior, good sportsmanship.
 
 The statements in this document are more guidelines than rules.
 
@@ -22,7 +22,8 @@ opponent's victory in doubt.
 When playing with a clock, it is important to be mindful of not performing 
 certain actions on your opponent's time, if the action could be seen as an 
 attempt to distract your opponent and waste his or her allotted time to make a 
-move.
+move. In particular, adjusting pieces should be done on your time, not your 
+opponent's time.
 
 ## Talking during games
 
@@ -83,11 +84,20 @@ move must be undone and stricken from the record.
 
 ### Calling for an arbiter
 
+Depending on the situation, players should try to resolve disagreements before 
+calling an arbiter. On the other hand, the prospect of calling an arbiter should 
+not be presented as a threat, nor as an insult implying the opponent is 
+dishonest or stupid.
+
+Calling for an arbiter need not always be confrontational. Sometimes it might be 
+necessary simply to resolve a material deficiency, such as when an extra queen 
+is needed to fulfill a promotion.
+
 FINISH WRITING
 
 ### Offering a draw
 
-It would obviously be bad manners to suggest that your opponent should resign,  
+It would obviously be bad manners to suggest that your opponent should resign, 
 as that clearly comes across as an insult to your opponent's ability. However, 
 offering a draw could also be seen as an insult, so one should be careful to 
 make that offer only when it's clear that the game is progressing towards a 
@@ -136,6 +146,9 @@ equally clear to your opponent.
 
 You should not resign as your opponent is pondering a move. When playing with a 
 clock, you should probably not resign on your opponent's time.
+
+Resign by saying something to the effect of "I concede." Tipping your king over 
+is a dramatic flourish best left for the movies.
 
 After resigning, you should not immediately try to explain why you lost, as that 
 might be seen as an attempt to diminish the validity of your opponent's win.
