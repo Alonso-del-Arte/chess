@@ -34,8 +34,11 @@ object InitialBoardState extends BoardState(RegularBoard, White,
     new RegularPosition(7, 8) -> game.pieces.black.KingSideKnight,
     new RegularPosition(8, 8) -> game.pieces.black.KingSideRook)) {
 
-  // TODO: Write tests for this
-  override def plyCount: Int = -1
+  /**
+   * Gives the number of plies in the game so far.
+   * @return Always 0.
+   */
+  override def plyCount: Int = 0
 
   // TODO: Write tests for this
   override def moveCount: Int = -1
