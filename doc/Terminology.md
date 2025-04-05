@@ -281,6 +281,7 @@ kingside knight's pawn forward two spaces. See Openings for more details.
 
 ## H
 
+* **Half-move** &mdash; Synonym for ply. See also move.
 * **Hanging piece** &mdash; A piece that can be captured by sacrificing a piece 
 of lesser value, or which can be captured with no sacrifice at all (Martin, p. 
 26). For example, given a Black rook that can be captured by a White knight 
@@ -397,6 +398,10 @@ position. Getting the king out of a check is never a mistake, even if it forces
 the player to abandon a piece they would rather not. Some commentators use this 
 term to mean only bad moves that waste a tactical advantage but don't risk 
 losing the game.
+* **Move** &mdash; A pair of plies, first by White and then Black's response. 
+For example, if the game so far is 1. e4 e5 2. d4 Nf6, two moves (four plies) 
+have occurred. If White wins or causes a stalemate, the final ply might be 
+referred to as the last move even though Black can't play a ply in response.
 
 ## N
 
@@ -447,6 +452,8 @@ excluding the pawns.
 * **Pin** &mdash; When a piece must stay in place to protect a more valuable 
 piece from capture, or to protect the king from check. The former is called a 
 relative pin, the latter an absolute pin.
+* **Ply** &mdash; An action taken on a player's turn. For example, if the game 
+so far is 1. e4 e5 2. d4, three plies have occurred: two by White, one by Black.
 * **Polish opening** &mdash; The opening in which White begins by playing the 
 queenside knight's pawn forward two spaces. See Openings for more details.
 * **Potzer** &mdash; Alternate spelling for patzer.
