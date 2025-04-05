@@ -40,7 +40,10 @@ object InitialBoardState extends BoardState(RegularBoard, White,
    */
   override def plyCount: Int = 0
 
-  // TODO: Write tests for this
-  override def moveCount: Int = -1
+  /**
+   * Gives the number of moves in the game so far.
+   * @return Always 0.
+   */
+  override def moveCount: Int = 0
 
 }
