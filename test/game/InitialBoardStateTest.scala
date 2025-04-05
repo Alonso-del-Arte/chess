@@ -67,4 +67,12 @@ class InitialBoardStateTest {
     assertEquals(expected, actual, msg)
   }
 
+  @Test def testMoveCount(): Unit = {
+    println("moveCount")
+    val expected = 0
+    val actual = InitialBoardState.moveCount
+    val msg = s"Move count for initial board state should be $expected"
+    assertEquals(expected, actual, msg)
+  }
+
 }
