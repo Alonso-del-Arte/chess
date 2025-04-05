@@ -1,5 +1,3 @@
 package game
 
-object Neutral extends Player {
-
-}
+object Neutral extends Player

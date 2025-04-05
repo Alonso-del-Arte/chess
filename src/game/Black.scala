@@ -1,5 +1,3 @@
 package game
 
-object Black extends Player {
-
-}
+object Black extends Player
