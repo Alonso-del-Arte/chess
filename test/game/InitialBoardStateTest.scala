@@ -59,4 +59,12 @@ class InitialBoardStateTest {
     assert(InitialBoardState.capturedPieces.isEmpty, msg)
   }
 
+  @Test def testPlyCount(): Unit = {
+    println("plyCount")
+    val expected = 0
+    val actual = InitialBoardState.plyCount
+    val msg = s"Ply count for initial board state should be $expected"
+    assertEquals(expected, actual, msg)
+  }
+
 }
