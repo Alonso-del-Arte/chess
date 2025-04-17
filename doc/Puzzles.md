@@ -1,8 +1,10 @@
 # Puzzles
 
 A puzzle is a chess position from a game in progress, in which the reader is 
-asked to figure out the best next few moves for one side. Almost all puzzles are 
-designated as "White to play" or "Black to play."
+asked to figure out the best next few moves for one side (or the best next move 
+in the case of checkmate-in-one puzzles).
+
+Almost all puzzles are designated as "White to play" or "Black to play."
 
 In many cases, a little context is provided by showing one move prior to the 
 puzzle situation. Sometimes this might indicate that a special move, like 
