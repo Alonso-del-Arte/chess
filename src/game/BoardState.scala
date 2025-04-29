@@ -3,7 +3,9 @@ package game
 import game.pieces.Piece
 
 /**
- * Immutable class to represent a state of the board.
+ * Immutable class to represent a state of the board. An instance of this class
+ * does not record what the next board state is or even what the previous board
+ * state was.
  * @param board The board to put the pieces on. Should generally be
  *              [[RegularBoard]].
  * @param nextToPlay The player who is expected to make a move to bring about
