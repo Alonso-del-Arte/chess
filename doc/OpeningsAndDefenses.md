@@ -1240,10 +1240,15 @@ May continue
 1. c4 e5
 2. d4 d6
 
-##### The Whale variation
+##### Whale variation
 
 1. c4 e5
 2. e4
+
+###### Whale variation, Bavarian gambit
+
+1. c4 e5
+2. e4 d5
 
 ###### Dresden opening
 
@@ -3425,10 +3430,15 @@ Often continues
 2. Nf3 Qf6
 3. Bc4
 
-##### The Whale variation
+##### Whale variation
 
 1. e4 e5 
 2. c4
+
+###### Whale variation, Bavarian gambit
+
+1. e4 e5 
+2. c4 d5
 
 ##### Center game
 
