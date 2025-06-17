@@ -2117,10 +2117,27 @@ game.
 
 1. d4 f5
 
-##### Dutch defense, Staunton gambit accepted
+##### Dutch defense, Staunton gambit
+
+1. d4 f5
+2. e4
+
+Will Black capture that pawn White is offering up for sacrifice?
+
+###### Dutch defense, Staunton gambit accepted
 
 1. d4 f5
 2. e4 fxe4
+
+Professional players playing Black have been known to accept this gambit. 
+However, it appears that no professional player playing White has ever followed 
+with
+
+3. Qh5+
+
+which is repelled easily enough with
+
+3. ... g6
 
 ##### French defense, Franco-Hiva gambit
 
