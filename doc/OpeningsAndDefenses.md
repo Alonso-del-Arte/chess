@@ -2135,7 +2135,7 @@ with
 
 3. Qh5+
 
-which is repelled easily enough with
+which Black repels easily enough with
 
 3. ... g6
 
