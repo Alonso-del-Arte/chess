@@ -247,7 +247,7 @@ immediately loses the capturing bishop, whereas in regular chess it would
 probably be deferred to Black playing 4. ... gxf7. That move is not available in 
 this game, as you can see in this diagram.
 
-PLACEHOLDER FOR EXAMPLE 1
+![Atomic example 1](../diagrams/openings/AtomicExample01.png)
 
 So instead the game proceeded thus:
 
@@ -256,7 +256,7 @@ So instead the game proceeded thus:
 6. Qf3 Kd8 
 7. Qf6 g5 
 
-PLACEHOLDER FOR EXAMPLE 2
+![Atomic example 2](../diagrams/openings/AtomicExample02.png)
 
 In regular chess, my next move in this board state would have been 8. Qxh8, with 
 the hope of being able to play 9. Qxf8# on my next turn. But in this variant, 
