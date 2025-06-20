@@ -266,9 +266,20 @@ sacrifice of a queen. Instead, I play this capture for the kill:
 8. Qxe7#
 
 That move would be available in regular chess, but it would not be notated with 
-'#' at the end.
+'#' at the end. Lichess annotates the last move with the comment "Game ends by 
+variant rule."
 
-[FINISH WRITING]
+Games in this variant usually don't last to what would typically be the 
+middlegame in regular chess. There are many more ways to win before it's at all 
+possible to castle than there are in regular chess. I have won in just three 
+moves quite a few times.
+
+1. c4 d6 
+2. Qa4+ Qd7 
+3. Qxd7#
+
+This is from another game I played against Lichess. I was very amazed to win so 
+quickly against Lichess on level 4.
 
 ## Antichess
 
