@@ -230,7 +230,43 @@ The capturing piece is also removed, as well as any non-pawn pieces that
 happened to be in the immediately neighboring squares.
 
 Played on the computer, each capture is accompanied by the sound of an 
-explosion. [FINISH WRITING]
+explosion. It radically changes the strategy of the game as players realize they 
+can win with moves that would be the worst blunders in regular chess. Consider 
+the following 8-move game. This was me playing White against Lichess level 2 
+playing Black.
+
+1. c4 e6 
+2. d4 Nc6 
+3. Bg5 Qf6 
+4. Bxf6 
+
+Black putting the queen on that square was as much a colossal blunder in this 
+variant as in regular chess, since the sacrifice of a bishop for a queen is 
+almost always evaluated as worthwhile. The difference here being that White 
+immediately loses the capturing bishop, whereas in regular chess it would 
+probably be deferred to Black playing 4. ... gxf7. That move is not available in 
+this game, as you can see in this diagram.
+
+PLACEHOLDER FOR EXAMPLE 1
+
+So instead the game proceeded thus:
+
+4. ... Nge7
+5. e3 g6 
+6. Qf3 Kd8 
+7. Qf6 g5 
+
+PLACEHOLDER FOR EXAMPLE 2
+
+In regular chess, my next move in this board state would have been 8. Qxh8, with 
+the hope of being able to play 9. Qxf8# on my next turn. But in this variant, 
+that move would have been a waste, as that would have resulted in the pointless 
+sacrifice of a queen. Instead, I play this capture for the kill:
+
+8. Qxe7#
+
+That move would be available in regular chess, but it would not be notated with 
+'#' at the end.
 
 [FINISH WRITING]
 
