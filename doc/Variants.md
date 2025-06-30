@@ -40,6 +40,9 @@ win.
 5. Ng5+ Kg6 
 6. Qh5+
 
+Note that Lichess annotates the third check with '#' rather than '+' even if 
+it's not checkmate in regular chess.
+
 This variant presents no problem for playing on a physical board. However, it 
 would be helpful to use some kind of token, like coins or bottle caps, to count 
 how many times each player has checked the other.
