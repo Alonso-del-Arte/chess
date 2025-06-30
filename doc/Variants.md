@@ -19,6 +19,27 @@ checkmate long before any pawn can get close to promotion.
 First side to put the other in check thrice wins the game. Or you can win with a 
 regular checkmate before giving three checks.
 
+In this variant, moves that would be rather reckless in regular chess can 
+sometimes be the ticket to winning. Consider this game:
+
+1. e4 e5 
+2. Nf3 Nc6 
+3. Bc4 Nf6
+4. Bxf7+ 
+
+![Reckless bishop sacrifice](../diagrams/openings/EarlyBishopCapture.png)
+
+FEN: r1bqkb1r/pppp1Bpp/2n2n2/4p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 0 4 +1+0
+
+In regular chess, denying Black the abillity to castle is generally not 
+considered a good enough reason to sacrifice a bishop so early in the game. But 
+in three-check, it gives White the opportunity to give two more checks for the 
+win.
+
+4. ... Kxf7 
+5. Ng5+ Kg6 
+6. Qh5+
+
 This variant presents no problem for playing on a physical board. However, it 
 would be helpful to use some kind of token, like coins or bottle caps, to count 
 how many times each player has checked the other.
