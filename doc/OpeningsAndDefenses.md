@@ -1889,26 +1889,26 @@ Rather than take White's pawn, Black decides to offer up a pawn.
 1. d4 d5
 2. c4 dxc4
 
-##### Queen's gambit accepted, Gunsberg defense
+###### Queen's gambit accepted, Gunsberg defense
 
 1. d4 d5
 2. c4 dxc4
 3. Nf3 c5
 
-##### Queen's gambit accepted, central variation, Rubinstein defense
+###### Queen's gambit accepted, central variation, Rubinstein defense
 
 1. d4 d5
 2. c4 dxc4
 3. Nf3 c5
 4. e4
 
-##### Queen's gambit accepted, Rosenthal variation
+###### Queen's gambit accepted, Rosenthal variation
 
 1. d4 d5
 2. c4 dxc4
 3. Nf3 e6
 
-##### Queen's gambit accepted, central variation
+###### Queen's gambit accepted, central variation
 
 1. d4 d5
 2. c4 dxc4
