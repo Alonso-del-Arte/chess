@@ -1925,7 +1925,7 @@ Rather than take White's pawn, Black decides to offer up a pawn.
 1. d4 d5
 2. c4 e5
 
-###### Slav defense
+##### Slav defense
 
 1. d4 d5
 2. c4 c6
