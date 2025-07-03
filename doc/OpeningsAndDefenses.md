@@ -1500,6 +1500,10 @@ ignores other factors, such as how your opponent's skills compare to yours.
 1. d4 Nf6
 2. Nf3 e6
 
+May continue
+
+3. Nc3 d5
+
 ##### Indian game, Yusupov-Rubinstein system
 
 1. d4 Nf6
