@@ -571,6 +571,15 @@ way of the newly promoted White queen, which can then capture the Black rook.
 
 FEN: r2k1QN1/6P1/1pp1b1Q1/1pb4p/3p4/3P4/PPP3PP/R3K2R b KQ - 0 24
 
+And now an example of a smothered mate which comes from the movie *Queen of 
+Katwe*. In that movie, young Phiona Mutesi (Madina Nalwanga) plays the seemingly 
+foolish move Qb1+. The following diagram shows the board just prior to that 
+move.
+
+![Smothered check](../diagrams/endgames/SmotheredMate.png)
+
+FEN: r5rk/p2b2p1/2pP1pqp/1pB5/5P1Q/n5PP/PP2N3/K2R3R b - - 0 1
+
 ## T
 
 * **Tempo** &mdash; As I understand this chess term, a tempo is simply a 
