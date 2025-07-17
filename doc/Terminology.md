@@ -564,12 +564,12 @@ moves.
 adjustments regardless of the opponent's moves. Examples of systems include the 
 London system and the Zukertort system.
 
+Now follows an example of a skewering check. The Black king must move out of the 
+way of the newly promoted White queen, which can then capture the Black rook.
+
 ![Skewer for rook](../diagrams/endgames/SkewerForRook.png)
 
 FEN: r2k1QN1/6P1/1pp1b1Q1/1pb4p/3p4/3P4/PPP3PP/R3K2R b KQ - 0 24
-
-Example of a skewering check. The Black king must move out of the way of the 
-newly promoted White queen, which can then capture the Black rook.
 
 ## T
 
