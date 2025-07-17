@@ -150,7 +150,13 @@ You should not resign as your opponent is pondering a move. When playing with a
 clock, you should probably not resign on your opponent's time.
 
 Resign by saying something to the effect of "I concede." Tipping your king over 
-is a dramatic flourish best left for the movies.
+is a dramatic flourish best left for movies and TV shows, such as *Queen of 
+Katwe* and *The Queen's Gambit*. Plus it can be ambiguous: your opponent could 
+claim he tipped his king by accident and it should not count as a resignation.
+
+Another problem with tipping your king is that it could come across as rude, 
+almost as rude as flipping the whole board over (which, it should go without 
+saying, presents an utter lack of sportsmanship).
 
 After resigning, you should not immediately try to explain why you lost, as that 
 might be seen as an attempt to diminish the validity of your opponent's win.
