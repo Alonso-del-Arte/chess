@@ -206,6 +206,14 @@ FEN: 4k3/b2pp2Q/P5P1/1N6/3qn3/4P3/6PP/2R2RK1 b - - 0 1
 This is checkmate in three if your opponent puts up a good defense, checkmate in 
 two if he or she blunders.
 
+#### An actual smothered checkmate
+
+Based on a scene from *Queen of Katwe*. Black to play for checkmate in two.
+
+![Smothered check](../diagrams/endgames/SmotheredMate.png)
+
+FEN: r5rk/p2b2p1/2pP1pqp/1pB5/5P1Q/n5PP/PP2N3/K2R3R b - - 0 1
+
 ### Watch out for the opponent's remaining material...
 
 I was playing one of the easy bots on a popular chess website. I was playing 
