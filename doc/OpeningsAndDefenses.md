@@ -3786,6 +3786,9 @@ out as a queen's pawn opening.
 
 1. e4 d6
 
+Also called "Pirc-Ufimtsev defense," just "Ufimtsev defense" or very rarely 
+"Yugoslav defense."
+
 ##### Pirc defense, modern defense, Geller system
 
 1. e4 d6
