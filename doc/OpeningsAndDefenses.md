@@ -3794,6 +3794,16 @@ played Veselin Topalov at a tournament in 1999, the elder grandmaster, playing
 White, was very surprised to see his very conventional move 1. e4 followed by 1. 
 ... d6.
 
+Annotating the game afterwards, Kasparov wrote
+
+> Pirc-Ufimtsev Defense is not a usual one for Topalov, and this opening is 
+hardly worth using in the tournaments of the highest category. White has too 
+many opportunities for anybody's liking: one can lead an acute or a positional 
+game, one can vary different ways of developing the initiative. Nevertheless, 
+Topalov obviously counted on surprise, as he thought that I would play worse in 
+a situation I was not ready for, and besides, he hoped to avoid my opening 
+preparation, which he had faced before. 
+
 ##### Pirc defense, modern defense, Geller system
 
 1. e4 d6
