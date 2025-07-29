@@ -3802,7 +3802,9 @@ many opportunities for anybody's liking: one can lead an acute or a positional
 game, one can vary different ways of developing the initiative. Nevertheless, 
 Topalov obviously counted on surprise, as he thought that I would play worse in 
 a situation I was not ready for, and besides, he hoped to avoid my opening 
-preparation, which he had faced before. 
+preparation, which he had faced before.
+
+Despite the element of surprise, Kasparov still won the game.
 
 ##### Pirc defense, modern defense, Geller system
 
