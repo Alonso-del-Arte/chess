@@ -3789,6 +3789,11 @@ out as a queen's pawn opening.
 Also called "Pirc-Ufimtsev defense," just "Ufimtsev defense" or very rarely 
 "Yugoslav defense."
 
+Garry Kasparov does not have a high opinion of this defense. When Kasparov 
+played Veselin Topalov at a tournament in 1999, the elder grandmaster, playing 
+White, was very surprised to see his very conventional move 1. e4 followed by 1. 
+... d6.
+
 ##### Pirc defense, modern defense, Geller system
 
 1. e4 d6
