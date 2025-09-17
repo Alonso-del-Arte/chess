@@ -19,8 +19,8 @@ checkmate long before any pawn can get close to promotion.
 First side to put the other in check thrice wins the game. Or you can win with a 
 regular checkmate before giving three checks.
 
-In this variant, moves that would be rather reckless in regular chess can 
-sometimes be the ticket to winning. Consider this game:
+In this variant, moves that would be very stupid in regular chess can sometimes 
+be the ticket to winning. Consider this game:
 
 1. e4 e5 
 2. Nf3 Nc6 
@@ -33,15 +33,18 @@ FEN: r1bqkb1r/pppp1Bpp/2n2n2/4p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 0 4 +1+0
 
 In regular chess, denying Black the abillity to castle is generally not 
 considered a good enough reason to sacrifice a bishop so early in the game. But 
-in three-check, it gives White the opportunity to give two more checks for the 
-win.
+in this three-check scenario, it gives White the opportunity to give two more 
+checks for the win.
 
 4. ... Kxf7 
 5. Ng5+ Kg6 
 6. Qh5+
 
-Note that Lichess annotates the third check with '#' rather than '+' even if 
-it's not checkmate in regular chess.
+Although the three checks are consecutive in this example, they don't have to be 
+for a player to win.
+
+Note that Lichess annotates the third check with '#' rather than '+' even when 
+it would not be checkmate in regular chess.
 
 This variant presents no problem for playing on a physical board. However, it 
 would be helpful to use some kind of token, like coins or bottle caps, to count 
@@ -87,9 +90,9 @@ If you can see your opponent's king on your turn, you should capture him. Then
 you win the game.
 
 Therefore, castling is generally advantageous in Fog of War, much more so than 
-in regular chess. Safely ensconsed behind a shield of pawns with a rook at your 
-king's side, the only way your opponent can learn your castling status is with a 
-very reckless move.
+in regular chess. Safely ensconced behind a shield of pawns with a rook at your 
+king's side, the only way your opponent can learn your castling status might be 
+with a potentially pointless sacrifice.
 
 This variant is also called "dark chess." It is closely related to 
 **Kriegspiel**, which was played long before anyone thought of using computers 
@@ -100,20 +103,35 @@ cumbersome to play.
 ## King of the hill
 
 Four squares in the center of the board, d4, e4, d5 and e5, are marked as a 
-special area. If one side can get their king to one of those squares, they win 
-the game. Or you can win with a regular checkmate, which might be the only way 
-you can win if you're playing against an evenly matched opponent.
+special area. If one side can get his or her king to one of those squares, he or 
+she wins the game. Or you can win with a regular checkmate, which might be the 
+only way you can win if you're playing against an evenly matched opponent.
+
+The king trying to get to the center FINISH WRITING
+
+1. a3 d5 
+2. e4 e5 
+3. Bb5+ Nc6 
+4. exd5 a6 
+5. Be2 Kd7 
+6. Nf3 Nf6 
+7. O-O a5 
+8. d4 Kd6 
+9. dxe5+ Kc5 
+10. Be3+ Nd4 
+11. Qxd4# 1-0
 
 On a physical board, the special area could be demarcated with yarn, or with a 
-cellophane square cut to size to place over the four squares.
+cellophane square cut to size to place over the four squares. Or the four 
+squares could be painted in some way.
 
 ## Pawns only at first
 
 Normally, we are advised to not move too many pawns in the opening. Like maybe 
 only one pawn, preferably.
 
-But in this variant, you can only move pawns, until any one of the following 
-happens:
+But in this variant, you can only move pawns at first, until any one of the 
+following happens:
 
 * A king is in check, or
 * A pawn is promoted, or
@@ -125,10 +143,10 @@ their pieces according to the rules of regular chess.
 Just in case it needs to be said: captures by pawns count as pawn moves. But 
 most likely pawns will only capture other pawns while the stricture applies.
 
-With the move restriction turned off, castling is allowed subject to the same 
-rules as in regular chess. And remember: in regular chess you can castle even if 
-the castling rook is under threat, as long as the king is not under threat and 
-does not move through a threatened square.
+With the move restriction lifted, castling is allowed subject to the same rules 
+as in regular chess. And remember: in regular chess you can castle even if the 
+castling rook is under threat, as long as the king is not under threat and does 
+not move through a threatened square.
 
 If castling occurs in this variant, it's likelier to be kingside, since 
 queenside castling is likely to be inhibited by the opponent's queen. But 
@@ -138,10 +156,13 @@ Obviously this variant gets the game to an endgame state very quickly, as the
 first non-pawn moves of the game are likely to involve both players losing their 
 queens.
 
-It wasn't clear to me is what happens if there are no valid pawn moves for 
-either side while the move stricture applies. I verified, thanks to Tavon 
-Strange, that such stalling can occur in this variant. Also thanks to 
-Christopher Woods for his help researching this variant.
+It wasn't clear to me if it can happen that there are no valid pawn moves for 
+either side while the move stricture applies. That would stall the game, unless 
+we add that to the list of conditions that allows for the move stricture to be 
+removed.
+
+I verified, thanks to Tavon Strange, that such stalling can occur in this 
+variant. Also thanks to Christopher Woods for his help researching this variant.
 
 The main difficulty for playing on a physical board might be if the first 
 promotion is to a queen, since most likely no queens have been captured at that 
@@ -149,14 +170,20 @@ point.
 
 ## Crazyhouse
 
-Captures give the capturing side the ability to place a piece of the same kind 
-on an empty square as a move later on. For example, if White captures a Black 
-knight, White can later place a White knight on an empty square later.
+In this variant, captures give the capturing side the ability to place a piece 
+of the same kind on an empty square as a move later on. The placed piece can be 
+moved on a subsequent turn, or that piece may be captured by the opponent if the 
+piece is placed on a square the piece could be captured (sometimes it might be 
+strategically advantageous to place a piece to entice immediate capture).
+
+For example, if White captures a Black knight, White can place a White knight on 
+an empty square on White's next or later turn.
 
 Both sides are prohibited from placing pawns on rank 1 or rank 8 even if all 
 those squares are empty. A White pawn placed on the seventh rank and a Black 
-pawn placed on the second rank are just as eligible for promotion as pawns that 
-made it all the way from their starting squares.
+pawn placed on the second rank are eligible for promotion if they can make it 
+all the way to the eighth or first rank on a later turn, just the same as pawns 
+that made it all the way from their starting squares.
 
 In this variant, the distinction between original pieces and promoted pieces is 
 very important. Capturing a promoted queen, bishop, knight or rook entitles the 
@@ -179,7 +206,7 @@ by + or # when appropriate.
 
 Placements of other pieces are notated with the appropriate letter (one of Q, B, 
 N or R) followed by '@' and the position. For example, a knight placed at h6 is 
-notated N@h6. This may be followed by + or # when appropriate.
+notated N@h6. This would be followed by + or # when appropriate.
 
 This variant would be very cumbersome for playing on a physical board.
 
@@ -210,8 +237,8 @@ knight.
 
 Pawns can't gain abilities in this manner. For example, a pawn who captures the 
 opponent's knight doesn't gain the ability to move like a knight. However, if 
-that pawn promotes to a queen and *then* captures the opponent's other knight, 
-that pawn promoted to queen can then move like a knight.
+that pawn promotes to a queen and captures the opponent's other knight *after 
+promotion*, that pawn promoted to queen can then move like a knight.
 
 It should go without saying that abilities can't be combined in a single move. 
 Just as a  regular queen must choose to move as a bishop or as a rook in a given 
@@ -225,9 +252,9 @@ not move at all.
 
 ### Playing power-up by capture on a physical board
 
-Although like Fog of War this variant is perhaps played by computer, unlike Fog 
-of War this variant is theoretically more amenable to being played on a physical 
-board.
+Although like Fog of War this variant is perhaps best played on computer, unlike 
+Fog of War this variant is theoretically more amenable to being played on a 
+physical board.
 
 If nothing else, pieces with enhanced abilities can be indicated with Post-It 
 notes. For example, a queen that captures a knight would get a Post-It note with 
@@ -243,7 +270,7 @@ parapet, and place it on the capturing piece.
 
 However, we would ask that players exercise judiciousness in taking such 
 trophies. For example, if a queen captures an opponent's bishop or rook, there's 
-no need to take the captured piece's miter or parapet, since the queen already  
+no need to take the captured piece's miter or parapet, since the queen already 
 has the ability to move as a bishop and as a rook. 
 
 ## Atomic
