@@ -340,6 +340,30 @@ this variant.
 5. Ng5 Bb4 
 6. Nxf7# 1-0
 
+And after I played that game, I somehow managed to win on level 5, though I had 
+to work for it, with twenty moves.
+
+1. a3 Nf6 
+2. e4 h5 
+3. Bc4 d5 
+4. Bb5+ c6 
+5. Ne2 Bg4 
+6. f3 cxb5 
+7. O-O g6 
+8. fxg4 dxe4 
+9. Nf4 Qb6+ 
+10. d4 Qc6 
+11. Rf3 Qc4 
+12. Ne2 Bh6 
+13. Bg5 Qxe2 
+14. Nc3 e6 
+15. Re1 Nc6 
+16. d5 Ng4 
+17. h4 Nd4 
+18. dxe6+ Kf8 
+19. Re8+ Kg7 
+20. Rxh8# 1-0
+
 For this next variant, I routinely win on level 4.
 
 ## Antichess
