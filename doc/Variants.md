@@ -330,7 +330,17 @@ moves quite a few times.
 3. Qxd7#
 
 This is from another game I played against Lichess. I was very amazed to win so 
-quickly against Lichess on level 4.
+quickly against Lichess on level 4. I am amazed every time I win on Level 4 in 
+this variant.
+
+1. a3 Nf6 
+2. e4 d5 
+3. Bb5+ c6 
+4. Nh3 e6 
+5. Ng5 Bb4 
+6. Nxf7# 1-0
+
+For this next variant, I routinely win on level 4.
 
 ## Antichess
 
