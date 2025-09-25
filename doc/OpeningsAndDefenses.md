@@ -2685,6 +2685,23 @@ May continue
 
 2. ... e5
 
+#### Sicilian defense, cowboy attack
+
+1. e4 c5 
+2. b3 d5
+
+Playing White, I would almost certainly follow this up with 
+
+3. Bb5+
+
+even though that bishop is easily repelled with 
+
+3. ... Bd7
+
+and even though professional players
+
+3. exd5
+
 #### Sicilian defense, Alapin variation
 
 1. e4 c5
