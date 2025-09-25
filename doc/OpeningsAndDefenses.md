@@ -331,9 +331,6 @@ Van Geet opening at first:
 
 Though that might not be considered a four knights game.
 
-Opponent might respond to the R&eacute;ti opening with the reversed Mexican 
-defense.
-
 #### Black mustang defense
 
 1. Nf3 Nc6
