@@ -409,6 +409,11 @@ May continue
 3. d3 e5
 4. Be2
 
+###### R&eacute;ti opening, Nimzo-Larsen variation
+
+1. Nf3 Nf6 
+2. b3 e6
+
 ##### R&eacute;ti opening, quiet system
 
 1. Nf3 Nf6 
