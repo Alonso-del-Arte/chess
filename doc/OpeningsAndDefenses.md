@@ -4104,6 +4104,12 @@ control of the center whatsoever.
 
 1. f4 b5
 
+#### From's gambit, Langheld gambit
+
+1. f4 e5 
+2. fxe5 d6 
+3. exd6 Nf6
+
 #### Bird's opening embarrassment
 
 With Bird's opening, be absolutely certain to also open an avenue of escape for 
