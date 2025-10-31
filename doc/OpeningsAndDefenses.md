@@ -3409,6 +3409,18 @@ See Kosten (2001) for a comprehensive study.
 2. Nf3 f5
 3. d4
 
+###### Latvian gambit accepted
+
+1. e4 e5
+2. Nf3 f5
+3. exf5
+
+For what it's worth, I think it's good for Black to respond
+
+3. ... e4
+
+as it's certainly worthwhile to sacrifice a pawn for a knight.
+
 ##### Gunderam gambit
 
 1. e4 e5 
