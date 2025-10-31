@@ -464,7 +464,11 @@ May continue with both sides castling:
 #### R&eacute;ti opening, Sicilian invitation
 
 1. Nf3 c5 
-2. c3 Nf6
+2. c3 
+
+Likely to continue
+
+2. ... Nf6
 
 ##### Reversed Mexican defense
 
