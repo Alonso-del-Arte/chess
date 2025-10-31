@@ -2043,6 +2043,11 @@ put Black in check (e.g., Bb5+) or prepare to castle.
 
 This is another way to decline the  Blackmar-Diemer gambit.
 
+###### Z&uuml;rich gambit
+
+1. d4 d5 
+2. g4
+
 ##### Queen's pawn opening
 
 1. d4 d5
