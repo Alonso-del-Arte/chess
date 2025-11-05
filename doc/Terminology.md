@@ -502,9 +502,9 @@ that is not the king. For example, a knight protecting a queen from capture. A
 player subject to a relative pin may choose to ignore the pin. While that may be 
 strategically disadvantageous, it is not against the rules of the game.
 * **Romantic** &mdash; Generally referring to a style of play emphasizing 
-reckless gambits and poorly thought out sacrifices, but can also refer to a 
-variant invented by Micha&lstrok; Ryszard W&oacute;jcik in which pawns can only 
-promote to knights.
+reckless gambits and poorly thought out sacrifices, but can also refer to [a 
+variant](Variants.md#romantic-chess) invented by Micha&lstrok; Ryszard 
+W&oacute;jcik in which pawns can only promote to knights.
 * **Rook** &mdash; A piece shaped like a tower, capable of moving in straight 
 lines provided there are no pieces of its own side in the way. Each player gets 
 two of them. At the beginning of the game, the four rooks are placed on the four 
