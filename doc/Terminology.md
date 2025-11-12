@@ -446,6 +446,14 @@ pawn is still considered a passed pawn.
 level after playing many games.
 * **Pawn** &mdash; The lowest ranking pieces, each player gets eight of them. 
 Pawns are notated by their position, without the letter P.
+* **Petrov's defense** &mdash; An opening starting out 1. e4 e5 2. Nf3 Nf6. It 
+is mentioned near the end of the *Lethal Weapon* episode "Whole Lotto Trouble," 
+in which Roger Murtaugh (Damon Wayans) and his father-in-law briefly discuss a 
+game of chess they just played. The father-in-law says he used Petrov's defense. 
+From what I could discern of the board, it is plausible that they really did 
+play a game that started out with Petrov's defense. However, I noticed that 
+neither of them castled, which makes me skeptical either of them knows what 
+Petrov's defense actually is.
 * **Piece** &mdash; A token that is moved on a chess board. Sometimes this term 
 is used to mean only pieces that are kings, queens, bishops, knights or rooks, 
 excluding the pawns.
