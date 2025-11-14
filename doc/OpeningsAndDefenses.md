@@ -3322,13 +3322,9 @@ Thus both sides have lost their king's pawns.
 2. Nf3 Nf6
 3. d4
 
-Also called Russian game, modern attack.
+Also called Russian game, modern attack. May continue 
 
-###### Petrov's defense, Steinitz attack
-
-1. e4 e5
-2. Nf3 Nf6
-3. d4 Nxe4
+3. ... Nxe4
 
 ###### Petrov's defense, Steinitz attack, symmetrical center variation
 
