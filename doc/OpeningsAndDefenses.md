@@ -5051,6 +5051,23 @@ playing three check chess.
 
 Also called "king's fianchetto opening."
 
+In the atomic variant, provided Black doesn't play 1. ... e6, it is a very good 
+idea for White to play
+
+2. Bh3
+
+because then on the next move White might be able to play
+
+3. Bxd7
+
+for the kill. That's the easiest way to beat Stockfish level 2 in this variant. 
+Stockfish level 3, on the other hand, quickly wises up to what you're trying to 
+do, and follows your bishop outing with 2. ... f5.
+
+For regular chess, 2. Bh3 does have the advantage of helping to clear the way 
+for castling, but I would generally recommend 2. Bg2 instead, as Black might see 
+that bishop as free for the taking.
+
 #### Indian defense
 
 1. g3 Nf6
