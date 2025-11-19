@@ -5066,7 +5066,7 @@ do, and follows your bishop outing with 2. ... f5.
 
 For regular chess, 2. Bh3 does have the advantage of helping to clear the way 
 for castling, but I would generally recommend 2. Bg2 instead, as Black might see 
-that bishop as free for the taking.
+a bishop on h3 as free for the taking.
 
 #### Indian defense
 
