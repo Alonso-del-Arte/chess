@@ -364,6 +364,8 @@ to work for it, with twenty moves.
 19. Re8+ Kg7 
 20. Rxh8# 1-0
 
+The Clemenz opening can be very effective in atomic chess.
+
 ## Antichess
 
 In regular chess and most variants, you generally want to have more pieces than 
