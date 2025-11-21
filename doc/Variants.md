@@ -364,8 +364,6 @@ to work for it, with twenty moves.
 19. Re8+ Kg7 
 20. Rxh8# 1-0
 
-For this next variant, I routinely win on level 4.
-
 ## Antichess
 
 In regular chess and most variants, you generally want to have more pieces than 
@@ -406,6 +404,8 @@ chess, but with one more option: you can promote a pawn to a king. And in fact,
 that's usually the best choice.
 
 This variant is also called "losing chess" or "suicide chess."
+
+I routinely win on level 4 in this variant.
 
 ## Misplaced royals, or royals misplaced
 
