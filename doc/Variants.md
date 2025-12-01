@@ -191,11 +191,11 @@ capturing player to place a pawn, not what the captured pawn had promoted to.
 
 For this reason, as a matter strategy, you should be bolder with promoted queens 
 in this variant than with queens in regular chess, because if they're captured, 
-the capturing player just gets a pawn to place.
+the capturing player just gets pawns to place.
 
 Conversely, you should be much more careful with original queens, because if one 
 of them is captured, you not only lose the queen's tactical advantage, your 
-opponent gains a queen they can place on any empty square they want.
+opponent gains a queen they can place on any empty square the opponent wants.
 
 The notation for crazyhouse is the same as regular chess except for the use of 
 the symbol '@' for placements.
@@ -207,6 +207,18 @@ by + or # when appropriate.
 Placements of other pieces are notated with the appropriate letter (one of Q, B, 
 N or R) followed by '@' and the position. For example, a knight placed at h6 is 
 notated N@h6. This would be followed by + or # when appropriate.
+
+Just as in regular chess, castling under check is not allowed in crazyhouse. 
+However, placements to get out of check are perfectly permissible, subject only 
+to the rules of placements.
+
+For example, White places a rook on f8, putting the Black king in check. But 
+suppose Black has a bishop to place between the Black king and the White rook. 
+That gets the Black king out of check. Now suppose the only pieces Black has 
+available to place are pawns. This is unfortunate for Black, because crazyhouse 
+does not allow pawn placements on the eighth rank, as noted earlier. That might 
+be checkmate if Black has no way to get out of check under the rules of regular 
+chess either.
 
 This variant would be very cumbersome for playing on a physical board.
 
