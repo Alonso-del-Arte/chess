@@ -290,6 +290,11 @@ can capture that knight without risk.
 4. e4 Nc6
 5. Qe3
 
+##### Vienna game, Zhuravlev gambit
+
+1. Nc3 e5 
+2. e4 Bb4
+
 #### Pirc defense
 
 1. Nc3 d6
@@ -2874,6 +2879,11 @@ bishops out on the next move but getting the queens out is somewhat constrained.
 
 1. e4 e5
 2. Nf3 
+
+###### Vienna game, Zhuravlev gambit
+
+1. e4 e5 
+2. Nc3 Bb4
 
 ##### King's knight opening
 
