@@ -378,6 +378,18 @@ to work for it, with twenty moves.
 
 The Clemenz opening can be very effective in atomic chess.
 
+Because captures kill off both the captured piece and the capturing piece, some 
+moves that would merely be checks in regular chess are checkmate in this 
+variant, including checks which in regular chess could be resolved simply by 
+capturing the threatening piece.
+
+A king in atomic chess is therefore unable to capture any other piece, because 
+if he did, he would explode. As a consequence of this, kings in atomic chess can 
+be in very close proximity to each other, as in immediately neighboring squares, 
+and neither king is in check.
+
+PLACEHOLDER FOR Atomic Kings Close Quarters DIAGRAM
+
 ## Antichess
 
 In regular chess and most variants, you generally want to have more pieces than 
