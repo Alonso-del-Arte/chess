@@ -623,6 +623,8 @@ or
 
 1. Nf3 e5
 
+Should White capture that hanging pawn?
+
 ##### Ross gambit accepted
 
 1. Nf3 e5
