@@ -651,6 +651,12 @@ Should White capture that hanging pawn?
 7. Qh5+ g6
 8. Qg4 Bxg4
 
+###### Italian game
+
+1. Nf3 e5 
+2. e4 Nc6 
+3. Bc4
+
 #### Dutch variation
 
 1. Nf3 f5
