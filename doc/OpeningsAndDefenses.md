@@ -2753,6 +2753,10 @@ and even though professional players
 1. e4 d5
 2. Nc3
 
+May continue 
+
+2. ... dxe4
+
 ###### Scandinavian defense, closed, Dougherty gambit
 
 1. e4 d5
