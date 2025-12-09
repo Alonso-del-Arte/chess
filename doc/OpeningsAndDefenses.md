@@ -246,6 +246,10 @@ can capture that knight without risk.
 1. Nc3 d5
 2. e4 
 
+May continue
+
+2. ... dxe4
+
 ##### Alekhine's defense, Scandinavian variation
 
 1. Nc3 d5
