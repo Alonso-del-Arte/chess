@@ -504,6 +504,11 @@ In some references, this is called *the* R&eacute;ti opening.
 
 Will Black accept the gambit and play 2. ... dxc4?
 
+###### R&eacute;ti gambit accepted
+
+1. Nf3 d5
+2. c4 dxc4?
+
 ###### Caro-Kann defensive system
 
 1. Nf3 d5 
