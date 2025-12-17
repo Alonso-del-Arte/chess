@@ -291,7 +291,9 @@ an N-shaped tab that can only accept a knight's mane, and the knight's mane
 would have a corresponding N-shaped hole.
 
 The set would not only need to provide two extra queens, to account for 
-promotions, but also two extra crowns.
+promotions, but also two extra crowns. This is because if there's a pawn 
+promotion and the captured queen is missing her crown, the extra crown would be 
+given then.
 
 ## Atomic
 
