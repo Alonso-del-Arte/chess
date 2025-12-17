@@ -290,6 +290,9 @@ tabs on which to put crowns, miters, manes or parapets, but the queen would have
 an N-shaped tab that can only accept a knight's mane, and the knight's mane 
 would have a corresponding N-shaped hole.
 
+The set would not only need to provide two extra queens, to account for 
+promotions, but also two extra crowns.
+
 ## Atomic
 
 This is another variant in which captures have special significance. When a 
