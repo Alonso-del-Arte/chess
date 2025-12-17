@@ -283,7 +283,12 @@ parapet, and place it on the capturing piece.
 However, we would ask that players exercise judiciousness in taking such 
 trophies. For example, if a queen captures an opponent's bishop or rook, there's 
 no need to take the captured piece's miter or parapet, since the queen already 
-has the ability to move as a bishop and as a rook. 
+has the ability to move as a bishop and as a rook.
+
+Or that could be enforced by having the bishops, knights and rooks have simple 
+tabs on which to put crowns, miters, manes or parapets, but the queen would have 
+an N-shaped tab that can only accept a knight's mane, and the knight's mane 
+would have a corresponding N-shaped hole.
 
 ## Atomic
 
