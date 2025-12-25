@@ -1423,7 +1423,11 @@ clearer idea of what White might be trying to do.
 
 1. c4 g6
 
-##### Great Snake, Adorj&aacute;n defense
+May continue 
+
+2. Nf3
+
+##### Great snake, Adorj&aacute;n defense
 
 1. c4 g6
 2. e4 e5
