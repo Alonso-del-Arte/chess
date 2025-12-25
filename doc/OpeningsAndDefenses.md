@@ -1308,6 +1308,12 @@ May continue
 1. c4 f5
 2. e4 fxe4
 
+#### Sicilian defense, Katalimov variation
+
+1. c4 b6 
+2. Nf3 Bb7 
+3. e4 c5
+
 #### English defense
 
 1. c4 b6
@@ -2565,6 +2571,12 @@ The best justification that I can find for Black moving that pawn on the second
 turn is that Black wants to get a better idea of what White's strategy is. There 
 are plenty of moves White could be thinking of for the third move, and a more 
 conventional second move from Black might force White to abandon that strategy.
+
+##### Sicilian defense, Katalimov variation
+
+1. e4 c5 
+2. Nf3 b6 
+3. c4 Bb7
 
 ##### Open Sicilian
 
