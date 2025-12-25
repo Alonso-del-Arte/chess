@@ -1160,6 +1160,12 @@ OR
 2. Nf3 Nf6 
 3. Nc3 d5
 
+##### Sicilian defense, old Sicilian variation
+
+1. c4 c5 
+2. Nf3 Nc6 
+3. e4
+
 ##### Symmetrical variation
 
 1. c4 c5 
