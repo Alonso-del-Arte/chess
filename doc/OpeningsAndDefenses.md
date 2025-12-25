@@ -1414,6 +1414,11 @@ clearer idea of what White might be trying to do.
 2. d4 Bb4+
 3. Nc3
 
+#### French defense, Steiner variation
+
+1. c4 e6 
+2. e4 d5 
+
 #### Great snake variation
 
 1. c4 g6
@@ -3978,6 +3983,11 @@ May continue
 Should White play 3. exf5? And then would Black follow with 3. ... exf5, leaving 
 both players exposed to an early check with 4. Qe2+ or, perhaps less likely, 4. 
 ... Qe7+?
+
+##### French defense, Steiner variation
+
+1. e4 e6 
+2. c4 d5
 
 ##### French defense, normal variation
 
