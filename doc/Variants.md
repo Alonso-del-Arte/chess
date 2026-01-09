@@ -57,6 +57,8 @@ This variant presents no problem for playing on a physical board. However, it
 would be helpful to use some kind of token, like coins or bottle caps, to count 
 how many times each player has checked the other.
 
+This variant is unlikely to need extra queens or extra knights.
+
 ## Fog of War
 
 At the beginning of the game, you can only see the half of the board with your 
