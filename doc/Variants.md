@@ -8,11 +8,18 @@ away.
 
 This variant by Micha&lstrok; Ryszard W&oacute;jcik, confusingly named after a 
 style of chess play emphasizing reckless gambits, was invented in 2017, and to 
-my knowledge can only be played on Apronus.com.
+my knowledge can only be played on Apronus.com. Well, it can be played on a 
+physical board, subject to a caveat about the number of available knights.
 
-This variant differs from regular chess only in that pawns can only promote to 
-knights. But what winds up happening most of the time is that one side wins by 
-checkmate long before any pawn can get close to promotion.
+Because, you see, this variant differs from regular chess only in that pawns can 
+only promote to knights. Then, theoretically, you need to have at least two 
+extra knights, just as with regular chess it is advisable to have two extra 
+queens.
+
+But what winds up happening most of the time is that one side wins by checkmate 
+long before any pawn can get close to promotion. At least that's what happens 
+when I play this variant. There doesn't seem to be an easy setting on 
+Apronus.com.
 
 ## Three-check
 
