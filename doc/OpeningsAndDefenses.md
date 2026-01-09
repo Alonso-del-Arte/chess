@@ -2228,6 +2228,11 @@ which Black repels easily enough with
 
 But if White's next move is e4, then this is a king's pawn opening.
 
+#### Queenside fianchetto variation
+
+1. d4 b6 
+2. Nf3
+
 #### Tartakower variation
 
 1. d4 d6
