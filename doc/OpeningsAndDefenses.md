@@ -752,6 +752,11 @@ R&eacute;ti Opening: Dutch, Lisitsyn, Rydel-Bloodgood Gambit, 3.Ne5
 #### Queenside fianchetto variation
 
 1. Nf3 b6
+2. d4 
+
+#### Queenside fianchetto variation
+
+1. Nf3 b6
 2. e4 
 
 May continue
