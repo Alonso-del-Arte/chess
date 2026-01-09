@@ -1983,6 +1983,12 @@ Rather than take White's pawn, Black decides to offer up a pawn.
 1. d4 d5
 2. c4 c6
 
+###### Slav defense, modern line
+
+1. d4 d5
+2. c4 c6
+3. Nf3 Nf6
+
 ###### Slav defense, exchange variation
 
 1. d4 d5
