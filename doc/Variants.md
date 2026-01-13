@@ -230,7 +230,8 @@ chess either.
 
 This variant would be very cumbersome for playing on a physical board. At the 
 very least, it would be necessary to have two chess sets from which to draw 
-pieces to place.
+pieces to place. It might help to have an arbiter to keep track of which pieces 
+are promoted pawns.
 
 ## Power-up by capture
 
