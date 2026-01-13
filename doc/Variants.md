@@ -237,6 +237,10 @@ pawns. Perhaps the arbiter could also take care of replacing captured pieces
 with an equivalent piece of the capturing side ready for when that player wants 
 to place one of them.
 
+Another option might be to put a little cap of aluminum foil on promoted pieces, 
+so that if they're captured, the capturing side knows the captured piece would 
+be good for a pawn placement.
+
 ## Power-up by capture
 
 To my knowledge, no one else has published anything about this 
