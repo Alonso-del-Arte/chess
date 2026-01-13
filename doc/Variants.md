@@ -228,7 +228,9 @@ does not allow pawn placements on the eighth rank, as noted earlier. That might
 be checkmate if Black has no way to get out of check under the rules of regular 
 chess either.
 
-This variant would be very cumbersome for playing on a physical board.
+This variant would be very cumbersome for playing on a physical board. At the 
+very least, it would be necessary to have two chess sets from which to draw 
+pieces to place.
 
 ## Power-up by capture
 
