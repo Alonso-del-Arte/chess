@@ -2213,6 +2213,11 @@ which Black repels easily enough with
 1. d4 f5 
 2. e4 e6 
 
+##### Modern defense, fianchetto gambit
+
+1. d4 f5 
+2. e4 g6
+
 #### Borg defense
 
 1. d4 g5
