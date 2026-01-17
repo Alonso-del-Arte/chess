@@ -4130,6 +4130,13 @@ This easily leads to an embarrassing early checkmate against Black.
 
 1. e4 g6
 
+###### Modern defense, fianchetto gambit
+
+1. e4 g6 
+2. d4 f5
+
+Will Black be able to get that kingside bishop out to attack White's king?
+
 ###### Modern defense, standard line
 
 1. e4 g6 
