@@ -984,6 +984,12 @@ Polish bishop strategy doesn't even give an early check to your opponent's king.
 
 Should White capture the pawn that Black is offering up?
 
+##### Sicilian defense, deferred wing gambit
+
+1. b4 c5 
+2. Nf3 cxb4 
+3. e4 d6
+
 ##### Sicilian defense, wing gambit
 
 1. b4 c5
