@@ -2660,6 +2660,12 @@ from playing 9. ... Qxb1, which of course would be followed with 10. Nxb1, or 9.
 Nb3, so that Black is dissuaded from playing 9. ... Qxa1, which would be 
 followed by 10. Nxa1.
 
+##### Sicilian defense, deferred wing gambit
+
+1. e4 c5 
+2. Nf3 d6 
+3. b4 cxb4
+
 ###### Sicilian defense, delayed Alapin variation
 
 1. e4 c5 
