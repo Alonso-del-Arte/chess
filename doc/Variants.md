@@ -458,6 +458,12 @@ A pawn that reaches the opponent's home row is promoted the same as in regular
 chess, but with one more option: you can promote a pawn to a king. And in fact, 
 that's usually the best choice.
 
+In this variant, kings are actually worth less than pawns. Kings can be captured 
+and the game continues if both sides still have other pieces on the board.
+
+Sometimes it can even happen that both sides have just one piece each and the 
+winner is determined by who can get captured while eluding having to capture.
+
 This variant is also called "losing chess" or "suicide chess."
 
 I routinely win on level 4 in this variant.
