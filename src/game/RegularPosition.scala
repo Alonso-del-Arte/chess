@@ -12,8 +12,7 @@ object RegularPosition {
     new RegularPosition(x, y)
   }
 
-  // TODO: Write tests for this
-  def apply(x: Int, y: Int): RegularPosition = new RegularPosition(y, x)
+  def apply(x: Int, y: Int): RegularPosition = new RegularPosition(x, y)
 
 }
 
