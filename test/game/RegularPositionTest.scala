@@ -7,6 +7,12 @@ import org.junit.jupiter.api.Assertions._
 
 object RegularPositionTest {
 
+  private def diffNum(num: Int): Int = {
+    var propNum = num
+    while (propNum == num) propNum = Random.nextInt(8) + 1
+    propNum
+  }
+
   def checkTranslations(position: RegularPosition): Unit = {
     val startX = -position.x + 1
     val startY = -position.y + 1
@@ -59,6 +65,16 @@ class RegularPositionTest {
     val positionClassA = new RegularPosition(x, y)
     val positionClassB = new PositionImpl(x, y)
     assertNotEquals(positionClassA, positionClassB)
+  }
+
+  @Test def testNotEqualsDiffX(): Unit = {
+    val xA = Random.nextInt(8) + 1
+    val xB = RegularPositionTest.diffNum(xA)
+    val y = Random.nextInt(8) + 1
+    val positionA = new RegularPosition(xA, y)
+    val positionB = new PositionImpl(xB, y)
+    val message = s"$positionA should not equal $positionB"
+    assertNotEquals(positionA, positionB, message)
   }
 
   @Test def testOffsetNotWithinBoundsTooFarWest(): Unit = {
