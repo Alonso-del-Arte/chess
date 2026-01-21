@@ -28,7 +28,7 @@ class RegularPosition(x: Int, y: Int) extends Position(x, y) {
   override def toString: String = s"${(x + 96).toChar}${(y + 48).toChar}"
 
   // TODO: Write tests for this
-  override def equals(obj: Any): Boolean = false
+  override def equals(obj: Any): Boolean = true
 
   // TODO: Write tests for this
   override def hashCode: Int = 0
