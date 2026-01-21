@@ -27,13 +27,6 @@ class RegularPosition(x: Int, y: Int) extends Position(x, y) {
 
   override def toString: String = s"${(x + 96).toChar}${(y + 48).toChar}"
 
-  override def equals(obj: Any): Boolean = obj match {
-    case other: RegularPosition => this.x == other.x && this.y == other.y
-    case _ => false
-  }
-
-  override def hashCode: Int = 16 * this.x + this.y
-
   override def isOffsetWithinBounds(offset: RelativePosition,
                                     board: Board): Boolean = {
     val diffX = this.x + offset.offsetX
