@@ -187,6 +187,16 @@ class RegularPositionTest {
     println("apply")
     for (x <- 1 to 8) {
       for (y <- 1 to 8) {
+        val expected = new RegularPosition(x, y)
+        val actual = RegularPosition(x, y)
+        assertEquals(expected, actual)
+      }
+    }
+  }
+
+  @Test def testApplyFromString(): Unit = {
+    for (x <- 1 to 8) {
+      for (y <- 1 to 8) {
         val s = s"${(x + 96).toChar}${(y + 48).toChar}"
         val expected = new RegularPosition(x, y)
         val actual = RegularPosition(s)
