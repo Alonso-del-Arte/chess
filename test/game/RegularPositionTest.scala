@@ -53,6 +53,14 @@ class RegularPositionTest {
     assertNotEquals(position, null, message)
   }
 
+  @Test def testNotEqualsDiffClass(): Unit = {
+    val x = Random.nextInt(8) + 1
+    val y = Random.nextInt(8) + 1
+    val positionClassA = new RegularPosition(x, y)
+    val positionClassB = new PositionImpl(x, y)
+    assertNotEquals(positionClassA, positionClassB)
+  }
+
   @Test def testOffsetNotWithinBoundsTooFarWest(): Unit = {
     val x = Random.nextInt(8) + 1
     val y = Random.nextInt(8) + 1
