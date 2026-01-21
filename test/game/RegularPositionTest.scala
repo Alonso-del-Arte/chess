@@ -72,7 +72,7 @@ class RegularPositionTest {
     val xB = RegularPositionTest.diffNum(xA)
     val y = Random.nextInt(8) + 1
     val positionA = new RegularPosition(xA, y)
-    val positionB = new PositionImpl(xB, y)
+    val positionB = new RegularPosition(xB, y)
     val message = s"$positionA should not equal $positionB"
     assertNotEquals(positionA, positionB, message)
   }
