@@ -29,7 +29,8 @@ class RegularPosition(x: Int, y: Int) extends Position(x, y) {
 
   // TODO: Write tests for this
   override def equals(obj: Any): Boolean = obj match {
-    case other: RegularPosition => this.x == other.x
+    case other: RegularPosition =>
+      System.identityHashCode(this) == System.identityHashCode(other)
     case _ => false
   }
 
