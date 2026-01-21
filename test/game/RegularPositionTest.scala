@@ -38,6 +38,13 @@ class RegularPositionTest {
     }
   }
 
+  @Test def testReferentialEquality(): Unit = {
+    val x = Random.nextInt(8) + 1
+    val y = Random.nextInt(8) + 1
+    val position = new RegularPosition(x, y)
+    assertEquals(position, position)
+  }
+
   @Test def testOffsetNotWithinBoundsTooFarWest(): Unit = {
     val x = Random.nextInt(8) + 1
     val y = Random.nextInt(8) + 1
