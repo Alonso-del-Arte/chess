@@ -45,6 +45,14 @@ class RegularPositionTest {
     assertEquals(position, position)
   }
 
+  @Test def testNotEqualsNull(): Unit = {
+    val x = Random.nextInt(8) + 1
+    val y = Random.nextInt(8) + 1
+    val position = new RegularPosition(x, y)
+    val message = s"$position should not equal null"
+    assertNotEquals(position, null, message)
+  }
+
   @Test def testOffsetNotWithinBoundsTooFarWest(): Unit = {
     val x = Random.nextInt(8) + 1
     val y = Random.nextInt(8) + 1
