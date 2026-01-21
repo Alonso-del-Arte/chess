@@ -96,6 +96,23 @@ class RegularPositionTest {
     assertEquals(somePosition, samePosition)
   }
 
+  @Test def testHashCode(): Unit = {
+    println("hashCode")
+    var positions: Set[RegularPosition] = Set()
+    var hashes: Set[Int] = Set()
+    for (x <- 1 to 8) {
+      for (y <- 1 to 8) {
+        val position = new RegularPosition(x, y)
+        positions += position
+        hashes += position.hashCode
+      }
+    }
+    val expected = positions.size
+    val actual = hashes.size
+    val msg = "Set of positions should be the same size as set of hash codes"
+    assertEquals(expected, actual, msg)
+  }
+
   @Test def testOffsetNotWithinBoundsTooFarWest(): Unit = {
     val x = Random.nextInt(8) + 1
     val y = Random.nextInt(8) + 1
