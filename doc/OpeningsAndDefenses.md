@@ -3888,6 +3888,11 @@ out as a queen's pawn opening.
 
 1. e4 c6
 
+##### Caro-Kann defense, Labahn attack
+
+1. e4 c6
+2. b4 d5
+
 ##### Caro-Kann defense, accelerated Panov attack
 
 1. e4 c6
