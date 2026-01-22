@@ -1058,7 +1058,7 @@ especially in three check chess.
 
 1. b4 c6
 
-#### French Defense: Banzai-Leong Gambit
+#### French defense, Banzai-Leong gambit
 
 1. b4 e6 
 2. e4 d5 
@@ -1070,7 +1070,7 @@ Nimzowitsch Defense: Wheeler Gambit,
 1. b4 Nc6
 2. e4 Nxb4
 
-#### Caro-Kann Defense: Labahn attack
+#### Caro-Kann defense, Labahn attack
 
 1. b4 d6
 2. e4 d5
