@@ -13,10 +13,10 @@ Some openings are more advantageous than others, but remember: good players can
 often figure out how to overcome disadvantages, and bad players can often 
 squander advantages.
 
-Also, for what it's worth, I can beat easy programs with any of these openings. 
-But with the more common openings, a program on easy will make me work harder 
-for the win. It's as if they have been programmed with more strategies for the 
-common openings.
+Also, for what it's worth, I can beat programs on easy with any of these 
+openings. But with the more common openings, a program on easy will make me work 
+harder for the win. It's as if they have been programmed with more strategies 
+for the common openings.
 
 It shouldn't be any problem to pre-program two or three good defenses for each 
 opening, and then have the computer choose one at random. A human player might 
