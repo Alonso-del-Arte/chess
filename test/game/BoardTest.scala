@@ -52,4 +52,15 @@ class BoardTest {
     assert(!board.contains(position), msg)
   }
 
+  @Test def testDoesNotContainTooFarRight(): Unit = {
+    val maxX = Random.nextInt(24) + 16
+    val maxY = Random.nextInt(24) + 16
+    val board = new BoardImpl(maxX, maxY)
+    val x = maxX + Random.nextInt(maxX) + 1
+    val y = Random.nextInt(maxY) + 1
+    val position = new PositionImpl(x, y)
+    val msg = s"$maxX by $maxY board should not contain $position"
+    assert(!board.contains(position), msg)
+  }
+
 }
