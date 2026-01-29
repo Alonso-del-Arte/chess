@@ -2,7 +2,7 @@ package game
 
 import java.awt.Color
 
-object RegularBoard extends Board {
+object RegularBoard extends Board(8, 8) {
 
   private val rankAndFileRange: Range = 1 to 8
 
