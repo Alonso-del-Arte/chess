@@ -4,7 +4,9 @@ There are several variants of chess. The following is not a complete list. These
 are arranged roughly in order from closest to traditional chess to farthest 
 away.
 
-## Romantic chess
+## Variants that can be played on a regular board
+
+### Romantic chess
 
 This variant by Micha&lstrok; Ryszard W&oacute;jcik, confusingly named after a 
 style of chess play emphasizing reckless gambits, was invented in 2017, and to 
@@ -21,7 +23,7 @@ long before any pawn can get close to promotion. At least that's what happens
 when I play this variant. There doesn't seem to be an easy setting on 
 Apronus.com.
 
-## Three-check
+### Three-check
 
 First side to put the other in check thrice wins the game. Or you can win with a 
 regular checkmate before giving three checks.
@@ -58,7 +60,7 @@ would be helpful to use some kind of token, like coins or bottle caps, to count
 how many times each player has checked the other. This variant is unlikely to 
 need extra queens or extra knights.
 
-## Fog of War
+### Fog of War
 
 At the beginning of the game, you can only see the half of the board with your 
 pieces. As you move your pieces, your view of the board changes according to 
@@ -108,7 +110,7 @@ for chess. Kriegspiel was played with three boards and required an arbiter to
 keep track of what pieces are visible to each player. It must have been quite 
 cumbersome to play.
 
-## King of the hill
+### King of the hill
 
 Four squares in the center of the board, d4, e4, d5 and e5, are marked as a 
 special area. If one side can get his or her king to one of those squares, he or 
@@ -133,7 +135,7 @@ On a physical board, the special area could be demarcated with yarn, or with a
 cellophane square cut to size to place over the four squares. Or the four 
 squares could be painted in some way.
 
-## Pawns only at first
+### Pawns only at first
 
 Normally, we are advised to not move too many pawns in the opening. Like maybe 
 only one pawn, preferably.
@@ -176,7 +178,7 @@ The main difficulty for playing on a physical board might be if the first
 promotion is to a queen, since most likely no queens have been captured at that 
 point.
 
-## Crazyhouse
+### Crazyhouse
 
 In this variant, captures give the capturing side the ability to place a piece 
 of the same kind on an empty square as a move later on. The placed piece can be 
@@ -241,7 +243,7 @@ Another option might be to put a little cap of aluminum foil on promoted pieces,
 so that if they're captured, the capturing side knows the captured piece would 
 be good for a pawn placement.
 
-## Power-up by capture
+### Power-up by capture
 
 To my knowledge, no one else has published anything about this 
 crazyhouse-inspired chess variant, but I'm sure someone else has thought about 
@@ -281,7 +283,7 @@ example, a knight-enhanced queen would be likelier than a regular queen to trap
 the opponent's king in such a way that the only safe option is for that king to 
 not move at all.
 
-### Playing power-up by capture on a physical board
+#### Playing power-up by capture on a physical board
 
 Although like Fog of War this variant is perhaps best played on computer, unlike 
 Fog of War this variant is theoretically more amenable to being played on a 
@@ -314,7 +316,7 @@ promotions, but also two extra crowns. This is because if there's a pawn
 promotion and the captured queen is missing her crown, the extra crown would be 
 given then.
 
-## Atomic
+### Atomic
 
 This is another variant in which captures have special significance. When a 
 capture occurs, it's not just the captured piece that is removed from the board. 
@@ -419,7 +421,7 @@ and neither king is in check.
 
 PLACEHOLDER FOR Atomic Kings Close Quarters DIAGRAM
 
-## Antichess
+### Antichess
 
 In regular chess and most variants, you generally want to have more pieces than 
 your opponent, sacrificing pieces only for tactical advantage. Some players 
@@ -468,7 +470,7 @@ This variant is also called "losing chess" or "suicide chess."
 
 I routinely win on level 4 in this variant.
 
-## Misplaced royals, or royals misplaced
+### Misplaced royals, or royals misplaced
 
 This variant arises when the person setting up the board minds the rule each 
 queen should be on a square of her own color but neglects or ignores the rule 
@@ -491,7 +493,7 @@ queen instead of your king.
 As this variant is common among beginners, it might be necessary to announce all 
 checks, explain castling and pretend there's no en passant.
 
-## Variant for testing purposes
+### Variant for testing purposes
 
 In all the variants explained so far, the initial board state is the same as in 
 traditional chess, or very close to it. The two sides are White and Black, and 
@@ -533,7 +535,7 @@ requires putting another emperor in check.
 A threat to an empress of one side may be ignored if that side still has other 
 empresses, or any emperors.
 
-## Horde
+### Horde
 
 In this very creepy variant, Black starts out with the usual complement of 
 pieces: king, queen, two bishops, two knights, two rooks and eight pawns. But 
@@ -548,7 +550,7 @@ checkmate, but Black can only win by capturing all of White's pieces.
 
 [FINISH WRITING]
 
-## Racing kings
+### Racing kings
 
 Despite its strong creepiness, horde still bears a lot more similarity to 
 regular chess than racing kings. There are no pawns at all in racing kings, and 
