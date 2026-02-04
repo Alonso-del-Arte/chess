@@ -6,6 +6,9 @@ away.
 
 ## Variants that can be played on a regular board
 
+Most variants can be played on a regular 8 &times; 8 checkerboard with a 
+standard complement of standard pieces.
+
 ### Romantic chess
 
 This variant by Micha&lstrok; Ryszard W&oacute;jcik, confusingly named after a 
@@ -574,3 +577,20 @@ capture that blockading piece.
 FEN: 8/q7/3K4/1k6/8/8/1rbnNBR1/1rbnNBRQ w - - 8 5
 
 [FINISH WRITING]
+
+## Variants requiring a special board
+
+### 4-player chess
+
+Each of the four players gets the usual complement of eight pawns, two rooks, 
+two knights, two bishops, a queen and a king. With some sets, two of the players 
+get the traditional white and black pieces, and the other two players get two 
+different colors. Some sets avoid white and black, and instead assign four 
+different colors for the four players, such as for example red, yellow, green 
+and blue.
+
+Although you can put all the pieces on a regular board, it would be way too 
+cramped. Therefore, the standard 8 &times; 8 board is augmented with four 3 
+&times; 8 extensions, and the four players initially place their pieces so that 
+there's a whole rank to traverse before being able to enter the central 8 
+&times; 8 area.
