@@ -599,6 +599,9 @@ All the pieces move as in regular chess. And that includes pawns promoting on
 the eighth rank (counted from the player's home row), and not, as I thought, the 
 home rank of an opponent.
 
+As for castling, it seems to be allowed, but I don't know how advisable it is in 
+4-player chess.
+
 ### 3D chess
 
 On *Star Trek* and *Star Trek: The Next Generation* we sometimes see a variant 
