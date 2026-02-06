@@ -594,3 +594,16 @@ cramped. Therefore, the standard 8 &times; 8 board is augmented with four 3
 &times; 8 extensions, and the four players initially place their pieces so that 
 there's a whole rank to traverse before being able to enter the central 8 
 &times; 8 area.
+
+### 3D chess
+
+On *Star Trek* and *Star Trek: The Next Generation* we sometimes see a variant 
+of chess played on an unusual structure with checkerboards at different levels. 
+Presumably pieces that start on one level can move to other levels.
+
+Captain Kirk (William Shatner) and Commander Spock (Leonard Nimoy) both 
+apparently know the game well enough that they can use it as material for 
+countersigns.
+
+I don't know if anyone in real life has tried to develop rules for the game that 
+make for satisfying game play without contradicting what we see on the show.
