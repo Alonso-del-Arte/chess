@@ -595,6 +595,10 @@ cramped. Therefore, the standard 8 &times; 8 board is augmented with four 3
 there's a whole rank to traverse before being able to enter the central 8 
 &times; 8 area.
 
+All the pieces move as in regular chess. And that includes pawns promoting on 
+the eighth rank (counted from the player's home row), and not, as I thought, the 
+home rank of an opponent.
+
 ### 3D chess
 
 On *Star Trek* and *Star Trek: The Next Generation* we sometimes see a variant 
