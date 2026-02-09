@@ -13,8 +13,15 @@ standard complement of standard pieces.
 
 This variant by Micha&lstrok; Ryszard W&oacute;jcik, confusingly named after a 
 style of chess play emphasizing reckless gambits, was invented in 2017, and to 
-my knowledge can only be played on Apronus.com. Well, it can be played on a 
-physical board, subject to a caveat about the number of available knights.
+my knowledge can only be played on Apronus.com.
+
+Well, it can be played on a physical board, subject to a caveat about the number 
+of knights available in the physical chess set. In regular chess, pawn promotion 
+often happens when the player promoting a pawn has already lost a queen. Knowing 
+the opponent can replace a captured queen in this variant might make a player 
+even more driven to capture the opponent's queen but not necessarily more 
+interested in capturing an opponent's knights. Which would mean that there would 
+not be an available knight for a player promoting a pawn on a physical board.
 
 Because, you see, this variant differs from regular chess only in that pawns can 
 only promote to knights. Then, theoretically, you need to have at least two 
