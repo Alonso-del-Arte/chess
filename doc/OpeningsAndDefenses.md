@@ -2800,7 +2800,7 @@ even though that bishop is easily repelled with
 
 3. ... Bd7
 
-and even though professional players
+and even though professional players prefer
 
 3. exd5
 
