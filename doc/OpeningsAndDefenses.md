@@ -2584,23 +2584,23 @@ May continue
 
 3. d3
 
-##### Sicilian defense, open
-
-1. e4 c5
-2. Nf3 Nc6
-3. d4 cxd4
-
-##### Sicilian defense, closed, traditional line
-
-1. e4 c5
-2. Nf3 Nc6
-3. Nc3 e5
-
 ##### Sicilian defense, Nimzowitsch, closed
 
 1. e4 c5
 2. Nf3 Nf6
 3. Nc3
+
+###### Sicilian defense, closed, traditional line
+
+1. e4 c5
+2. Nf3 Nc6
+3. Nc3 e5
+
+##### Sicilian defense, open
+
+1. e4 c5
+2. Nf3 Nc6
+3. d4 cxd4
 
 ##### Sicilian defense, Jalalabad variation 
 
