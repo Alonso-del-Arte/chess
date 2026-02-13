@@ -2804,6 +2804,9 @@ and even though professional players prefer
 
 3. exd5
 
+Be sure to watch out for Black playing g6 or g5 in preparation for Bg7 and the 
+eventual capture of your queenside rook with Bxa8.
+
 #### Sicilian defense, Alapin variation
 
 1. e4 c5
