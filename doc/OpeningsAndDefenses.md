@@ -2786,7 +2786,11 @@ May continue
 #### Sicilian defense, cowboy attack
 
 1. e4 c5 
-2. b3 d5
+2. b3
+
+May continue
+
+2. ... d5
 
 Playing White, I would almost certainly follow this up with 
 
