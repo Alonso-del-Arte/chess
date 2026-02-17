@@ -66,10 +66,10 @@ for a player to win.
 Note that Lichess annotates the third check with '#' rather than '+' even when 
 it would not be checkmate in regular chess.
 
-This variant presents no problem for playing on a physical board. However, it 
-would be helpful to use some kind of token, like coins or bottle caps, to count 
-how many times each player has checked the other. This variant is unlikely to 
-need extra queens or extra knights.
+This variant presents no problem for playing on a physical board. This variant 
+is unlikely to need extra queens or extra knights. However, it would be helpful 
+to use some kind of token, like coins or bottle caps, three white and three 
+black, to count how many times each player has checked the other. 
 
 ### Fog of War
 
