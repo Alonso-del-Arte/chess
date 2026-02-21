@@ -432,6 +432,16 @@ and neither king is in check.
 
 PLACEHOLDER FOR Atomic Kings Close Quarters DIAGRAM
 
+### Bichromatic chess
+
+The name of this variant is in reference to so-called "monochromatic" chess, 
+which will be discussed next. The board is the same and the usual complement of 
+White and Black pieces is used. All the regular rules of regular chess apply, 
+except that pieces may only move to squares of the opposite color they're on. 
+This makes no difference for knights, but kings can only castle queenside and 
+bishops are hopelessly immobilized to their starting squares, unless they're 
+captured.
+
 ### Monochromatic chess
 
 This is not Yoko Ono's chess variant. The adjective "monochromatic" refers to 
