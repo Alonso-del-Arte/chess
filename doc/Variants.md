@@ -620,6 +620,10 @@ discerned. The artist did not intend for games on this board to progress too far
 beyond the opening, as the players get confused about which pawns belong to 
 whom.
 
+Chess.com has introduced a computer version of this, but of course the computer 
+keeps track of which piece belongs to which side. If you attempt to move a piece 
+that is not yours, the computer will not allow the move to be made.
+
 ### 4-player chess
 
 Each of the four players gets the usual complement of eight pawns, two rooks, 
