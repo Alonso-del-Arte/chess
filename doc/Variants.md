@@ -432,6 +432,15 @@ and neither king is in check.
 
 PLACEHOLDER FOR Atomic Kings Close Quarters DIAGRAM
 
+### Monochromatic chess
+
+This is not Yoko Ono's chess variant. The adjective "monochromatic" refers to 
+the pieces being restricted to squares of the same color they started on. 
+Therefore, pawns are restricted to moving by capturing, aside from potentially 
+moving two ranks forward as their first moves, kings can only castle kingside 
+and knights are hopelessly stuck in their starting squares unless they're 
+captured.
+
 ### Antichess
 
 In regular chess and most variants, you generally want to have more pieces than 
