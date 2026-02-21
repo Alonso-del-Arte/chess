@@ -610,6 +610,16 @@ FEN: 8/q7/3K4/1k6/8/8/1rbnNBR1/1rbnNBRQ w - - 8 5
 
 ## Variants requiring a special board
 
+### Yoko Ono's *Play It by Trust*
+
+In 1966, Yoko Ono exhibited a large chess set at the Indica Gallery in London 
+with the usual White and Black pieces, except that the White pieces are white 
+and the Black pieces are also white, and also the squares are all white but half 
+the squares are "embossed" so that a checkerboard pattern can still be 
+discerned. The artist did not intend for games on this board to progress too far 
+beyond the opening, as the players get confused about which pawns belong to 
+whom.
+
 ### 4-player chess
 
 Each of the four players gets the usual complement of eight pawns, two rooks, 
