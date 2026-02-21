@@ -444,8 +444,11 @@ captured.
 
 ### Monochromatic chess
 
-This is not Yoko Ono's chess variant. The adjective "monochromatic" refers to 
-the pieces being restricted to squares of the same color they started on. 
+This is not Yoko Ono's chess variant. This variant is played on a regular board 
+with the usual complement of White and Black pieces. The adjective 
+"monochromatic" refers to the pieces being restricted to squares of the same 
+color they started on.
+
 Therefore, pawns are restricted to moving by capturing, aside from potentially 
 moving two ranks forward as their first moves, kings can only castle kingside 
 and knights are hopelessly stuck in their starting squares unless they're 
