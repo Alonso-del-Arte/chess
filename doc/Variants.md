@@ -617,6 +617,10 @@ FEN: 8/q7/3K4/1k6/8/8/1rbnNBR1/1rbnNBRQ w - - 8 5
 
 ## Variants requiring a special board
 
+These variants require a board that is much more different than a regular 8 
+&times; 8 checkerboard marked up in some ways like king of the hill or racing 
+kings.
+
 ### Yoko Ono's *Play It by Trust*
 
 In 1966, Yoko Ono exhibited a large chess set at the Indica Gallery in London 
