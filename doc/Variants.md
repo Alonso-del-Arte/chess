@@ -10,6 +10,9 @@ Most variants can be played on a regular 8 &times; 8 checkerboard with a
 standard complement of standard pieces. Some variants may require making some 
 special marking or demarcation on a regular board.
 
+I'm also including in this category variants requiring fewer pieces or more 
+pieces, or even different pieces.
+
 ### Romantic chess
 
 This variant by Micha&lstrok; Ryszard W&oacute;jcik, confusingly named after a 
