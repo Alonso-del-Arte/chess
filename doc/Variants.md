@@ -675,7 +675,14 @@ Presumably pieces that start on one level can move to other levels.
 
 Captain Kirk (William Shatner) and Commander Spock (Leonard Nimoy) both 
 apparently know the game well enough that they can use it as material for 
-countersigns.
+countersigns. 
+
+In the *Star Trek* episode "Whom Gods Destroy," Garth (Steve Ihnat), a former 
+Starfleet captain, poses as Captain Kirk and orders Lt. Scott to beam him aboard 
+the Enterprise. But before complying, Scott asks "Queen to queen's level 3?" 
+Since Garth doesn't know the countersign, he pretends he was just testing Scott. 
+Garth tries but fails to get Kirk to reveal the countersign. Near the end of the 
+episode, Spock gives the correct countersign: "Queen to king's level 1."
 
 I don't know if anyone in real life has tried to develop rules for the game that 
 make for satisfying game play without contradicting what we see on the show.
