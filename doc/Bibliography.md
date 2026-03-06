@@ -18,6 +18,9 @@ Holt and Company (1993).
 Master the Game*. Oakland, California: Rockridge Press (2022).
 * John Nunn, *New Ideas in the Four Knights*. New York: Henry Holt and Company 
 (1993).
+* Andrew Paul, ["Man builds electrified chessboard that shocks players for bad 
+moves"](https://www.popsci.com/technology/electric-shock-chess/), *Popular 
+Mechanics*, February 26, 2026.
 * Jan Przewo&zacute;nik and Malcolm Pein, *The Blumenfeld Gambit*. Oxford, etc.: 
 Pergamon Chess (1991).
 * Eric Schiller, *First Chess Openings*. Las Vegas: Cardoza Publishing (2005).
