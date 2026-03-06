@@ -658,3 +658,10 @@ countersigns.
 
 I don't know if anyone in real life has tried to develop rules for the game that 
 make for satisfying game play without contradicting what we see on the show.
+
+### Taser chess
+
+Fletcher Heisler of the YouTube channel Everything Is Hacked has created a 
+variant with all the same rules of regular chess, except that it's played on a 
+special board that sends an electric shock when a player makes a bad move. See 
+Paul (2026) in the Bibliography.
