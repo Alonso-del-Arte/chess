@@ -590,6 +590,12 @@ Despite its strong creepiness, horde still bears a lot more similarity to
 regular chess than racing kings. There are no pawns at all in racing kings, and 
 no checkmate either. You're not even allowed to put the opponent king in check.
 
+As there are no pawns, the game starts with only sixteen pieces total on the 
+board. Both sides' pieces are placed on the first and second ranks in a special 
+arrangement. The goal for each side is to get the king to the eighth rank before 
+the other king. The finish line is marked on the eighth rank, so we can restate 
+the goal of the game as that you want your king to cross the finish line.
+
 ![Racing kings at first](../diagrams/openings/RacingKingsStart.png)
 
 FEN: 8/8/8/8/8/8/krbnNBRK/qrbnNBRQ w - - 0 1
