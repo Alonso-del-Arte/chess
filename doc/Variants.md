@@ -601,9 +601,8 @@ the goal of the game as that you want your king to cross the finish line.
 
 FEN: 8/8/8/8/8/8/krbnNBRK/qrbnNBRQ w - - 0 1
 
-The goal in this variant is to get your king to the finish line first. As in 
-regular chess, White goes first, giving White a definite advantage on getting to 
-the finish line first.
+As in regular chess, White goes first, giving White a definite advantage on 
+getting to the finish line first.
 
 But Black can inhibit the White king's progress by placing pieces so that the 
 White king would have to move into check to get closer to the finish line. As in 
