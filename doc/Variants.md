@@ -167,9 +167,9 @@ most likely pawns will only capture other pawns while the stricture applies.
 
 With the move restriction lifted, castling is allowed subject to the same rules 
 as in regular chess. And remember: in regular chess you can castle even if the 
-castling rook is under threat, just as long as the king is not under threat and 
+castling rook is under threat, just as long as the king is not under threat,  
 would not need to move through a threatened square to complete the castling 
-operation.
+operation and would not end up on a threatened square.
 
 If castling occurs in this variant, it's likelier to be kingside, since 
 queenside castling is likely to be inhibited by the opponent's queen. But 
