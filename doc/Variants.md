@@ -613,7 +613,8 @@ capture that blockading piece.
 
 FEN: 8/q7/3K4/1k6/8/8/1rbnNBR1/1rbnNBRQ w - - 8 5
 
-[FINISH WRITING]
+All captures allowed under regular chess are allowed, except those that would 
+put the opponent's king in check.
 
 ## Variants requiring a special board
 
