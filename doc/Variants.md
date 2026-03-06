@@ -7,7 +7,8 @@ away.
 ## Variants that can be played on a regular board
 
 Most variants can be played on a regular 8 &times; 8 checkerboard with a 
-standard complement of standard pieces.
+standard complement of standard pieces. Some variants may require making some 
+special marking or demarcation on a regular board.
 
 ### Romantic chess
 
