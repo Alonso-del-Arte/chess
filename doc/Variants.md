@@ -631,6 +631,10 @@ discerned. The artist did not intend for games on this board to progress too far
 beyond the opening, as the players get confused about which pawns belong to 
 whom.
 
+I suppose this variant could be played on a regular board, and for the pieces we 
+could take the White pieces from two separate regular chess sets, but that 
+wouldn't completely do justice to the concept.
+
 Chess.com has introduced a computer version of this, but of course the computer 
 keeps track of which piece belongs to which side. If you attempt to move a piece 
 that is not yours, the computer will not allow the move to be made.
