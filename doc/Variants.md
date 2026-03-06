@@ -582,7 +582,9 @@ knights, no rooks.
 
 However, the usual rules for pawn promotion still apply, so White can still 
 obtain queens, bishops, knights or rooks. So White can win with a standard 
-checkmate, but Black can only win by capturing all of White's pieces.
+checkmate, but Black can only win by capturing all of White's pieces. Of course 
+Black can also promote pawns, but there's much more of a gauntlet for Black 
+pawns to get through.
 
 [TODO: Figure out which pawns can move two spaces forward on their first move]
 
