@@ -498,7 +498,8 @@ So, for example, if you have a choice between capturing your opponent's queen or
 your opponent's pawn, you should probably choose the pawn.
 
 Conversely, you want to offer your most valuable pieces for capture early on in 
-the game. It can be tricky sometimes.
+the game. It can be tricky sometimes, especially when your opponent can 
+capitalize on one capture to force you to make several captures.
 
 En passant is allowed in antichess, and it's even mandatory if there are no 
 other possible captures for the player on whose turn the opportunity arises.
