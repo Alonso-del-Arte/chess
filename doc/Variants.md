@@ -664,9 +664,14 @@ that is not yours, the computer will not allow the move to be made.
 Each of the four players gets the usual complement of eight pawns, two rooks, 
 two knights, two bishops, a queen and a king. With some sets, two of the players 
 get the traditional white and black pieces, and the other two players get two 
-different colors. Some sets avoid white and black, and instead assign four 
-different colors for the four players, such as for example red, yellow, green 
-and blue.
+different colors.
+
+Some sets avoid white and black, and instead assign four different colors for 
+the four players, such as for example red, yellow, green and blue. In such a 
+set-up, Red becomes analogous to White and is expected to go first. Blue is to 
+Red's left and goes second. Yellow is to Blue's left and goes third. Green is to 
+Yellow's left and is last to make a first move. The game then proceeds in the 
+same order.
 
 Although you can put all the pieces on a regular board, it would be way too 
 cramped. Therefore, the standard 8 &times; 8 board is augmented with four 3 
