@@ -514,7 +514,8 @@ In this variant, kings are actually worth less than pawns. Kings can be captured
 and the game continues if both sides still have other pieces on the board.
 
 Sometimes it can even happen that both sides have just one piece each and the 
-winner is determined by who can get captured while eluding having to capture.
+winner is determined by who can get captured while eluding having to capture. 
+Games of antichess can easily run fifty moves.
 
 This variant is also called "losing chess" or "suicide chess."
 
