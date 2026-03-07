@@ -62,10 +62,22 @@ checks for the win.
 
 4. ... Kxf7 
 5. Ng5+ Kg6 
-6. Qh5+
+6. Qh5+ 1-0
 
 Although the three checks are consecutive in this example, they don't have to be 
-for a player to win.
+consecutive for a player to win.
+
+Games of this variant tend to be short, though five moves is probably the 
+shortest it can be by three checks rather than fool's mate or scholar's mate. 
+For example:
+
+1. e3 Nf6 
+2. Bc4 Ng4 
+3. Bxf7+ Kxf7 
+4. Qf3+ Kg6 
+5. Qxg4+ 1-0
+
+A game of more than thirty moves would be unusual in this variant.
 
 Note that Lichess annotates the third check with '#' rather than '+' even when 
 it would not be checkmate in regular chess.
