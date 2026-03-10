@@ -706,6 +706,10 @@ episode, Spock gives the correct countersign: "Queen to king's level 1."
 I don't know if anyone in real life has tried to develop rules for the game that 
 make for satisfying game play without contradicting what we see on the show.
 
+Interestingly, in an episode of *Star Trek: Deep Space Nine*, Commander Sisko 
+(Avery Brooks) and Lt. Dax (Terry Farrell) play a game of regular chess rather 
+than 3D chess.
+
 ### Taser chess
 
 Fletcher Heisler of the YouTube channel Everything Is Hacked has created a 
