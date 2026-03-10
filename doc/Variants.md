@@ -83,9 +83,16 @@ Note that Lichess annotates the third check with '#' rather than '+' even when
 it would not be checkmate in regular chess.
 
 This variant presents no problem for playing on a physical board. This variant 
-is unlikely to need extra queens or extra knights. However, it would be helpful 
-to use some kind of token, like coins or bottle caps, three white and three 
-black, to count how many times each player has checked the other. 
+is unlikely to need extra queens or extra knights.
+
+However, it would be helpful to use some kind of token, like coins or bottle 
+caps, three white and three black, to count how many times each player has 
+checked the other. For example, White could start with three black tokens kept 
+behind his or her home row and likewise Black could start with three white 
+tokens kept behind his or her home row.
+
+Then, if White puts Black in check before Black puts White in check, White would 
+move one black token to the right of the board from his or her perspective.
 
 ### Fog of War
 
