@@ -27,6 +27,9 @@ special notations: O-O for kingside castling and O-O-O for queenside castling.
 
 As for the pawns, that depends on which system of notation we're using.
 
+In the past, checks were indicated by appending " ch" to the notation for the 
+move, but now it's more common to use "+".
+
 ## Algebraic notation
 
 As someone who's studied algebraic number theory, I don't see what's so 
