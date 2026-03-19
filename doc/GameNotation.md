@@ -1,5 +1,8 @@
 # Notation of chess games
 
+For tournament play, each player is expected to keep his or her own handwritten 
+record of the game.
+
 Chess games are usually notated in two columns, each column having a number, a 
 notation for White's move and a notation for Black's move (except the last 
 column if White wins or causes a stalemate). Since White always goes first, 
