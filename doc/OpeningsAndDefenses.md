@@ -1579,6 +1579,14 @@ May continue
 
 3. Nc3 d5
 
+###### East Indian defense, Przepi&oacute;rka variation
+
+1. d4 Nf6 
+2. Nf3 g6 
+3. g3 Bg7 
+4. Bg2 O-O 
+5. O-O c5
+
 ###### Torre attack, fianchetto defense
 
 1. d4 Nf6 
