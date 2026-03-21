@@ -1575,10 +1575,8 @@ May continue
 1. d4 Nf6
 2. Nf3 g6
 
-###### Indian game, knights variation, East Indian defense
+May continue 
 
-1. d4 Nf6
-2. Nf3 g6
 3. Nc3 d5
 
 ###### Torre attack, fianchetto defense
