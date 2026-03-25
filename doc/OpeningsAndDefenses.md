@@ -2205,6 +2205,9 @@ game.
 1. d4 e5
 2. e3
 
+This is a bad choice for White in three-check chess, since Black is likely to 
+play 2. ... Bb4+ and be one check ahead of White so early in the game.
+
 #### Dutch defense
 
 1. d4 f5
