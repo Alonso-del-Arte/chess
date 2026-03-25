@@ -3106,7 +3106,7 @@ May continue
 3. c3 Nf6
 4. d3
 
-###### Konstantinopolsky variation
+###### King's knight, Konstantinopolsky variation
 
 1. e4 e5 
 2. Nf3 Nc6 
@@ -5263,6 +5263,12 @@ May continue with both sides castling:
 
 1. g3 e5
 2. Nf3 d5
+
+##### King's knight, Konstantinopolsky variation
+
+1. g3 e5 
+2. e4 Nc6 
+3. Nf3
 
 #### King's Indian attack
 
