@@ -2149,12 +2149,12 @@ Will you follow with 2. dxe5? That would be Englund gambit accepted.
 This is a bad choice for White in three-check chess, since Black is likely to 
 play 2. ... Bb4+ and be one check ahead of White so early in the game.
 
-##### Englund gambit declined, reversed Alekhine variation
+##### ??? Englund gambit declined, reversed Alekhine variation ????
 
 1. d4 e5
 2. Nf3
 
-###### Vos gambit
+###### ??? Vos gambit ????
 
 1. d4 e5
 2. Nf3
