@@ -12,12 +12,12 @@ object RegularBoard extends Board(8, 8) {
     case _ => false
   }
 
-  override def getColor(position: Position): Color = {
-    if (this.contains(position)) {
-      super.getColor(position)
-    } else {
-      Color.MAGENTA
-    }
-  }
+//  override def getColor(position: Position): Color = {
+//    if (this.contains(position)) {
+//      super.getColor(position)
+//    } else {
+//      Color.MAGENTA
+//    }
+//  }
 
 }
