@@ -12,7 +12,7 @@ class RegularBoardTest {
     for (x <- 1 to 8) {
       for (y <- 1 to 8) {
         val position = new RegularPosition(x, y)
-        val msg = s"Board should contain position ${position.toString}"
+        val msg = s"Board should contain position $position"
         assert(RegularBoard.contains(position), msg)
       }
     }
@@ -24,7 +24,7 @@ class RegularBoardTest {
       for (y <- -256 to 256) {
         val position = new RegularPosition(x, y)
         if (!(range contains x) || !(range contains y)) {
-          val msg = s"Board should NOT contain ${position.toString}"
+          val msg = s"Board should NOT contain $position"
           assert(!RegularBoard.contains(position), msg)
         }
       }
@@ -35,7 +35,7 @@ class RegularBoardTest {
     for (x <- 1 to 8) {
       for (y <- 1 to 8) {
         val position = new PositionImpl(x, y)
-        val msg = s"Board should NOT contain ${position.toString}"
+        val msg = s"Board should NOT contain $position"
         assert(!RegularBoard.contains(position), msg)
       }
     }
@@ -48,7 +48,7 @@ class RegularBoardTest {
         val position = new RegularPosition(x, y)
         val expected = if ((x + y) % 2 == 0) Color.BLACK else Color.WHITE
         val actual = RegularBoard.getColor(position)
-        val msg = s"${position.toString} should be ${expected.toString}"
+        val msg = s"$position should be $expected"
         assertEquals(expected, actual, msg)
       }
     }
