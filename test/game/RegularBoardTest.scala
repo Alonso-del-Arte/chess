@@ -48,7 +48,7 @@ class RegularBoardTest {
         val position = new RegularPosition(x, y)
         val expected = if ((x + y) % 2 == 0) Color.BLACK else Color.WHITE
         val actual = RegularBoard.getColor(position)
-        val msg = s"${position.toString} should have ${expected.toString}"
+        val msg = s"${position.toString} should be ${expected.toString}"
         assertEquals(expected, actual, msg)
       }
     }
