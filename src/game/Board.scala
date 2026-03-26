@@ -9,6 +9,7 @@ abstract class Board(val maxX: Int, val maxY: Int, val minX: Int = 1,
     (position.x >= minX) && (position.x <= maxX) &&
       (position.y >= minY) && (position.y <= maxY)
 
-  def getColor(position: Position): Color
+  // TODO: Write tests for this
+  def getColor(position: Position): Color = Color.CYAN
 
 }
