@@ -1,9 +1,10 @@
 package game
 
 import scala.util.Random
-
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.Assertions._
+
+import java.awt.Color
 
 class BoardTest {
 
@@ -61,6 +62,22 @@ class BoardTest {
     val position = new PositionImpl(x, y)
     val msg = s"$maxX by $maxY board should not contain $position"
     assert(!board.contains(position), msg)
+  }
+
+  @Test def testGetColor(): Unit = {
+    println("getColor")
+    val maxX = Random.nextInt(24) + 16
+    val maxY = Random.nextInt(24) + 16
+    val board = new BoardImpl(maxX, maxY)
+    for (x <- 1 to maxX) {
+      for (y <- 1 to maxY) {
+        val position = new PositionImpl(x, y)
+        val expected = if ((x + y) % 2 == 0) Color.BLACK else Color.WHITE
+        val actual = board.getColor(position)
+        val msg = s"${position.toString} should be ${expected.toString}"
+        assertEquals(expected, actual, msg)
+      }
+    }
   }
 
 }
