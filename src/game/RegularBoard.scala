@@ -14,11 +14,7 @@ object RegularBoard extends Board(8, 8) {
 
   override def getColor(position: Position): Color = {
     if (this.contains(position)) {
-      if ((position.x + position.y) % 2 == 0) {
-        Color.BLACK
-      } else {
-        Color.WHITE
-      }
+      super.getColor(position)
     } else {
       Color.MAGENTA
     }
