@@ -1,10 +1,11 @@
 package game
 
-import scala.util.Random
+import java.awt.Color
+
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.Assertions._
 
-import java.awt.Color
+import scala.util.Random
 
 class BoardTest {
 
