@@ -75,7 +75,7 @@ class BoardTest {
         val position = new PositionImpl(x, y)
         val expected = if ((x + y) % 2 == 0) Color.BLACK else Color.WHITE
         val actual = board.getColor(position)
-        val msg = s"${position.toString} should be ${expected.toString}"
+        val msg = s"$position should be $expected"
         assertEquals(expected, actual, msg)
       }
     }
