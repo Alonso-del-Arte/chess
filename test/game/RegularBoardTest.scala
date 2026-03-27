@@ -54,4 +54,6 @@ class RegularBoardTest {
     }
   }
 
+  // TODO: Write tests of getColor( ) for positions not on board
+
 }
