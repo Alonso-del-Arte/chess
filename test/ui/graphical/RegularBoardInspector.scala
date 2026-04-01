@@ -6,7 +6,7 @@ import java.awt.{BorderLayout, Canvas, Color, Dimension, Font, Graphics,
   Graphics2D, Point}
 import java.awt.event.{ActionEvent, ActionListener, ItemEvent, ItemListener}
 
-import javax.swing.{JCheckBox, JComboBox, JFrame, JPanel}
+import javax.swing.{JCheckBox, JComboBox, JFrame, JPanel, WindowConstants}
 
 /**
  * Shows a window with a board colored according to
@@ -85,7 +85,7 @@ object RegularBoardInspector extends JPanel with ActionListener
   }
 
   def main(args: Array[String]): Unit = {
-    this.frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE)
+    this.frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE)
     this.frame.pack()
     this.frame.setVisible(true)
   }
