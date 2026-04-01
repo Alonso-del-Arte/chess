@@ -1,5 +1,3 @@
 package analysis
 
-abstract class Analyzer {
-
-}
+abstract class Analyzer
