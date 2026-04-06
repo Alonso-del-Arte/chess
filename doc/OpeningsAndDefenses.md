@@ -137,6 +137,13 @@ opening.
 3. e4 e5 
 4. d4 
 
+##### Four knights game, Italian variation
+
+1. Nc3 Nc6
+2. Nf3 Nf6
+3. e4 e5
+4. Bc4
+
 #### Indian game
 
 1. Nc3 Nf6
