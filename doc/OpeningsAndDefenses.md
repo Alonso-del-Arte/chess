@@ -3038,9 +3038,13 @@ May continue
 1. e4 e5 
 2. Nf3 Nc6 
 3. Nc3 Nf6 
-4. Bc4 Nxe4
+4. Bc4 
 
-May continue
+May continue 
+
+4. ... Nxe4
+
+May then continue
 
 5. Nxe4 d5
 
