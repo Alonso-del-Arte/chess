@@ -144,6 +144,10 @@ opening.
 3. e4 e5
 4. Bc4
 
+May continue 
+
+4. ... Nxe4
+
 #### Indian game
 
 1. Nc3 Nf6
