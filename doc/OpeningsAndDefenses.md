@@ -148,6 +148,14 @@ May continue
 
 4. ... Nxe4
 
+May then continue
+
+5. Nxe4 d5
+
+Far less likely to continue
+
+5. O-O
+
 #### Indian game
 
 1. Nc3 Nf6
