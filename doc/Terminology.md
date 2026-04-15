@@ -210,7 +210,7 @@ unassisted.
 * **English opening** &mdash; The opening in which White begins by playing the 
 queenside bishop's pawn forward two spaces. See Openings for more details.
 * **En passant** &mdash; A special move in which a pawn captures an opponent 
-pawn. See [the game rules](GameRules.md#En passant) for details.
+pawn. See [the game rules](GameRules.md#En_passant) for details.
 * **En prise** &mdash; Said of a piece exposed to capture in certain situations. 
 There is much disagreement as to what exactly constitutes en prise. Some authors 
 expect the piece in question to be undefended, others expect the piece to have 
