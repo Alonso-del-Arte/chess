@@ -24,3 +24,5 @@ Mechanics*, February 26, 2026.
 * Jan Przewo&zacute;nik and Malcolm Pein, *The Blumenfeld Gambit*. Oxford, etc.: 
 Pergamon Chess (1991).
 * Eric Schiller, *First Chess Openings*. Las Vegas: Cardoza Publishing (2005).
+* Laura Sherman and Bill Kilpatrick, *Chess Is Child's Play: Teaching Techniques 
+That Work*. Newton Highlands, Massachusetts: Mongoose Press (2012).
