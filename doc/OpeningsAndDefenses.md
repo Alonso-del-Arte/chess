@@ -4003,6 +4003,11 @@ Despite the element of surprise, Kasparov still won the game.
 1. e4 d6
 2. Nf3
 
+May continue 
+
+2. ... Nf6 
+3. Nc3 e5
+
 ###### Wade defense
 
 1. e4 d6
