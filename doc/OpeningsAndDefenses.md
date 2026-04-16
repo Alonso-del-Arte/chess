@@ -254,6 +254,11 @@ can capture that knight without risk.
 1. Nc3 d5
 2. d4 
 
+##### Chigorin, Irish gambit
+
+1. Nc3 d5 
+2. d4 c5
+
 ##### Siberian attack
 
 1. Nc3 d5
