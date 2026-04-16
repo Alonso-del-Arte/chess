@@ -1834,7 +1834,11 @@ queens and bishops out much more easily.
 ##### Chigorin, Irish gambit
 
 1. d4 d5
-2. Nc3 c5
+2. Nc3
+
+May continue 
+
+2. ... c5
 
 ##### Chigorin, Shaviliuk gambit
 
