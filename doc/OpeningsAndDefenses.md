@@ -3118,12 +3118,6 @@ May continue
 13. Nd1 Re8
 14. h3 Be6
 
-##### Scotch game
-
-1. e4 e5
-2. Nf3 Nc6
-3. d4 exd4
-
 ##### Ponziani opening
 
 1. e4 e5
