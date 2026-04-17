@@ -26,3 +26,5 @@ Pergamon Chess (1991).
 * Eric Schiller, *First Chess Openings*. Las Vegas: Cardoza Publishing (2005).
 * Laura Sherman and Bill Kilpatrick, *Chess Is Child's Play: Teaching Techniques 
 That Work*. Newton Highlands, Massachusetts: Mongoose Press (2012).
+* Ken Smith, *The G&ouml;ring Gambit Accepted &amp; Declined*. Dallas, Texas: 
+Chess Digest (1994).
