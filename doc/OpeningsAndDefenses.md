@@ -3095,6 +3095,12 @@ May continue
 
 3. ... exd4
 
+##### Scotch game, Lolli variation
+
+1. e4 e5
+2. Nf3 Nc6
+3. d4 Nxd4
+
 ###### Scotch game, normal line
 
 1. e4 e5
@@ -3111,12 +3117,6 @@ May continue
 12. Rae1 Rb8
 13. Nd1 Re8
 14. h3 Be6
-
-##### Scotch game, Lolli variation
-
-1. e4 e5
-2. Nf3 Nc6
-3. d4 Nxd4
 
 ##### Scotch game
 
