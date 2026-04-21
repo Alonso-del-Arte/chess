@@ -40,7 +40,7 @@ class PromotedBishopTest {
 
   @Test def testCaptureSameAsMove(): Unit = {
     println("captureSameAsMove")
-    val bishop = new PromotedBishop(game.pieces.lightgray.PointyHatGuysPawn)
+    val bishop = new PromotedBishop(PieceChooser.choosePawn)
     val msg = "Bishop should capture same as move"
     assert(bishop.captureSameAsMove, msg)
   }
