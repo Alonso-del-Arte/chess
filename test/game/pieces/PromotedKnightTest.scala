@@ -15,4 +15,17 @@ class PromotedKnightTest {
     assertEquals(Black, promotedKnightBlack.affiliation)
   }
 
+  // TODO: Write possible moves test
+
+  @Test def testCanJumpOver(): Unit = {
+    println("canJumpOver")
+    val knight = new PromotedKnight(PieceChooser.choosePawn)
+    val msg = "Knight should be able to jump over"
+    assert(knight.canJumpOver, msg)
+  }
+
+  // TODO: Write capture same as move test
+
+  // TODO: Write possible captures test
+
 }
