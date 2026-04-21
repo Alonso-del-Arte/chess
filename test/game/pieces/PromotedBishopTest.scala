@@ -25,7 +25,7 @@ class PromotedBishopTest {
       new RelativePosition(-7, 7))
     val toSoutheast = new RelativePositionRange(new RelativePosition(-1, -1),
       new RelativePosition(-7, -7))
-    val bishop = new PromotedBishop(game.pieces.lightgray.HorsesPawn)
+    val bishop = new PromotedBishop(PieceChooser.choosePawn)
     val expected = Set(toNorthwest, toNortheast, toSouthwest, toSoutheast)
     val actual = bishop.possibleMoves
     assertEquals(expected, actual)
