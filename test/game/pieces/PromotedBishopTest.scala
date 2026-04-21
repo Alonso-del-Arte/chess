@@ -53,4 +53,12 @@ class PromotedBishopTest {
     assertEquals(expected, actual)
   }
 
+  @Test def testPrior(): Unit = {
+    println("prior")
+    val expected = PieceChooser.choosePawn
+    val bishop = new PromotedBishop(expected)
+    val actual = bishop.prior
+    assertEquals(expected, actual)
+  }
+
 }
