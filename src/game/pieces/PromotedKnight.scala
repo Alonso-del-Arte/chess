@@ -3,7 +3,7 @@ package game.pieces
 import game.{Player, RelativePosition, RelativePositionRange}
 
 class PromotedKnight(val pawn: Pawn) extends Knight with Promoted {
-  override val affiliation: Player = game.Neutral// pawn.affiliation
+  override val affiliation: Player = pawn.affiliation
   override val possibleMoves: Set[RelativePositionRange] = Set()
   override val canJumpOver: Boolean = false
   override val captureSameAsMove: Boolean = false
