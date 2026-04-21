@@ -704,6 +704,12 @@ May continue
 
 3. Ne5
 
+###### Dutch defense, deferred Lisitsyn gambit
+
+1. Nf3 f5 
+2. d3 Nf6 
+3. e4
+
 #### Herrstrom gambit
 
 1. Nf3 g5
