@@ -47,16 +47,8 @@ class PromotedBishopTest {
 
   @Test def testPossibleCaptures(): Unit = {
     println("possibleCaptures")
-    val toNortheast = new RelativePositionRange(new RelativePosition(1, -1),
-      new RelativePosition(7, -7))
-    val toNorthwest = new RelativePositionRange(new RelativePosition(1, 1),
-      new RelativePosition(7, 7))
-    val toSouthwest = new RelativePositionRange(new RelativePosition(-1, 1),
-      new RelativePosition(-7, 7))
-    val toSoutheast = new RelativePositionRange(new RelativePosition(-1, -1),
-      new RelativePosition(-7, -7))
-    val bishop = new PromotedBishop(game.pieces.lightgray.EmpressesPawn)
-    val expected = Set(toNorthwest, toNortheast, toSouthwest, toSoutheast)
+    val bishop = new PromotedBishop(PieceChooser.choosePawn)
+    val expected = bishop.possibleMoves
     val actual = bishop.possibleCaptures
     assertEquals(expected, actual)
   }
