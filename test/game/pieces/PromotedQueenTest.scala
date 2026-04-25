@@ -33,7 +33,7 @@ class PromotedQueenTest {
       new RelativePosition(-7, 7))
     val toSoutheast = new RelativePositionRange(new RelativePosition(-1, -1),
       new RelativePosition(-7, -7))
-    val queen = new PromotedQueen(game.pieces.black.QueenSideBishopPawn)
+    val queen = new PromotedQueen(PieceChooser.choosePawn)
     val expected = Set(forwards, right, backwards, left, toNorthwest,
       toNortheast, toSouthwest, toSoutheast)
     val actual = queen.possibleMoves
@@ -61,5 +61,7 @@ class PromotedQueenTest {
     val actual = queen.possibleCaptures
     assertEquals(expected, actual)
   }
+
+  // TODO: Write test for prior()
 
 }
