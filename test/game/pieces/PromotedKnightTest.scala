@@ -24,7 +24,12 @@ class PromotedKnightTest {
     assert(knight.canJumpOver, msg)
   }
 
-  // TODO: Write capture same as move test
+  @Test def testCaptureSameAsMove(): Unit = {
+    println("captureSameAsMove")
+    val knight = new PromotedKnight(PieceChooser.choosePawn)
+    val msg = "Knight should capture same as move"
+    assert(knight.captureSameAsMove, msg)
+  }
 
   // TODO: Write possible captures test
 
