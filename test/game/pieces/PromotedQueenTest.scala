@@ -1,6 +1,6 @@
 package game.pieces
 
-import game.{RelativePosition, RelativePositionRange}
+import game.{Black, RelativePosition, RelativePositionRange, White}
 
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.Assertions._
@@ -9,12 +9,10 @@ class PromotedQueenTest {
 
   @Test def testAffiliation(): Unit = {
     println("affiliation")
-    val promotedQueenWhite = new PromotedQueen(game.pieces.white.KingPawn)
-    val promotedQueenBlack = new PromotedQueen(game.pieces.black.QueenPawn)
-    assertEquals(game.pieces.white.KingPawn.affiliation,
-      promotedQueenWhite.affiliation)
-    assertEquals(game.pieces.black.QueenPawn.affiliation,
-      promotedQueenBlack.affiliation)
+    val promotedQueenWhite = new PromotedQueen(PieceChooser.choosePawn(White))
+    val promotedQueenBlack = new PromotedQueen(PieceChooser.choosePawn(Black))
+    assertEquals(White, promotedQueenWhite.affiliation)
+    assertEquals(Black, promotedQueenBlack.affiliation)
   }
 
   @Test def testPossibleMoves(): Unit = {
