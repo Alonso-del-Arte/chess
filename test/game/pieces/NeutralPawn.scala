@@ -1,9 +1,9 @@
 package game.pieces
 
-import game.{Player, RelativePosition, RelativePositionRange}
+import game.{Neutral, Player, RelativePositionRange}
 
 object NeutralPawn extends Pawn {
-  override val affiliation: Player = game.White
+  override val affiliation: Player = Neutral
   override val possibleMoves: Set[RelativePositionRange] = Set()
 
 }
