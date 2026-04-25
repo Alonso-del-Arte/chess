@@ -42,7 +42,7 @@ class PromotedQueenTest {
 
   @Test def testCanJumpOver(): Unit = {
     println("canJumpOver")
-    val queen = new PromotedQueen(game.pieces.white.QueenSideBishopPawn)
+    val queen = new PromotedQueen(PieceChooser.choosePawn)
     val msg = "Queen shouldn't be able to jump over"
     assert(!queen.canJumpOver, msg)
   }
