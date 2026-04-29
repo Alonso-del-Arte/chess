@@ -49,7 +49,7 @@ class PromotedQueenTest {
 
   @Test def testCaptureSameAsMove(): Unit = {
     println("captureSameAsMove")
-    val queen = new PromotedQueen(game.pieces.black.KingSideKnightPawn)
+    val queen = new PromotedQueen(PieceChooser.choosePawn)
     val msg = "Queen should capture same as move"
     assert(queen.captureSameAsMove, msg)
   }
