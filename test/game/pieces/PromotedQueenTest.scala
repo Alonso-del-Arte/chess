@@ -62,6 +62,12 @@ class PromotedQueenTest {
     assertEquals(expected, actual)
   }
 
-  // TODO: Write test for prior()
+  @Test def testPrior(): Unit = {
+    println("prior")
+    val expected = PieceChooser.choosePawn
+    val queen = new PromotedQueen(expected)
+    val actual = queen.prior
+    assertEquals(expected, actual)
+  }
 
 }
