@@ -25,7 +25,7 @@ class PromotedRookTest {
       new RelativePosition(0, -7))
     val left = new RelativePositionRange(new RelativePosition(-1, 0),
       new RelativePosition(-7, 0))
-    val rook = new PromotedRook(game.pieces.darkgray.HorsesPawn)
+    val rook = new PromotedRook(PieceChooser.choosePawn)
     val expected = Set(forwards, right, backwards, left)
     val actual = rook.possibleMoves
     assertEquals(expected, actual)
