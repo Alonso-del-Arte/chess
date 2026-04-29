@@ -56,7 +56,7 @@ class PromotedQueenTest {
 
   @Test def testPossibleCaptures(): Unit = {
     println("possibleCaptures")
-    val queen = new PromotedQueen(game.pieces.white.KingSideKnightPawn)
+    val queen = new PromotedQueen(PieceChooser.choosePawn)
     val expected = queen.possibleMoves
     val actual = queen.possibleCaptures
     assertEquals(expected, actual)
