@@ -41,7 +41,7 @@ class PromotedRookTest {
   @Test def testCaptureSameAsMove(): Unit = {
     println("captureSameAsMove")
     val msg = "Rook should capture same as move"
-    val rook = new PromotedRook(game.pieces.darkgray.PointyHatGuysPawn)
+    val rook = new PromotedRook(PieceChooser.choosePawn)
     assert(rook.captureSameAsMove, msg)
   }
 
