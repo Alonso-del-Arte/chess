@@ -61,4 +61,12 @@ class PromotedRookTest {
     assertEquals(expected, actual)
   }
 
+  @Test def testPrior(): Unit = {
+    println("prior")
+    val expected = PieceChooser.choosePawn
+    val rook = new PromotedRook(expected)
+    val actual = rook.prior
+    assertEquals(expected, actual)
+  }
+
 }
