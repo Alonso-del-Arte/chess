@@ -34,7 +34,7 @@ class PromotedRookTest {
   @Test def testCanJumpOver(): Unit = {
     println("canJumpOver")
     val msg = "Rook shouldn't be able to jump over"
-    val rook = new PromotedRook(game.pieces.lightgray.TowersPawn)
+    val rook = new PromotedRook(PieceChooser.choosePawn)
     assert(!rook.canJumpOver, msg)
   }
 
