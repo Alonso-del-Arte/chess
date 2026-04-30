@@ -31,7 +31,13 @@ you're playing White, you might type "e4" to make your first move).
 
 The second phase will be the graphical user interface.
 
-This is a Scala 2.13 project with Java 21.
+This is a Scala 2.13 project with Java 21. If there is only one thing that makes 
+me wish this was a Scala 3 project is that in Scala 3 traits like the `Promoted` 
+trait in the `game.pieces` package can take constructor parameters.
+
+I tried to upgrade a Scala project to Scala 3 before, and it didn't go so well 
+in IntelliJ IDEA. But I haven't tried yet in the version of IntelliJ I'm using 
+now, 2026.1.
 
 I was using JUnit 5 for the testing framework, I have decided to upgrade to 
 JUnit 6.
