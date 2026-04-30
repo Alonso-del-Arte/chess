@@ -5,9 +5,6 @@ import game.{Neutral, Player, RelativePosition, RelativePositionRange}
 class PromotedRook(val pawn: Pawn) extends Rook with Promoted {
   override val affiliation: Player = pawn.affiliation
   override val possibleCaptures: Set[RelativePositionRange] = this.possibleMoves
-  override def prior: Pawn = new Pawn {
-    override val affiliation: Player = Neutral
-    override val possibleMoves: Set[RelativePositionRange] = Set()
-  }
+  override def prior: Pawn = pawn
 
 }
