@@ -7,7 +7,7 @@ object RegularPosition {
       throw new NullPointerException("Null String is not valid")
     }
     if (s.length < 2) {
-      val excMsg = s"Position specification $s is too short"
+      val excMsg = "Position specification $s is too short"
       throw new IllegalArgumentException(excMsg)
     }
     val x = s(0).toInt - 96
