@@ -226,6 +226,8 @@ class RegularPositionTest {
     println("Empty String indicator correctly caused exception")
     val excMsg = t.getMessage
     assert(excMsg != null, "Exception message should not be null")
+    assert(excMsg.contains("\"\""),
+      "Exception message should quote invalid String")
     println("\"" + excMsg + "\"")
   }
 
