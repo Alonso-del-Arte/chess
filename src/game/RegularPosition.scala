@@ -4,7 +4,7 @@ object RegularPosition {
 
   def apply(s: String): RegularPosition = {
     if (s == null) {
-      return new RegularPosition(0, 0)
+      throw new NullPointerException("Null String is not valid")
     }
     if (s.length < 2) {
       val excMsg = s"Position specification $s is too short"
