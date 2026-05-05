@@ -6,7 +6,7 @@ private[game] class PositionImpl(x: Int, y: Int) extends Position(x, y) {
                                     board: Board): Boolean = true
 
   override def translate(offset: RelativePosition): Position = {
-    new PositionImpl(this.x + offset.offsetX, this.y + offset.offsetY)
+    new PositionImpl(this.x - offset.offsetX, this.y - offset.offsetY)
   }
 
 }
