@@ -205,6 +205,18 @@ class RegularPositionTest {
     }
   }
 
+  @Test def testApplyRejectsNullString(): Unit = {
+    val t: Throwable = assertThrows(classOf[NullPointerException], () => {
+      val badPosition = RegularPosition(null)
+      println("Should not have been able to create " + badPosition.toString
+        + " with null String")
+    })
+    println("Null String indicator correctly caused exception")
+    val excMsg = t.getMessage
+    assert(excMsg != null, "Exception message should not be null")
+    println("\"" + excMsg + "\"")
+  }
+
   @Test def testApplyRejectsEmptyStringPositionIndicator(): Unit = {
     val t: Throwable = assertThrows(classOf[IllegalArgumentException], () => {
       val badPosition = RegularPosition("")
