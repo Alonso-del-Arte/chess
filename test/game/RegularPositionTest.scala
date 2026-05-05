@@ -241,6 +241,9 @@ class RegularPositionTest {
     println("String \"" + s + "\" correctly caused exception")
     val excMsg = t.getMessage
     assert(excMsg != null, "Exception message should not be null")
+    val expContainedStr = "\"" + s + "\""
+    assert(excMsg.contains(expContainedStr),
+      s"Exception message should quote invalid String $expContainedStr")
     println("\"" + excMsg + "\"")
   }
 
