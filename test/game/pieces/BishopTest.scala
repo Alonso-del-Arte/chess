@@ -35,6 +35,13 @@ class BishopTest {
     assertEquals(expected, actual)
   }
 
+  @Test def testMoves(): Unit = {
+    val expected = Set(Bishop.moveNorthwest, Bishop.moveNortheast,
+      Bishop.moveSoutheast, Bishop.moveSouthwest)
+    val actual = Bishop.moves
+    assertEquals(expected, actual)
+  }
+
   @Test def testPossibleMoves(): Unit = {
     println("possibleMoves")
     val toNortheast = new RelativePositionRange(new RelativePosition(1, -1),
