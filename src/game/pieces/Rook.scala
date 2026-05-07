@@ -20,8 +20,8 @@ object Rook {
     new RelativePositionRange(new RelativePosition(-1, 0),
       new RelativePosition(-7, 0))
 
-  // TODO: Write test for this
-  val moves: Set[RelativePositionRange] = Set()
+  val moves: Set[RelativePositionRange] = Set(moveForward, moveRight, moveBack,
+    moveLeft)
 
 }
 
