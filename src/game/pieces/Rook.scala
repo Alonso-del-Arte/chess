@@ -4,10 +4,9 @@ import game.{RelativePosition, RelativePositionRange}
 
 object Rook {
 
-  // TODO: Write test for this
   val moveForward: RelativePositionRange =
-    new RelativePositionRange(new RelativePosition(1, -1),
-      new RelativePosition(7, -7))
+    new RelativePositionRange(new RelativePosition(0, 1),
+      new RelativePosition(0, 7))
 
   // TODO: Write test for this
   val moveRight: RelativePositionRange =
