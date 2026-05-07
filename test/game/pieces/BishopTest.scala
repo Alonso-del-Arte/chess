@@ -7,6 +7,13 @@ import org.junit.jupiter.api.Test
 
 class BishopTest {
 
+  @Test def testMoveNortheast(): Unit = {
+    val expected = new RelativePositionRange(new RelativePosition(1, -1),
+      new RelativePosition(7, -7))
+    val actual = Bishop.moveNortheast
+    assertEquals(expected, actual)
+  }
+
   @Test def testPossibleMoves(): Unit = {
     println("possibleMoves")
     val toNortheast = new RelativePositionRange(new RelativePosition(1, -1),
