@@ -1,6 +1,6 @@
 package game.pieces
 
-import game.{Neutral, Player, RelativePosition, RelativePositionRange}
+import game.Player
 
 class PromotedBishop(val pawn: Pawn) extends Bishop with Promoted {
   override val affiliation: Player = pawn.affiliation
