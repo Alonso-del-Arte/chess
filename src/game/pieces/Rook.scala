@@ -8,10 +8,9 @@ object Rook {
     new RelativePositionRange(new RelativePosition(0, 1),
       new RelativePosition(0, 7))
 
-  // TODO: Write test for this
   val moveRight: RelativePositionRange =
-    new RelativePositionRange(new RelativePosition(1, 1),
-      new RelativePosition(7, 7))
+    new RelativePositionRange(new RelativePosition(1, 0),
+      new RelativePosition(7, 0))
 
   // TODO: Write test for this
   val moveBack: RelativePositionRange =
