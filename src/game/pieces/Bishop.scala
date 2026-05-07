@@ -2,6 +2,33 @@ package game.pieces
 
 import game.{RelativePosition, RelativePositionRange}
 
+object Bishop {
+
+  // TODO: Write test for this
+  val moveNortheast: RelativePositionRange =
+    new RelativePositionRange(new RelativePosition(0, 0),
+      new RelativePosition(0, 0))
+
+  // TODO: Write test for this
+  val moveNorthwest: RelativePositionRange =
+    new RelativePositionRange(new RelativePosition(0, 0),
+      new RelativePosition(0, 0))
+
+  // TODO: Write test for this
+  val moveSouthwest: RelativePositionRange =
+    new RelativePositionRange(new RelativePosition(0, 0),
+      new RelativePosition(0, 0))
+
+  // TODO: Write test for this
+  val moveSoutheast: RelativePositionRange =
+    new RelativePositionRange(new RelativePosition(0, 0),
+      new RelativePosition(0, 0))
+
+  // TODO: Write test for this
+  val moves: Set[RelativePositionRange] = Set()
+
+}
+
 abstract class Bishop extends Piece {
   private val toNortheast =
     new RelativePositionRange(new RelativePosition(1, -1),
