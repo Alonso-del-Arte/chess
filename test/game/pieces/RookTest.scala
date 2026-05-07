@@ -7,6 +7,13 @@ import org.junit.jupiter.api.Test
 
 class RookTest {
 
+  @Test def testMoveForward(): Unit = {
+    val expected = new RelativePositionRange(new RelativePosition(0, 1),
+      new RelativePosition(0, 7))
+    val actual = Rook.moveForward
+    assertEquals(expected, actual)
+  }
+
   @Test def testPossibleMoves(): Unit = {
     println("possibleMoves")
     val forwards = new RelativePositionRange(new RelativePosition(0, 1),
