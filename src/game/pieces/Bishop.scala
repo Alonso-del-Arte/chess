@@ -20,8 +20,8 @@ object Bishop {
     new RelativePositionRange(new RelativePosition(-1, -1),
       new RelativePosition(-7, -7))
 
-  // TODO: Write test for this
-  val moves: Set[RelativePositionRange] = Set()
+  val moves: Set[RelativePositionRange] = Set(moveNorthwest, moveNortheast,
+    moveSoutheast, moveSouthwest)
 
 }
 
