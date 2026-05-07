@@ -35,6 +35,13 @@ class RookTest {
     assertEquals(expected, actual)
   }
 
+  @Test def testMoves(): Unit = {
+    val expected = Set(Rook.moveForward, Rook.moveRight, Rook.moveBack,
+      Rook.moveLeft)
+    val actual = Rook.moves
+    assertEquals(expected, actual)
+  }
+
   @Test def testPossibleMoves(): Unit = {
     println("possibleMoves")
     val forwards = new RelativePositionRange(new RelativePosition(0, 1),
