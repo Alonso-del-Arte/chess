@@ -1,11 +1,35 @@
 package game.pieces
 
-import game.{Black, Neutral, Player, RelativePositionRange, White}
-
+import game.{Black, Neutral, Player, RelativePosition, RelativePositionRange, White}
 import org.junit.jupiter.api.Assertions._
 import org.junit.jupiter.api.Test
 
 class KingTest {
+
+  @Test def testPossibleMoves(): Unit = {
+    println("possibleMoves")
+    val forwards = new RelativePositionRange(new RelativePosition(0, 1),
+      new RelativePosition(0, 1))
+    val right = new RelativePositionRange(new RelativePosition(1, 0),
+      new RelativePosition(1, 0))
+    val backwards = new RelativePositionRange(new RelativePosition(0, -1),
+      new RelativePosition(0, -1))
+    val left = new RelativePositionRange(new RelativePosition(-1, 0),
+      new RelativePosition(-1, 0))
+    val toNortheast = new RelativePositionRange(new RelativePosition(1, -1),
+      new RelativePosition(1, -1))
+    val toNorthwest = new RelativePositionRange(new RelativePosition(1, 1),
+      new RelativePosition(1, 1))
+    val toSouthwest = new RelativePositionRange(new RelativePosition(-1, 1),
+      new RelativePosition(-1, 1))
+    val toSoutheast = new RelativePositionRange(new RelativePosition(-1, -1),
+      new RelativePosition(-1, -1))
+    val king = new KingImpl
+    val expected = Set(forwards, right, backwards, left, toNorthwest,
+      toNortheast, toSouthwest, toSoutheast)
+    val actual = king.possibleMoves
+    assertEquals(expected, actual)
+  }
 
   @Test def testCanJumpOver(): Unit = {
     println("canJumpOver")
