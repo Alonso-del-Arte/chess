@@ -23,8 +23,6 @@ abstract class King extends Piece {
     backwards, left, toNortheast, toNorthwest, toSouthwest, toSoutheast)
   override val canJumpOver: Boolean = false
   override val captureSameAsMove: Boolean = true
-  override val possibleCaptures: Set[RelativePositionRange] =
-    Set(new RelativePositionRange(new RelativePosition(0, 0),
-      new RelativePosition(55, 55)))
+  override val possibleCaptures: Set[RelativePositionRange] = this.possibleMoves
 
 }
