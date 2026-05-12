@@ -11,14 +11,18 @@ abstract class King extends Piece {
     new RelativePosition(0, -1))
   private val left = new RelativePositionRange(new RelativePosition(-1, 0),
     new RelativePosition(-1, 0))
-  private val toNortheast = new RelativePositionRange(new RelativePosition(1, -1),
-    new RelativePosition(1, -1))
-  private val toNorthwest = new RelativePositionRange(new RelativePosition(1, 1),
-    new RelativePosition(1, 1))
-  private val toSouthwest = new RelativePositionRange(new RelativePosition(-1, 1),
-    new RelativePosition(-1, 1))
-  private val toSoutheast = new RelativePositionRange(new RelativePosition(-1, -1),
-    new RelativePosition(-1, -1))
+  private val toNortheast =
+    new RelativePositionRange(new RelativePosition(1, -1),
+      new RelativePosition(1, -1))
+  private val toNorthwest =
+    new RelativePositionRange(new RelativePosition(1, 1),
+      new RelativePosition(1, 1))
+  private val toSouthwest =
+    new RelativePositionRange(new RelativePosition(-1, 1),
+      new RelativePosition(-1, 1))
+  private val toSoutheast =
+    new RelativePositionRange(new RelativePosition(-1, -1),
+      new RelativePosition(-1, -1))
   override val possibleMoves: Set[RelativePositionRange] = Set(forwards, right,
     backwards, left, toNortheast, toNorthwest, toSouthwest, toSoutheast)
   override val canJumpOver: Boolean = false
