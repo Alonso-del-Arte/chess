@@ -44,6 +44,14 @@ class KingTest {
     assert(king.captureSameAsMove, "A king captures same as moves")
   }
 
+  @Test def testPossibleCaptures(): Unit = {
+    println("possibleCaptures")
+    val king = new KingImpl
+    val expected = king.possibleMoves
+    val actual = king.possibleCaptures
+    assertEquals(expected, actual)
+  }
+
   private class KingImpl extends King {
     override val affiliation: Player = Neutral
 
