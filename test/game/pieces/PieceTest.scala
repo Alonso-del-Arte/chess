@@ -1,9 +1,32 @@
 package game.pieces
 
-import game.{Black, Neutral, Player, RelativePositionRange, White}
+import game.{Black, Neutral, Player, RelativePosition, RelativePositionRange,
+  White}
 
 import org.junit.jupiter.api.Assertions._
 import org.junit.jupiter.api.Test
+
+import scala.util.Random
+
+object PieceTest {
+
+  def inventMoves: Set[RelativePositionRange] = {
+    val total = Random.nextInt(4) + 1
+    var set: Set[RelativePositionRange] = Set()
+    while (set.size < total) {
+      val startA = Random.nextInt(8) - 4
+      val endA = startA + 8
+      val startB = Random.nextInt(8) - 4
+      val endB = startB + 8
+      val start = new RelativePosition(startA, endA)
+      val end = new RelativePosition(startB, endB)
+      val range = new RelativePositionRange(start, end)
+      set += range
+    }
+    set
+  }
+
+}
 
 class PieceTest {
 
