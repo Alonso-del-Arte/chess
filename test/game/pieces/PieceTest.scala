@@ -80,6 +80,16 @@ class PieceTest {
       "Piece not specifically a pawn captures same as moves")
   }
 
+  @Test def testPossibleCapturesInferredIfCaptureSameAsMove(): Unit = {
+    val expected = PieceTest.inventMoves
+    val instance = new Piece {
+      override val affiliation: Player = Neutral
+      override val possibleMoves: Set[RelativePositionRange] = expected
+    }
+    val actual = instance.possibleCaptures
+    assertEquals(expected, actual)
+  }
+
   private class PieceImpl extends Piece {
     override val affiliation: Player = Neutral
     override val possibleMoves: Set[RelativePositionRange] = Set()
