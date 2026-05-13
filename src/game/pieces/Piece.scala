@@ -7,6 +7,7 @@ abstract class Piece {
   val possibleMoves: Set[RelativePositionRange]
   val canJumpOver: Boolean = false
   val captureSameAsMove: Boolean = true
-  val possibleCaptures: Set[RelativePositionRange] = Set()
+
+  def possibleCaptures: Set[RelativePositionRange] = this.possibleMoves
 
 }
