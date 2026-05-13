@@ -303,6 +303,9 @@ like a bishop.
 * A rook that captures an opponent's knight gains the ability to move like a 
 knight.
 
+The goal of the game is still to trap the opponent's king, so therefore we are 
+unconcerned with what abilities capturing a king could confer.
+
 Pawns can't gain abilities in this manner. For example, a pawn who captures the 
 opponent's knight doesn't gain the ability to move like a knight. However, if 
 that pawn promotes to a queen and captures the opponent's other knight *after 
@@ -312,6 +315,10 @@ It should go without saying that abilities can't be combined in a single move.
 Just as a  regular queen must choose to move as a bishop or as a rook in a given 
 move but not both, a queen with the ability to move like a knight must choose to 
 move as a bishop, knight or rook in a given move.
+
+A knight-enhanced piece can jump over other pieces only when moving as a knight. 
+Likewise, a rook-, bishop- or queen-enhanced knight can't jump over other pieces 
+when moving as a rook or bishop. This simplifies the reckoning of checks. 
 
 This variant has more possibilities for stalemate than regular chess. For 
 example, a knight-enhanced queen would be likelier than a regular queen to trap 
@@ -330,7 +337,9 @@ the letter 'N' (for "knight") attached to her.
 
 Or we could make a special chess set in which the queens have detachable crowns, 
 the bishops have detachable miters, the knights have detachable manes and the 
-rooks have detachable parapets.
+rooks have detachable parapets. A king's crown should not be detachable, but 
+should still have a slot on which to place a captured piece's parapet, mane, 
+miter or queen's crown.
 
 Upon capturing an opponent's officer piece using a player's officer piece, the 
 capturing player would remove the captured piece's crown, miter, mane or 
