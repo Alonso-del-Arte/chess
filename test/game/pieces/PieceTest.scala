@@ -90,6 +90,18 @@ class PieceTest {
     assertEquals(expected, actual)
   }
 
+  @Test def testPossibleCapturesBlankIfNotCaptureSameAsMoveUnsupDiff(): Unit = {
+    val instance = new Piece {
+      override val affiliation: Player = Neutral
+      override val possibleMoves: Set[RelativePositionRange] =
+        PieceTest.inventMoves
+      override val captureSameAsMove: Boolean = false
+    }
+    val expected: Set[RelativePositionRange] = Set()
+    val actual = instance.possibleCaptures
+    assertEquals(expected, actual)
+  }
+
   private class PieceImpl extends Piece {
     override val affiliation: Player = Neutral
     override val possibleMoves: Set[RelativePositionRange] = Set()
