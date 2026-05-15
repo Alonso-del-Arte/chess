@@ -29,6 +29,5 @@ abstract class Rook extends Piece {
   override val possibleMoves: Set[RelativePositionRange] = Rook.moves
   override val canJumpOver: Boolean = false
   override val captureSameAsMove: Boolean = true
-  override val hasSpecialMoves: Boolean = false
 
 }
