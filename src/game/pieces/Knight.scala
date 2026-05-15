@@ -9,5 +9,7 @@ abstract class Knight extends Piece {
   override val possibleCaptures: Set[RelativePositionRange] =
     Set(new RelativePositionRange(new RelativePosition(0, 0),
       new RelativePosition(8, 8)))
+  // TODO: Write a test for this
+  override val hasSpecialMoves: Boolean = true
 
 }
