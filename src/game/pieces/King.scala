@@ -27,7 +27,6 @@ abstract class King extends Piece {
     backwards, left, toNortheast, toNorthwest, toSouthwest, toSoutheast)
   override val canJumpOver: Boolean = false
   override val captureSameAsMove: Boolean = true
-  // TODO: Write a test for this
-  override val hasSpecialMoves: Boolean = false
+  override val hasSpecialMoves: Boolean = true
 
 }
