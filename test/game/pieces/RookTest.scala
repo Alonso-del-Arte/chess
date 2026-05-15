@@ -79,6 +79,13 @@ class RookTest {
     assertEquals(expected, actual)
   }
 
+  @Test def testHasSpecialMoves(): Unit = {
+    println("hasSpecialMoves")
+    val rook = new RookImpl
+    assert(!rook.hasSpecialMoves,
+      "Rook can't initiate castling, so no special moves")
+  }
+
   private class RookImpl extends Rook {
     override val affiliation: Player = Neutral
 
