@@ -80,6 +80,13 @@ class PieceTest {
       "Piece not specifically a pawn captures same as moves")
   }
 
+  @Test def testHasSpecialMoves(): Unit = {
+    println("hasSpecialMoves")
+    val piece = new PieceImpl
+    assert(!piece.hasSpecialMoves,
+      "Piece not king or pawn should have no special moves")
+  }
+
   @Test def testPossibleCapturesInferredIfCaptureSameAsMove(): Unit = {
     val expected = PieceTest.inventMoves
     val instance = new Piece {
