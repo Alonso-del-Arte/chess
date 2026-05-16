@@ -61,6 +61,14 @@ class PromotedRookTest {
     assertEquals(expected, actual)
   }
 
+  @Test def testCouldCastle(): Unit = {
+    println("couldCastle")
+    val rook = new PromotedRook(PieceChooser.choosePawn)
+    assert(!rook.couldCastle,
+      "Promoted rook shouldn't be potential castling participant")
+
+  }
+
   @Test def testPrior(): Unit = {
     println("prior")
     val expected = PieceChooser.choosePawn
