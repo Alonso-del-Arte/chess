@@ -292,13 +292,13 @@ Like en passant, castling also has requirements for when it may occur:
  case of kingside castling; and definitely no opponent pieces in either case).
  * The king must not be under threat of capture.
  * The king must not pass through a space that is threatened by an opponent 
- piece (as a consequence of this requirement, there is no danger of the rook 
+ piece. As a consequence of this requirement, there is no danger of the rook 
  being captured immediately after castling, though of course it may still be 
- captured later on in the game).
- * The king must not end up on a space that is threatened by an opponent piece 
- (generally it's advisable to have some pawns in front of where the king and 
- rook will end up, but this is not required, and it wouldn't matter if it's an 
- opposing knight that's threatening the space where the king would end up).
+ captured later on in the game.
+ * The king must not end up on a space that is threatened by an opponent piece.  
+ Generally it's advisable to have some pawns in front of where the king and rook
+ will end up, but this is not required. The pawn shield doesn't matter if it's 
+ an opposing knight that's threatening the space where the king would end up.
 
 However, castling is still allowed if the castling rook is under threat of 
 capture, as long as the requirements listed above are still met. In the 
