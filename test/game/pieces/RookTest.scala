@@ -86,6 +86,12 @@ class RookTest {
       "Rook can't initiate castling, so no special moves")
   }
 
+  @Test def testCouldCastle(): Unit = {
+    println("couldCastle")
+    val rook = new RookImpl
+    assert(rook.couldCastle, "Rook should be potential castling participant")
+  }
+
   private class RookImpl extends Rook {
     override val affiliation: Player = Neutral
 
