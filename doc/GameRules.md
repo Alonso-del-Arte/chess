@@ -311,7 +311,7 @@ move.
 FEN: 1R2qkrq/2N1p1p1/1p6/1P5r/pn1P4/P7/1nP2NP1/4K2R w K - 0 1
 
 Whether it's good strategy to castle with a rook under threat is a matter that   
-is a matter that's outside the scope of this document.
+is outside the scope of this document.
 
 On a physical set, the castling player generally performs the move with two 
 hands, one for the king and one for the pertinent rook. At least that's the case 
@@ -332,7 +332,7 @@ to derail your opponent's strategy.
 
 As a purely pre-emptive move, however, castling is likely to backfire, because 
 then your opponent doesn't waste any time on a strategy that would be 
-invalidated by your castling, and worse, might set up a very embarrassing 
+invalidated by your castling. Worse, castling might set up a very embarrassing 
 checkmate against you.
 
 Any further discussion of castling strategy is outside the scope of this 
