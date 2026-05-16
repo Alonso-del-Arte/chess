@@ -53,6 +53,12 @@ class QueenTest {
     assertEquals(expected, actual)
   }
 
+  @Test def testHasSpecialMoves(): Unit = {
+    println("hasSpecialMoves")
+    val queen = new QueenImpl
+    assert(!queen.hasSpecialMoves, "A queen doesn't have special moves")
+  }
+
   private class QueenImpl extends Queen {
     override val affiliation: Player = Neutral
 
