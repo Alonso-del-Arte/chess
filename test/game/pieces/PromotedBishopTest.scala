@@ -57,7 +57,7 @@ class PromotedBishopTest {
     println("hasSpecialMoves")
     val bishop = new PromotedBishop(PieceChooser.choosePawn)
     assert(!bishop.hasSpecialMoves,
-      "Promoted bishop shouldn've have special moves")
+      "Promoted bishop shouldn't have special moves")
   }
 
   @Test def testPrior(): Unit = {
