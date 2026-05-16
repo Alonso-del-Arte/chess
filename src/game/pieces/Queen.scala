@@ -7,7 +7,6 @@ abstract class Queen extends Piece {
     Bishop.moves ++ Rook.moves
   override val canJumpOver: Boolean = false
   override val captureSameAsMove: Boolean = true
-  // TODO: Write a test for this
-  override val hasSpecialMoves: Boolean = true
+  override val hasSpecialMoves: Boolean = false
 
 }
