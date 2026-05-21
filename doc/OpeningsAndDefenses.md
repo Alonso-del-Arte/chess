@@ -2365,6 +2365,11 @@ Another defense with the potential for an early check.
 1. d4 e6
 2. c4 Bb4+
 
+##### French defense, normal variation
+
+1. d4 e6 
+2. e4
+
 #### Pterodactyl defense
 
 1. d4 g6
