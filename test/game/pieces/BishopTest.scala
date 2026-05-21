@@ -71,6 +71,12 @@ class BishopTest {
     assert(bishop.captureSameAsMove, "A bishop captures same as moves")
   }
 
+  @Test def testHasSpecialMoves(): Unit = {
+    println("hasSpecialMoves")
+    val bishop = new BishopImpl
+    assert(!bishop.hasSpecialMoves, "Bishop should have no special moves")
+  }
+
   @Test def testPossibleCaptures(): Unit = {
     println("possibleCaptures")
     val bishop = new BishopImpl
