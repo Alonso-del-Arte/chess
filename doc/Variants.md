@@ -6,6 +6,8 @@ away.
 
 ## Variants that can be played on a regular board
 
+### Variants that can be played on a regular board with the usual pieces
+
 Most variants can be played on a regular 8 &times; 8 checkerboard with a 
 standard complement of standard pieces. Some variants may require making some 
 special marking or demarcation on a regular board.
@@ -13,7 +15,7 @@ special marking or demarcation on a regular board.
 I'm also including in this category variants requiring fewer pieces or more 
 pieces, or even different pieces.
 
-### Romantic chess
+#### Romantic chess
 
 This variant by Micha&lstrok; Ryszard W&oacute;jcik, confusingly named after a 
 style of chess play emphasizing reckless gambits, was invented in 2017, and to 
@@ -38,7 +40,7 @@ long before any pawn can get close to promotion. At least that's what happens
 when I play this variant. There doesn't seem to be an easy setting on 
 Apronus.com.
 
-### Three-check
+#### Three-check
 
 First side to put the other in check thrice wins the game. Or you can win with a 
 regular checkmate before giving three checks.
@@ -94,7 +96,7 @@ tokens kept behind his or her home row.
 Then, if White puts Black in check before Black puts White in check, White would 
 move one black token to the right of the board from his or her perspective.
 
-### Fog of War
+#### Fog of War
 
 At the beginning of the game, you can only see the half of the board with your 
 pieces. As you move your pieces, your view of the board changes according to 
@@ -144,7 +146,7 @@ for chess. Kriegspiel was played with three boards and required an arbiter to
 keep track of what pieces are visible to each player. It must have been quite 
 cumbersome to play.
 
-### King of the hill
+#### King of the hill
 
 Four squares in the center of the board, d4, e4, d5 and e5, are marked as a 
 special area. If one side can get his or her king to one of those squares, he or 
@@ -169,7 +171,7 @@ On a physical board, the special area could be demarcated with yarn, or with a
 cellophane square cut to size to place over the four squares. Or the four 
 squares could be painted in some way.
 
-### Pawns only at first
+#### Pawns only at first
 
 Normally, we are advised to not move too many pawns in the opening. Like maybe 
 only one pawn, preferably.
@@ -213,7 +215,283 @@ The main difficulty for playing on a physical board might be if the first
 promotion is to a queen, since most likely no queens have been captured at that 
 point.
 
-### Crazyhouse
+#### Atomic
+
+This is another variant in which captures have special significance. When a
+capture occurs, it's not just the captured piece that is removed from the board.
+The capturing piece is also removed, as well as any non-pawn pieces that
+happened to be in the immediately neighboring squares.
+
+Played on the computer, each capture is accompanied by the sound of an
+explosion. It radically changes the strategy of the game as players realize they
+can win with moves that would be the worst blunders in regular chess. Consider
+the following 8-move game. This was me playing White against Lichess level 2
+playing Black.
+
+1. c4 e6
+2. d4 Nc6
+3. Bg5 Qf6
+4. Bxf6
+
+Black putting the queen on that square was as much a colossal blunder in this
+variant as in regular chess, since the sacrifice of a bishop for a queen is
+almost always evaluated as worthwhile. The difference here being that White
+immediately loses the capturing bishop, whereas in regular chess it would
+probably be deferred to Black playing 4. ... gxf7. That move is not available in
+this game, as you can see in this diagram.
+
+![Atomic example 1](../diagrams/openings/AtomicExample01.png)
+
+So instead the game proceeded thus:
+
+4. ... Nge7
+5. e3 g6
+6. Qf3 Kd8
+7. Qf6 g5
+
+![Atomic example 2](../diagrams/openings/AtomicExample02.png)
+
+In regular chess, my next move in this board state would have been 8. Qxh8, with
+the hope of being able to play 9. Qxf8# on my next turn. But in this variant,
+that move would have been a waste, as that would have resulted in the pointless
+sacrifice of a queen. Instead, I play this capture for the kill:
+
+8. Qxe7#
+
+That move would be available in regular chess, but it would not be notated with
+'#' at the end. Lichess annotates the last move with the comment "Game ends by
+variant rule."
+
+Games in this variant usually don't last to what would typically be the
+middlegame in regular chess. There are many more ways to win before it's at all
+possible to castle than there are in regular chess. I have won in just three
+moves quite a few times.
+
+1. c4 d6
+2. Qa4+ Qd7
+3. Qxd7#
+
+This is from another game I played against Lichess. I was very amazed to win so
+quickly against Lichess on level 4. I am amazed every time I win on Level 4 in
+this variant.
+
+1. a3 Nf6
+2. e4 d5
+3. Bb5+ c6
+4. Nh3 e6
+5. Ng5 Bb4
+6. Nxf7# 1-0
+
+And after I played that game, I somehow managed to win on level 5, though I had
+to work for it, with twenty moves.
+
+1. a3 Nf6
+2. e4 h5
+3. Bc4 d5
+4. Bb5+ c6
+5. Ne2 Bg4
+6. f3 cxb5
+7. O-O g6
+8. fxg4 dxe4
+9. Nf4 Qb6+
+10. d4 Qc6
+11. Rf3 Qc4
+12. Ne2 Bh6
+13. Bg5 Qxe2
+14. Nc3 e6
+15. Re1 Nc6
+16. d5 Ng4
+17. h4 Nd4
+18. dxe6+ Kf8
+19. Re8+ Kg7
+20. Rxh8# 1-0
+
+The Clemenz opening can be very effective in atomic chess.
+
+Because captures kill off both the captured piece and the capturing piece, some
+moves that would merely be checks in regular chess are checkmate in this
+variant, including checks which in regular chess could be resolved simply by
+capturing the threatening piece.
+
+A king in atomic chess is therefore unable to capture any other piece, because
+if he did, he would explode. As a consequence of this, kings in atomic chess can
+be in very close proximity to each other, as in immediately neighboring squares,
+and neither king is in check.
+
+PLACEHOLDER FOR Atomic Kings Close Quarters DIAGRAM
+
+#### Bichromatic chess
+
+The name of this variant is in reference to so-called "monochromatic" chess,
+which will be discussed next. The board is the same and the usual complement of
+White and Black pieces is used. All the regular rules of regular chess apply,
+except that pieces may only move to squares of the opposite color they're on.
+This makes no difference for knights, but kings can only castle queenside and
+bishops are hopelessly immobilized to their starting squares, unless they're
+captured.
+
+#### Monochromatic chess
+
+This is not Yoko Ono's chess variant. This variant is played on a regular board
+with the usual complement of White and Black pieces. The adjective
+"monochromatic" refers to the pieces being restricted to squares of the same
+color they started on.
+
+Therefore, pawns are restricted to moving by capturing, aside from potentially
+moving two ranks forward as their first moves, kings can only castle kingside
+and knights are hopelessly stuck in their starting squares unless they're
+captured.
+
+#### Antichess
+
+In regular chess and most variants, you generally want to have more pieces than
+your opponent, sacrificing pieces only for tactical advantage. Some players
+sometimes forget that the goal of chess is to trap the opponent's king, not
+capture all of the opponent's pieces.
+
+But in antichess, you always want to have fewer pieces than your opponent,
+because the goal of the game is to have all your pieces captured.
+
+To that end, captures are mandatory in antichess: if it's your turn and you can
+capture one of your opponent's pieces, then that's the only move you can make in
+antichess.
+
+If, on the other hand, there are two or more captures available to you on your
+turn, you have a choice as to what move to make, but it must be a capture. In
+that situation, you generally want to choose the piece with the lowest point
+valuation.
+
+The valuations are the same as in regular chess (that is, a queen is worth nine
+points, a rook five points, a bishop or a knight three points and a pawn one
+point), but kings are worth zero points.
+
+So, for example, if you have a choice between capturing your opponent's queen or
+your opponent's pawn, you should probably choose the pawn.
+
+Conversely, you want to offer your most valuable pieces for capture early on in
+the game. It can be tricky sometimes, especially when your opponent can
+capitalize on one capture to force you to make several captures.
+
+En passant is allowed in antichess, and it's even mandatory if there are no
+other possible captures for the player on whose turn the opportunity arises.
+
+Castling is not allowed in antichess. It could make for a quick way to get your
+rooks out, maybe.
+
+A pawn that reaches the opponent's home row is promoted the same as in regular
+chess, but with one more option: you can promote a pawn to a king. And in fact,
+that's usually the best choice.
+
+In this variant, kings are actually worth less than pawns. Kings can be captured
+and the game continues if both sides still have other pieces on the board.
+
+Sometimes it can even happen that both sides have just one piece each and the
+winner is determined by who can get captured while eluding having to capture.
+Games of antichess can easily run fifty moves.
+
+This variant is also called "losing chess" or "suicide chess."
+
+I routinely win on level 4 in this variant.
+
+#### Misplaced royals, or royals misplaced
+
+This variant arises when the person setting up the board minds the rule each
+queen should be on a square of her own color but neglects or ignores the rule
+that the corner at each player's left must be a dark-colored square.
+
+The result of this mix-up is that the kings and queens wind up on the wrong
+squares relative to each other. Queenside castling is still one square longer
+than kingside castling, but apparently occurs on the right rather than the left.
+
+![Variant initial state](../diagrams/openings/MisplacedRoyals.png)
+
+OR
+
+![Variant initial state](../diagrams/openings/RoyalsMisplaced.png)
+
+If you fail to notice this before making your first move, I suppose your only
+choice is to keep going and try not to compound the mistake by castling your
+queen instead of your king.
+
+As this variant is common among beginners, it might be necessary to announce all
+checks, explain castling and pretend there's no en passant.
+
+#### Variant for testing purposes
+
+In all the variants explained so far, the initial board state is the same as in
+traditional chess, or very close to it. The two sides are White and Black, and
+White goes first.
+
+But in this testing variant, which I will only flesh out enough to help with
+testing regular chess play, the two sides are Dark Gray and Light Gray, and
+either may go first.
+
+Also, instead of a king, each side gets an emperor; an empress instead of a
+queen, one pointy hat guy instead of two bishops; one horse instead of two
+knights; one tower instead of two rooks; and five pawns instead of eight.
+
+However, this variant may be played with a standard set. The initial board state
+is somewhat asymmetrical:
+
+![Variant initial state](../diagrams/TestingVariantInitialBoardState.png)
+
+FEN: 3qkbnr/3ppppp/8/8/8/8/PPPPP3/RNBQK3 w Qk - 0 1
+
+And so one side may only castle queenside and the other only kingside. However,
+if there are no pieces between the emperor and the tower, castling is allowed
+even if the emperor is in check and even if he must pass through a threatened
+square, provided he ends up on a relatively safe square.
+
+Furthermore, castling is also allowed if the emperor has moved from his original
+square but has since returned. The tower must not have moved prior to castling,
+however.
+
+Pawns may promote to emperors but they may not stay pawns upon reaching the
+opponent's home row.
+
+An emperor of one side may be captured, and the game continues if that side has
+other emperors, or any empresses.
+
+A check to an emperor must be addressed, unless the only way to address it
+requires putting another emperor in check.
+
+A threat to an empress of one side may be ignored if that side still has other
+empresses, or any emperors.
+
+#### Racing kings
+
+Despite its strong creepiness, horde still bears a lot more similarity to
+regular chess than racing kings. There are no pawns at all in racing kings, and
+no checkmate either. You're not even allowed to put the opponent king in check.
+
+As there are no pawns, the game starts with only sixteen pieces total on the
+board. Both sides' pieces are placed on the first and second ranks in a special
+arrangement. The goal for each side is to get the king to the eighth rank before
+the other king. The finish line is marked on the eighth rank, so we can restate
+the goal of the game as that you want your king to cross the finish line.
+
+![Racing kings at first](../diagrams/openings/RacingKingsStart.png)
+
+FEN: 8/8/8/8/8/8/krbnNBRK/qrbnNBRQ w - - 0 1
+
+As in regular chess, White goes first, giving White a definite advantage on
+getting to the finish line first.
+
+But Black can inhibit the White king's progress by placing pieces so that the
+White king would have to move into check to get closer to the finish line. As in
+regular chess, a king can't move into check. The only way would seem to be to
+capture that blockading piece.
+
+![Racing kings endgame](../diagrams/endgames/RacingKingsNearFinishLine.png)
+
+FEN: 8/q7/3K4/1k6/8/8/1rbnNBR1/1rbnNBRQ w - - 8 5
+
+All captures allowed under regular chess are allowed, except those that would
+put the opponent's king in check.
+
+### Regular board variants requiring more and/or different pieces
+
+#### Crazyhouse
 
 In this variant, captures give the capturing side the ability to place a piece 
 of the same kind on an empty square as a move later on. The placed piece can be 
@@ -278,7 +556,7 @@ Another option might be to put a little cap of aluminum foil on promoted pieces,
 so that if they're captured, the capturing side knows the captured piece would 
 be good for a pawn placement.
 
-### Power-up by capture
+#### Power-up by capture
 
 To my knowledge, no one else has published anything about this 
 crazyhouse-inspired chess variant, but I'm sure someone else has thought about 
@@ -325,7 +603,7 @@ example, a knight-enhanced queen would be likelier than a regular queen to trap
 the opponent's king in such a way that the only safe option is for that king to 
 not move at all.
 
-#### Playing power-up by capture on a physical board
+##### Playing power-up by capture on a physical board
 
 Although like Fog of War this variant is perhaps best played on computer, unlike 
 Fog of War this variant is theoretically more amenable to being played on a 
@@ -360,250 +638,7 @@ promotions, but also two extra crowns. This is because if there's a pawn
 promotion and the captured queen is missing her crown, the extra crown would be 
 given then.
 
-### Atomic
-
-This is another variant in which captures have special significance. When a 
-capture occurs, it's not just the captured piece that is removed from the board. 
-The capturing piece is also removed, as well as any non-pawn pieces that 
-happened to be in the immediately neighboring squares.
-
-Played on the computer, each capture is accompanied by the sound of an 
-explosion. It radically changes the strategy of the game as players realize they 
-can win with moves that would be the worst blunders in regular chess. Consider 
-the following 8-move game. This was me playing White against Lichess level 2 
-playing Black.
-
-1. c4 e6 
-2. d4 Nc6 
-3. Bg5 Qf6 
-4. Bxf6 
-
-Black putting the queen on that square was as much a colossal blunder in this 
-variant as in regular chess, since the sacrifice of a bishop for a queen is 
-almost always evaluated as worthwhile. The difference here being that White 
-immediately loses the capturing bishop, whereas in regular chess it would 
-probably be deferred to Black playing 4. ... gxf7. That move is not available in 
-this game, as you can see in this diagram.
-
-![Atomic example 1](../diagrams/openings/AtomicExample01.png)
-
-So instead the game proceeded thus:
-
-4. ... Nge7
-5. e3 g6 
-6. Qf3 Kd8 
-7. Qf6 g5 
-
-![Atomic example 2](../diagrams/openings/AtomicExample02.png)
-
-In regular chess, my next move in this board state would have been 8. Qxh8, with 
-the hope of being able to play 9. Qxf8# on my next turn. But in this variant, 
-that move would have been a waste, as that would have resulted in the pointless 
-sacrifice of a queen. Instead, I play this capture for the kill:
-
-8. Qxe7#
-
-That move would be available in regular chess, but it would not be notated with 
-'#' at the end. Lichess annotates the last move with the comment "Game ends by 
-variant rule."
-
-Games in this variant usually don't last to what would typically be the 
-middlegame in regular chess. There are many more ways to win before it's at all 
-possible to castle than there are in regular chess. I have won in just three 
-moves quite a few times.
-
-1. c4 d6 
-2. Qa4+ Qd7 
-3. Qxd7#
-
-This is from another game I played against Lichess. I was very amazed to win so 
-quickly against Lichess on level 4. I am amazed every time I win on Level 4 in 
-this variant.
-
-1. a3 Nf6 
-2. e4 d5 
-3. Bb5+ c6 
-4. Nh3 e6 
-5. Ng5 Bb4 
-6. Nxf7# 1-0
-
-And after I played that game, I somehow managed to win on level 5, though I had 
-to work for it, with twenty moves.
-
-1. a3 Nf6 
-2. e4 h5 
-3. Bc4 d5 
-4. Bb5+ c6 
-5. Ne2 Bg4 
-6. f3 cxb5 
-7. O-O g6 
-8. fxg4 dxe4 
-9. Nf4 Qb6+ 
-10. d4 Qc6 
-11. Rf3 Qc4 
-12. Ne2 Bh6 
-13. Bg5 Qxe2 
-14. Nc3 e6 
-15. Re1 Nc6 
-16. d5 Ng4 
-17. h4 Nd4 
-18. dxe6+ Kf8 
-19. Re8+ Kg7 
-20. Rxh8# 1-0
-
-The Clemenz opening can be very effective in atomic chess.
-
-Because captures kill off both the captured piece and the capturing piece, some 
-moves that would merely be checks in regular chess are checkmate in this 
-variant, including checks which in regular chess could be resolved simply by 
-capturing the threatening piece.
-
-A king in atomic chess is therefore unable to capture any other piece, because 
-if he did, he would explode. As a consequence of this, kings in atomic chess can 
-be in very close proximity to each other, as in immediately neighboring squares, 
-and neither king is in check.
-
-PLACEHOLDER FOR Atomic Kings Close Quarters DIAGRAM
-
-### Bichromatic chess
-
-The name of this variant is in reference to so-called "monochromatic" chess, 
-which will be discussed next. The board is the same and the usual complement of 
-White and Black pieces is used. All the regular rules of regular chess apply, 
-except that pieces may only move to squares of the opposite color they're on. 
-This makes no difference for knights, but kings can only castle queenside and 
-bishops are hopelessly immobilized to their starting squares, unless they're 
-captured.
-
-### Monochromatic chess
-
-This is not Yoko Ono's chess variant. This variant is played on a regular board 
-with the usual complement of White and Black pieces. The adjective 
-"monochromatic" refers to the pieces being restricted to squares of the same 
-color they started on.
-
-Therefore, pawns are restricted to moving by capturing, aside from potentially 
-moving two ranks forward as their first moves, kings can only castle kingside 
-and knights are hopelessly stuck in their starting squares unless they're 
-captured.
-
-### Antichess
-
-In regular chess and most variants, you generally want to have more pieces than 
-your opponent, sacrificing pieces only for tactical advantage. Some players 
-sometimes forget that the goal of chess is to trap the opponent's king, not 
-capture all of the opponent's pieces.
-
-But in antichess, you always want to have fewer pieces than your opponent, 
-because the goal of the game is to have all your pieces captured.
-
-To that end, captures are mandatory in antichess: if it's your turn and you can 
-capture one of your opponent's pieces, then that's the only move you can make in 
-antichess.
-
-If, on the other hand, there are two or more captures available to you on your 
-turn, you have a choice as to what move to make, but it must be a capture. In 
-that situation, you generally want to choose the piece with the lowest point 
-valuation.
-
-The valuations are the same as in regular chess (that is, a queen is worth nine 
-points, a rook five points, a bishop or a knight three points and a pawn one 
-point), but kings are worth zero points.
-
-So, for example, if you have a choice between capturing your opponent's queen or 
-your opponent's pawn, you should probably choose the pawn.
-
-Conversely, you want to offer your most valuable pieces for capture early on in 
-the game. It can be tricky sometimes, especially when your opponent can 
-capitalize on one capture to force you to make several captures.
-
-En passant is allowed in antichess, and it's even mandatory if there are no 
-other possible captures for the player on whose turn the opportunity arises.
-
-Castling is not allowed in antichess. It could make for a quick way to get your 
-rooks out, maybe.
-
-A pawn that reaches the opponent's home row is promoted the same as in regular 
-chess, but with one more option: you can promote a pawn to a king. And in fact, 
-that's usually the best choice.
-
-In this variant, kings are actually worth less than pawns. Kings can be captured 
-and the game continues if both sides still have other pieces on the board.
-
-Sometimes it can even happen that both sides have just one piece each and the 
-winner is determined by who can get captured while eluding having to capture. 
-Games of antichess can easily run fifty moves.
-
-This variant is also called "losing chess" or "suicide chess."
-
-I routinely win on level 4 in this variant.
-
-### Misplaced royals, or royals misplaced
-
-This variant arises when the person setting up the board minds the rule each 
-queen should be on a square of her own color but neglects or ignores the rule 
-that the corner at each player's left must be a dark-colored square.
-
-The result of this mix-up is that the kings and queens wind up on the wrong 
-squares relative to each other. Queenside castling is still one square longer 
-than kingside castling, but apparently occurs on the right rather than the left.
-
-![Variant initial state](../diagrams/openings/MisplacedRoyals.png)
-
-OR
-
-![Variant initial state](../diagrams/openings/RoyalsMisplaced.png)
-
-If you fail to notice this before making your first move, I suppose your only 
-choice is to keep going and try not to compound the mistake by castling your 
-queen instead of your king.
-
-As this variant is common among beginners, it might be necessary to announce all 
-checks, explain castling and pretend there's no en passant.
-
-### Variant for testing purposes
-
-In all the variants explained so far, the initial board state is the same as in 
-traditional chess, or very close to it. The two sides are White and Black, and 
-White goes first.
-
-But in this testing variant, which I will only flesh out enough to help with 
-testing regular chess play, the two sides are Dark Gray and Light Gray, and 
-either may go first.
-
-Also, instead of a king, each side gets an emperor; an empress instead of a 
-queen, one pointy hat guy instead of two bishops; one horse instead of two 
-knights; one tower instead of two rooks; and five pawns instead of eight.
-
-However, this variant may be played with a standard set. The initial board state 
-is somewhat asymmetrical:
-
-![Variant initial state](../diagrams/TestingVariantInitialBoardState.png)
-
-FEN: 3qkbnr/3ppppp/8/8/8/8/PPPPP3/RNBQK3 w Qk - 0 1
-
-And so one side may only castle queenside and the other only kingside. However, 
-if there are no pieces between the emperor and the tower, castling is allowed 
-even if the emperor is in check and even if he must pass through a threatened 
-square, provided he ends up on a relatively safe square.
-
-Furthermore, castling is also allowed if the emperor has moved from his original 
-square but has since returned. The tower must not have moved prior to castling, 
-however.
-
-Pawns may promote to emperors but they may not stay pawns upon reaching the 
-opponent's home row.
-
-An emperor of one side may be captured, and the game continues if that side has 
-other emperors, or any empresses.
-
-A check to an emperor must be addressed, unless the only way to address it 
-requires putting another emperor in check.
-
-A threat to an empress of one side may be ignored if that side still has other 
-empresses, or any emperors.
-
-### Horde
+#### Horde
 
 In this very creepy variant, Black starts out with the usual complement of 
 pieces: king, queen, two bishops, two knights, two rooks and eight pawns. But 
@@ -616,40 +651,9 @@ checkmate, but Black can only win by capturing all of White's pieces. Of course
 Black can also promote pawns, but there's much more of a gauntlet for Black 
 pawns to get through.
 
-[TODO: Figure out which pawns can move two spaces forward on their first move]
+TODO: Figure out which pawns can move two spaces forward on their first move
 
-[FINISH WRITING]
-
-### Racing kings
-
-Despite its strong creepiness, horde still bears a lot more similarity to 
-regular chess than racing kings. There are no pawns at all in racing kings, and 
-no checkmate either. You're not even allowed to put the opponent king in check.
-
-As there are no pawns, the game starts with only sixteen pieces total on the 
-board. Both sides' pieces are placed on the first and second ranks in a special 
-arrangement. The goal for each side is to get the king to the eighth rank before 
-the other king. The finish line is marked on the eighth rank, so we can restate 
-the goal of the game as that you want your king to cross the finish line.
-
-![Racing kings at first](../diagrams/openings/RacingKingsStart.png)
-
-FEN: 8/8/8/8/8/8/krbnNBRK/qrbnNBRQ w - - 0 1
-
-As in regular chess, White goes first, giving White a definite advantage on 
-getting to the finish line first.
-
-But Black can inhibit the White king's progress by placing pieces so that the 
-White king would have to move into check to get closer to the finish line. As in 
-regular chess, a king can't move into check. The only way would seem to be to 
-capture that blockading piece.
-
-![Racing kings endgame](../diagrams/endgames/RacingKingsNearFinishLine.png)
-
-FEN: 8/q7/3K4/1k6/8/8/1rbnNBR1/1rbnNBRQ w - - 8 5
-
-All captures allowed under regular chess are allowed, except those that would 
-put the opponent's king in check.
+FINISH WRITING
 
 ## Variants requiring a special board
 
