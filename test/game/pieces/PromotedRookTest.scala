@@ -45,6 +45,13 @@ class PromotedRookTest {
     assert(rook.captureSameAsMove, msg)
   }
 
+  @Test def testHasSpecialMoves(): Unit = {
+    println("hasSpecialMoves")
+    val rook = new PromotedRook(PieceChooser.choosePawn)
+    assert(!rook.hasSpecialMoves,
+      "Rook can't initiate castling, so no special moves")
+  }
+
   @Test def testPossibleCaptures(): Unit = {
     println("possibleCaptures")
     val forwards = new RelativePositionRange(new RelativePosition(0, 1),
