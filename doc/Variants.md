@@ -638,6 +638,27 @@ promotions, but also two extra crowns. This is because if there's a pawn
 promotion and the captured queen is missing her crown, the extra crown would be 
 given then.
 
+#### Sheldon Cooper's variant
+
+In the *Young Sheldon* episode "A Rival Prodigy and Sir Isaac Neutron," Sheldon 
+Cooper (Iain Armitage) shows off a chess variant he invented. It is played on a 
+regular board with the usual complement of pieces plus a wizard that can never 
+be captured and can teleport to trade places with other pieces.
+
+Presumably each side gets a wizard. The episode does not show where on the board 
+the wizards are to be placed on or if they're not supposed to be on the board at 
+first. Nor is it explained whether the wizard can capture other pieces nor how 
+he moves (if he does move) when not teleporting.
+
+Rival child prodigy Paige Swanson (Grace Mckenna) points out what she 
+characterizes as an obvious flaw: to avoid checkmate, have the wizard trade 
+places with the king and the game can drag on forever. Embarrassed, Sheldon 
+tries to save face by claiming he was testing Paige and she passed.
+
+Later on in the episode, Paige and Sheldon play regular chess and he loses. Not 
+surprising for a player who would think up a chess variant with a special 
+magical get-out-of-trouble piece.
+
 #### Horde
 
 In this very creepy variant, Black starts out with the usual complement of 
