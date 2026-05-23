@@ -2059,6 +2059,10 @@ Neither side has an advantage, both sides are exposed.
 1. d4 d5
 2. c4 e6
 
+May continue
+
+3. Nf3
+
 ##### Blackmar-Diemer gambit
 
 1. d4 d5
