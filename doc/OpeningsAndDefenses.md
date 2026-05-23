@@ -1934,7 +1934,7 @@ less likely, 3. ... Be7.
 
 Even if Black does not play d5 or Nf6, it is still possible for White to set up 
 a neat trap in a which an early check leads to queen capture by causing the 
-[FINISH WRITING]
+\[FINISH WRITING\]
 
 ###### Torre attack
 
