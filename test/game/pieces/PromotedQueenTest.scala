@@ -62,6 +62,12 @@ class PromotedQueenTest {
     assertEquals(expected, actual)
   }
 
+  @Test def testHasSpecialMoves(): Unit = {
+    println("hasSpecialMoves")
+    val queen = new PromotedQueen(PieceChooser.choosePawn)
+    assert(!queen.hasSpecialMoves, "A queen doesn't have special moves")
+  }
+
   @Test def testPrior(): Unit = {
     println("prior")
     val expected = PieceChooser.choosePawn
