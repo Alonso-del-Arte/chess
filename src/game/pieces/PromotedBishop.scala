@@ -5,6 +5,5 @@ import game.Player
 class PromotedBishop(val pawn: Pawn) extends Bishop with Promoted {
   override val affiliation: Player = pawn.affiliation
   override def prior: Pawn = pawn
-  override val hasSpecialMoves: Boolean = false
 
 }
