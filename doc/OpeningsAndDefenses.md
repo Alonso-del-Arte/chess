@@ -1811,6 +1811,11 @@ Likely followed by
 1. d4 c5
 2. dxc5 b6
 
+##### Sicilian defense, Smith-Morra gambit
+
+1. d4 c5 
+2. e4 d5
+
 #### Closed game
 
 1. d4 d5
