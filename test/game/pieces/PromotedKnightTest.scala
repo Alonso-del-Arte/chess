@@ -33,4 +33,10 @@ class PromotedKnightTest {
 
   // TODO: Write possible captures test
 
+  @Test def testHasSpecialMoves(): Unit = {
+    println("hasSpecialMoves")
+    val knight = new PromotedKnight(PieceChooser.choosePawn)
+    assert(!knight.hasSpecialMoves, "A knight doesn't have special moves")
+  }
+
 }
