@@ -2833,6 +2833,16 @@ or
 1. e4 c5
 2. d4 cxd4
 
+##### Sicilian defense, Smith-Morra gambit
+
+1. e4 c5
+2. d4 d5
+
+Some experts say you shouldn't move more than one pawn before developing other
+pieces. Here Black seems to mirrow White's folly of moving two pawns so early
+on. More positively, however, White gains early control of the center, and Black
+challenges that early control.
+
 #### Sicilian defense, McDonnell attack
 
 1. e4 c5 
