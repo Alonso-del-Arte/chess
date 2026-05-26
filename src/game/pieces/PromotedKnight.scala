@@ -10,6 +10,6 @@ class PromotedKnight(val pawn: Pawn) extends Knight with Promoted {
       new RelativePosition(9, 8)))
   override def prior: Pawn = pawn
   // TODO: Write a test for this
-  override val hasSpecialMoves: Boolean = true
+  override val hasSpecialMoves: Boolean = false
 
 }
