@@ -1579,6 +1579,12 @@ ignores other factors, such as how your opponent's skills compare to yours.
 1. d4 Nf6 
 2. Nf3 d6
 
+###### Old Indian defense
+
+1. d4 Nf6
+2. Nf3 d6
+3. c4
+
 ##### Pirc defense, Roscher gambit
 
 1. d4 Nf6 
