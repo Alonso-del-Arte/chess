@@ -39,4 +39,12 @@ class PromotedKnightTest {
     assert(!knight.hasSpecialMoves, "A knight doesn't have special moves")
   }
 
+  @Test def testPrior(): Unit = {
+    println("prior")
+    val expected = PieceChooser.choosePawn
+    val knight = new PromotedKnight(expected)
+    val actual = knight.prior
+    assertEquals(expected, actual)
+  }
+
 }
