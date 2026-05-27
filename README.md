@@ -24,7 +24,8 @@ This project will not include machine learning or any of the other things that
 generally fall under the umbrella of "artificial intelligence."
 
 This project is currently in the research phase. At this point I'm focusing more 
-on studying the game than in programming it.
+on studying the game than in programming it. That means playing the game on 
+existing platforms and on a physical board.
 
 The next phase will be to enable playing the game on the command line (e.g., if 
 you're playing White, you might type "e4" to make your first move).
