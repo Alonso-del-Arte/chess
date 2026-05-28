@@ -1,6 +1,7 @@
 package game.pieces.white
 
 import game.{RelativePosition, RelativePositionRange, White}
+
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.Assertions._
 
