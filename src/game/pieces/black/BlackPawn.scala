@@ -4,7 +4,6 @@ import game.{Black, Player, RelativePosition, RelativePositionRange}
 import game.pieces.Pawn
 
 abstract class BlackPawn extends Pawn with BlackPiece {
-  override val affiliation: Player = Black
   override val possibleMoves: Set[RelativePositionRange]
     = Set(new RelativePositionRange(new RelativePosition(0, -1),
       new RelativePosition(0, -2)))
