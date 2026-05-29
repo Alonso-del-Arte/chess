@@ -26,4 +26,9 @@ class KingTest {
     assert(King.captureSameAsMove, "King should capture same as he moves")
   }
 
+  @Test def testHasSpecialMoves(): Unit = {
+    println("hasSpecialMoves")
+    assert(King.hasSpecialMoves, "King has special moves, castling")
+  }
+
 }
