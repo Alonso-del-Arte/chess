@@ -1,6 +1,6 @@
 package game.pieces.black
 
-import game.{Black, Player, RelativePosition, RelativePositionRange}
+import game.{RelativePosition, RelativePositionRange}
 
 object King extends game.pieces.King with BlackPiece {
   // TODO: Write a test for this
