@@ -1,9 +1,9 @@
 package game
 
-import scala.util.Random
-
-import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.Assertions._
+import org.junit.jupiter.api.Test
+
+import scala.util.Random
 
 class RelativePositionTest {
 
