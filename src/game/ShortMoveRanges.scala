@@ -2,10 +2,9 @@ package game
 
 object ShortMoveRanges {
 
-  // TODO: Write a test for this
   val moveNortheast: RelativePositionRange =
     new RelativePositionRange(new RelativePosition(1, -1),
-      new RelativePosition(7, -7))
+      new RelativePosition(1, -1))
 
   // TODO: Write a test for this
   val moveNorthwest: RelativePositionRange =
