@@ -7,4 +7,12 @@ import scala.util.Random
 
 class ShortMoveRangesTest {
 
+  @Test def testMoveNortheast(): Unit = {
+    println("moveNortheast")
+    val expected = new RelativePositionRange(new RelativePosition(1, -1),
+      new RelativePosition(1, -1))
+    val actual = ShortMoveRanges.moveNortheast
+    assertEquals(expected, actual)
+  }
+
 }
