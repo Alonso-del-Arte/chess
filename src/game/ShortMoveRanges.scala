@@ -22,10 +22,9 @@ object ShortMoveRanges {
     new RelativePositionRange(new RelativePosition(0, 1),
       new RelativePosition(0, 1))
 
-  // TODO: Write a test for this
   val moveRight: RelativePositionRange =
     new RelativePositionRange(new RelativePosition(1, 0),
-      new RelativePosition(7, 0))
+      new RelativePosition(1, 0))
 
   // TODO: Write a test for this
   val moveBack: RelativePositionRange =
