@@ -1,6 +1,6 @@
 package game.pieces.black
 
-import game.{Black, RelativePosition, RelativePositionRange}
+import game.{Black, ShortMoveRanges}
 
 import org.junit.jupiter.api.Assertions._
 import org.junit.jupiter.api.Test
@@ -14,7 +14,15 @@ class KingTest {
     assertEquals(expected, actual)
   }
 
-  // TODO: Write possibleMoves test
+  @Test def testPossibleMoves(): Unit = {
+    println("possibleMoves")
+    val expected = Set(ShortMoveRanges.moveForward, ShortMoveRanges.moveRight,
+      ShortMoveRanges.moveBack, ShortMoveRanges.moveLeft,
+      ShortMoveRanges.moveNortheast, ShortMoveRanges.moveNorthwest,
+      ShortMoveRanges.moveSouthwest, ShortMoveRanges.moveSoutheast)
+    val actual = King.possibleMoves
+    assertEquals(expected, actual)
+  }
 
   @Test def testCanJumpOver(): Unit = {
     println("canJumpOver")
