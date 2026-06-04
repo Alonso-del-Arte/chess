@@ -1,6 +1,6 @@
 package game.pieces
 
-import game.{RelativePosition, RelativePositionRange, ShortMoveRanges}
+import game.{RelativePositionRange, ShortMoveRanges}
 
 abstract class King extends Piece {
   override val possibleMoves: Set[RelativePositionRange] =
