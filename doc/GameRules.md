@@ -1,11 +1,15 @@
 # The Rules of Chess
 
-// TODO: Choose official reference for game rules
+I have chosen Chapter 1 of the 7th Edition of the United States Chess 
+Federation's Official Rules of Chess as the official reference for this project.
 
 In this document I will write the rules of the game of chess as I understand 
 them, as concisely and completely as I can. This document should not be 
 regarded as binding. If it's found to contradict the official reference, this 
-document should be amended to be in agreement with the official reference.
+document should be amended to be in agreement with the official reference. 
+
+However, I won't be too concerned with minor wrinkles in the rules that are sure 
+to require an arbiter in tournament play to resolve.
 
 There will be occasional mentions of strategy, mostly to explain what the 
 motivation might be for a particular type of move, but the focus here is on what 
@@ -16,6 +20,10 @@ The diagrams in this document are to illustrate moves a player may make, not
 to advise on what the best move may be in any particular situation. See 
 [Endgames](Endgames.md), [Openings and Defenses](OpeningsAndDefenses.md) and 
 [Puzzles](Puzzles.md) for some discussion of strategy.
+
+There are some matters in the official reference that cross over into the domain 
+of [etiquette](Etiquette.md) as far as games not in a tournament go. I don't 
+intend to go in depth about those in this document.
 
 In this document, the terms "piece" and "pieces" will be understood to include a 
 pawn or pawns. When it is necessary to distinguish between pawns and pieces that 

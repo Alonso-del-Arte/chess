@@ -8,6 +8,8 @@ translated by Arthur A. Brown. New York: Springer-Verlag (1984).
 Sons (2016).
 * Reuben Fine, *The Ideas Behind the Chess Openings*. New York: Random House 
 (1989).
+* Tim Just, editor, *US Chess Federation's Official Rules of Chess*, 7th 
+Edition. St. Louis: United States Chess Federation.
 * Ron Harman and Shaun Taulbut, *Winning with the Scandinavian*. New York: Henry 
 Holt and Company (1993).
 * Anatoly Karpov, *Winning with the Spanish*. New York: Henry Holt and Company 
