@@ -39,4 +39,12 @@ class ShortMoveRangesTest {
     assertEquals(expected, actual)
   }
 
+  @Test def testMoveForward(): Unit = {
+    println("moveForward")
+    val expected = new RelativePositionRange(new RelativePosition(0, 1),
+      new RelativePosition(0, 1))
+    val actual = ShortMoveRanges.moveForward
+    assertEquals(expected, actual)
+  }
+
 }
