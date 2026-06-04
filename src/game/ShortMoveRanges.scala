@@ -14,15 +14,13 @@ object ShortMoveRanges {
     new RelativePositionRange(new RelativePosition(-1, 1),
       new RelativePosition(-1, 1))
 
-  // TODO: Write a test for this
   val moveSoutheast: RelativePositionRange =
     new RelativePositionRange(new RelativePosition(-1, -1),
       new RelativePosition(-1, -1))
 
-  // TODO: Write a test for this
   val moveForward: RelativePositionRange =
     new RelativePositionRange(new RelativePosition(0, 1),
-      new RelativePosition(0, 7))
+      new RelativePosition(0, 1))
 
   // TODO: Write a test for this
   val moveRight: RelativePositionRange =
