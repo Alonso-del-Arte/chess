@@ -4,7 +4,7 @@ import game.{RelativePositionRange, ShortMoveRanges}
 
 object King extends game.pieces.King with WhitePiece {
   // TODO: Write tests for this
-  override val canJumpOver: Boolean = true
+  override val canJumpOver: Boolean = false
   // TODO: Write tests for this
   override val captureSameAsMove: Boolean = false
   // TODO: Write tests for this
