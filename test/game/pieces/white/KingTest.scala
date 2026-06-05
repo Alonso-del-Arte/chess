@@ -14,4 +14,14 @@ class KingTest {
     assertEquals(expected, actual)
   }
 
+  @Test def testPossibleMoves(): Unit = {
+    println("possibleMoves")
+    val expected = Set(ShortMoveRanges.moveForward, ShortMoveRanges.moveRight,
+      ShortMoveRanges.moveBack, ShortMoveRanges.moveLeft,
+      ShortMoveRanges.moveNortheast, ShortMoveRanges.moveNorthwest,
+      ShortMoveRanges.moveSouthwest, ShortMoveRanges.moveSoutheast)
+    val actual = King.possibleMoves
+    assertEquals(expected, actual)
+  }
+
 }
