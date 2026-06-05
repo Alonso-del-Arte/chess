@@ -24,4 +24,9 @@ class KingTest {
     assertEquals(expected, actual)
   }
 
+  @Test def testCanJumpOver(): Unit = {
+    println("canJumpOver")
+    assert(!King.canJumpOver, "King shouldn't be able to jump over")
+  }
+
 }
