@@ -59,6 +59,9 @@ piece that turn, and must make a valid move with that piece even if it is
 strategically disadvantageous. This rule is generally enforced even in an 
 informal context, though it may be relaxed for coaching.
 
+As a consequence of this rule, if you touch a pawn that is on the verge of 
+promotion, then you must go ahead and promote that pawn.
+
 However, you may adjust pieces that are not centered, but first you must 
 announce your intention to make such adjustments, preferably by saying 
 "J'adoube" (French for "I adjust"). It's a judgement call how far off center a 
