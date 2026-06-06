@@ -41,4 +41,9 @@ class KingTest {
     assertEquals(expected, actual)
   }
 
+  @Test def testHasSpecialMoves(): Unit = {
+    println("hasSpecialMoves")
+    assert(King.hasSpecialMoves, "King has special moves, castling")
+  }
+
 }
