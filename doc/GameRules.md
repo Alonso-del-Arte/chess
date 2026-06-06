@@ -60,7 +60,7 @@ announce your intention to make such adjustments, preferably by saying
 piece must be to be worth adjusting and potentially disrupting the game.
 
 It is an actual rule that once you touch a piece that you have not declared an 
-intention to adjust you're committed to moving that piece that turn, and must 
+intention to adjust you're committed to moving that piece that turn. You must 
 make a valid move with that piece even if it is strategically disadvantageous. 
 This rule is generally enforced even in an informal context, though it may be 
 relaxed for coaching.
