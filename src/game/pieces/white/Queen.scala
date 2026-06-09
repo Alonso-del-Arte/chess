@@ -4,8 +4,8 @@ import game.pieces.{Bishop, Rook}
 import game.{Player, RelativePositionRange, White}
 
 object Queen extends game.pieces.Queen with WhitePiece {
-  // TODO: Write tests for this
-  override val possibleMoves: Set[RelativePositionRange] = Rook.moves
+  override val possibleMoves: Set[RelativePositionRange] =
+    Bishop.moves ++ Rook.moves
   // TODO: Write tests for this
   override val canJumpOver: Boolean = true
   // TODO: Write tests for this
