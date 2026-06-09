@@ -4583,6 +4583,21 @@ Sicilian defense: Grob variation
 
 1. g4 Nh6
 
+Might be followed by 
+
+2. f3
+
+to discourage
+
+2. ... Nxg4
+
+if you don't want to disavow that first pawn. Or you might prefer
+
+2. Nh3
+
+which has the advantage of protecting that pawn from capture while also getting 
+a bishop out.
+
 #### ???
 
 1. g4 d5
