@@ -4,8 +4,7 @@ import game.pieces.{Bishop, Rook}
 import game.{Player, RelativePositionRange, White}
 
 object Queen extends game.pieces.Queen with WhitePiece {
-  // TODO: Write tests for this
-  override val captureSameAsMove: Boolean = false
+  override val captureSameAsMove: Boolean = true
   // TODO: Write tests for this
   override def possibleCaptures: Set[RelativePositionRange] = Bishop.moves
   // TODO: Write tests for this
