@@ -4,7 +4,6 @@ import game.pieces.{Bishop, Rook}
 import game.{Player, RelativePositionRange, White}
 
 object Queen extends game.pieces.Queen with WhitePiece {
-  // TODO: Write tests for this
-  override val hasSpecialMoves: Boolean = true
+  override val hasSpecialMoves: Boolean = false
 
 }
