@@ -21,6 +21,9 @@ abstract class BoardState(val board: Board, val nextToPlay: Player,
                           val positionedPieces: Map[Position, Piece],
                           val capturedPieces: Set[Piece] = Set()) {
 
+  // TODO: Write tests for this
+  def isInitial: Boolean = true
+
   /**
    * Gives the number of plies in the game leading up to this board state. For
    * the number of moves, call [[moveCount]]. For the example, suppose the whole
