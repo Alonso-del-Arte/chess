@@ -7,12 +7,12 @@ class BoardStateTest {
 
   @Test def testMove(): Unit = {
     println("move")
-    fail("Haven't written test yet")
+    fail("HAVEN'T WRITTEN TEST YET")
   }
 
   @Test def testExchange(): Unit = {
     println("exchange")
-    fail("Haven't written test yet")
+    fail("HAVEN'T WRITTEN TEST YET")
   }
 
 }
