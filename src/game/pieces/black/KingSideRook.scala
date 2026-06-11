@@ -4,8 +4,7 @@ import game.{Black, Player, RelativePositionRange}
 import game.pieces.Rook
 
 object KingSideRook extends Rook with BlackPiece {
-  // TODO: Write a test for this
-  override val possibleMoves: Set[RelativePositionRange] = Set()
+  override val possibleMoves: Set[RelativePositionRange] = Rook.moves
   // TODO: Write a test for this
   override val canJumpOver: Boolean = true
   // TODO: Write a test for this
