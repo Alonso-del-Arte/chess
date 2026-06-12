@@ -9,5 +9,7 @@ import game.RelativePositionRange
  */
 abstract class Tower extends Piece {
   override val possibleMoves: Set[RelativePositionRange] = Set()
+  // TODO: Write a test for this
+  val couldCastle: Boolean = false
 
 }
