@@ -34,15 +34,7 @@ class QueenSideRookTest {
 
   @Test def testPossibleCaptures(): Unit = {
     println("possibleCaptures")
-    val forwards = new RelativePositionRange(new RelativePosition(0, 1),
-      new RelativePosition(0, 7))
-    val right = new RelativePositionRange(new RelativePosition(1, 0),
-      new RelativePosition(7, 0))
-    val backwards = new RelativePositionRange(new RelativePosition(0, -1),
-      new RelativePosition(0, -7))
-    val left = new RelativePositionRange(new RelativePosition(-1, 0),
-      new RelativePosition(-7, 0))
-    val expected = Set(forwards, right, backwards, left)
+    val expected = QueenSideRook.possibleMoves
     val actual = QueenSideRook.possibleCaptures
     assertEquals(expected, actual)
   }
