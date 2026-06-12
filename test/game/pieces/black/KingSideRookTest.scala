@@ -1,6 +1,6 @@
 package game.pieces.black
 
-import game.{Black, RelativePosition, RelativePositionRange}
+import game.Black
 import game.pieces.Rook
 
 import org.junit.jupiter.api.Assertions._
