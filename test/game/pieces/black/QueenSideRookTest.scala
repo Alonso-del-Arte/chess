@@ -39,4 +39,10 @@ class QueenSideRookTest {
     assertEquals(expected, actual)
   }
 
+  @Test def testHasSpecialMoves(): Unit = {
+    println("hasSpecialMoves")
+    val msg = "Rook can't initiate special move of castling"
+    assert(!QueenSideRook.hasSpecialMoves, msg)
+  }
+
 }
