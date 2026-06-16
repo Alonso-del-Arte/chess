@@ -4,7 +4,6 @@ import game.{Player, RelativePositionRange, White}
 import game.pieces.Rook
 
 object QueenSideRook extends Rook with WhitePiece {
-  override val canJumpOver: Boolean = false
   // TODO: Write a test for this
   override val captureSameAsMove: Boolean = false
   // TODO: Write a test for this
