@@ -1,6 +1,5 @@
 package game.pieces.white
 
-import game.{Player, RelativePositionRange, White}
 import game.pieces.Rook
 
 object QueenSideRook extends Rook with WhitePiece {
