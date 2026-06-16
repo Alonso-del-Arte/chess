@@ -4,7 +4,6 @@ import game.{Player, RelativePositionRange, White}
 import game.pieces.Rook
 
 object QueenSideRook extends Rook with WhitePiece {
-  override val affiliation: Player = White
   // TODO: Write a test for this
   override val possibleMoves: Set[RelativePositionRange] = Set()
   // TODO: Write a test for this
