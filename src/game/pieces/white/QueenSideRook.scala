@@ -2,7 +2,4 @@ package game.pieces.white
 
 import game.pieces.Rook
 
-object QueenSideRook extends Rook with WhitePiece {
-  override val couldCastle: Boolean = true
-
-}
+object QueenSideRook extends Rook with WhitePiece
