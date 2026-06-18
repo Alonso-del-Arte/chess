@@ -45,4 +45,10 @@ class KingSideRookTest {
     assert(!KingSideRook.hasSpecialMoves, msg)
   }
 
+  @Test def testCouldCastle(): Unit = {
+    println("couldCastle")
+    assert(KingSideRook.couldCastle,
+      "Rook should be potential castling participant")
+  }
+
 }
