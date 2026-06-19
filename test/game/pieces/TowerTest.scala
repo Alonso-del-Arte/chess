@@ -1,11 +1,20 @@
 package game.pieces
 
 import game.{Black, Neutral, Player, RelativePositionRange, White}
+import game.pieces.Rook
 
 import org.junit.jupiter.api.Assertions._
 import org.junit.jupiter.api.Test
 
 class TowerTest {
+
+  @Test def testPossibleMoves(): Unit = {
+    println("possibleMoves")
+    val tower = new TowerImpl
+    val expected = Rook.moves
+    val actual = tower.possibleMoves
+    assertEquals(expected, actual)
+  }
 
   @Test def testCanJumpOver(): Unit = {
     println("canJumpOver")
