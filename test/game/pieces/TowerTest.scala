@@ -29,6 +29,14 @@ class TowerTest {
     assert(tower.captureSameAsMove, "A tower captures same as moves")
   }
 
+  @Test def testPossibleCaptures(): Unit = {
+    println("possibleCaptures")
+    val tower = new TowerImpl
+    val expected = tower.possibleMoves
+    val actual = tower.possibleCaptures
+    assertEquals(expected, actual)
+  }
+
   private class TowerImpl extends Tower {
     override val affiliation: Player = Neutral
 
