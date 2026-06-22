@@ -8,8 +8,7 @@ import game.RelativePositionRange
  * @author Alonso del Arte
  */
 abstract class Tower extends Rook {
-  // TODO: Write a test for this
-  override val captureSameAsMove: Boolean = false
+  override val captureSameAsMove: Boolean = true
   // TODO: Write a test for this
   override val possibleCaptures: Set[RelativePositionRange] = Set()
   // TODO: Write a test for this
