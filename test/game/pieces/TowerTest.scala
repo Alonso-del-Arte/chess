@@ -37,6 +37,13 @@ class TowerTest {
     assertEquals(expected, actual)
   }
 
+  @Test def testHasSpecialMoves(): Unit = {
+    println("hasSpecialMoves")
+    val tower = new TowerImpl
+    val msg = "Tower can't initiate special move of castling"
+    assert(!tower.hasSpecialMoves, msg)
+  }
+
   private class TowerImpl extends Tower {
     override val affiliation: Player = Neutral
 
