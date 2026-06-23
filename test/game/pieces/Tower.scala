@@ -5,7 +5,4 @@ package game.pieces
  * tower has the same moves as the rook.
  * @author Alonso del Arte
  */
-abstract class Tower extends Rook {
-  override val couldCastle: Boolean = true
-
-}
+abstract class Tower extends Rook
