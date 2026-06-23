@@ -6,7 +6,6 @@ package game.pieces
  * @author Alonso del Arte
  */
 abstract class Tower extends Rook {
-  override val hasSpecialMoves: Boolean = false
   // TODO: Write a test for this
   override val couldCastle: Boolean = false
 
