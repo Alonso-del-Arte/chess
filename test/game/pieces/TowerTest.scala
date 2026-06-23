@@ -44,6 +44,12 @@ class TowerTest {
     assert(!tower.hasSpecialMoves, msg)
   }
 
+  @Test def testCouldCastle(): Unit = {
+    println("couldCastle")
+    val tower = new TowerImpl
+    assert(tower.couldCastle, "Tower should be potential castling participant")
+  }
+
   private class TowerImpl extends Tower {
     override val affiliation: Player = Neutral
 
