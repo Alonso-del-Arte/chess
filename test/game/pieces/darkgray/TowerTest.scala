@@ -32,4 +32,11 @@ class TowerTest {
     assert(Tower.captureSameAsMove, msg)
   }
 
+  @Test def testPossibleCaptures(): Unit = {
+    println("possibleCaptures")
+    val expected = Tower.possibleMoves
+    val actual = Tower.possibleCaptures
+    assertEquals(expected, actual)
+  }
+
 }
