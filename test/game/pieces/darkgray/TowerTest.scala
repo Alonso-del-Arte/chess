@@ -39,4 +39,10 @@ class TowerTest {
     assertEquals(expected, actual)
   }
 
+  @Test def testHasSpecialMoves(): Unit = {
+    println("hasSpecialMoves")
+    val msg = "Tower can't initiate special move of castling"
+    assert(!Tower.hasSpecialMoves, msg)
+  }
+
 }
