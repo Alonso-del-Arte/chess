@@ -22,8 +22,14 @@ class TowerTest {
 
   @Test def testCanJumpOver(): Unit = {
     println("canJumpOver")
-    val msg = "Rook shouldn't be able to jump over"
+    val msg = "Tower shouldn't be able to jump over"
     assert(!Tower.canJumpOver, msg)
+  }
+
+  @Test def testCaptureSameAsMove(): Unit = {
+    println("captureSameAsMove")
+    val msg = "Tower should capture same as move"
+    assert(Tower.captureSameAsMove, msg)
   }
 
 }
