@@ -4,7 +4,6 @@ import game.pieces.Rook
 import game.{Player, RelativePositionRange}
 
 object Tower extends game.pieces.Tower with DarkGrayPiece {
-  override val canJumpOver: Boolean = false
   // TODO: Write a test for this
   override val captureSameAsMove: Boolean = false
   // TODO: Write a test for this
