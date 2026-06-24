@@ -3,8 +3,7 @@ package game.pieces.darkgray
 import game.{Player, RelativePositionRange}
 
 object Tower extends game.pieces.Tower with DarkGrayPiece {
-  // TODO: Write a test for this
-  override val affiliation: Player = game.Neutral
+  override val affiliation: Player = game.DarkGray
   // TODO: Write a test for this
   override val possibleMoves: Set[RelativePositionRange] = Set()
   // TODO: Write a test for this
