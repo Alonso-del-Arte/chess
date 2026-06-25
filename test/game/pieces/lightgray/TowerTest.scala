@@ -26,4 +26,10 @@ class TowerTest {
     assert(!Tower.canJumpOver, msg)
   }
 
+  @Test def testCaptureSameAsMove(): Unit = {
+    println("captureSameAsMove")
+    val msg = "Tower should capture same as move"
+    assert(Tower.captureSameAsMove, msg)
+  }
+
 }
