@@ -13,4 +13,11 @@ class TowerTest {
     assertEquals(LightGray, Tower.affiliation)
   }
 
+  @Test def testPossibleMoves(): Unit = {
+    println("possibleMoves")
+    val expected = Rook.moves
+    val actual = Tower.possibleMoves
+    assertEquals(expected, actual)
+  }
+
 }
