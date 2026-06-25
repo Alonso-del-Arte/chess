@@ -20,4 +20,10 @@ class TowerTest {
     assertEquals(expected, actual)
   }
 
+  @Test def testCanJumpOver(): Unit = {
+    println("canJumpOver")
+    val msg = "Tower shouldn't be able to jump over"
+    assert(!Tower.canJumpOver, msg)
+  }
+
 }
