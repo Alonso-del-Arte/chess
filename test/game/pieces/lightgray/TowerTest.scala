@@ -45,4 +45,9 @@ class TowerTest {
     assert(!Tower.hasSpecialMoves, msg)
   }
 
+  @Test def testCouldCastle(): Unit = {
+    println("couldCastle")
+    assert(Tower.couldCastle, "Tower should be potential castling participant")
+  }
+
 }
