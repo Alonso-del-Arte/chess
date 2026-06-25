@@ -4,7 +4,6 @@ import game.RelativePositionRange
 import game.pieces.Rook
 
 object Tower extends game.pieces.Tower with LightGrayPiece {
-  override val possibleMoves: Set[RelativePositionRange] = Rook.moves
   // TODO: Write a test for this
   override val canJumpOver: Boolean = true
   // TODO: Write a test for this
