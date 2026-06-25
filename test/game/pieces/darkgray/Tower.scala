@@ -4,7 +4,6 @@ import game.pieces.Rook
 import game.{Player, RelativePositionRange}
 
 object Tower extends game.pieces.Tower with DarkGrayPiece {
-  // TODO: Write a test for this
-  override val couldCastle: Boolean = false
+  override val couldCastle: Boolean = true
 
 }
