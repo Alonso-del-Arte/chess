@@ -5,8 +5,7 @@ import game.pieces.{NeutralPawn, Pawn, Promoted, Tower}
 
 class PromotedTower(val pawn: Pawn) extends Tower with DarkGrayPiece
   with Promoted {
-  // TODO: Write a test for this
-  override val canJumpOver: Boolean = true
+  override val canJumpOver: Boolean = false
   // TODO: Write a test for this
   override val captureSameAsMove: Boolean = false
   // TODO: Write a test for this
