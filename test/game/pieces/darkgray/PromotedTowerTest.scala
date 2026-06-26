@@ -33,4 +33,11 @@ class PromotedTowerTest {
     assert(!tower.canJumpOver, "Tower shouldn't be able to jump over")
   }
 
+  @Test def testCaptureSameAsMove(): Unit = {
+    println("captureSameAsMove")
+    val pawn = PieceChooser.choosePawn(DarkGray)
+    val tower = new PromotedTower(pawn)
+    assert(tower.captureSameAsMove, "Tower should capture same as move")
+  }
+
 }
