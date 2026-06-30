@@ -27,7 +27,6 @@ object Bishop {
 
 abstract class Bishop extends Piece {
   override val possibleMoves: Set[RelativePositionRange] = Bishop.moves
-  override val captureSameAsMove: Boolean = true
   // TODO: Write tests for this
   override val hasSpecialMoves: Boolean = true
   // TODO: Write tests for this
