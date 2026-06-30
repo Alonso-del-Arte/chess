@@ -56,4 +56,12 @@ class PromotedTowerTest {
     assert(!tower.couldCastle, "Promoted tower shouldn't be able to castle")
   }
 
+  @Test def testPrior(): Unit = {
+    println("prior")
+    val expected = PieceChooser.choosePawn(LightGray)
+    val tower = new PromotedTower(expected)
+    val actual = tower.prior
+    assertEquals(expected, actual)
+  }
+
 }
