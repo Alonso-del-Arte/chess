@@ -27,7 +27,6 @@ object Bishop {
 
 abstract class Bishop extends Piece {
   override val possibleMoves: Set[RelativePositionRange] = Bishop.moves
-  override val hasSpecialMoves: Boolean = false
   // TODO: Write tests for this
   override def possibleCaptures: Set[RelativePositionRange] =
     Set(Bishop.moveNorthwest)
