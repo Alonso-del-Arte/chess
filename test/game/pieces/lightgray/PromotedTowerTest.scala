@@ -40,4 +40,13 @@ class PromotedTowerTest {
     assert(tower.captureSameAsMove, "Tower should capture same as move")
   }
 
+  @Test def testPossibleCaptures(): Unit = {
+    println("possibleCaptures")
+    val pawn = PieceChooser.choosePawn(LightGray)
+    val tower = new PromotedTower(pawn)
+    val expected = tower.possibleMoves
+    val actual = tower.possibleCaptures
+    assertEquals(expected, actual)
+  }
+
 }
