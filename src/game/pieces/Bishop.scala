@@ -35,6 +35,7 @@ abstract class Bishop extends Piece {
   // TODO: Write tests for this
   override val hasSpecialMoves: Boolean = true
   // TODO: Write tests for this
-  override def possibleCaptures: Set[RelativePositionRange] = Set()
+  override def possibleCaptures: Set[RelativePositionRange] =
+    Set(Bishop.moveNorthwest)
 
 }
