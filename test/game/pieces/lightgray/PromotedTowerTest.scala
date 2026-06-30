@@ -17,4 +17,13 @@ class PromotedTowerTest {
     assertEquals(expected, actual)
   }
 
+  @Test def testPossibleMoves(): Unit = {
+    println("possibleMoves")
+    val pawn = PieceChooser.choosePawn(LightGray)
+    val tower = new PromotedTower(pawn)
+    val expected = Rook.moves
+    val actual = tower.possibleMoves
+    assertEquals(expected, actual)
+  }
+
 }
