@@ -5,7 +5,6 @@ import game.pieces.{NeutralPawn, Pawn, Promoted, Rook, Tower}
 
 class PromotedTower(val pawn: Pawn) extends Tower with LightGrayPiece
   with Promoted {
-  override val possibleMoves: Set[RelativePositionRange] = Rook.moves
   // TODO: Write a test for this
   override val canJumpOver: Boolean = true
   // TODO: Write a test for this
