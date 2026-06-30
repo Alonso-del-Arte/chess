@@ -27,6 +27,5 @@ object Bishop {
 
 abstract class Bishop extends Piece {
   override val possibleMoves: Set[RelativePositionRange] = Bishop.moves
-  override def possibleCaptures: Set[RelativePositionRange] = Bishop.moves
 
 }
