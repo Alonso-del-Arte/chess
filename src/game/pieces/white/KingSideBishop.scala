@@ -4,8 +4,7 @@ import game.RelativePositionRange
 import game.pieces.Bishop
 
 object KingSideBishop extends Bishop with WhitePiece {
-  // TODO: Write tests for this
-  override val captureSameAsMove: Boolean = false
+  override val captureSameAsMove: Boolean = true
   // TODO: Write tests for this
   override val hasSpecialMoves: Boolean = true
   // TODO: Write tests for this
