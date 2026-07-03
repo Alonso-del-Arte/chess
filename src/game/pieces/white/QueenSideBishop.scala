@@ -1,10 +1,9 @@
 package game.pieces.white
 
-import game.{Player, RelativePositionRange, White}
+import game.RelativePositionRange
 import game.pieces.Bishop
 
 object QueenSideBishop extends Bishop with WhitePiece {
-  override val possibleMoves: Set[RelativePositionRange] = Bishop.moves
   // TODO: Write tests for this
   override val canJumpOver: Boolean = true
   // TODO: Write tests for this
