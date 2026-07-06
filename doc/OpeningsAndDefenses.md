@@ -3878,6 +3878,10 @@ first.
 1. e4 e5 
 2. c3
 
+Likely to continue
+
+2. ... d5
+
 ###### MacLeod attack, Lasa gambit
 
 1. e4 e5 
@@ -5000,6 +5004,10 @@ opportunity for an early check with 2. Qa4+.
 
 1. c3 e5
 2. e4 
+
+Likely to continue
+
+2. ... d5
 
 #### Sicilian defense, Alapin variation
 
