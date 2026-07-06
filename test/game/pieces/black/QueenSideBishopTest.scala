@@ -39,4 +39,10 @@ class QueenSideBishopTest {
     assertEquals(expected, actual)
   }
 
+  @Test def testHasSpecialMoves(): Unit = {
+    println("hasSpecialMoves")
+    assert(!QueenSideBishop.hasSpecialMoves,
+      "Bishop should have no special moves")
+  }
+
 }
