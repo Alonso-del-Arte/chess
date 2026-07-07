@@ -1,6 +1,7 @@
 package game.pieces.black
 
 import game.{Black, RelativePosition, RelativePositionRange}
+import game.pieces.Bishop
 
 import org.junit.jupiter.api.Assertions._
 import org.junit.jupiter.api.Test
@@ -14,15 +15,7 @@ class KingSideBishopTest {
 
   @Test def testPossibleMoves(): Unit = {
     println("possibleMoves")
-    val toNortheast = new RelativePositionRange(new RelativePosition(1, -1),
-      new RelativePosition(7, -7))
-    val toNorthwest = new RelativePositionRange(new RelativePosition(1, 1),
-      new RelativePosition(7, 7))
-    val toSouthwest = new RelativePositionRange(new RelativePosition(-1, 1),
-      new RelativePosition(-7, 7))
-    val toSoutheast = new RelativePositionRange(new RelativePosition(-1, -1),
-      new RelativePosition(-7, -7))
-    val expected = Set(toNorthwest, toNortheast, toSouthwest, toSoutheast)
+    val expected = Bishop.moves
     val actual = KingSideBishop.possibleMoves
     assertEquals(expected, actual)
   }
