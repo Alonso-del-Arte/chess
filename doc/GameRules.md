@@ -479,7 +479,8 @@ your king.
 In both informal and tournament play either side has the option to concede if 
 they don't think they can win. Grandmasters often opt to stop a game, mutually 
 acknowledging one side's win, even in situations where the imminent checkmate is 
-not obvious to onlookers.
+not obvious to onlookers. Properly resigning is perhaps as much a matter of 
+strategy as it is of etiquette.
 
 Tournament play may add rules regarding concessions that may have consequences 
 for the unfolding of the tournament.
@@ -510,6 +511,11 @@ In this particular game, a draw was in Black's best interest, because without
 the repetitive checks, White might have wised up to an opportunity for 
 checkmate, whereas Black's only path to winning here requires White to make a 
 lot of mistakes.
+
+TODO: Write about draw by insufficient material
+
+The players may agree to draw even in the absence of a stalemate, repetition or 
+material deficiency. But offering that really is a matter of etiquette.
 
 Additional rules apply for timed play (with a clock). In some games, a player 
 who takes too long to decide on a move simply "forfeits on time." I've lost that 
