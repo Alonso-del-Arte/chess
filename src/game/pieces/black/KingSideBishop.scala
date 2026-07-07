@@ -6,6 +6,5 @@ import game.pieces.Bishop
 object KingSideBishop extends Bishop with BlackPiece {
   // TODO: Write tests for this
   override val hasSpecialMoves: Boolean = true
-  override def possibleCaptures: Set[RelativePositionRange] = Bishop.moves
 
 }
