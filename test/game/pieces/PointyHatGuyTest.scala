@@ -29,6 +29,14 @@ class PointyHatGuyTest {
       "A pointy hat guy captures same as moves")
   }
 
+  @Test def testPossibleCaptures(): Unit = {
+    println("possibleCaptures")
+    val pointyHatGuy = new PointyHatGuyImpl
+    val expected = pointyHatGuy.possibleMoves
+    val actual = pointyHatGuy.possibleCaptures
+    assertEquals(expected, actual)
+  }
+
   private class PointyHatGuyImpl extends PointyHatGuy {
     override val affiliation: Player = Neutral
 
