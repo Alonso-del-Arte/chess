@@ -37,6 +37,13 @@ class PointyHatGuyTest {
     assertEquals(expected, actual)
   }
 
+  @Test def testHasSpecialMoves(): Unit = {
+    println("hasSpecialMoves")
+    val pointyHatGuy = new PointyHatGuyImpl
+    assert(!pointyHatGuy.hasSpecialMoves,
+      "Pointy hat guy shouldn't have special moves")
+  }
+
   private class PointyHatGuyImpl extends PointyHatGuy {
     override val affiliation: Player = Neutral
 
