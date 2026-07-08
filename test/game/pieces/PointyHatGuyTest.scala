@@ -7,6 +7,14 @@ import org.junit.jupiter.api.Test
 
 class PointyHatGuyTest {
 
+  @Test def testPossibleMoves(): Unit = {
+    println("possibleMoves")
+    val pointyHatGuy = new PointyHatGuyImpl
+    val expected = Bishop.moves
+    val actual = pointyHatGuy.possibleMoves
+    assertEquals(expected, actual)
+  }
+
   @Test def testCanJumpOver(): Unit = {
     println("canJumpOver")
     val pointyHatGuy = new PointyHatGuyImpl
