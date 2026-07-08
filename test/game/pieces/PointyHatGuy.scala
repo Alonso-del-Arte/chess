@@ -10,6 +10,5 @@ import game.RelativePositionRange
 abstract class PointyHatGuy extends Bishop {
   // TODO: Write tests for this
   override val hasSpecialMoves: Boolean = true
-  override def possibleCaptures: Set[RelativePositionRange] = Bishop.moves
 
 }
