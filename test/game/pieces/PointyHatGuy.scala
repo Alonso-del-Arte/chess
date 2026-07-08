@@ -8,7 +8,6 @@ import game.RelativePositionRange
  * @author Alonso del Arte
  */
 abstract class PointyHatGuy extends Bishop {
-  override val captureSameAsMove: Boolean = true
   // TODO: Write tests for this
   override val hasSpecialMoves: Boolean = true
   // TODO: Write tests for this
