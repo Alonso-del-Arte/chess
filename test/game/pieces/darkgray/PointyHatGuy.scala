@@ -4,7 +4,6 @@ import game.{DarkGray, Player, RelativePositionRange}
 import game.pieces.Bishop
 
 object PointyHatGuy extends game.pieces.PointyHatGuy with DarkGrayPiece {
-  override val affiliation: Player = DarkGray
   override val possibleMoves: Set[RelativePositionRange] = Bishop.moves
   // TODO: Write tests for this
   override val canJumpOver: Boolean = true
