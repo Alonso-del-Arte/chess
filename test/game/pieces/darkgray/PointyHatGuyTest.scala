@@ -26,4 +26,10 @@ class PointyHatGuyTest {
       "Pointy hat guy shouldn't be able to jump over other pieces")
   }
 
+  @Test def testCaptureSameAsMove(): Unit = {
+    println("captureSameAsMove")
+    assert(PointyHatGuy.captureSameAsMove,
+      "A pointy hat guy captures same as moves")
+  }
+
 }
