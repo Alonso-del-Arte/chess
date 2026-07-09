@@ -13,4 +13,11 @@ class PointyHatGuyTest {
     assertEquals(DarkGray, PointyHatGuy.affiliation)
   }
 
+  @Test def testPossibleMoves(): Unit = {
+    println("possibleMoves")
+    val expected = Bishop.moves
+    val actual = PointyHatGuy.possibleMoves
+    assertEquals(expected, actual)
+  }
+
 }
