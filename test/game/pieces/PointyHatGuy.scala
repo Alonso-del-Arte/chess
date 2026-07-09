@@ -7,7 +7,4 @@ import game.RelativePositionRange
  * only. The pointy hat guy has the same moves as the bishop.
  * @author Alonso del Arte
  */
-abstract class PointyHatGuy extends Bishop {
-  override val hasSpecialMoves: Boolean = false
-
-}
+abstract class PointyHatGuy extends Bishop
