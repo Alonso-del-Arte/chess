@@ -20,4 +20,10 @@ class PointyHatGuyTest {
     assertEquals(expected, actual)
   }
 
+  @Test def testCanJumpOver(): Unit = {
+    println("canJumpOver")
+    assert(!PointyHatGuy.canJumpOver,
+      "Pointy hat guy shouldn't be able to jump over other pieces")
+  }
+
 }
