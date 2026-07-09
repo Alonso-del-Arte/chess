@@ -1,6 +1,6 @@
 package game.pieces.darkgray
 
-import game.{DarkGray, Player, RelativePositionRange}
+import game.RelativePositionRange
 import game.pieces.Bishop
 
 object PointyHatGuy extends game.pieces.PointyHatGuy with DarkGrayPiece {
