@@ -4973,6 +4973,34 @@ one of your bishops going early, choose another opening, like maybe king's pawn.
 3. Nf3 Nf6
 4. Bc4
 
+#### Atomic gambit
+
+1. c3 Nf6
+2. Qa4
+
+In regular chess, this would be way too early to get your queen out. But in 
+atomic chess, you might be able to win in the next move provided your opponent 
+doesn't play
+
+2. ... b5
+
+or
+
+2. ... c6
+
+because then you could play 
+
+3. Qxd7
+
+for the win. If you get to play that move in atomic chess, you blow up your own 
+queen but you also blow up your opponent's queen and king. Generally in atomic 
+chess you want to react to 
+
+2. ... Ne4
+
+but when the opportunity to win on the third move arises, you shouldn't worry 
+about your opponent winning on the third move.
+
 #### R&eacute;ti opening, Sicilian invitation
 
 1. c3 c5 
