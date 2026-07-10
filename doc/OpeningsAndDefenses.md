@@ -4950,6 +4950,8 @@ pawn opening by some analysts, e.g.,
 
 This one's good for getting your queen out early on. But if you also want to get 
 one of your bishops going early, choose another opening, like maybe king's pawn.
+This opening's also bad for getting your queenside knight out, because you don't 
+want to put a knight on the edge of the board without a compelling reason.
 
 1. c3 b5 2. h4 f5 3. e4 h6 4. Qh5+ g6 5. Qxg6# 1-0
 
