@@ -1,11 +1,10 @@
 package game.pieces.lightgray
 
-import game.{Neutral, Player, RelativePositionRange}
+import game.{LightGray, Player, RelativePositionRange}
 import game.pieces.Bishop
 
 object PointyHatGuy extends game.pieces.PointyHatGuy with LightGrayPiece {
-  // TODO: Write tests for this
-  override val affiliation: Player = Neutral
+  override val affiliation: Player = LightGray
   // TODO: Write tests for this
   override val possibleMoves: Set[RelativePositionRange] = Set()
   // TODO: Write tests for this
