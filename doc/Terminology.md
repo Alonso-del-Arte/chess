@@ -1,13 +1,16 @@
 # Terminology
 
 Like law, mathematics, and just about anything else, chess has its own 
-terminology, some of it more obvious than others.
+terminology, with some terms more obvious than others.
 
-This is not intended to be comprehensive. I only intend to include the most 
-commonly used terms, and those which might cause me confusion because they're 
-common words used to mean somewhat different things in chess.
+This glossary is not intended to be comprehensive. I only intend to include the 
 
-I also don't intend this document to conform to any official reference.
+most commonly used terms, and those which might cause me confusion because 
+they're common words used to mean somewhat different things in chess.
+
+I also don't intend this document to conform to any official reference. Thus 
+this document may contain terms that are not acknowledged by any official 
+rulebooks.
 
 Board spaces will occasionally be referred to by the nomenclature from the 
 so-called "algebraic notation," in which the White king starts out on e1 and the 
