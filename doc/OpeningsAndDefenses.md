@@ -4950,8 +4950,13 @@ pawn opening by some analysts, e.g.,
 
 This one's good for getting your queen out early on. But if you also want to get 
 one of your bishops going early, choose another opening, like maybe king's pawn.
+
 This opening's also bad for getting your queenside knight out, because you don't 
-want to put a knight on the edge of the board without a compelling reason.
+want to put a knight on the edge of the board without a compelling reason. Also, 
+it is not immediately assertive for control of the center. Even the English 
+opening, 1. c4, is much more assertive for control of the center, as it 
+immediately discourages Black from playing 1. ... d5, whereas with 1. c3 Black 
+can play 1. ... d5 without worrying you will play 2. cxd5.
 
 1. c3 b5 2. h4 f5 3. e4 h6 4. Qh5+ g6 5. Qxg6# 1-0
 
