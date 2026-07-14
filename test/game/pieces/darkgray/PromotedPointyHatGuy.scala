@@ -5,8 +5,7 @@ import game.pieces.{Bishop, Pawn, PointyHatGuy, Promoted}
 
 class PromotedPointyHatGuy(val pawn: Pawn) extends PointyHatGuy
   with DarkGrayPiece with Promoted {
-  // TODO: Write tests for this
-  override val possibleMoves: Set[RelativePositionRange] = Set()
+  override val possibleMoves: Set[RelativePositionRange] = Bishop.moves
   // TODO: Write tests for this
   override val canJumpOver: Boolean = true
   // TODO: Write tests for this
