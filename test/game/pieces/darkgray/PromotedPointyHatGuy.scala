@@ -1,12 +1,11 @@
 package game.pieces.darkgray
 
-import game.{Neutral, Player, RelativePositionRange}
+import game.{DarkGray, Player, RelativePositionRange}
 import game.pieces.{Bishop, Pawn, PointyHatGuy, Promoted}
 
 class PromotedPointyHatGuy(val pawn: Pawn) extends PointyHatGuy
   with DarkGrayPiece with Promoted {
-  // TODO: Write tests for this
-  override val affiliation: Player = Neutral
+  override val affiliation: Player = DarkGray
   // TODO: Write tests for this
   override val possibleMoves: Set[RelativePositionRange] = Set()
   // TODO: Write tests for this
