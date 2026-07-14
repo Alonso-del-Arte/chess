@@ -32,4 +32,11 @@ class PointyHatGuyTest {
       "A pointy hat guy captures same as moves")
   }
 
+  @Test def testPossibleCaptures(): Unit = {
+    println("possibleCaptures")
+    val expected = PointyHatGuy.possibleMoves
+    val actual = PointyHatGuy.possibleCaptures
+    assertEquals(expected, actual)
+  }
+
 }
