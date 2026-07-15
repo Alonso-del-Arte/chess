@@ -51,4 +51,12 @@ class PromotedPointyHatGuyTest {
     assertEquals(expected, actual)
   }
 
+  @Test def testHasSpecialMoves(): Unit = {
+    println("hasSpecialMoves")
+    val pawn = PieceChooser.choosePawn(DarkGray)
+    val pointyHatGuy = new PromotedPointyHatGuy(pawn)
+    assert(!pointyHatGuy.hasSpecialMoves,
+      "Pointy hat guy shouldn't have special moves")
+  }
+
 }
