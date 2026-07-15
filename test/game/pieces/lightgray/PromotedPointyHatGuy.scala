@@ -15,7 +15,7 @@ class PromotedPointyHatGuy(val pawn: Pawn) extends PointyHatGuy
   override val captureSameAsMove: Boolean = false
   // TODO: Write tests for this
   override def possibleCaptures: Set[RelativePositionRange] =
-    Set(Bishop.moveNorthwest)
+    Set(Bishop.moveNorthwest, Bishop.moveSoutheast)
   // TODO: Write tests for this
   override val hasSpecialMoves: Boolean = true
 
