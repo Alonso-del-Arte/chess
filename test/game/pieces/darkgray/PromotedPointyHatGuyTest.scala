@@ -34,4 +34,12 @@ class PromotedPointyHatGuyTest {
       "Pointy hat guy shouldn't be able to jump over other pieces")
   }
 
+  @Test def testCaptureSameAsMove(): Unit = {
+    println("captureSameAsMove")
+    val pawn = PieceChooser.choosePawn(DarkGray)
+    val pointyHatGuy = new PromotedPointyHatGuy(pawn)
+    assert(pointyHatGuy.captureSameAsMove,
+      "A pointy hat guy captures same as moves")
+  }
+
 }
