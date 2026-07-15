@@ -7,9 +7,7 @@ class PromotedPointyHatGuy(val pawn: Pawn) extends PointyHatGuy
   with DarkGrayPiece with Promoted {
   // TODO: Write tests for this
   override val hasSpecialMoves: Boolean = true
-  // TODO: Write tests for this
-  override def possibleCaptures: Set[RelativePositionRange] =
-    Set(Bishop.moveNorthwest)
+  override def possibleCaptures: Set[RelativePositionRange] = Bishop.moves
 
   override def prior: Pawn = pawn
 
