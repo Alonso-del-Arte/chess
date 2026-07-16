@@ -42,4 +42,13 @@ class PromotedPointyHatGuyTest {
       "A pointy hat guy captures same as moves")
   }
 
+  @Test def testPossibleCaptures(): Unit = {
+    println("possibleCaptures")
+    val pawn = PieceChooser.choosePawn(LightGray)
+    val pointyHatGuy = new PromotedPointyHatGuy(pawn)
+    val expected = pointyHatGuy.possibleMoves
+    val actual = pointyHatGuy.possibleCaptures
+    assertEquals(expected, actual)
+  }
+
 }
