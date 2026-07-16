@@ -26,4 +26,12 @@ class PromotedPointyHatGuyTest {
     assertEquals(expected, actual)
   }
 
+  @Test def testCanJumpOver(): Unit = {
+    println("canJumpOver")
+    val pawn = PieceChooser.choosePawn(LightGray)
+    val pointyHatGuy = new PromotedPointyHatGuy(pawn)
+    assert(!pointyHatGuy.canJumpOver,
+      "Pointy hat guy shouldn't be able to jump over other pieces")
+  }
+
 }
