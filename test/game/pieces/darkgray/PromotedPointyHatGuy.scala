@@ -2,6 +2,7 @@ package game.pieces.darkgray
 
 import game.pieces.{NeutralPawn, Pawn, PointyHatGuy, Promoted}
 
+@deprecated("Use equivalent from enclosing package", "Chess 0.1")
 class PromotedPointyHatGuy(val pawn: Pawn) extends PointyHatGuy
   with DarkGrayPiece with Promoted {
 
