@@ -4,6 +4,11 @@ WORK IN PROGRESS: I've decided that in this program you can play against the
 computer. It will have three levels of difficulty: Easy, Medium and Hard, 
 roughly equivalent to Stockfish levels 1, 4, 7.
 
+As this program is still a long way away from being playable, I will feel free 
+to remove deprecated items without warning.
+
+----
+
 When playing White, the computer will always choose the opening randomly, 
 regardless of the difficulty level.
 
