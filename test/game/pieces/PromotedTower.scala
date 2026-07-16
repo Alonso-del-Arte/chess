@@ -2,7 +2,7 @@ package game.pieces
 
 import game.{Neutral, Player, RelativePositionRange}
 
-class PromotedTower extends Rook with Promoted {
+class PromotedTower(val pawn: Pawn) extends Rook with Promoted {
   // TODO: Write tests for this
   override val affiliation: Player = Neutral
   // TODO: Write tests for this

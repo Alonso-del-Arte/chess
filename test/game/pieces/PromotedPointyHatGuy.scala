@@ -2,7 +2,7 @@ package game.pieces
 
 import game.{Neutral, Player, RelativePositionRange}
 
-class PromotedPointyHatGuy extends Bishop with Promoted {
+class PromotedPointyHatGuy(val pawn: Pawn) extends Bishop with Promoted {
   // TODO: Write tests for this
   override val affiliation: Player = Neutral
   // TODO: Write tests for this

@@ -2,7 +2,7 @@ package game.pieces
 
 import game.{Neutral, Player, RelativePositionRange}
 
-class PromotedEmperor extends King with Promoted {
+class PromotedEmperor(val pawn: Pawn) extends King with Promoted {
   // TODO: Write tests for this
   override val affiliation: Player = Neutral
   // TODO: Write tests for this
