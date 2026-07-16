@@ -59,4 +59,12 @@ class PromotedPointyHatGuyTest {
       "Pointy hat guy shouldn't have special moves")
   }
 
+  @Test def testPrior(): Unit = {
+    println("prior")
+    val expected = PieceChooser.choosePawn(LightGray)
+    val pointyHatGuy = new PromotedPointyHatGuy(expected)
+    val actual = pointyHatGuy.prior
+    assertEquals(expected, actual)
+  }
+
 }
