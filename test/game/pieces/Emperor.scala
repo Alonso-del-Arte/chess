@@ -11,7 +11,7 @@ import game.{RelativePositionRange, ShortMoveRanges}
  * on the same side and checkmate the promoted emperor.
  * @author Alonso del Arte
  */
-abstract class Emperor extends Piece {
+abstract class Emperor extends King {
   override val possibleMoves: Set[RelativePositionRange] =
     Set(ShortMoveRanges.moveForward, ShortMoveRanges.moveRight,
       ShortMoveRanges.moveBack, ShortMoveRanges.moveLeft,
