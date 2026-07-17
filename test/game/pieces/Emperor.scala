@@ -1,6 +1,6 @@
 package game.pieces
 
-import game.RelativePositionRange
+import game.{RelativePositionRange, ShortMoveRanges}
 
 /**
  * The emperor is a chess piece to be used strictly for testing purposes only.
@@ -12,8 +12,11 @@ import game.RelativePositionRange
  * @author Alonso del Arte
  */
 abstract class Emperor extends Piece {
-  // TODO: Write tests for this
-  override val possibleMoves: Set[RelativePositionRange] = Set()
+  override val possibleMoves: Set[RelativePositionRange] =
+    Set(ShortMoveRanges.moveForward, ShortMoveRanges.moveRight,
+      ShortMoveRanges.moveBack, ShortMoveRanges.moveLeft,
+      ShortMoveRanges.moveNortheast, ShortMoveRanges.moveNorthwest,
+      ShortMoveRanges.moveSouthwest, ShortMoveRanges.moveSoutheast)
   // TODO: Write tests for this
   override val canJumpOver: Boolean = true
   // TODO: Write tests for this
