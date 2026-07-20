@@ -1,6 +1,7 @@
 package game.pieces
 
-import game.{DarkGray, LightGray, RelativePositionRange, ShortMoveRanges}
+import game.{DarkGray, LightGray, ShortMoveRanges}
+
 import org.junit.jupiter.api.Assertions._
 import org.junit.jupiter.api.Test
 
