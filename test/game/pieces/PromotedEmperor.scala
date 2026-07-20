@@ -4,8 +4,7 @@ import game.{Player, RelativePositionRange, ShortMoveRanges}
 
 class PromotedEmperor(val pawn: Pawn) extends King with Promoted {
   override val affiliation: Player = this.pawn.affiliation
-  // TODO: Write tests for this
-  override val canJumpOver: Boolean = true
+  override val canJumpOver: Boolean = false
   // TODO: Write tests for this
   override val captureSameAsMove: Boolean = false
   // TODO: Write tests for this
