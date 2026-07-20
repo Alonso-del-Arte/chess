@@ -1,11 +1,14 @@
 package game.pieces
 
-import game.{Player, RelativePositionRange}
+import game.{Player, RelativePositionRange, ShortMoveRanges}
 
 class PromotedEmperor(val pawn: Pawn) extends King with Promoted {
   override val affiliation: Player = this.pawn.affiliation
-  // TODO: Write tests for this
-  override val possibleMoves: Set[RelativePositionRange] = Set()
+  override val possibleMoves: Set[RelativePositionRange] =
+    Set(ShortMoveRanges.moveForward, ShortMoveRanges.moveRight,
+      ShortMoveRanges.moveBack, ShortMoveRanges.moveLeft,
+      ShortMoveRanges.moveNortheast, ShortMoveRanges.moveNorthwest,
+      ShortMoveRanges.moveSouthwest, ShortMoveRanges.moveSoutheast)
   // TODO: Write tests for this
   override val canJumpOver: Boolean = true
   // TODO: Write tests for this
