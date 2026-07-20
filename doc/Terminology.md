@@ -311,7 +311,8 @@ bad enough to be considered mistakes or blunders.
 * **Intermediate move** &mdash; Synonym for Zwischenzug.
 * **Intermezzo** &mdash; Synonym for Zwischenzug.
 * **International Chess Day** &mdash; The day July 20, recognized by the United 
-Nations with a 2019 resolution. FIDE was founded in Paris on July 20, 1924.
+Nations with a 2019 resolution. The F&eacute;d&eacute;ration Internationale des 
+&Eacute;checs (FIDE) was founded in Paris on July 20, 1924.
 * **International master** &mdash; An official title awarded by FIDE to very 
 good players who don't meet the requirements for grandmaster.
 
