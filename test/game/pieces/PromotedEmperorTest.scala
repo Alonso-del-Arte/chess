@@ -45,4 +45,15 @@ class PromotedEmperorTest {
     assert(emperor.captureSameAsMove, "An emperor captures same as he moves")
   }
 
+  @Test def testPossibleCaptures(): Unit = {
+    println("possibleCaptures")
+    val pawn = PieceChooser.choosePawn
+    val emperor = new PromotedEmperor(pawn)
+    val expected = emperor.possibleMoves
+    val actual = emperor.possibleCaptures
+    assertEquals(expected, actual)
+  }
+
+  // TODO: Test hasSpecialMoves
+
 }
