@@ -61,4 +61,12 @@ class PromotedEmperorTest {
     assert(emperor.hasSpecialMoves, "Emperor has special move of castling")
   }
 
+  @Test def testPrior(): Unit = {
+    println("prior")
+    val expected = PieceChooser.choosePawn
+    val emperor = new PromotedEmperor(expected)
+    val actual = emperor.prior
+    assertEquals(expected, actual)
+  }
+
 }
