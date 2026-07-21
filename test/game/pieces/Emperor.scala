@@ -12,11 +12,6 @@ import game.{RelativePositionRange, ShortMoveRanges}
  * @author Alonso del Arte
  */
 abstract class Emperor extends King {
-  override val possibleMoves: Set[RelativePositionRange] =
-    Set(ShortMoveRanges.moveForward, ShortMoveRanges.moveRight,
-      ShortMoveRanges.moveBack, ShortMoveRanges.moveLeft,
-      ShortMoveRanges.moveNortheast, ShortMoveRanges.moveNorthwest,
-      ShortMoveRanges.moveSouthwest, ShortMoveRanges.moveSoutheast)
   override val canJumpOver: Boolean = false
   // TODO: Write tests for this
   override val captureSameAsMove: Boolean = false
