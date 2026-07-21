@@ -17,8 +17,7 @@ abstract class Emperor extends King {
       ShortMoveRanges.moveBack, ShortMoveRanges.moveLeft,
       ShortMoveRanges.moveNortheast, ShortMoveRanges.moveNorthwest,
       ShortMoveRanges.moveSouthwest, ShortMoveRanges.moveSoutheast)
-  // TODO: Write tests for this
-  override val canJumpOver: Boolean = true
+  override val canJumpOver: Boolean = false
   // TODO: Write tests for this
   override val captureSameAsMove: Boolean = false
   // TODO: Write tests for this
