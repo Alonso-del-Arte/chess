@@ -13,8 +13,7 @@ import game.{RelativePositionRange, ShortMoveRanges}
  */
 abstract class Emperor extends King {
   override val canJumpOver: Boolean = false
-  // TODO: Write tests for this
-  override val captureSameAsMove: Boolean = false
+  override val captureSameAsMove: Boolean = true
   // TODO: Write tests for this
   override val possibleCaptures: Set[RelativePositionRange] = Set()
   // TODO: Write tests for this
