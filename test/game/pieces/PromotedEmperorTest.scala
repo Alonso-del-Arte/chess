@@ -58,7 +58,7 @@ class PromotedEmperorTest {
     println("hasSpecialMoves")
     val pawn = PieceChooser.choosePawn
     val emperor = new PromotedEmperor(pawn)
-    assert(emperor.hasSpecialMoves, "Emperor has special move of castling")
+    assert(!emperor.hasSpecialMoves, "Promoted emperor may not castle")
   }
 
   @Test def testPrior(): Unit = {
