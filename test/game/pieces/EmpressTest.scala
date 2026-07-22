@@ -7,6 +7,14 @@ import org.junit.jupiter.api.Test
 
 class EmpressTest {
 
+  @Test def testPossibleMoves(): Unit = {
+    println("possibleMoves")
+    val empress = new EmpressImpl
+    val expected = Bishop.moves ++ Rook.moves
+    val actual = empress.possibleMoves
+    assertEquals(expected, actual)
+  }
+
   @Test def testCanJumpOver(): Unit = {
     println("canJumpOver")
     val empress = new EmpressImpl
