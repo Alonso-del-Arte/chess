@@ -12,7 +12,7 @@ import game.RelativePositionRange
  * it is in regular chess.
  * @author Alonso del Arte
  */
-abstract class Empress extends Piece {
+abstract class Empress extends Queen {
   // TODO: Write tests for this
   override val possibleMoves: Set[RelativePositionRange] = Rook.moves
   // TODO: Write tests for this
