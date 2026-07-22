@@ -12,7 +12,6 @@ import game.{RelativePositionRange, ShortMoveRanges}
  * @author Alonso del Arte
  */
 abstract class Emperor extends King {
-  // TODO: Write tests for this
-  override val hasSpecialMoves: Boolean = false
+  override val hasSpecialMoves: Boolean = true
 
 }
