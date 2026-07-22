@@ -9,25 +9,8 @@ class QueenTest {
 
   @Test def testPossibleMoves(): Unit = {
     println("possibleMoves")
-    val forwards = new RelativePositionRange(new RelativePosition(0, 1),
-      new RelativePosition(0, 7))
-    val right = new RelativePositionRange(new RelativePosition(1, 0),
-      new RelativePosition(7, 0))
-    val backwards = new RelativePositionRange(new RelativePosition(0, -1),
-      new RelativePosition(0, -7))
-    val left = new RelativePositionRange(new RelativePosition(-1, 0),
-      new RelativePosition(-7, 0))
-    val toNortheast = new RelativePositionRange(new RelativePosition(1, -1),
-      new RelativePosition(7, -7))
-    val toNorthwest = new RelativePositionRange(new RelativePosition(1, 1),
-      new RelativePosition(7, 7))
-    val toSouthwest = new RelativePositionRange(new RelativePosition(-1, 1),
-      new RelativePosition(-7, 7))
-    val toSoutheast = new RelativePositionRange(new RelativePosition(-1, -1),
-      new RelativePosition(-7, -7))
     val queen = new QueenImpl
-    val expected = Set(forwards, right, backwards, left, toNorthwest,
-      toNortheast, toSouthwest, toSoutheast)
+    val expected = Bishop.moves ++ Rook.moves
     val actual = queen.possibleMoves
     assertEquals(expected, actual)
   }
