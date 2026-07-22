@@ -437,7 +437,7 @@ is somewhat asymmetrical:
 
 FEN: 3qkbnr/3ppppp/8/8/8/8/PPPPP3/RNBQK3 w Qk - 0 1
 
-And so one side may only castle queenside and the other only kingside. However,
+And so, one side may only castle queenside and the other only kingside. However,
 if there are no pieces between the emperor and the tower, castling is allowed
 even if the emperor is in check and even if he must pass through a threatened
 square, provided he ends up on a relatively safe square.
@@ -446,8 +446,10 @@ Furthermore, castling is also allowed if the emperor has moved from his original
 square but has since returned. The tower must not have moved prior to castling,
 however.
 
-Pawns may promote to emperors but they may not stay pawns upon reaching the
-opponent's home row.
+Pawns may promote to emperors, but they may not stay pawns upon reaching the
+opponent's home row. A promoted emperor may not castle even if he goes to the 
+square occupied by the original emperor, though that would probably be quite a 
+feat.
 
 An emperor of one side may be captured, and the game continues if that side has
 other emperors, or any empresses.
