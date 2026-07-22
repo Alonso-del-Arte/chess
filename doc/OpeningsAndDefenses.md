@@ -5231,6 +5231,9 @@ for your king, or else risk an embarrassingly early checkmate. Like this:
 
 ![Barnes embarrassment](../diagrams/openings/BarnesEmbarrassment.png)
 
+In three-check chess, if your opponent plays either 1. ... e6 or 1. ... e5, you 
+will want to play 2. g3 in order to discourage 2. ... Qh4.
+
 Even if you successfully fend off that second move check, you still need to open 
 an avenue of escape for your king, since your opponent might find a different 
 way to exploit the situation.
