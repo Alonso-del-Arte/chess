@@ -1,7 +1,6 @@
 package game.pieces
 
-import game.{Black, Neutral, Player, RelativePositionRange, ShortMoveRanges,
-  White}
+import game.{Neutral, Player, ShortMoveRanges}
 
 import org.junit.jupiter.api.Assertions._
 import org.junit.jupiter.api.Test
