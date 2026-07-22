@@ -32,6 +32,14 @@ class EmperorTest {
     assert(emperor.captureSameAsMove, "An emperor captures same as moves")
   }
 
+  @Test def testPossibleCaptures(): Unit = {
+    println("possibleCaptures")
+    val emperor = new EmperorImpl
+    val expected = emperor.possibleMoves
+    val actual = emperor.possibleCaptures
+    assertEquals(expected, actual)
+  }
+
   private class EmperorImpl extends Emperor {
     override val affiliation: Player = Neutral
 
