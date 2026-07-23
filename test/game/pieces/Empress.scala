@@ -13,8 +13,6 @@ import game.RelativePositionRange
  * @author Alonso del Arte
  */
 abstract class Empress extends Queen {
-  override val possibleCaptures: Set[RelativePositionRange] =
-    Bishop.moves ++ Rook.moves
   // TODO: Write tests for this
   override val hasSpecialMoves: Boolean = true
 
