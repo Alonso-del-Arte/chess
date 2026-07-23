@@ -28,6 +28,14 @@ class EmpressTest {
     assert(empress.captureSameAsMove, "An empress captures same as moves")
   }
 
+  @Test def testPossibleCaptures(): Unit = {
+    println("possibleCaptures")
+    val empress = new EmpressImpl
+    val expected = empress.possibleMoves
+    val actual = empress.possibleCaptures
+    assertEquals(expected, actual)
+  }
+
   private class EmpressImpl extends Empress {
     override val affiliation: Player = Neutral
 
