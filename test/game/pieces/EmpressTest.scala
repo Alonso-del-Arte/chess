@@ -36,6 +36,12 @@ class EmpressTest {
     assertEquals(expected, actual)
   }
 
+  @Test def testHasSpecialMoves(): Unit = {
+    println("hasSpecialMoves")
+    val empress = new EmpressImpl
+    assert(!empress.hasSpecialMoves, "Empress doesn't have special moves")
+  }
+
   private class EmpressImpl extends Empress {
     override val affiliation: Player = Neutral
 
