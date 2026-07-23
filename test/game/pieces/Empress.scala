@@ -13,7 +13,6 @@ import game.RelativePositionRange
  * @author Alonso del Arte
  */
 abstract class Empress extends Queen {
-  // TODO: Write tests for this
-  override val hasSpecialMoves: Boolean = true
+  override val hasSpecialMoves: Boolean = false
 
 }
