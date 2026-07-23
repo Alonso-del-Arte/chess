@@ -13,8 +13,7 @@ import game.RelativePositionRange
  * @author Alonso del Arte
  */
 abstract class Empress extends Queen {
-  // TODO: Write tests for this
-  override val captureSameAsMove: Boolean = false
+  override val captureSameAsMove: Boolean = true
   // TODO: Write tests for this
   override val possibleCaptures: Set[RelativePositionRange] =
     Set(Rook.moveForward)
