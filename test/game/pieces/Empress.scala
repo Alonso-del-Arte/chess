@@ -1,7 +1,5 @@
 package game.pieces
 
-import game.RelativePositionRange
-
 /**
  * The empress is a chess piece to be used strictly for testing purposes only.
  * The empress has the same moves as the queen, but the empress assumes the
@@ -12,7 +10,4 @@ import game.RelativePositionRange
  * it is in regular chess.
  * @author Alonso del Arte
  */
-abstract class Empress extends Queen {
-  override val hasSpecialMoves: Boolean = false
-
-}
+abstract class Empress extends Queen
