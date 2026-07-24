@@ -24,4 +24,11 @@ class PromotedEmpressTest {
     assertEquals(expected, actual)
   }
 
+  @Test def testCanJumpOver(): Unit = {
+    println("canJumpOver")
+    val pawn = PieceChooser.choosePawn
+    val empress = new PromotedEmpress(pawn)
+    assert(!empress.canJumpOver, "Empress shouldn't be able to jump over")
+  }
+
 }
