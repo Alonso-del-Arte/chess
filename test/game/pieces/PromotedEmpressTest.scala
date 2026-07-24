@@ -39,4 +39,13 @@ class PromotedEmpressTest {
       "Empress should capture same as she moves")
   }
 
+  @Test def testPossibleCaptures(): Unit = {
+    println("possibleCaptures")
+    val pawn = PieceChooser.choosePawn
+    val empress = new PromotedEmpress(pawn)
+    val expected = empress.possibleMoves
+    val actual = empress.possibleCaptures
+    assertEquals(expected, actual)
+  }
+
 }
