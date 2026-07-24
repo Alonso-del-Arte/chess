@@ -31,4 +31,12 @@ class PromotedEmpressTest {
     assert(!empress.canJumpOver, "Empress shouldn't be able to jump over")
   }
 
+  @Test def testCaptureSameAsMove(): Unit = {
+    println("captureSameAsMove")
+    val pawn = PieceChooser.choosePawn
+    val empress = new PromotedEmpress(pawn)
+    assert(empress.captureSameAsMove,
+      "Empress should capture same as she moves")
+  }
+
 }
