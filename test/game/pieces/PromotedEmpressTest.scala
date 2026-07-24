@@ -15,4 +15,13 @@ class PromotedEmpressTest {
     assertEquals(expected, actual, message)
   }
 
+  @Test def testPossibleMoves(): Unit = {
+    println("possibleMoves")
+    val pawn = PieceChooser.choosePawn
+    val empress = new PromotedEmpress(pawn)
+    val expected = Bishop.moves ++ Rook.moves
+    val actual = empress.possibleMoves
+    assertEquals(expected, actual)
+  }
+
 }
