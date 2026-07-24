@@ -1,11 +1,9 @@
 package game.pieces
 
-import game.{Player, RelativePositionRange}
+import game.Player
 
 class PromotedEmpress(val pawn: Pawn) extends Empress with Promoted {
   override val affiliation: Player = pawn.affiliation
-  override val possibleCaptures: Set[RelativePositionRange] =
-    Bishop.moves ++ Rook.moves
   // TODO: Write tests for this
   override val hasSpecialMoves: Boolean = true
 
