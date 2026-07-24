@@ -4,9 +4,8 @@ import game.{Player, RelativePositionRange}
 
 class PromotedEmpress(val pawn: Pawn) extends Empress with Promoted {
   override val affiliation: Player = pawn.affiliation
-  // TODO: Write tests for this
   override val possibleCaptures: Set[RelativePositionRange] =
-    Set(Rook.moveForward)
+    Bishop.moves ++ Rook.moves
   // TODO: Write tests for this
   override val hasSpecialMoves: Boolean = true
 
