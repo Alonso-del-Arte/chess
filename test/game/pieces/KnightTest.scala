@@ -1,11 +1,31 @@
 package game.pieces
 
-import game.{Neutral, Player}
+import game.{Neutral, Player, RegularPosition, RelativePosition}
+
+object KnightTest {
+
+  val centerSquares: Set[RegularPosition] =
+    Set(RegularPosition("d4"), RegularPosition("e4"), RegularPosition("d5"),
+      RegularPosition("e5"))
+
+}
 
 import org.junit.jupiter.api.Assertions._
 import org.junit.jupiter.api.Test
 
 class KnightTest {
+
+  @Test def testMoveOneOClock(): Unit = {
+    val offset = new RelativePosition(1, 2)
+    for (start <- KnightTest.centerSquares) {
+      val expected = start.translate(offset)
+      val actualA = start.translate(Knight.moveOneOClock.start)
+      val actualB = start.translate(Knight.moveOneOClock.finish)
+      val message = s"Knight on $start to 1 o'clock should end up on $expected"
+      assertEquals(expected, actualA, message)
+      assertEquals(expected, actualB, message)
+    }
+  }
 
   @Test def testCanJumpOver(): Unit = {
     println("canJumpOver")
