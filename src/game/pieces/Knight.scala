@@ -36,8 +36,9 @@ object Knight {
     new RelativePositionRange(new RelativePosition(-1, 2),
       new RelativePosition(-1, 2))
 
-  // TODO: Write a test for this
-  val moves: Set[RelativePositionRange] = Set(moveTenOClock)
+  val moves: Set[RelativePositionRange] = Set(moveOneOClock, moveTwoOClock,
+    moveFourOClock, moveFiveOClock, moveSevenOClock, moveEightOClock,
+    moveTenOClock, moveElevenOClock)
 
 }
 
