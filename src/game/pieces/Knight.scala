@@ -20,27 +20,27 @@ object Knight {
 
   // TODO: Write a test for this
   val moveFiveOClock: RelativePositionRange =
-    new RelativePositionRange(new RelativePosition(1, 5),
+    new RelativePositionRange(new RelativePosition(4, 1),
       new RelativePosition(5, 5))
 
   // TODO: Write a test for this
   val moveSevenOClock: RelativePositionRange =
-    new RelativePositionRange(new RelativePosition(1, 7),
+    new RelativePositionRange(new RelativePosition(3, 1),
       new RelativePosition(5, 5))
 
   // TODO: Write a test for this
   val moveEightOClock: RelativePositionRange =
-    new RelativePositionRange(new RelativePosition(1, 8),
+    new RelativePositionRange(new RelativePosition(2, 1),
       new RelativePosition(5, 5))
 
   // TODO: Write a test for this
   val moveTenOClock: RelativePositionRange =
-    new RelativePositionRange(new RelativePosition(1, 10),
+    new RelativePositionRange(new RelativePosition(1, 1),
       new RelativePosition(5, 5))
 
   // TODO: Write a test for this
   val moveElevenOClock: RelativePositionRange =
-    new RelativePositionRange(new RelativePosition(1, 11),
+    new RelativePositionRange(new RelativePosition(1, 0),
       new RelativePosition(5, 5))
 
   // TODO: Write a test for this
