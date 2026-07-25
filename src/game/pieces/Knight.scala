@@ -4,10 +4,9 @@ import game.{RelativePosition, RelativePositionRange}
 
 object Knight {
 
-  // TODO: Write a test for this
   val moveOneOClock: RelativePositionRange =
-    new RelativePositionRange(new RelativePosition(1, 1),
-      new RelativePosition(5, 5))
+    new RelativePositionRange(new RelativePosition(1, 2),
+      new RelativePosition(1, 2))
 
   // TODO: Write a test for this
   val moveTwoOClock: RelativePositionRange =
