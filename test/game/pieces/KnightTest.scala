@@ -111,6 +111,15 @@ class KnightTest {
     }
   }
 
+  @Test def testMoves(): Unit = {
+    println("moves")
+    val expected = Set(Knight.moveOneOClock, Knight.moveTwoOClock,
+      Knight.moveFourOClock, Knight.moveFiveOClock, Knight.moveSevenOClock,
+      Knight.moveEightOClock, Knight.moveTenOClock, Knight.moveElevenOClock)
+    val actual = Knight.moves
+    assertEquals(expected, actual)
+  }
+
   @Test def testCanJumpOver(): Unit = {
     println("canJumpOver")
     val knight = new KnightImpl
