@@ -28,10 +28,9 @@ object Knight {
     new RelativePositionRange(new RelativePosition(-2, -1),
       new RelativePosition(-2, -1))
 
-  // TODO: Write a test for this
   val moveTenOClock: RelativePositionRange =
-    new RelativePositionRange(new RelativePosition(1, 1),
-      new RelativePosition(5, 5))
+    new RelativePositionRange(new RelativePosition(-2, 1),
+      new RelativePosition(-2, 1))
 
   // TODO: Write a test for this
   val moveElevenOClock: RelativePositionRange =
