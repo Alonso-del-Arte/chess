@@ -51,6 +51,18 @@ class KnightTest {
     }
   }
 
+  @Test def testMoveFiveOClock(): Unit = {
+    val offset = new RelativePosition(1, -2)
+    for (start <- KnightTest.centerSquares) {
+      val expected = start.translate(offset)
+      val actualA = start.translate(Knight.moveFiveOClock.start)
+      val actualB = start.translate(Knight.moveFiveOClock.finish)
+      val message = s"Knight on $start to 5 o'clock should end up on $expected"
+      assertEquals(expected, actualA, message)
+      assertEquals(expected, actualB, message)
+    }
+  }
+
   @Test def testCanJumpOver(): Unit = {
     println("canJumpOver")
     val knight = new KnightImpl
