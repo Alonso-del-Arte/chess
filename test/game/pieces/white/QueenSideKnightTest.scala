@@ -22,4 +22,9 @@ class QueenSideKnightTest {
     assertEquals(expected, actual)
   }
 
+  @Test def testCanJumpOver(): Unit = {
+    println("canJumpOver")
+    assert(QueenSideKnight.canJumpOver, "Knight should be able to jump over")
+  }
+
 }
