@@ -141,6 +141,14 @@ class KnightTest {
     assert(knight.captureSameAsMove, "A knight captures same as moves")
   }
 
+  @Test def testPossibleCaptures(): Unit = {
+    println("possibleCaptures")
+    val knight = new KnightImpl
+    val expected = knight.possibleMoves
+    val actual = knight.possibleCaptures
+    assertEquals(expected, actual)
+  }
+
   @Test def testHasSpecialMoves(): Unit = {
     println("hasSpecialMoves")
     val knight = new KnightImpl
