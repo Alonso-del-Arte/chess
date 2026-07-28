@@ -43,8 +43,7 @@ object Knight {
 }
 
 abstract class Knight extends Piece {
-  // TODO: Write tests for this
-  override val possibleMoves: Set[RelativePositionRange] = Bishop.moves
+  override val possibleMoves: Set[RelativePositionRange] = Knight.moves
   override val canJumpOver: Boolean = true
   // TODO: Write tests for this
   override val captureSameAsMove: Boolean = false
