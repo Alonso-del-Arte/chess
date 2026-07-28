@@ -45,7 +45,6 @@ object Knight {
 abstract class Knight extends Piece {
   override val possibleMoves: Set[RelativePositionRange] = Knight.moves
   override val canJumpOver: Boolean = true
-  // TODO: Write tests for this
-  override val hasSpecialMoves: Boolean = true
+  override val hasSpecialMoves: Boolean = false
 
 }
