@@ -1,9 +1,11 @@
 package game.pieces.lightgray
 
-import game.RelativePositionRange
+import game.{Neutral, Player, RelativePositionRange}
 import game.pieces.{Bishop, Rook}
 
 object Horse extends game.pieces.Horse with LightGrayPiece {
+  // TODO: Write a test for this
+  override val affiliation: Player = Neutral
   // TODO: Write tests for this
   override val possibleMoves: Set[RelativePositionRange] = Bishop.moves
   // TODO: Write tests for this
