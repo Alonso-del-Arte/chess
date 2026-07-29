@@ -1,9 +1,5 @@
 package game.pieces.white
 
-import game.RelativePositionRange
-import game.pieces.{Knight, Rook}
+import game.pieces.Knight
 
-object QueenSideKnight extends Knight with WhitePiece {
-  override val hasSpecialMoves: Boolean = false
-
-}
+object QueenSideKnight extends Knight with WhitePiece
