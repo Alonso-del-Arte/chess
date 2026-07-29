@@ -1,6 +1,6 @@
 package game.pieces.white
 
-import game.{RegularPosition, RelativePosition, White}
+import game.White
 import game.pieces.Knight
 
 import org.junit.jupiter.api.Assertions._
