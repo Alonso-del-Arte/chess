@@ -32,4 +32,11 @@ class KingSideKnightTest {
     assert(KingSideKnight.captureSameAsMove, "Knight captures same as move")
   }
 
+  @Test def testPossibleCaptures(): Unit = {
+    println("possibleCaptures")
+    val expected = KingSideKnight.possibleMoves
+    val actual = KingSideKnight.possibleCaptures
+    assertEquals(expected, actual)
+  }
+
 }
