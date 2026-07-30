@@ -8,4 +8,11 @@ import org.junit.jupiter.api.Test
 
 class QueenSideKnightTest {
 
+  @Test def testAffiliation(): Unit = {
+    println("affiliation")
+    val expected = Black
+    val actual = QueenSideKnight.affiliation
+    assertEquals(expected, actual)
+  }
+
 }
