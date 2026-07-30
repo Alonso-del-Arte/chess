@@ -1709,6 +1709,12 @@ depth on this gambit.
 3. Nf3 Bb4+ 
 4. Bd2 c5
 
+##### Catalan opening
+
+1. d4 Nf6 
+2. c4 e6 
+3. g3
+
 ##### Gr&uuml;nfeld defense
 
 1. d4 Nf6 
