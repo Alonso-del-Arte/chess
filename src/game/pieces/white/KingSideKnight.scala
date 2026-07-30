@@ -1,6 +1,5 @@
 package game.pieces.white
 
-import game.RelativePositionRange
 import game.pieces.Knight
 
 object KingSideKnight extends Knight with WhitePiece {
