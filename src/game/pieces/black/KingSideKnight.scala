@@ -1,11 +1,10 @@
 package game.pieces.black
 
-import game.{Neutral, Player, RelativePositionRange}
+import game.{Black, Player, RelativePositionRange}
 import game.pieces.{Bishop, Knight, Rook}
 
 object KingSideKnight extends Knight with BlackPiece {
-  // TODO: Write a test for this
-  override val affiliation: Player = Neutral
+  override val affiliation: Player = Black
   // TODO: Write tests for this
   override val possibleMoves: Set[RelativePositionRange] = Bishop.moves
   // TODO: Write tests for this
