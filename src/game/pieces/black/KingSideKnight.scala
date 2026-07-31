@@ -4,8 +4,7 @@ import game.RelativePositionRange
 import game.pieces.{Knight, Rook}
 
 object KingSideKnight extends Knight with BlackPiece {
-  // TODO: Write tests for this
-  override val canJumpOver: Boolean = false
+  override val canJumpOver: Boolean = true
   // TODO: Write tests for this
   override val captureSameAsMove: Boolean = false
   // TODO: Write tests for this
