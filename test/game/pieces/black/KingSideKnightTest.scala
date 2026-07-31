@@ -15,4 +15,11 @@ class KingSideKnightTest {
     assertEquals(expected, actual)
   }
 
+  @Test def testPossibleMoves(): Unit = {
+    println("possibleMoves")
+    val expected = Knight.moves
+    val actual = KingSideKnight.possibleMoves
+    assertEquals(expected, actual)
+  }
+
 }
