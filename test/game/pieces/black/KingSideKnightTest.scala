@@ -27,4 +27,9 @@ class KingSideKnightTest {
     assert(KingSideKnight.canJumpOver, "Knight should be able to jump over")
   }
 
+  @Test def testCaptureSameAsMove(): Unit = {
+    println("captureSameAsMove")
+    assert(KingSideKnight.captureSameAsMove, "Knight captures same as move")
+  }
+
 }
