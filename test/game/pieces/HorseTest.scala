@@ -1,11 +1,19 @@
 package game.pieces
 
-import game.{Black, Neutral, Player, RelativePositionRange, White}
+import game.{Neutral, Player}
 
 import org.junit.jupiter.api.Assertions._
 import org.junit.jupiter.api.Test
 
 class HorseTest {
+
+  @Test def testPossibleMoves(): Unit = {
+    println("possibleMoves")
+    val horse = new HorseImpl
+    val expected = Knight.moves
+    val actual = horse.possibleMoves
+    assertEquals(expected, actual)
+  }
 
   @Test def testCanJumpOver(): Unit = {
     println("canJumpOver")
