@@ -9,8 +9,7 @@ import game.RelativePositionRange
  */
 abstract class Horse extends Piece {
   override val possibleMoves: Set[RelativePositionRange] = Knight.moves
-  // TODO: Write tests for this
-  override val canJumpOver: Boolean = false
+  override val canJumpOver: Boolean = true
   // TODO: Write tests for this
   override val captureSameAsMove: Boolean = false
   // TODO: Write tests for this
