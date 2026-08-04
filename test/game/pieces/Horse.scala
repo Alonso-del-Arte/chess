@@ -11,8 +11,7 @@ abstract class Horse extends Piece {
   override val possibleMoves: Set[RelativePositionRange] = Knight.moves
   override val canJumpOver: Boolean = true
   override val captureSameAsMove: Boolean = true
-  // TODO: Write tests for this
-  override val possibleCaptures: Set[RelativePositionRange] = Rook.moves
+  override val possibleCaptures: Set[RelativePositionRange] = Knight.moves
   // TODO: Write tests for this
   override val hasSpecialMoves: Boolean = true
 
