@@ -35,6 +35,12 @@ class HorseTest {
     assertEquals(expected, actual)
   }
 
+  @Test def testHasSpecialMoves(): Unit = {
+    println("hasSpecialMoves")
+    val horse = new HorseImpl
+        assert(!horse.hasSpecialMoves, "A horse doesn't have special moves")
+  }
+
   private class HorseImpl extends Horse {
     override val affiliation: Player = Neutral
 
