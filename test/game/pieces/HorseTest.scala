@@ -27,6 +27,14 @@ class HorseTest {
     assert(horse.captureSameAsMove, "A horse captures same as moves")
   }
 
+  @Test def testPossibleCaptures(): Unit = {
+    println("possibleCaptures")
+    val horse = new HorseImpl
+    val expected = horse.possibleMoves
+    val actual = horse.possibleCaptures
+    assertEquals(expected, actual)
+  }
+
   private class HorseImpl extends Horse {
     override val affiliation: Player = Neutral
 
