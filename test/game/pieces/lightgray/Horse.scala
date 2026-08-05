@@ -1,12 +1,11 @@
 package game.pieces.lightgray
 
 import game.{LightGray, Player, RelativePositionRange}
-import game.pieces.{Bishop, Rook}
+import game.pieces.{Bishop, Knight}
 
 object Horse extends game.pieces.Horse with LightGrayPiece {
   override val affiliation: Player = LightGray
-  // TODO: Write tests for this
-  override val possibleMoves: Set[RelativePositionRange] = Rook.moves
+  override val possibleMoves: Set[RelativePositionRange] = Knight.moves
   // TODO: Write tests for this
   override val canJumpOver: Boolean = false
   // TODO: Write tests for this
