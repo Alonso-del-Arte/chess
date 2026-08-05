@@ -32,4 +32,11 @@ class HorseTest {
     assert(Horse.captureSameAsMove, "Horse captures same as moves")
   }
 
+  @Test def testPossibleCaptures(): Unit = {
+    println("possibleCaptures")
+    val expected = Horse.possibleMoves
+    val actual = Horse.possibleCaptures
+    assertEquals(expected, actual)
+  }
+
 }
