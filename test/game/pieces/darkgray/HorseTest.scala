@@ -1,6 +1,6 @@
 package game.pieces.darkgray
 
-import game.{DarkGray, RegularPosition, RelativePosition}
+import game.DarkGray
 import game.pieces.Knight
 
 import org.junit.jupiter.api.Assertions._
