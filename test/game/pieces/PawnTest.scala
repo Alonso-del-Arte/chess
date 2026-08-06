@@ -23,6 +23,8 @@ class PawnTest {
     override val affiliation: Player = Neutral
     override val possibleMoves: Set[RelativePositionRange] =
       Set(RelativePositionRange(new RelativePosition(0, 1)))
+    override val possibleCaptures: Set[RelativePositionRange] =
+      Set(RelativePositionRange(new RelativePosition(1, 0)))
   }
 
 }
