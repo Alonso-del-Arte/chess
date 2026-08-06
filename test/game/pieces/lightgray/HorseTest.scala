@@ -39,4 +39,9 @@ class HorseTest {
     assertEquals(expected, actual)
   }
 
+  @Test def testHasSpecialMoves(): Unit = {
+    println("hasSpecialMoves")
+    assert(!Horse.hasSpecialMoves, "Horse shouldn't have special moves")
+  }
+
 }
