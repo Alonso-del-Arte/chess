@@ -19,6 +19,12 @@ class PawnTest {
     assert(!pawn.captureSameAsMove, msg)
   }
 
+  @Test def testHasSpecialMoves(): Unit = {
+    println("hasSpecialMoves")
+    val pawn = new PawnImpl
+    assert(pawn.hasSpecialMoves, "Pawn should have special move en passant")
+  }
+
   private[pieces] class PawnImpl extends Pawn {
     override val affiliation: Player = Neutral
     override val possibleMoves: Set[RelativePositionRange] =
