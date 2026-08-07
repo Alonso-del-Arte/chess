@@ -5,4 +5,8 @@ package game.pieces.white
  * confused with [[game.pieces.PromotedQueen]], a pawn that is promoted to a
  * queen.
  */
-object QueenPawn extends WhitePawn
+object QueenPawn extends WhitePawn {
+  // TODO: Write a test for this
+  override val hasSpecialMoves: Boolean = false
+
+}

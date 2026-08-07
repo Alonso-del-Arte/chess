@@ -1,3 +1,7 @@
 package game.pieces.black
 
-object KingSideKnightPawn extends BlackPawn with BlackPiece
+object KingSideKnightPawn extends BlackPawn with BlackPiece {
+  // TODO: Write a test for this
+  override val hasSpecialMoves: Boolean = false
+
+}
