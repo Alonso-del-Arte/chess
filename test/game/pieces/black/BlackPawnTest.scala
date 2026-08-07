@@ -42,6 +42,12 @@ class BlackPawnTest {
     assertEquals(expected, actual)
   }
 
+  @Test def testHasSpecialMoves(): Unit = {
+    println("hasSpecialMoves")
+    val msg = "Pawn should have special moves"
+    assert(BlackPawnImpl.hasSpecialMoves, msg)
+  }
+
   private object BlackPawnImpl extends BlackPawn
 
 }
