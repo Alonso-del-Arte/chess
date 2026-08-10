@@ -1,6 +1,6 @@
 package game.pieces.white
 
-import game.{Player, RelativePosition, RelativePositionRange, White}
+import game.{RelativePosition, RelativePositionRange}
 import game.pieces.Pawn
 
 abstract class WhitePawn extends Pawn with WhitePiece {
