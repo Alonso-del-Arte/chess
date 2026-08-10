@@ -3,8 +3,7 @@ package game.pieces.white
 import game.{RelativePosition, RelativePositionRange}
 
 object KingSideKnightPawn extends WhitePawn {
-  // TODO: Write a test for this
-  override val canJumpOver: Boolean = true
+  override val canJumpOver: Boolean = false
   // TODO: Write a test for this
   override val captureSameAsMove: Boolean = true
   // TODO: Write a test for this
