@@ -1,6 +1,6 @@
 package game.pieces.white
 
-import game.{Neutral, Player, RelativePositionRange}
+import game.{Player, RelativePositionRange, White}
 
 /**
  * The pawn in front of the queen at the beginning of the game. Not to be
@@ -8,8 +8,7 @@ import game.{Neutral, Player, RelativePositionRange}
  * queen.
  */
 object QueenPawn extends WhitePawn {
-  // TODO: Write a test for this
-  override val affiliation: Player = Neutral
+  override val affiliation: Player = White
   // TODO: Write a test for this
   override val possibleMoves: Set[RelativePositionRange] =
     KingSideKnight.possibleMoves
