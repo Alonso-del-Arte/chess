@@ -1,6 +1,3 @@
 package game.pieces.white
 
-object KingSideRookPawn extends WhitePawn {
-  override val hasSpecialMoves: Boolean = true
-
-}
+object KingSideRookPawn extends WhitePawn
