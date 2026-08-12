@@ -8,9 +8,6 @@ import game.{RelativePosition, RelativePositionRange}
  * queen.
  */
 object QueenPawn extends WhitePawn {
-  override val possibleMoves: Set[RelativePositionRange] =
-    Set(new RelativePositionRange(new RelativePosition(0, 1),
-      new RelativePosition(0, 2)))
   override val canJumpOver: Boolean = false
   override val captureSameAsMove: Boolean = false
   override val possibleCaptures: Set[RelativePositionRange] =
