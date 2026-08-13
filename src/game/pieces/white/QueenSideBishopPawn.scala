@@ -1,12 +1,12 @@
 package game.pieces.white
 
-import game.{Player, RelativePositionRange, White}
+import game.{Player, RelativePosition, RelativePositionRange, White}
 
 object QueenSideBishopPawn extends WhitePawn {
   override val affiliation: Player = White
-  // TODO: Write a test for this
   override val possibleMoves: Set[RelativePositionRange] =
-    KingSideKnight.possibleMoves
+    Set(new RelativePositionRange(new RelativePosition(0, 1),
+      new RelativePosition(0, 2)))
   // TODO: Write a test for this
   override val canJumpOver: Boolean = true
   // TODO: Write a test for this
