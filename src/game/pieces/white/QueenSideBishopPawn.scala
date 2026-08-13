@@ -1,11 +1,8 @@
 package game.pieces.white
 
-import game.{Player, RelativePosition, RelativePositionRange, White}
+import game.{RelativePosition, RelativePositionRange}
 
 object QueenSideBishopPawn extends WhitePawn {
-  override val possibleMoves: Set[RelativePositionRange] =
-    Set(new RelativePositionRange(new RelativePosition(0, 1),
-      new RelativePosition(0, 2)))
   override val canJumpOver: Boolean = false
   override val captureSameAsMove: Boolean = false
   override val possibleCaptures: Set[RelativePositionRange] =
