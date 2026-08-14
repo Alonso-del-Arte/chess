@@ -9,9 +9,9 @@ object QueenSideKnightPawn extends WhitePawn {
     new RelativePosition(0, 2)))
   override val canJumpOver: Boolean = false
   override val captureSameAsMove: Boolean = false
-  // TODO: Write a test for this
-  override val possibleCaptures: Set[RelativePositionRange] =
-    KingSideKnight.possibleCaptures
+  override val possibleCaptures: Set[RelativePositionRange]
+  = Set(RelativePositionRange(new RelativePosition(-1, 1)),
+    RelativePositionRange(new RelativePosition(1, 1)))
   // TODO: Write a test for this
   override val hasSpecialMoves: Boolean = false
 
