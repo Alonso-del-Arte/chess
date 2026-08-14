@@ -3,7 +3,6 @@ package game.pieces.white
 import game.{Player, RelativePosition, RelativePositionRange, White}
 
 object QueenSideKnightPawn extends WhitePawn {
-  override val affiliation: Player = White
   override val possibleMoves: Set[RelativePositionRange]
   = Set(new RelativePositionRange(new RelativePosition(0, 1),
     new RelativePosition(0, 2)))
