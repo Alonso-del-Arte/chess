@@ -323,6 +323,12 @@ May continue
 1. Nc3 e5
 2. e4 Nc6
 
+###### Four knights game
+
+1. Nc3 e5
+2. e4 Nc6
+3. Nf3 Nf6
+
 ##### Vienna game, Zhuravlev gambit
 
 1. Nc3 e5 
