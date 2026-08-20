@@ -1,6 +1,7 @@
 package game.pieces.black
 
 import game.{Black, RelativePosition, RelativePositionRange}
+
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.Assertions._
 
@@ -40,6 +41,12 @@ class KingSideKnightPawnTest {
       RelativePositionRange(captureRight))
     val actual = KingSideKnightPawn.possibleCaptures
     assertEquals(expected, actual)
+  }
+
+  @Test def testHasSpecialMoves(): Unit = {
+    println("hasSpecialMoves")
+    val msg = "Pawn should have special moves"
+    assert(KingSideKnightPawn.hasSpecialMoves, msg)
   }
 
 }
