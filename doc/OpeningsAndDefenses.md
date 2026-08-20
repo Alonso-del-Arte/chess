@@ -318,6 +318,11 @@ May continue
 4. e4 Nc6
 5. Qe3
 
+##### Vienna game, Max Lange defense
+
+1. Nc3 e5
+2. e4 Nc6
+
 ##### Vienna game, Zhuravlev gambit
 
 1. Nc3 e5 
@@ -3058,6 +3063,11 @@ bishops out on the next move but getting the queens out is somewhat constrained.
 
 1. e4 e5
 2. Nc3 
+
+###### Vienna game, Max Lange defense
+
+1. e4 e5
+2. Nc3 Nc6
 
 ##### King's knight defense, knight variation
 
