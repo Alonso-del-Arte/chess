@@ -4,9 +4,9 @@ import game.{Black, Player, RelativePosition, RelativePositionRange}
 
 object KingSideKnightPawn extends BlackPawn with BlackPiece {
   override val affiliation: Player = Black
-  // TODO: Write a test for this
   override val possibleMoves: Set[RelativePositionRange] =
-    KingSideKnight.possibleMoves
+    Set(new RelativePositionRange(new RelativePosition(0, -1),
+      new RelativePosition(0, -2)))
   // TODO: Write a test for this
   override val canJumpOver: Boolean = true
   // TODO: Write a test for this
