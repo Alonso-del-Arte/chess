@@ -3,9 +3,6 @@ package game.pieces.black
 import game.{RelativePosition, RelativePositionRange}
 
 object KingSideKnightPawn extends BlackPawn with BlackPiece {
-  override val possibleMoves: Set[RelativePositionRange] =
-    Set(new RelativePositionRange(new RelativePosition(0, -1),
-      new RelativePosition(0, -2)))
   override val canJumpOver: Boolean = false
   override val captureSameAsMove: Boolean = false
   override val possibleCaptures: Set[RelativePositionRange] =
