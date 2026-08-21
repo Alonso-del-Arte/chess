@@ -1,6 +1,6 @@
 package game.pieces.black
 
-import game.{Black, Neutral, Player, RelativePosition, RelativePositionRange}
+import game.{Black, Player, RelativePosition, RelativePositionRange}
 
 /**
  * The pawn in front of the queen at the beginning of the game. Not to be
@@ -8,8 +8,7 @@ import game.{Black, Neutral, Player, RelativePosition, RelativePositionRange}
  * queen.
  */
 object QueenPawn extends BlackPawn with BlackPiece {
-  // TODO: Write a test for this
-  override val affiliation: Player = Neutral
+  override val affiliation: Player = Black
   // TODO: Write a test for this
   override val possibleMoves: Set[RelativePositionRange] =
     KingSideKnight.possibleMoves
