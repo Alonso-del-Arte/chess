@@ -602,6 +602,9 @@ This can continue as the French defense, normal variation:
 
 1. Nf3 d5
 2. d4 c5
+
+May continue
+
 3. dxc5 b6
 
 ##### Dutch variation
