@@ -401,7 +401,8 @@ queen's pawn forward one space. See Openings for more details.
 * **Minor piece** &mdash; A bishop or a knight. Two minor pieces are not as able 
 to force checkmate against the opponent as two major pieces.
 * **Missed win** &mdash; When a player fails to notice an opportunity for 
-checkmate.
+checkmate. The player might still win the game, but less efficiently, and 
+running the risk of the opponent eking out a draw or even an outright victory.
 * **Mistake** &mdash; A technically valid move that puts the player at a 
 tactical disadvantage. It's the result of either carelessness or misjudging the 
 position. Getting the king out of a check is never a mistake, even if it forces 
