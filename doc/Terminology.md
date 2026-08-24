@@ -35,8 +35,9 @@ position of a piece is generally omitted. It is the most common notation in use
 today. The term "algebraic" is somewhat of a misnomer.
 * **Amar opening** &mdash; The opening in which White begins by playing the 
 kingside knight to the kingside edge of the board. See 
-[Openings](OpeningsAndDefenses.md#Kingside-knight-to-rook's-file:-Amar-opening) 
-for more details.
+[Openings](OpeningsAndDefenses.md#kingside-knight-to-rooks-file-amar-opening) 
+for a discussion of this opening.
+* **Ammonia attack** &mdash; Another name for the Amar opening.
 * **Anderssen opening** &mdash; The opening in which White begins by playing the 
 queenside rook's pawn forward one space. See 
 [Openings](OpeningsAndDefenses.md#Queenside-rook's-pawn:-Anderssen-opening) for 
@@ -178,12 +179,17 @@ of simultaneous resignation.
 * **Draw by repetition** &mdash; When the same position occurs thrice in a game, 
 the game ends in a draw. Most likely to occur on consecutive turns, but it can 
 also occur on non-consecutive turns, especially in the endgame.
+* **Drunken knight opening** &mdash; Another name for the Amar opening. See
+[Openings](OpeningsAndDefenses.md#kingside-knight-to-rooks-file-amar-opening)
+for a discussion of this opening.
 * **Dunst opening** &mdash; When Black responds to the Van Geet opening by 
 moving the queen's pawn forward two spaces. See 
 [Openings](OpeningsAndDefenses.md) for more details.
 * **Durkin opening** &mdash; The opening in which White begins by playing the 
 queenside knight to the queenside edge of the board. Robert T. Durkin championed 
-this opening. See Openings for more details.
+this opening. See 
+[Openings](OpeningsAndDefenses.md#queenside-knight-to-rooks-file-durkin-opening) 
+for a discussion of this opening.
 
 The following diagram illustrates both discovered check and double check. White 
 to play.
@@ -443,6 +449,9 @@ chess programs wind up needing to make this distinction.
 
 ## P
 
+* **Paris opening** &mdash; Another name for the Amar opening. See
+[Openings](OpeningsAndDefenses.md#kingside-knight-to-rooks-file-amar-opening)
+for a discussion of this opening.
 * **Passed pawn** &mdash; A pawn that can't be stopped from promotion by any 
 opposing pawns. If such a pawn can be captured by a higher-ranking piece, that 
 pawn is still considered a passed pawn.
@@ -556,6 +565,9 @@ delivers checkmate against the opponent king by forcing him to move to a corner,
 surrounded by pieces of his own side, usually his castle pawns and castle rook.
 * **Smurfing** &mdash; When a very good player plays poorly on purpose. The 
 metaphor here being that the player is a giant pretending to be a tiny creature.
+* **Sodium attack** &mdash; Another name for the Durkin opening, 1. Na3. See 
+[Openings](OpeningsAndDefenses.md#queenside-knight-to-rooks-file-durkin-opening) 
+for a discussion of this opening.
 * **Stalemate** &mdash; When a player is not in check but is unable to make any 
 move whatsoever on his or her turn. Thus the game ends with no winner, since 
 skipping a turn is not allowed in chess. For example, if that player's king is 
