@@ -554,7 +554,7 @@ opponent's piece.
 * **Smothered mate** &mdash; A checkmate in which the winning side's knight 
 delivers checkmate against the opponent king by forcing him to move to a corner, 
 surrounded by pieces of his own side, usually his castle pawns and castle rook.
-* **Smurfing** &mdash; When a very good player pretends to play poorly. The 
+* **Smurfing** &mdash; When a very good player plays poorly on purpose. The 
 metaphor here being that the player is a giant pretending to be a tiny creature.
 * **Stalemate** &mdash; When a player is not in check but is unable to make any 
 move whatsoever on his or her turn. Thus the game ends with no winner, since 
