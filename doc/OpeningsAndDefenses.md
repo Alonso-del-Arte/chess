@@ -72,13 +72,13 @@ cons for the Fog of War chess variant. On the one hand, you don't get to see
 anything of your opponent's forces, but on the other hand you know them to be at 
 initial state at this point.
 
-### Queenside knight to rook's file: Durkin opening, or "sodium attack"
+### Queenside knight to rook's file: Durkin opening
 
 1. Na3
 
 Most openings are named after people. This one's named after Robert T. Durkin. 
-The nickname "Sodium Attack" comes from the notation "Na" (the chemical symbol 
-for sodium); moving the same knight to the other side would be notated Nc3.
+Also called "sodium attack" on account of "Na" being the chemical symbol of 
+sodium. Moving the same knight to the other side would be notated Nc3.
 
 I believe all grandmasters have thought about this opening, and may have even 
 played it in a friendly game. But I also believe that they have all concluded 
