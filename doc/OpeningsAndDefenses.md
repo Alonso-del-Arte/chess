@@ -607,6 +607,12 @@ May continue
 
 3. dxc5 b6
 
+##### Queen's gambit declined, pseudo-Tarrasch defense
+
+1. Nf3 d5 
+2. d4 c5 
+3. c4 e6
+
 ##### Dutch variation
 
 This opening can be considered a king's pawn opening if your second move is e4, 
@@ -2093,6 +2099,12 @@ Neither side has an advantage, both sides are exposed.
 May continue
 
 3. Nf3
+
+##### Queen's gambit declined, pseudo-Tarrasch defense
+
+1. d4 d5 
+2. c4 e6 
+3. Nf3 c5
 
 ##### Blackmar-Diemer gambit
 
