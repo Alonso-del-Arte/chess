@@ -103,6 +103,8 @@ champion since 1886.
 ## T
 
 * **Mikhail Tal** &mdash; Chess world champion in 1960.
+* **Siegbert Tarrasch** &mdash; Medical doctor who was also a world-famous chess 
+player in the 1880s, 1890s and 1900s.
 * **Veselin Topalov** &mdash; FIDE world champion in 2005.
 
 ## U
