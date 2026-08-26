@@ -874,6 +874,9 @@ May continue
 
 1. Nf3 h6
 
+Apparently Magnus Carlsen has used this opening in more than 800 games. I have 
+yet to find a transcript of such a game.
+
 ### Kingside knight to rook's file: Amar opening
 
 1. Nh3
