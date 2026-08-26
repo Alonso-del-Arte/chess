@@ -2708,6 +2708,12 @@ May continue
 1. e4 c5
 2. Nf3 e6
 
+###### Open Sicilian
+
+1. e4 c5
+2. Nf3 e6
+3. d4
+
 ##### Sicilian defense, Grand Prix attack
 
 1. e4 c5 
