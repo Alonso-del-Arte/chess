@@ -2703,6 +2703,11 @@ May continue
 2. Nf3 Nc6
 3. d4 cxd4
 
+##### French Sicilian
+
+1. e4 c5
+2. Nf3 e6
+
 ##### Sicilian defense, Grand Prix attack
 
 1. e4 c5 
