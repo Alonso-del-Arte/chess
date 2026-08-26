@@ -17,11 +17,11 @@ import game.pieces.Pawn
 // TODO: Refactor initial two spaces forward as a special move
 // TODO: Work out how to represent promotions
 abstract class BlackPawn extends Pawn with BlackPiece {
-  override val possibleMoves: Set[RelativePositionRange]
-    = Set(new RelativePositionRange(new RelativePosition(0, -1),
+  override val possibleMoves: Set[RelativePositionRange] =
+    Set(new RelativePositionRange(new RelativePosition(0, -1),
       new RelativePosition(0, -2)))
-  override val possibleCaptures: Set[RelativePositionRange]
-    = Set(RelativePositionRange(new RelativePosition(-1, -1)),
+  override val possibleCaptures: Set[RelativePositionRange] =
+    Set(RelativePositionRange(new RelativePosition(-1, -1)),
       RelativePositionRange(new RelativePosition(1, -1)))
   override val hasSpecialMoves: Boolean = true
 
