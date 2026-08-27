@@ -20,8 +20,8 @@ Savielly Tartakower
 &ldquo;To avoid losing a piece, many a man has lost the game.&rdquo; &mdash; 
 Savielly Tartakower
 
-&ldquo;It&rsquo;s always better to sacrifice your opponent&rsquo;s men. &mdash; 
-Savielly Tartakower
+&ldquo;It&rsquo;s always better to sacrifice your opponent&rsquo;s men.&rdquo; 
+&mdash; Savielly Tartakower
 
 &ldquo;The mistakes are all just waiting to be made.&rdquo; &mdash; Savielly 
 Tartakower
