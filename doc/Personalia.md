@@ -105,6 +105,8 @@ champion since 1886.
 * **Mikhail Tal** &mdash; Chess world champion in 1960.
 * **Siegbert Tarrasch** &mdash; Medical doctor who was also a world-famous chess 
 player in the 1880s, 1890s and 1900s.
+* **Savielly Tartakower** &mdash; Soldier, chess player, one of the very first 
+ever International Grandmasters.
 * **Veselin Topalov** &mdash; FIDE world champion in 2005.
 
 ## U
