@@ -23,5 +23,8 @@ Savielly Tartakower
 &ldquo;It&rsquo;s always better to sacrifice your opponent&rsquo;s men. &mdash; 
 Savielly Tartakower
 
+&ldquo;The mistakes are all just waiting to be made.&rdquo; &mdash; Savielly 
+Tartakower
+
 [^1]: In German, &laquo;Wenn du einen guten Zug siehst, suche nach einem 
 besseren.&raquo;
