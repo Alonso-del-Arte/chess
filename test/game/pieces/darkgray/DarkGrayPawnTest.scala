@@ -12,6 +12,15 @@ class DarkGrayPawnTest {
     assertEquals(DarkGray, DarkGrayPawnImpl.affiliation)
   }
 
+  @Test def testPossibleMoves(): Unit = {
+    println("possibleMoves")
+    val start = new RelativePosition(0, -1)
+    val finish = new RelativePosition(0, -2)
+    val expected = Set(new RelativePositionRange(start, finish))
+    val actual = DarkGrayPawnImpl.possibleMoves
+    assertEquals(expected, actual)
+  }
+
   private object DarkGrayPawnImpl extends DarkGrayPawn
 
 }
