@@ -11,4 +11,6 @@ class DarkGrayPawnTest {
     fail("PLACEHOLDER")
   }
 
+  private object DarkGrayPawnImpl extends DarkGrayPawn
+
 }
