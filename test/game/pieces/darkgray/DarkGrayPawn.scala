@@ -10,6 +10,5 @@ abstract class DarkGrayPawn extends Pawn with DarkGrayPiece {
   override val possibleCaptures: Set[RelativePositionRange] =
     Set(RelativePositionRange(new RelativePosition(-1, -1)),
       RelativePositionRange(new RelativePosition(1, -1)))
-  override val hasSpecialMoves: Boolean = true
 
 }
