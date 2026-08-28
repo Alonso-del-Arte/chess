@@ -1,6 +1,6 @@
 package game.pieces.darkgray
 
-import game.{DarkGray, Player, RelativePosition, RelativePositionRange}
+import game.{RelativePosition, RelativePositionRange}
 import game.pieces.Pawn
 
 abstract class DarkGrayPawn extends Pawn with DarkGrayPiece {
