@@ -5,9 +5,9 @@ import game.pieces.Pawn
 
 abstract class DarkGrayPawn extends Pawn with DarkGrayPiece {
   override val affiliation: Player = DarkGray
-  // TODO: Write a test for this
   override val possibleMoves: Set[RelativePositionRange] =
-    Set(RelativePositionRange(new RelativePosition(0, -10)))
+    Set(new RelativePositionRange(new RelativePosition(0, -1),
+      new RelativePosition(0, -2)))
   // TODO: Write a test for this
   override val canJumpOver: Boolean = true
   // TODO: Write a test for this
