@@ -737,6 +737,24 @@ May continue
 2. d3 Nf6 
 3. e4
 
+White wanted to move the king's pawn earlier, but instead decided to provide 
+that pawn with a little support.
+
+###### Dutch defense, Lisitsyn gambit
+
+1. Nf3 f5
+2. e4 
+
+Black is likely to respond 
+
+3. ... fxe4
+
+in which case White should play
+
+4. Ng5
+
+Then Black should consider that pawn lost.
+
 #### Herrstrom gambit
 
 1. Nf3 g5
