@@ -2736,6 +2736,12 @@ May continue
 1. e4 c5
 2. Nf3 e6
 
+###### Sicilian defense, French variation
+
+1. e4 c5
+2. Nf3 e6
+3. Be2 Nc6
+
 ###### Open Sicilian
 
 1. e4 c5
