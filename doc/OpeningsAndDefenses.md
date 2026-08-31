@@ -542,7 +542,14 @@ Will Black accept the gambit and play 2. ... dxc4?
 ###### R&eacute;ti gambit accepted
 
 1. Nf3 d5
-2. c4 dxc4?
+2. c4 dxc4
+
+Likely to continue
+
+3. Qa4+
+
+Best response for Black is to counter with 3. ... Bd7, in which case White 
+should go ahead with 4. Qxc4.
 
 ###### Caro-Kann defensive system
 
