@@ -686,6 +686,11 @@ Should White capture that hanging pawn?
 1. Nf3 e5
 2. Nxe5
 
+##### King's knight variation
+
+1. Nf3 e5
+2. e4 Nc6
+
 ##### Giuoco piano
 
 1. Nf3 e5
@@ -3141,20 +3146,19 @@ bishops out on the next move but getting the queens out is somewhat constrained.
 1. e4 e5
 2. Nc3 Nc6
 
-##### King's knight defense, knight variation
-
-1. e4 e5
-2. Nf3 
-
 ###### Vienna game, Zhuravlev gambit
 
 1. e4 e5 
 2. Nc3 Bb4
 
-##### King's knight opening
+##### King's knight defense, knight variation
 
 1. e4 e5
-2. Nf3 Nc6
+2. Nf3
+
+May continue 
+
+2. ... Nc6
 
 ##### Four knights game
 
@@ -3762,10 +3766,8 @@ Often continues
 1. e4 e5
 2. Nf3 Qf6
 
-###### King's knight variation, McConnell defense
+May continue
 
-1. e4 e5
-2. Nf3 Qf6
 3. Bc4
 
 ##### Whale variation
