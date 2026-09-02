@@ -2750,6 +2750,11 @@ May continue
 2. Nf3 Nc6
 3. d4 cxd4
 
+##### Polish gambit
+
+1. e4 c5 
+2. Nf3 b5
+
 ##### French Sicilian
 
 1. e4 c5
