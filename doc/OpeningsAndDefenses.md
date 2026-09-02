@@ -697,6 +697,14 @@ Should White capture that hanging pawn?
 2. e4 Nc6
 3. Bc4 Bc5
 
+##### Giuoco piano, main line, Albin gambit
+
+1. Nf3 e5
+2. e4 Nc6
+3. Bc4 Bc5
+4. c3 Nf6
+5. O-O
+
 ##### Englund gambit declined, reversed Alekhine variation
 
 1. Nf3 e5
@@ -3545,6 +3553,14 @@ Then the best way for Black to dodge is
 1. e4 e5
 2. Nf3 Nc6
 3. Bc4 Bc5
+
+###### Giuoco piano, main line, Albin gambit
+
+1. e4 e5 
+2. Nf3 Nc6 
+3. Bc4 Bc5 
+4. c3 Nf6 
+5. O-O
 
 ##### Max Lange opening
 
