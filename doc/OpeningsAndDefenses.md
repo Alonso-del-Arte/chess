@@ -686,6 +686,12 @@ Should White capture that hanging pawn?
 1. Nf3 e5
 2. Nxe5
 
+##### Giuoco piano
+
+1. Nf3 e5
+2. e4 Nc6
+3. Bc4 Bc5
+
 ##### Englund gambit declined, reversed Alekhine variation
 
 1. Nf3 e5
