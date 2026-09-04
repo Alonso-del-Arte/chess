@@ -7,4 +7,9 @@ import org.junit.jupiter.api.Assertions._
 
 class PointyHatGuysPawnTest {
 
+  @Test def testAffiliation(): Unit = {
+    println("affiliation")
+    assertEquals(DarkGray, PointyHatGuysPawn.affiliation)
+  }
+
 }
