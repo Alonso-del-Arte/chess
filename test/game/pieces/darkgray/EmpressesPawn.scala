@@ -1,3 +1,3 @@
 package game.pieces.darkgray
 
-object EmpressesPawn extends DarkGrayPawn with DarkGrayPiece
+object EmpressesPawn extends DarkGrayPawn
