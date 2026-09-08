@@ -454,11 +454,9 @@ feat.
 An emperor of one side may be captured, and the game continues if that side has
 other emperors, or any empresses.
 
-A check to an emperor must be addressed, unless the only way to address it
-requires putting another emperor in check.
-
 A threat to an empress of one side may be ignored if that side still has other
-empresses, or any emperors.
+empresses, or any emperors. But if that side has only one empress and no 
+emperors, a check to an empress must be addressed.
 
 #### Racing kings
 
