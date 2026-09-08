@@ -33,4 +33,14 @@ class PointyHatGuysPawnTest {
     assert(!PointyHatGuysPawn.captureSameAsMove, msg)
   }
 
+  @Test def testPossibleCaptures(): Unit = {
+    println("possibleCaptures")
+    val captureLeft = new RelativePosition(-1, -1)
+    val captureRight = new RelativePosition(1, -1)
+    val expected = Set(RelativePositionRange(captureLeft),
+      RelativePositionRange(captureRight))
+    val actual = PointyHatGuysPawn.possibleCaptures
+    assertEquals(expected, actual)
+  }
+
 }
