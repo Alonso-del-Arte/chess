@@ -21,4 +21,10 @@ class PointyHatGuysPawnTest {
     assertEquals(expected, actual)
   }
 
+  @Test def testCanJumpOver(): Unit = {
+    println("canJumpOver")
+    val msg = "Pawn shouldn't be able to jump over"
+    assert(!PointyHatGuysPawn.canJumpOver, msg)
+  }
+
 }
