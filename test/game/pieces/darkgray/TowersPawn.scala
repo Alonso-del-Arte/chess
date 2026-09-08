@@ -1,10 +1,9 @@
 package game.pieces.darkgray
 
-import game.{Neutral, Player, RelativePosition, RelativePositionRange}
+import game.{DarkGray, Player, RelativePosition, RelativePositionRange}
 
 object TowersPawn extends DarkGrayPawn with DarkGrayPiece {
-  // TODO: Write a test for this
-  override val affiliation: Player = Neutral
+  override val affiliation: Player = DarkGray
   // TODO: Write a test for this
   override val possibleMoves: Set[RelativePositionRange] = Horse.possibleMoves
   // TODO: Write a test for this
