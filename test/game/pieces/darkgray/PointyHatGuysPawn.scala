@@ -8,8 +8,7 @@ object PointyHatGuysPawn extends DarkGrayPawn with DarkGrayPiece {
     Set(new RelativePositionRange(new RelativePosition(0, -1),
       new RelativePosition(0, -2)))
   override val canJumpOver: Boolean = false
-  // TODO: Write a test for this
-  override val captureSameAsMove: Boolean = true
+  override val captureSameAsMove: Boolean = false
   // TODO: Write a test for this
   override val possibleCaptures: Set[RelativePositionRange] =
     Tower.possibleCaptures
