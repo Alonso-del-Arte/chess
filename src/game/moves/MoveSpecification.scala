@@ -12,7 +12,8 @@ import game.pieces.Piece
  * @param piece The piece which is to be moved. For example, a knight.
  * @param destination The destination. For example two ranks up, a file to the
  *                    left.
- * @param prerequisites A function that indicates whether a given board state meets the prerequisites for the move.
+ * @param prerequisites A function that indicates whether a given board state
+ *                      meets the prerequisites for the move.
  * @param isCapture Whether the move is a capture.
  */
 abstract class MoveSpecification(val piece: Piece,
