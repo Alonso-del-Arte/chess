@@ -1,5 +1,6 @@
 package game
 
+import game.moves.MoveSpecification
 import game.pieces.Piece
 
 /**
