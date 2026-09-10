@@ -4,8 +4,9 @@ import game.{DarkGray, Player, RelativePosition, RelativePositionRange}
 
 object TowersPawn extends DarkGrayPawn with DarkGrayPiece {
   override val affiliation: Player = DarkGray
-  // TODO: Write a test for this
-  override val possibleMoves: Set[RelativePositionRange] = Horse.possibleMoves
+  override val possibleMoves: Set[RelativePositionRange] =
+    Set(new RelativePositionRange(new RelativePosition(0, -1),
+      new RelativePosition(0, -2)))
   // TODO: Write a test for this
   override val canJumpOver: Boolean = true
   // TODO: Write a test for this
