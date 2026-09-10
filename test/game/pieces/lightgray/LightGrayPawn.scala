@@ -5,8 +5,7 @@ import game.{LightGray, Neutral, Player, RelativePosition,
 import game.pieces.Pawn
 
 abstract class LightGrayPawn extends Pawn with LightGrayPiece {
-  // TODO: Write a test for this
-  override val affiliation: Player = Neutral
+  override val affiliation: Player = LightGray
   // TODO: Write a test for this
   override val possibleMoves: Set[RelativePositionRange] =
     Set(RelativePositionRange(new RelativePosition(0, -10)))
