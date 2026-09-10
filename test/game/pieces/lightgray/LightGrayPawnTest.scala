@@ -1,14 +1,15 @@
 package game.pieces.lightgray
 
-import game.{Black, RelativePosition, RelativePositionRange}
+import game.{LightGray, RelativePosition, RelativePositionRange}
 
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.Assertions._
 
 class LightGrayPawnTest {
 
-  @Test def placeholder(): Unit = {
-    fail("PLACEHOLDER")
+  @Test def testAffiliation(): Unit = {
+    println("affiliation")
+    assertEquals(LightGray, LightGrayPawnImpl.affiliation)
   }
 
   private object LightGrayPawnImpl extends LightGrayPawn
