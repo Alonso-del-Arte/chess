@@ -10,4 +10,5 @@ abstract class LightGrayPawn extends Pawn with LightGrayPiece {
   override val possibleCaptures: Set[RelativePositionRange] =
     Set(RelativePositionRange(new RelativePosition(-1, 1)),
       RelativePositionRange(new RelativePosition(1, 1)))
+      
 }
