@@ -9,8 +9,7 @@ abstract class LightGrayPawn extends Pawn with LightGrayPiece {
   override val possibleMoves: Set[RelativePositionRange] =
     Set(new RelativePositionRange(new RelativePosition(0, 1),
       new RelativePosition(0, 2)))
-  // TODO: Write a test for this
-  override val canJumpOver: Boolean = true
+  override val canJumpOver: Boolean = false
   // TODO: Write a test for this
   override val captureSameAsMove: Boolean = true
   // TODO: Write a test for this
