@@ -1,7 +1,6 @@
 package game.pieces.lightgray
 
-import game.{LightGray, Neutral, Player, RelativePosition,
-  RelativePositionRange}
+import game.{LightGray, Player, RelativePosition, RelativePositionRange}
 import game.pieces.Pawn
 
 abstract class LightGrayPawn extends Pawn with LightGrayPiece {
