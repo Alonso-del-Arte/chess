@@ -1,6 +1,6 @@
 package game.pieces.lightgray
 
-import game.{LightGray, Player, RelativePosition, RelativePositionRange}
+import game.{RelativePosition, RelativePositionRange}
 import game.pieces.Pawn
 
 abstract class LightGrayPawn extends Pawn with LightGrayPiece {
@@ -10,5 +10,5 @@ abstract class LightGrayPawn extends Pawn with LightGrayPiece {
   override val possibleCaptures: Set[RelativePositionRange] =
     Set(RelativePositionRange(new RelativePosition(-1, 1)),
       RelativePositionRange(new RelativePosition(1, 1)))
-      
+
 }
