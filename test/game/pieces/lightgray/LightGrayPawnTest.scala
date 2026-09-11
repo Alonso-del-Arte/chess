@@ -33,6 +33,16 @@ class LightGrayPawnTest {
     assert(!LightGrayPawnImpl.captureSameAsMove, msg)
   }
 
+  @Test def testPossibleCaptures(): Unit = {
+    println("possibleCaptures")
+    val captureLeft = new RelativePosition(-1, 1)
+    val captureRight = new RelativePosition(1, 1)
+    val expected = Set(RelativePositionRange(captureLeft),
+      RelativePositionRange(captureRight))
+    val actual = LightGrayPawnImpl.possibleCaptures
+    assertEquals(expected, actual)
+  }
+
   private object LightGrayPawnImpl extends LightGrayPawn
 
 }
