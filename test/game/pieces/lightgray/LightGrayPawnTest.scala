@@ -21,6 +21,12 @@ class LightGrayPawnTest {
     assertEquals(expected, actual)
   }
 
+  @Test def testCanJumpOver(): Unit = {
+    println("canJumpOver")
+    val msg = "Pawn shouldn't be able to jump over"
+    assert(!LightGrayPawnImpl.canJumpOver, msg)
+  }
+
   private object LightGrayPawnImpl extends LightGrayPawn
 
 }
