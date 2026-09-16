@@ -4,8 +4,9 @@ import game.{LightGray, Player, RelativePosition, RelativePositionRange}
 
 object EmpressesPawn extends LightGrayPawn with LightGrayPiece {
   override val affiliation: Player = LightGray
-  // TODO: Write a test for this
-  override val possibleMoves: Set[RelativePositionRange] = Emperor.possibleMoves
+  override val possibleMoves: Set[RelativePositionRange] =
+    Set(new RelativePositionRange(new RelativePosition(0, 1),
+      new RelativePosition(0, 2)))
   // TODO: Write a test for this
   override val canJumpOver: Boolean = true
   // TODO: Write a test for this
