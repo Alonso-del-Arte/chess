@@ -43,4 +43,10 @@ class HorsesPawnTest {
     assertEquals(expected, actual)
   }
 
+  @Test def testHasSpecialMoves(): Unit = {
+    println("hasSpecialMoves")
+    val msg = "Pawn should have special moves"
+    assert(HorsesPawn.hasSpecialMoves, msg)
+  }
+
 }
