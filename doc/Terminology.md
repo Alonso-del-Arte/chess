@@ -460,6 +460,9 @@ pawn is still considered a passed pawn.
 level after playing many games.
 * **Pawn** &mdash; The lowest ranking pieces, each player gets eight of them. 
 Pawns are notated by their position, without the letter P.
+* **Pawn shield** &mdash; The pawns closest to a castled king. They help protect 
+the king from checks from the opponent's queens, bishops or rooks, but also 
+increase the risk of a smothered mate.
 * **Petrov's defense** &mdash; An opening starting out 1. e4 e5 2. Nf3 Nf6. It 
 is mentioned near the end of the *Lethal Weapon* episode "Whole Lotto Trouble," 
 in which Roger Murtaugh (Damon Wayans) and his father-in-law briefly discuss a 
