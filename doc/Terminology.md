@@ -358,7 +358,7 @@ may capture. It is quite a cumbersome precursor to Fog of War.
 
 ## L
 
-* **Loose piece** &mdash; Synomym for free piece.
+* **Loose piece** &mdash; Synonym for free piece.
 * **Losing chess** &mdash; Synonym for antichess.
 * **Luft** &mdash; German for air, used in chess to mean a square that a castled 
 king, otherwise trapped on his home row, can escape to, avoiding or at least 
