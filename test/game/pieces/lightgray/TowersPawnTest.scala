@@ -27,4 +27,10 @@ class TowersPawnTest {
     assert(!TowersPawn.canJumpOver, msg)
   }
 
+  @Test def testCaptureSameAsMove(): Unit = {
+    println("captureSameAsMove")
+    val msg = "Pawn shouldn't capture same as move"
+    assert(!TowersPawn.captureSameAsMove, msg)
+  }
+
 }
