@@ -1,3 +1,3 @@
 package game.pieces.lightgray
 
-object TowersPawn extends LightGrayPawn with LightGrayPiece
+object TowersPawn extends LightGrayPawn
