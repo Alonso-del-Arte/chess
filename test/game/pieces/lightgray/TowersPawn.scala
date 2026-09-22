@@ -1,6 +1,6 @@
 package game.pieces.lightgray
 
-import game.{LightGray, Neutral, Player, RelativePosition, RelativePositionRange}
+import game.{LightGray, Player, RelativePosition, RelativePositionRange}
 
 object TowersPawn extends LightGrayPawn with LightGrayPiece {
   override val affiliation: Player = LightGray
