@@ -373,7 +373,7 @@ The following diagram illustrates Luft for the White king. Black to play.
 FEN: 3r4/1kp4Q/8/b7/3r4/7P/5PP1/R2R2K1 b - - 0 1
 
 Black will most likely play Rxd1+. Then White responds Rxd1, and Black responds 
-with Rxd1+. This would be checkmate, except White played h3 long before, leaving 
+with Rxd1+. This is not checkmate, because White played h3 long before, leaving  
 h2 available for the White king to escape to.
 
 ## M
