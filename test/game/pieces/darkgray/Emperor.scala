@@ -1,6 +1,7 @@
 package game.pieces.darkgray
 
 import game.{Neutral, Player, RelativePosition, RelativePositionRange}
+import game.moves.{Castling, SpecialMoveSpecification}
 
 object Emperor extends game.pieces.Emperor with DarkGrayPiece {
   // TODO: Write a test for this
@@ -16,5 +17,6 @@ object Emperor extends game.pieces.Emperor with DarkGrayPiece {
     Horse.possibleCaptures
   // TODO: Write a test for this
   override val hasSpecialMoves: Boolean = false
+  override def specialMoves: Set[SpecialMoveSpecification] = Set(Castling)
 
 }
