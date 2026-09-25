@@ -10,8 +10,7 @@ object Castling extends SpecialMoveSpecification {
 
   override def isCapture: Boolean = false
 
-  // TODO: Write tests for this
-  override def involvesPiecesOfSameSide: Boolean = false
+  override def involvesPiecesOfSameSide: Boolean = true
 
   // TODO: Write tests for this
   override def execute(boardState: BoardState): BoardState = boardState
