@@ -1,6 +1,6 @@
 package game.pieces
 
-import game.{Player, RelativePositionRange}
+import game.{BoardState, Player, RelativePositionRange}
 import game.moves.SpecialMoveSpecification
 
 /**
@@ -45,5 +45,20 @@ abstract class Piece {
    * [[Pawn]] in regard to en passant and the initial two steps forward.
    */
   val hasSpecialMoves: Boolean = false
+
+  // TODO: Write tests for this
+  def specialMoves: Set[SpecialMoveSpecification] = {
+    Set(new SpecialMoveSpecification {
+
+      override def meetsPrerequisites(boardState: BoardState): Boolean = true
+
+      override def isCapture: Boolean = true
+
+      override def involvesPiecesOfSameSide: Boolean = true
+
+      override def execute(boardState: BoardState): BoardState = boardState
+
+    })
+  }
 
 }
