@@ -9,4 +9,12 @@ import scala.util.Random
 
 class CastlingTest {
 
+  // TODO: Test meetsPrerequisites()
+
+  @Test def testIsCapture(): Unit = {
+    assert(!Castling.isCapture, "Casting should not be capture")
+  }
+
+  // TODO: Test execute()
+
 }
