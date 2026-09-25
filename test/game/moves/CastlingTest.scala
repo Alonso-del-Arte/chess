@@ -16,6 +16,12 @@ class CastlingTest {
     assert(!Castling.isCapture, "Casting should not be capture")
   }
 
+  @Test def testInvolvesPiecesOfSameSide(): Unit = {
+    println("involvesPiecesOfSameSide")
+    assert(Castling.involvesPiecesOfSameSide,
+      "Castling should involve another piece of the same side")
+  }
+
   // TODO: Test execute()
 
 }
