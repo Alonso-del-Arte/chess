@@ -8,6 +8,11 @@ import org.junit.jupiter.api.Test
 
 class EmperorTest {
 
+  @Test def testAffiliation(): Unit = {
+    println("affiliation")
+    assertEquals(DarkGray, Emperor.affiliation)
+  }
+
   @Test def testSpecialMoves(): Unit = {
     println("specialMoves")
     val expected = Set(Castling)
