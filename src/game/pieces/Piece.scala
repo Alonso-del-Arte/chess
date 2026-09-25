@@ -1,6 +1,7 @@
 package game.pieces
 
 import game.{Player, RelativePositionRange}
+import game.moves.SpecialMoveSpecification
 
 /**
  * Represents a chess piece.
@@ -33,7 +34,7 @@ abstract class Piece {
   /**
    * Whether this piece has special moves subject to certain conditions. For
    * regular chess, this is true only for [[King]] in regard to castling and
-   * [[Pawn]] in regard to en passant.
+   * [[Pawn]] in regard to en passant and the initial two steps forward.
    */
   val hasSpecialMoves: Boolean = false
 
