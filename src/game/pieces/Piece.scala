@@ -32,18 +32,18 @@ abstract class Piece {
   val captureSameAsMove: Boolean = true
 
   /**
-   * Whether this piece has special moves subject to certain conditions. For
-   * regular chess, this is true only for [[King]] in regard to castling and
-   * [[Pawn]] in regard to en passant and the initial two steps forward.
-   */
-  val hasSpecialMoves: Boolean = false
-
-  /**
    * The captures this piece may make. In most cases will be the same as
    * [[possibleMoves]].
    * @return The possible captures.
    */
   def possibleCaptures: Set[RelativePositionRange] =
     if (this.captureSameAsMove) this.possibleMoves else Set()
+
+  /**
+   * Whether this piece has special moves subject to certain conditions. For
+   * regular chess, this is true only for [[King]] in regard to castling and
+   * [[Pawn]] in regard to en passant and the initial two steps forward.
+   */
+  val hasSpecialMoves: Boolean = false
 
 }
