@@ -6,13 +6,15 @@ import game.pieces.Piece
 object Castling extends SpecialMoveSpecification {
 
   // TODO: Write tests for this
-  override def meetsPrerequisites(boardState: BoardState): Boolean = true
+  override def meetsPrerequisites(boardState: BoardState, piece: Piece,
+                                  secondPiece: Piece = null): Boolean = true
 
   override def isCapture: Boolean = false
 
   override def involvesPiecesOfSameSide: Boolean = true
 
   // TODO: Write tests for this
-  override def execute(boardState: BoardState): BoardState = boardState
+  override def execute(boardState: BoardState, piece: Piece,
+                       secondPiece: Piece = null): BoardState = boardState
 
 }
