@@ -16,6 +16,7 @@ import game.pieces.Piece
  *                      meets the prerequisites for the move.
  * @param isCapture Whether the move is a capture.
  */
+@deprecated
 abstract class MoveSpecification(val piece: Piece,
                                  val destination: RelativePositionRange,
                                  val prerequisites: BoardState => Boolean,
