@@ -1,3 +1,9 @@
 package game.pieces.white
 
-object King extends game.pieces.King with WhitePiece
+import game.moves.{Castling, SpecialMoveSpecification}
+
+object King extends game.pieces.King with WhitePiece {
+
+  override val specialMoves: Set[SpecialMoveSpecification] = Set(Castling)
+
+}
