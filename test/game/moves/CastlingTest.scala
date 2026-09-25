@@ -12,6 +12,7 @@ class CastlingTest {
   // TODO: Test meetsPrerequisites()
 
   @Test def testIsCapture(): Unit = {
+    println("isCapture")
     assert(!Castling.isCapture, "Casting should not be capture")
   }
 
