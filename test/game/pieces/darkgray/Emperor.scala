@@ -1,12 +1,16 @@
 package game.pieces.darkgray
 
-import game.{DarkGray, Player, RelativePosition, RelativePositionRange}
+import game.{DarkGray, Player, RelativePosition, RelativePositionRange,
+  ShortMoveRanges}
 import game.moves.{Castling, SpecialMoveSpecification}
 
 object Emperor extends game.pieces.Emperor with DarkGrayPiece {
   override val affiliation: Player = DarkGray
-  // TODO: Write a test for this
-  override val possibleMoves: Set[RelativePositionRange] = Tower.possibleMoves
+  override val possibleMoves: Set[RelativePositionRange] =
+    Set(ShortMoveRanges.moveForward, ShortMoveRanges.moveRight,
+      ShortMoveRanges.moveBack, ShortMoveRanges.moveLeft,
+      ShortMoveRanges.moveNortheast, ShortMoveRanges.moveNorthwest,
+      ShortMoveRanges.moveSouthwest, ShortMoveRanges.moveSoutheast)
   // TODO: Write a test for this
   override val canJumpOver: Boolean = true
   // TODO: Write a test for this
