@@ -40,6 +40,11 @@ class EmperorTest {
     assertEquals(expected, actual)
   }
 
+  @Test def testHasSpecialMoves(): Unit = {
+    println("hasSpecialMoves")
+    assert(Emperor.hasSpecialMoves, "Emperor has special moves, castling")
+  }
+
   @Test def testSpecialMoves(): Unit = {
     println("specialMoves")
     val expected = Set(Castling)
