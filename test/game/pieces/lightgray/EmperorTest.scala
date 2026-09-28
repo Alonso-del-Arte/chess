@@ -8,4 +8,9 @@ import org.junit.jupiter.api.Test
 
 class EmperorTest {
 
+  @Test def testAffiliation(): Unit = {
+    println("affiliation")
+    assertEquals(LightGray, Emperor.affiliation)
+  }
+
 }
