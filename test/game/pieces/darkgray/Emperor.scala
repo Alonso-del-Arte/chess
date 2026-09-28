@@ -13,9 +13,11 @@ object Emperor extends game.pieces.Emperor with DarkGrayPiece {
       ShortMoveRanges.moveSouthwest, ShortMoveRanges.moveSoutheast)
   override val canJumpOver: Boolean = false
   override val captureSameAsMove: Boolean = true
-  // TODO: Write a test for this
   override val possibleCaptures: Set[RelativePositionRange] =
-    Horse.possibleCaptures
+    Set(ShortMoveRanges.moveForward, ShortMoveRanges.moveRight,
+      ShortMoveRanges.moveBack, ShortMoveRanges.moveLeft,
+      ShortMoveRanges.moveNortheast, ShortMoveRanges.moveNorthwest,
+      ShortMoveRanges.moveSouthwest, ShortMoveRanges.moveSoutheast)
   // TODO: Write a test for this
   override val hasSpecialMoves: Boolean = false
   override def specialMoves: Set[SpecialMoveSpecification] = Set(Castling)
