@@ -13,6 +13,16 @@ class EmperorTest {
     assertEquals(DarkGray, Emperor.affiliation)
   }
 
+  @Test def testPossibleMoves(): Unit = {
+    println("possibleMoves")
+    val expected = Set(ShortMoveRanges.moveForward, ShortMoveRanges.moveRight,
+      ShortMoveRanges.moveBack, ShortMoveRanges.moveLeft,
+      ShortMoveRanges.moveNortheast, ShortMoveRanges.moveNorthwest,
+      ShortMoveRanges.moveSouthwest, ShortMoveRanges.moveSoutheast)
+    val actual = Emperor.possibleMoves
+    assertEquals(expected, actual)
+  }
+
   @Test def testSpecialMoves(): Unit = {
     println("specialMoves")
     val expected = Set(Castling)
