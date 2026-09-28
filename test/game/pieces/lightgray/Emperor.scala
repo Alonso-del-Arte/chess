@@ -1,12 +1,11 @@
 package game.pieces.lightgray
 
-import game.{LightGray, Neutral, Player, RelativePosition,
-  RelativePositionRange, ShortMoveRanges}
+import game.{LightGray, Player, RelativePosition, RelativePositionRange,
+  ShortMoveRanges}
 import game.moves.{Castling, SpecialMoveSpecification}
 
 object Emperor extends game.pieces.Emperor with LightGrayPiece {
-  // TODO: Write a test for this
-  override val affiliation: Player = Neutral
+  override val affiliation: Player = LightGray
   // TODO: Write a test for this
   override val possibleMoves: Set[RelativePositionRange] = Tower.possibleMoves
   // TODO: Write a test for this
