@@ -33,4 +33,11 @@ class EmperorTest {
     assert(Emperor.captureSameAsMove, "Emperor should capture same as he moves")
   }
 
+  @Test def testPossibleCaptures(): Unit = {
+    println("possibleCaptures")
+    val expected = Emperor.possibleMoves
+    val actual = Emperor.possibleCaptures
+    assertEquals(expected, actual)
+  }
+
 }
