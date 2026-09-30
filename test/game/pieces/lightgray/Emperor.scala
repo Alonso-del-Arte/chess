@@ -11,8 +11,7 @@ object Emperor extends game.pieces.Emperor with LightGrayPiece {
       ShortMoveRanges.moveBack, ShortMoveRanges.moveLeft,
       ShortMoveRanges.moveNortheast, ShortMoveRanges.moveNorthwest,
       ShortMoveRanges.moveSouthwest, ShortMoveRanges.moveSoutheast)
-  // TODO: Write a test for this
-  override val canJumpOver: Boolean = true
+  override val canJumpOver: Boolean = false
   // TODO: Write a test for this
   override val captureSameAsMove: Boolean = false
   // TODO: Write a test for this
