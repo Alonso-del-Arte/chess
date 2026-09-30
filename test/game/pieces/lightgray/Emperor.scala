@@ -19,5 +19,6 @@ object Emperor extends game.pieces.Emperor with LightGrayPiece {
       ShortMoveRanges.moveNortheast, ShortMoveRanges.moveNorthwest,
       ShortMoveRanges.moveSouthwest, ShortMoveRanges.moveSoutheast)
   override val hasSpecialMoves: Boolean = true
+  override def specialMoves: Set[SpecialMoveSpecification] = Set(Castling)
 
 }
