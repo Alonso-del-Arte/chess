@@ -40,4 +40,9 @@ class EmperorTest {
     assertEquals(expected, actual)
   }
 
+  @Test def testHasSpecialMoves(): Unit = {
+    println("hasSpecialMoves")
+    assert(Emperor.hasSpecialMoves, "Emperor has special moves, castling")
+  }
+
 }
