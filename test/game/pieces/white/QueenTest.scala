@@ -62,7 +62,7 @@ class QueenTest {
 
   @Test def testSpecialMoves(): Unit = {
     println("specialMoves")
-    val actual = Queen.possibleMoves
+    val actual = Queen.specialMoves
     assert(actual.isEmpty, "Queen's set of special moves should be empty")
   }
 
