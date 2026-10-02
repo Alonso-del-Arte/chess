@@ -3040,6 +3040,11 @@ May continue
 2. Nc3 dxe4
 3. f3 exf3
 
+###### Scandinavian defense, Zilbermints gambit
+
+1. e4 d5 
+2. b4
+
 #### Scandinavian defense
 
 1. e4 d5
