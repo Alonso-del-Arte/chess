@@ -1,7 +1,6 @@
 package game.pieces.lightgray
 
-import game.{LightGray, Player, RelativePosition, RelativePositionRange,
-  ShortMoveRanges}
+import game.{LightGray, Player, RelativePositionRange, ShortMoveRanges}
 import game.moves.{Castling, SpecialMoveSpecification}
 
 object Emperor extends game.pieces.Emperor with LightGrayPiece {
@@ -19,6 +18,5 @@ object Emperor extends game.pieces.Emperor with LightGrayPiece {
       ShortMoveRanges.moveNortheast, ShortMoveRanges.moveNorthwest,
       ShortMoveRanges.moveSouthwest, ShortMoveRanges.moveSoutheast)
   override val hasSpecialMoves: Boolean = true
-  override def specialMoves: Set[SpecialMoveSpecification] = Set(Castling)
 
 }
