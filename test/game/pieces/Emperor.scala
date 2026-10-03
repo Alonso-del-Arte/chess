@@ -1,5 +1,7 @@
 package game.pieces
 
+import game.moves.SpecialMoveSpecification
+
 /**
  * The emperor is a chess piece to be used strictly for testing purposes only.
  * The emperor has the same moves as the king, but the game can proceed without
@@ -9,4 +11,7 @@ package game.pieces
  * on the same side and checkmate the promoted emperor.
  * @author Alonso del Arte
  */
-abstract class Emperor extends King
+abstract class Emperor extends King {
+  override def specialMoves: Set[SpecialMoveSpecification] = Set()
+  
+}
