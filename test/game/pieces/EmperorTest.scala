@@ -1,6 +1,7 @@
 package game.pieces
 
 import game.{Neutral, Player, ShortMoveRanges}
+import game.moves.Castling
 
 import org.junit.jupiter.api.Assertions._
 import org.junit.jupiter.api.Test
@@ -43,6 +44,14 @@ class EmperorTest {
     println("hasSpecialMoves")
     val emperor = new EmperorImpl
     assert(emperor.hasSpecialMoves, "Emperor has special move of castling")
+  }
+
+  @Test def testSpecialMoves(): Unit = {
+    println("specialMoves")
+    val emperor = new EmperorImpl
+    val expected = Set(Castling)
+    val actual = emperor.specialMoves
+    assertEquals(expected, actual)
   }
 
   private class EmperorImpl extends Emperor {
