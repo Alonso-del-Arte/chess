@@ -44,18 +44,18 @@ class KingTest {
     assert(king.captureSameAsMove, "A king captures same as moves")
   }
 
-  @Test def testHasSpecialMoves(): Unit = {
-    println("hasSpecialMoves")
-    val king = new KingImpl
-    assert(king.hasSpecialMoves, "King has special move of castling")
-  }
-
   @Test def testPossibleCaptures(): Unit = {
     println("possibleCaptures")
     val king = new KingImpl
     val expected = king.possibleMoves
     val actual = king.possibleCaptures
     assertEquals(expected, actual)
+  }
+
+  @Test def testHasSpecialMoves(): Unit = {
+    println("hasSpecialMoves")
+    val king = new KingImpl
+    assert(king.hasSpecialMoves, "King has special move of castling")
   }
 
   private class KingImpl extends King {
