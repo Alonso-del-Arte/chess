@@ -10,6 +10,6 @@ abstract class King extends Piece {
       ShortMoveRanges.moveNortheast, ShortMoveRanges.moveNorthwest,
       ShortMoveRanges.moveSouthwest, ShortMoveRanges.moveSoutheast)
   override val hasSpecialMoves: Boolean = true
-  override def specialMoves: Set[SpecialMoveSpecification] = Set(Castling)
+  override val specialMoves: Set[SpecialMoveSpecification] = Set(Castling)
 
 }
