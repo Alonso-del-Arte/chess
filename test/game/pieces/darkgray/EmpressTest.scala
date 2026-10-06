@@ -25,4 +25,9 @@ class EmpressTest {
     assert(!Empress.canJumpOver, "Empress shouldn't be able to jump over")
   }
 
+  @Test def testCaptureSameAsMove(): Unit = {
+    println("captureSameAsMove")
+    assert(Empress.captureSameAsMove, "Empress should capture as she moves")
+  }
+
 }
