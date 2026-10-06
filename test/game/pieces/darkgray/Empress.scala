@@ -9,9 +9,8 @@ object Empress extends game.pieces.Empress with DarkGrayPiece {
     Bishop.moves ++ Rook.moves
   override val canJumpOver: Boolean = false
   override val captureSameAsMove: Boolean = true
-  // TODO: Write a test for this
   override val possibleCaptures: Set[RelativePositionRange] =
-    Tower.possibleCaptures
+    Bishop.moves ++ Rook.moves
   // TODO: Write a test for this
   override val hasSpecialMoves: Boolean = false
 
