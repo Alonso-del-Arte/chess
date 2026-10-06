@@ -1,11 +1,12 @@
 package game.pieces.darkgray
 
-import game.{DarkGray, Neutral, Player, RelativePosition, RelativePositionRange}
+import game.{DarkGray, Player, RelativePosition, RelativePositionRange}
+import game.pieces.{Bishop, Rook}
 
 object Empress extends game.pieces.Empress with DarkGrayPiece {
   override val affiliation: Player = DarkGray
-  // TODO: Write a test for this
-  override val possibleMoves: Set[RelativePositionRange] = Horse.possibleMoves
+  override val possibleMoves: Set[RelativePositionRange] =
+    Bishop.moves ++ Rook.moves
   // TODO: Write a test for this
   override val canJumpOver: Boolean = true
   // TODO: Write a test for this
