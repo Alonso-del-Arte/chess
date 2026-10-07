@@ -13,5 +13,6 @@ object Empress extends game.pieces.Empress with LightGrayPiece {
   override val possibleCaptures: Set[RelativePositionRange] =
     Bishop.moves ++ Rook.moves
   override val hasSpecialMoves: Boolean = false
+  override def specialMoves: Set[SpecialMoveSpecification] = Set()
 
 }
