@@ -1,6 +1,7 @@
 package game.pieces.darkgray
 
 import game.{DarkGray, Player, RelativePositionRange}
+import game.moves.SpecialMoveSpecification
 import game.pieces.{Bishop, Rook}
 
 object Empress extends game.pieces.Empress with DarkGrayPiece {
@@ -12,5 +13,6 @@ object Empress extends game.pieces.Empress with DarkGrayPiece {
   override val possibleCaptures: Set[RelativePositionRange] =
     Bishop.moves ++ Rook.moves
   override val hasSpecialMoves: Boolean = false
+  override def specialMoves: Set[SpecialMoveSpecification] = Set()
 
 }
