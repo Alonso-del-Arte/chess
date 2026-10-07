@@ -37,4 +37,9 @@ class EmpressTest {
     assertEquals(expected, actual)
   }
 
+  @Test def testHasSpecialMoves(): Unit = {
+    println("hasSpecialMoves")
+    assert(!Empress.hasSpecialMoves, "Empress shouldn't have special moves")
+  }
+
 }
