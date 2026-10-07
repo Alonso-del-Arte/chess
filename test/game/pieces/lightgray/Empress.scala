@@ -1,11 +1,10 @@
 package game.pieces.lightgray
 
-import game.{Neutral, Player, RelativePosition, RelativePositionRange}
+import game.{LightGray, Player, RelativePosition, RelativePositionRange}
 import game.moves.SpecialMoveSpecification
 
 object Empress extends game.pieces.Empress with LightGrayPiece {
-  // TODO: Write a test for this
-  override val affiliation: Player = Neutral
+  override val affiliation: Player = LightGray
   // TODO: Write a test for this
   override val possibleMoves: Set[RelativePositionRange] = Horse.possibleMoves
   // TODO: Write a test for this
