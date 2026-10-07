@@ -42,4 +42,10 @@ class EmpressTest {
     assert(!Empress.hasSpecialMoves, "Empress shouldn't have special moves")
   }
 
+  @Test def testSpecialMoves(): Unit = {
+    println("specialMoves")
+    val actual = Empress.specialMoves
+    assert(actual.isEmpty, "Set of empress's special moves should be empty")
+  }
+
 }
