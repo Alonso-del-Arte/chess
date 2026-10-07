@@ -1,6 +1,6 @@
 package game.pieces.lightgray
 
-import game.{LightGray, Player, RelativePosition, RelativePositionRange}
+import game.{LightGray, Player, RelativePositionRange}
 import game.moves.SpecialMoveSpecification
 import game.pieces.{Bishop, Rook}
 
