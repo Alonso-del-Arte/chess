@@ -1,6 +1,6 @@
 package game.pieces.darkgray
 
-import game.{DarkGray, Player}
+import game.DarkGray
 import game.pieces.{Bishop, Rook}
 
 import org.junit.jupiter.api.Assertions._
