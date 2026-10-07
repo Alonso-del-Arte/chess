@@ -30,4 +30,11 @@ class EmpressTest {
     assert(Empress.captureSameAsMove, "Empress should capture as she moves")
   }
 
+  @Test def testPossibleCaptures(): Unit = {
+    println("possibleCaptures")
+    val expected = Empress.possibleMoves
+    val actual = Empress.possibleCaptures
+    assertEquals(expected, actual)
+  }
+
 }
