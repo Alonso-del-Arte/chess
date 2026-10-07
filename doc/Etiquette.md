@@ -22,7 +22,7 @@ player believes that the opponent will make a blunder big enough to put the
 opponent's victory in doubt.
 
 When playing with a clock, it is important to be mindful of not performing 
-certain actions on your opponent's time, if the action could be seen as an 
+certain actions on your opponent's time. Some actions could be seen as an 
 attempt to distract your opponent and waste his or her allotted time to make a 
 move. In particular, adjusting pieces should be done on your time, not your 
 opponent's time.
@@ -113,8 +113,8 @@ You may decline an offer to draw either by saying so or by making any valid
 move, or maybe even by adjusting a piece, though that last option might come 
 across as disrespectful.
 
-It is entirely up to your discretion whether the move you make after declining 
-an offer to draw is or is not the move you would have made if there had been no 
+It is entirely at your discretion whether the move you make after declining an 
+offer to draw is or is not the move you would have made if there had been no 
 offer to draw made.
 
 If you offer to draw, and your opponent declines, you should continue playing 
@@ -124,12 +124,14 @@ reaching a more definitive position.
 #### Emergencies
 
 It should go without saying that all these rules and guidelines go out the 
-window in the event of an emergency, such as an earthquake or other natural 
-disaster, or a threat from a person, such as an active shooter.
+window in the event of an emergency. Such as, for example, an earthquake or an 
+active shooter situation.
 
 Then evacuation or sheltering become more important than anything going on in 
-any particular game. Whether any particular game can be resumed at a later time 
-is something that should be sorted out only after the emergency has abated.
+any particular game. Getting people to safety is then much more important than 
+preserving the record of games in progress. Whether any particular game can be 
+resumed at a later time is something that should be sorted out only after the 
+emergency has abated.
 
 Inventing an emergency is of course both bad manners and poor sportsmanship, and 
 potentially a crime.
@@ -152,7 +154,7 @@ clock, you should probably not resign on your opponent's time.
 Resign by saying something to the effect of "I concede." Tipping your king over 
 is a dramatic flourish best left for movies and TV shows, such as *Queen of 
 Katwe* and *The Queen's Gambit*. Plus it can be ambiguous: your opponent could 
-claim he tipped his king by accident and it should not count as a resignation.
+claim he tipped his king by accident so it should not count as a resignation.
 
 Another problem with tipping your king is that it could come across as rude, 
 almost as rude as flipping the whole board over (which, it should go without 
@@ -168,8 +170,7 @@ even if you had plans for some very elegant moves. Something along the lines of
 ### One last word about the touch-move rule
 
 It would be rude to repeatedly touch pieces that can't be moved at the moment, 
-like any of the rooks at the very beginning of the game, without adjusting them 
-within their squares and without announcing one's intention to do that.
+like any of the rooks at the very beginning of the game, just to touch them.
 
 However, that kind of behavior is technically within the letter of the rules. 
 It's obviously against the spirit of the rules.
