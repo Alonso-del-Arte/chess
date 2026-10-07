@@ -1,6 +1,6 @@
 package game.pieces.darkgray
 
-import game.{DarkGray, Player, RelativePosition, RelativePositionRange}
+import game.{DarkGray, Player, RelativePositionRange}
 import game.pieces.{Bishop, Rook}
 
 object Empress extends game.pieces.Empress with DarkGrayPiece {
