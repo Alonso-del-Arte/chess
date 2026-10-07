@@ -11,7 +11,6 @@ object Empress extends game.pieces.Empress with DarkGrayPiece {
   override val captureSameAsMove: Boolean = true
   override val possibleCaptures: Set[RelativePositionRange] =
     Bishop.moves ++ Rook.moves
-  // TODO: Write a test for this
-  override val hasSpecialMoves: Boolean = true
+  override val hasSpecialMoves: Boolean = false
 
 }
