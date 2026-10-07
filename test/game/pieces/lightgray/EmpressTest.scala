@@ -13,4 +13,11 @@ class EmpressTest {
     assertEquals(LightGray, Empress.affiliation)
   }
 
+  @Test def testPossibleMoves(): Unit = {
+    println("possibleMoves")
+    val expected = Bishop.moves ++ Rook.moves
+    val actual = Empress.possibleMoves
+    assertEquals(expected, actual)
+  }
+
 }
