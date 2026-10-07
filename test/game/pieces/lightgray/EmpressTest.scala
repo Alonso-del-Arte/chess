@@ -20,4 +20,9 @@ class EmpressTest {
     assertEquals(expected, actual)
   }
 
+  @Test def testCanJumpOver(): Unit = {
+    println("canJumpOver")
+    assert(!Empress.canJumpOver, "Empress shouldn't be able to jump over")
+  }
+
 }
