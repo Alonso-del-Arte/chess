@@ -1,5 +1,7 @@
 package game.pieces
 
+import game.moves.{Castling, SpecialMoveSpecification}
+
 /**
  * The empress is a chess piece to be used strictly for testing purposes only.
  * The empress has the same moves as the queen, but the empress assumes the
@@ -10,4 +12,8 @@ package game.pieces
  * it is in regular chess to promote to a queen.
  * @author Alonso del Arte
  */
-abstract class Empress extends Queen
+abstract class Empress extends Queen {
+  // TODO: Write a test for this
+  override def specialMoves: Set[SpecialMoveSpecification] = Set(Castling)
+
+}
