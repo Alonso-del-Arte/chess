@@ -9,10 +9,10 @@ import game.moves.SpecialMoveSpecification
  * the board. This means that if a side has only one empress and no emperors,
  * the opponent must checkmate the empress in order to win. For this reason, it
  * might be even more advantageous in most cases to promote to an empress than
- * it is in regular chess.
+ * it is in regular chess to promote to a queen.
  * @author Alonso del Arte
  */
 abstract class Empress extends Queen {
   override def specialMoves: Set[SpecialMoveSpecification] = Set()
-  
+
 }
