@@ -21,7 +21,7 @@ abstract class Piece {
 
   /**
    * Whether this piece can jump over other pieces. For regular chess, this will
-   * only be true for [[Knight]], false for all other pieces.
+   * only be true for [[Knight]], it will be false for all other pieces.
    */
   val canJumpOver: Boolean = false
 
@@ -33,7 +33,7 @@ abstract class Piece {
 
   /**
    * The captures this piece may make. In most cases will be the same as
-   * [[possibleMoves]].
+   * [[possibleMoves]], in which case [[possibleCaptures]] should be true.
    * @return The possible captures.
    */
   def possibleCaptures: Set[RelativePositionRange] =
