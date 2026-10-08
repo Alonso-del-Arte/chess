@@ -85,6 +85,13 @@ class BishopTest {
     assert(!bishop.hasSpecialMoves, "Bishop should have no special moves")
   }
 
+  @Test def testSpecialMoves(): Unit = {
+    println("specialMoves")
+    val bishop = new BishopImpl
+    val actual = bishop.specialMoves
+    assert(actual.isEmpty, "Bishop's set of special moves should be empty")
+  }
+
   private class BishopImpl extends Bishop {
     override val affiliation: Player = Neutral
 
