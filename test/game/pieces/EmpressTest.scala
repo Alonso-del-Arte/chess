@@ -42,6 +42,13 @@ class EmpressTest {
     assert(!empress.hasSpecialMoves, "Empress doesn't have special moves")
   }
 
+  @Test def testSpecialMoves(): Unit = {
+    println("specialMoves")
+    val empress = new EmpressImpl
+    val actual = empress.specialMoves
+    assert(actual.isEmpty, "Empress's set of special moves should be empty")
+  }
+
   private class EmpressImpl extends Empress {
     override val affiliation: Player = Neutral
 
