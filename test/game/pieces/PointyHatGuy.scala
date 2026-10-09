@@ -7,7 +7,4 @@ import game.moves.SpecialMoveSpecification
  * only. The pointy hat guy has the same moves as the bishop.
  * @author Alonso del Arte
  */
-abstract class PointyHatGuy extends Bishop {
-  override def specialMoves: Set[SpecialMoveSpecification] = Set()
-  
-}
+abstract class PointyHatGuy extends Bishop 
