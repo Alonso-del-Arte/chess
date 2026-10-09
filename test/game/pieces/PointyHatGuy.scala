@@ -1,8 +1,13 @@
 package game.pieces
 
+import game.moves.{Castling, SpecialMoveSpecification}
+
 /**
  * The pointy hat guy is a chess piece to be used strictly for testing purposes
  * only. The pointy hat guy has the same moves as the bishop.
  * @author Alonso del Arte
  */
-abstract class PointyHatGuy extends Bishop
+abstract class PointyHatGuy extends Bishop {
+  override def specialMoves: Set[SpecialMoveSpecification] = Set(Castling)
+  
+}
