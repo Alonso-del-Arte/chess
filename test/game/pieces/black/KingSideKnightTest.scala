@@ -2,7 +2,7 @@ package game.pieces.black
 
 import game.Black
 import game.pieces.Knight
-import game.pieces.white.KingSideKnight
+
 import org.junit.jupiter.api.Assertions._
 import org.junit.jupiter.api.Test
 
