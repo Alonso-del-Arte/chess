@@ -2,7 +2,7 @@ package game.pieces.black
 
 import game.Black
 import game.pieces.Knight
-
+import game.pieces.white.KingSideKnight
 import org.junit.jupiter.api.Assertions._
 import org.junit.jupiter.api.Test
 
@@ -43,6 +43,12 @@ class KingSideKnightTest {
     println("hasSpecialMoves")
     assert(!KingSideKnight.hasSpecialMoves,
       "Knight shouldn't have special moves")
+  }
+
+  @Test def testSpecialMoves(): Unit = {
+    println("specialMoves")
+    val actual = KingSideKnight.specialMoves
+    assert(actual.isEmpty, "Knight's set of special moves should be empty")
   }
 
 }
