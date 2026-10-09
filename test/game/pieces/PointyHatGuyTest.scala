@@ -44,6 +44,14 @@ class PointyHatGuyTest {
       "Pointy hat guy shouldn't have special moves")
   }
 
+  @Test def testSpecialMoves(): Unit = {
+    println("specialMoves")
+    val pointyHatGuy = new PointyHatGuyImpl
+    val actual = pointyHatGuy.specialMoves
+    assert(actual.isEmpty,
+      "Pointy hat guy's set of special moves should be empty")
+  }
+
   private class PointyHatGuyImpl extends PointyHatGuy {
     override val affiliation: Player = Neutral
 
