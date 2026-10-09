@@ -45,4 +45,11 @@ class PointyHatGuyTest {
       "Pointy hat guy shouldn't have special moves")
   }
 
+  @Test def testSpecialMoves(): Unit = {
+    println("specialMoves")
+    val actual = PointyHatGuy.specialMoves
+    assert(actual.isEmpty,
+      "Pointy hat guy's set of special moves should be empty")
+  }
+
 }
