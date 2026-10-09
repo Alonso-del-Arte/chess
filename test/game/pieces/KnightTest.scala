@@ -155,6 +155,13 @@ class KnightTest {
     assert(!knight.hasSpecialMoves, "A knight doesn't have special moves")
   }
 
+  @Test def testSpecialMoves(): Unit = {
+    println("specialMoves")
+    val knight = new KnightImpl
+    val actual = knight.specialMoves
+    assert(actual.isEmpty, "Knight's set of special moves should be empty")
+  }
+
   private class KnightImpl extends Knight {
     override val affiliation: Player = Neutral
   }
