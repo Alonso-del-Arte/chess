@@ -45,4 +45,10 @@ class QueenSideKnightTest {
       "Knight shouldn't have special moves")
   }
 
+  @Test def testSpecialMoves(): Unit = {
+    println("specialMoves")
+    val actual = QueenSideKnight.specialMoves
+    assert(actual.isEmpty, "Knight's set of special moves should be empty")
+  }
+
 }
