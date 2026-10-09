@@ -1,6 +1,7 @@
 package game.pieces
 
 import game.{RelativePosition, RelativePositionRange}
+import game.moves.SpecialMoveSpecification
 
 object Knight {
 
@@ -45,5 +46,6 @@ object Knight {
 abstract class Knight extends Piece {
   override val possibleMoves: Set[RelativePositionRange] = Knight.moves
   override val canJumpOver: Boolean = true
+  override def specialMoves: Set[SpecialMoveSpecification] = Set()
 
 }
