@@ -1,3 +1,8 @@
 package game.pieces.darkgray
 
-object PointyHatGuy extends game.pieces.PointyHatGuy with DarkGrayPiece
+import game.moves.SpecialMoveSpecification
+
+object PointyHatGuy extends game.pieces.PointyHatGuy with DarkGrayPiece {
+  override def specialMoves: Set[SpecialMoveSpecification] = Set()
+  
+}
