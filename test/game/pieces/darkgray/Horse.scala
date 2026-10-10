@@ -1,3 +1,8 @@
 package game.pieces.darkgray
 
-object Horse extends game.pieces.Horse with DarkGrayPiece
+import game.moves.{BlackPawnInitialTwoForward, SpecialMoveSpecification}
+
+object Horse extends game.pieces.Horse with DarkGrayPiece {
+  override def specialMoves: Set[SpecialMoveSpecification] = Set(BlackPawnInitialTwoForward)
+  
+}
