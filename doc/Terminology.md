@@ -256,7 +256,7 @@ It is somewhat like Kriegspiel, which was invented long before anyone thought
 about using computers for chess in any capacity. Aside from the limited 
 visibility, the only deviation from the traditional rules is that it is a 
 one-check game. Thus castling tends to be more effective in Fog of War than in 
-traditional chess.
+traditional chess. See [Variants](Variants.md#fog-of-war) for more details.
 * **Fork** &mdash; When a piece of one side simultaneously threatens two of the 
 opponent's pieces. The threatened pieces are then said to be forked. When one of 
 the forked pieces is the opponent's king in check, this usually means the 
