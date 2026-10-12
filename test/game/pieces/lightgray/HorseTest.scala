@@ -44,4 +44,10 @@ class HorseTest {
     assert(!Horse.hasSpecialMoves, "Horse shouldn't have special moves")
   }
 
+  @Test def testSpecialMoves(): Unit = {
+    println("specialMoves")
+    val actual = Horse.specialMoves
+    assert(actual.isEmpty, "Horse's set of special moves should be empty")
+  }
+
 }
