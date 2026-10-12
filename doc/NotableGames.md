@@ -114,10 +114,10 @@ slightly more material than Kasparov, just not positioned as strategically.
 
 ### Star Trek
 
-*Star Trek*, retroactively referred to as "the original series" (TOS) introduced 
-3D chess. However, sequel series sometimes showed games of traditional chess. In 
-at least two cases, these games were historical games available to the show's 
-writers.
+*Star Trek*, retroactively referred to as "the original series" (TOS), 
+introduced 3D chess. However, sequel series sometimes showed games of 
+traditional chess. In at least two cases, these games were historical games 
+available to the show's writers.
 
 #### Donald Byrne vs. Bobby Fischer
 
@@ -165,5 +165,5 @@ announce the check.
 17. Kf1 Be6 
 18. Bxb6 Bxc4+
 
-We don't see whether they keep playing the game, much less whether or not they 
-deviate from the Byrnes-Fischer game. If they don't,
+We don't see whether they keep playing the game, much less whether they deviate 
+from the Byrnes-Fischer game.
