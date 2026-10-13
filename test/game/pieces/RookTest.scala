@@ -86,6 +86,13 @@ class RookTest {
       "Rook can't initiate castling, so no special moves")
   }
 
+  @Test def testSpecialMoves(): Unit = {
+    println("specialMoves")
+    val rook = new RookImpl
+    val actual = rook.specialMoves
+    assert(actual.isEmpty, "Rook's set of special moves should be empty")
+  }
+
   @Test def testCouldCastle(): Unit = {
     println("couldCastle")
     val rook = new RookImpl
