@@ -25,10 +25,13 @@ object Rook {
 
 }
 
+import game.moves.SpecialMoveSpecification
+
 abstract class Rook extends Piece {
   override val possibleMoves: Set[RelativePositionRange] = Rook.moves
   override val canJumpOver: Boolean = false
   override val captureSameAsMove: Boolean = true
+  override def specialMoves: Set[SpecialMoveSpecification] = Set()
   val couldCastle: Boolean = true
 
 }
