@@ -45,6 +45,12 @@ class TowerTest {
     assert(!Tower.hasSpecialMoves, msg)
   }
 
+  @Test def testSpecialMoves(): Unit = {
+    println("specialMoves")
+    val actual = Tower.specialMoves
+    assert(actual.isEmpty, "Rook's set of special moves should be empty")
+  }
+
   @Test def testCouldCastle(): Unit = {
     println("couldCastle")
     assert(Tower.couldCastle, "Tower should be potential castling participant")
