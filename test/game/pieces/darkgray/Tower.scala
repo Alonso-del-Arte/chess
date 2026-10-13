@@ -1,3 +1,8 @@
 package game.pieces.darkgray
 
-object Tower extends game.pieces.Tower with DarkGrayPiece
+import game.moves.SpecialMoveSpecification
+
+object Tower extends game.pieces.Tower with DarkGrayPiece {
+  override def specialMoves: Set[SpecialMoveSpecification] = Set()
+
+}
