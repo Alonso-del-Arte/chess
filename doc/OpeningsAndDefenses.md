@@ -2432,6 +2432,9 @@ move.
 1. d4 e6
 2. Qd3 Bb4+
 
+So if you see your opponent play 1. ... e6 in three-check chess, maybe it would 
+be best to play 2. c3.
+
 ##### French defense, normal variation
 
 1. d4 e6
