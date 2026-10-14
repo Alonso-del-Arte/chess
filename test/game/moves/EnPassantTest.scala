@@ -14,6 +14,12 @@ class EnPassantTest {
     assert(EnPassantImpl.isCapture, "En passant should be capture")
   }
 
+  @Test def testInvolvesPiecesOfSameSide(): Unit = {
+    println("involvesPiecesOfSameSide")
+    assert(!EnPassantImpl.involvesPiecesOfSameSide,
+      "En passant should not involve other pieces of same side")
+  }
+
   private object EnPassantImpl extends EnPassant {
     override def meetsPrerequisites(boardState: BoardState, piece: Piece,
                                     secondPiece: Piece): Boolean = true
