@@ -7,7 +7,6 @@ abstract class EnPassant extends SpecialMoveSpecification {
 
   override def isCapture: Boolean = true
 
-  // TODO: Write a test for this
-  override def involvesPiecesOfSameSide: Boolean = true
+  override def involvesPiecesOfSameSide: Boolean = false
 
 }
