@@ -1,3 +1,10 @@
 package game.pieces.white
 
-object KingPawn extends WhitePawn
+import game.moves.{SpecialMoveSpecification, WhiteEnPassant,
+  WhitePawnInitialTwoForward}
+
+object KingPawn extends WhitePawn {
+  override def specialMoves: Set[SpecialMoveSpecification] =
+    Set(WhiteEnPassant, WhitePawnInitialTwoForward)
+
+}
