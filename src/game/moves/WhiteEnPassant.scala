@@ -11,8 +11,7 @@ object WhiteEnPassant extends EnPassant {
 
   override def isCapture: Boolean = true
 
-  // TODO: Write a test for this
-  override def involvesPiecesOfSameSide: Boolean = true
+  override def involvesPiecesOfSameSide: Boolean = false
 
   // TODO: Write tests for this
   override def execute(boardState: BoardState, piece: Piece,
