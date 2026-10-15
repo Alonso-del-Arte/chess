@@ -1,6 +1,8 @@
 package game.pieces.white
 
 import game.{RelativePosition, RelativePositionRange}
+import game.moves.{SpecialMoveSpecification, WhiteEnPassant,
+  WhitePawnInitialTwoForward}
 import game.pieces.Pawn
 
 /**
@@ -24,5 +26,7 @@ abstract class WhitePawn extends Pawn with WhitePiece {
     = Set(RelativePositionRange(new RelativePosition(-1, 1)),
       RelativePositionRange(new RelativePosition(1, 1)))
   override val hasSpecialMoves: Boolean = true
+  override def specialMoves: Set[SpecialMoveSpecification] =
+    Set(WhiteEnPassant, WhitePawnInitialTwoForward)
 
 }
