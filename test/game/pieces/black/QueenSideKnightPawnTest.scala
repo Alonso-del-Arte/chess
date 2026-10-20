@@ -1,6 +1,8 @@
 package game.pieces.black
 
 import game.{Black, RelativePosition, RelativePositionRange}
+import game.moves.{BlackEnPassant, BlackPawnInitialTwoForward}
+
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.Assertions._
 
@@ -46,6 +48,13 @@ class QueenSideKnightPawnTest {
     println("hasSpecialMoves")
     val msg = "Pawn should have special moves"
     assert(QueenSideKnightPawn.hasSpecialMoves, msg)
+  }
+
+  @Test def testSpecialMoves(): Unit = {
+    println("specialMoves")
+    val expected = Set(BlackEnPassant, BlackPawnInitialTwoForward)
+    val actual = QueenSideKnightPawn.specialMoves
+    assertEquals(expected, actual)
   }
 
 }
