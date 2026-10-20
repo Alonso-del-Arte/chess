@@ -1,6 +1,6 @@
 package game.pieces.black
 
-import game.{Black, Player, RelativePosition, RelativePositionRange}
+import game.{RelativePosition, RelativePositionRange}
 import game.moves.{BlackEnPassant, BlackPawnInitialTwoForward,
   SpecialMoveSpecification}
 import game.pieces.Pawn
