@@ -1,6 +1,8 @@
 package game.pieces.black
 
 import game.{Black, Player, RelativePosition, RelativePositionRange}
+import game.moves.{BlackEnPassant, BlackPawnInitialTwoForward,
+  SpecialMoveSpecification}
 import game.pieces.Pawn
 
 /**
@@ -24,5 +26,7 @@ abstract class BlackPawn extends Pawn with BlackPiece {
     Set(RelativePositionRange(new RelativePosition(-1, -1)),
       RelativePositionRange(new RelativePosition(1, -1)))
   override val hasSpecialMoves: Boolean = true
+  override def specialMoves: Set[SpecialMoveSpecification] =
+    Set(BlackEnPassant, BlackPawnInitialTwoForward)
 
 }
