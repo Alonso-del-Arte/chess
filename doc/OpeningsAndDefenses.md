@@ -2492,7 +2492,7 @@ unprotected too early in the game. But remember: your opponent hasn't begun
 mobilizing yet. Follow this opening by mobilizing your queen and kingside 
 bishop.
 
-#### Lemming's defense
+#### Lemming defense
 
 1. e4 Na6
 
