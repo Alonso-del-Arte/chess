@@ -2677,7 +2677,7 @@ explosion of your kingside knight, your kingside bishop and... your king.
 2. Bc4 d5
 3. exd5
 
-#### Hippopotamus defense
+#### Adams defense, or hippopotamus defense
 
 1. e4 Nh6
 
