@@ -2499,6 +2499,9 @@ bishop.
 However, if you follow this up with Nf3, it might be considered a R&eacute;ti 
 opening instead.
 
+This is not a good first move for Black because then Black is slower to gain 
+control of the center.
+
 ##### R&eacute;ti opening, drunken cavalry variation
 
 1. e4 Na6
@@ -2681,15 +2684,12 @@ explosion of your kingside knight, your kingside bishop and... your king.
 
 1. e4 Nh6
 
-Your opponent might try to deprive you of your queen early on.
-
-1. e4 Nh6
-2. d3 d5
-3. e5 Bg4
-
-Perhaps the best way to block that is
-
-4. Nf3
+This is not a good first move for Black because then Black is slower to gain
+control of the center. However, your opponent might want you to underestimate 
+him or her in order to deprive you of your queen early on. For example, Black 
+might play 2. ... d5 and 3. ... Bg4 hoping to then play 4. ... Bxd1. But there 
+are a few different ways to block that even if you don't realize it until you're 
+weighing your fourth move.
 
 #### Ware defense
 
