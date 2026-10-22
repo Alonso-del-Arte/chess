@@ -1,3 +1,10 @@
 package game.pieces.lightgray
 
-object PointyHatGuysPawn extends LightGrayPawn
+import game.moves.{SpecialMoveSpecification, WhiteEnPassant,
+  WhitePawnInitialTwoForward}
+
+object PointyHatGuysPawn extends LightGrayPawn {
+  override def specialMoves: Set[SpecialMoveSpecification] = Set(WhiteEnPassant,
+    WhitePawnInitialTwoForward)
+
+}
