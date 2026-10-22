@@ -20,8 +20,12 @@ abstract class Piece {
   val possibleMoves: Set[RelativePositionRange]
 
   /**
-   * Whether this piece can jump over other pieces. For regular chess, this will
-   * only be true for [[Knight]], it will be false for all other pieces.
+   * Whether this piece can jump over other pieces of any side during a regular
+   * move or capture. For regular chess, this will only be true for [[Knight]],
+   * it will be false for all other pieces. It could be argued that a [[King]]
+   * and a [[Rook]] are also capable of jumping over other pieces, but that's
+   * actually only that they can jump over other each other and that's only
+   * during the special move of castling.
    */
   val canJumpOver: Boolean = false
 
