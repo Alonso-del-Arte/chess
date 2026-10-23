@@ -4,7 +4,7 @@ import game.{BoardState, Player, RelativePositionRange}
 import game.moves.SpecialMoveSpecification
 
 /**
- * Represents a chess piece.
+ * Represents a chess piece. This includes pawns.
  */
 abstract class Piece {
 
@@ -15,7 +15,8 @@ abstract class Piece {
   val affiliation: Player
 
   /**
-   * The moves this piece may make.
+   * The moves this piece may make without capturing. This does not include
+   * special moves (see [[hasSpecialMoves]] and [[specialMoves]]).
    */
   val possibleMoves: Set[RelativePositionRange]
 
@@ -37,8 +38,9 @@ abstract class Piece {
 
   /**
    * The captures this piece may make. In most cases will be the same as
-   * [[possibleMoves]], in which case [[possibleCaptures]] should be true.
-   * @return The possible captures.
+   * [[possibleMoves]], in which case [[captureSameAsMove]] should be true.
+   * @return The possible captures. It will not include special capturing moves
+   *         like en passant.
    */
   def possibleCaptures: Set[RelativePositionRange] =
     if (this.captureSameAsMove) this.possibleMoves else Set()
