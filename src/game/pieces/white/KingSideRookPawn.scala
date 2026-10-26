@@ -1,3 +1,10 @@
 package game.pieces.white
 
-object KingSideRookPawn extends WhitePawn
+import game.{RelativePosition, RelativePositionRange}
+
+object KingSideRookPawn extends WhitePawn {
+  override val possibleMoves: Set[RelativePositionRange]
+  = Set(new RelativePositionRange(new RelativePosition(0, 1),
+    new RelativePosition(0, 1)))
+
+}
