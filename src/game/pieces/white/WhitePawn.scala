@@ -15,8 +15,6 @@ import game.pieces.Pawn
  * promoted, usually to a queen, though under certain circumstances promotion to
  * a knight, bishop or rook might be preferable.
  */
-// TODO: Figure out how to represent en passant
-// TODO: Refactor initial two spaces forward as a special move
 // TODO: Work out how to represent promotions
 abstract class WhitePawn extends Pawn with WhitePiece {
   override val possibleMoves: Set[RelativePositionRange]
