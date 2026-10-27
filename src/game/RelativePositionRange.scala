@@ -12,6 +12,12 @@ object RelativePositionRange {
     new RelativePositionRange(startAndEnd, startAndEnd)
   }
 
+  // TODO: Write tests for this
+  def apply(beginning: RelativePosition, end: RelativePosition):
+  RelativePositionRange = {
+    new RelativePositionRange(end, beginning)
+  }
+
 }
 
 class RelativePositionRange(val start: RelativePosition,
