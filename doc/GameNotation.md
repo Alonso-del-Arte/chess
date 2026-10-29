@@ -8,9 +8,9 @@ notation for White's move and a notation for Black's move (except the last
 column if White wins or causes a stalemate). Since White always goes first, 
 there's no need to label the columns.
 
-1. [notation for White's first move] [notation for Black's first move]
-2. [notation for White's second move] [notation for Black's second move]
-3. [notation for White's third move] [notation for Black's third move]
+1. notation for White's first move, notation for Black's first move
+2. notation for White's second move, notation for Black's second move
+3. notation for White's third move, notation for Black's third move
 4. etc.
 
 The "officer" pieces are each represented by a single letter. It varies from 
@@ -82,7 +82,7 @@ we can write
 
 since the move exf5 was already stated earlier.
 
-[FINISH WRITING]
+FINISH WRITING
 
 As the game progresses, situations arise in which the notation could become 
 ambiguous if we're careless in our transcription. Consider for example this 
@@ -140,12 +140,12 @@ pawn over to b1 and choose to promote to a queen.
 
 60. ... b1 = Q
 
-[FINISH WRITING]
+FINISH WRITING
 
-[FINISH WRITING]
+FINISH WRITING
 
 ## Descriptive notation
 
-An older notation seen in older books and articles. [FINISH WRITING]
+An older notation seen in older books and articles. FINISH WRITING
 
-[FINISH WRITING]
+FINISH WRITING
