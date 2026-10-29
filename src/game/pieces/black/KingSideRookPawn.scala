@@ -1,3 +1,3 @@
 package game.pieces.black
 
-object KingSideRookPawn extends BlackPawn with BlackPiece
+object KingSideRookPawn extends BlackPawn

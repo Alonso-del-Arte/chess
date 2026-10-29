@@ -1,3 +1,3 @@
 package game.pieces.black
 
-object QueenSideBishopPawn extends BlackPawn with BlackPiece
+object QueenSideBishopPawn extends BlackPawn

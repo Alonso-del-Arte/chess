@@ -5,4 +5,4 @@ package game.pieces.black
  * confused with [[game.pieces.PromotedQueen]], a pawn that is promoted to a
  * queen.
  */
-object QueenPawn extends BlackPawn with BlackPiece
+object QueenPawn extends BlackPawn
