@@ -1,6 +1,6 @@
 package game.pieces.black
 
-import game.{RelativePosition, RelativePositionRange}
+import game.{RelativePosition, RelativePositionRange, ShortMoveRanges}
 import game.moves.{BlackEnPassant, BlackPawnInitialTwoForward,
   SpecialMoveSpecification}
 import game.pieces.Pawn
@@ -18,8 +18,7 @@ import game.pieces.Pawn
 // TODO: Work out how to represent promotions
 abstract class BlackPawn extends Pawn with BlackPiece {
   override val possibleMoves: Set[RelativePositionRange] =
-    Set(new RelativePositionRange(new RelativePosition(0, -1),
-      new RelativePosition(0, -1)))
+    Set(ShortMoveRanges.moveBack)
   override val possibleCaptures: Set[RelativePositionRange] =
     Set(RelativePositionRange(new RelativePosition(-1, -1)),
       RelativePositionRange(new RelativePosition(1, -1)))
