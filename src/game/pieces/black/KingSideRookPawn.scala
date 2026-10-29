@@ -1,3 +1,10 @@
 package game.pieces.black
 
-object KingSideRookPawn extends BlackPawn with BlackPiece
+import game.{RelativePosition, RelativePositionRange}
+
+object KingSideRookPawn extends BlackPawn with BlackPiece {
+  override val possibleMoves: Set[RelativePositionRange] =
+    Set(new RelativePositionRange(new RelativePosition(0, -1),
+      new RelativePosition(0, -1)))
+
+}
