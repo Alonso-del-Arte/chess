@@ -1,6 +1,6 @@
 package game.pieces.white
 
-import game.{RelativePosition, RelativePositionRange}
+import game.{RelativePosition, RelativePositionRange, ShortMoveRanges}
 import game.moves.{SpecialMoveSpecification, WhiteEnPassant,
   WhitePawnInitialTwoForward}
 import game.pieces.Pawn
@@ -18,8 +18,7 @@ import game.pieces.Pawn
 // TODO: Work out how to represent promotions
 abstract class WhitePawn extends Pawn with WhitePiece {
   override val possibleMoves: Set[RelativePositionRange]
-    = Set(new RelativePositionRange(new RelativePosition(0, 1),
-      new RelativePosition(0, 1)))
+    = Set(ShortMoveRanges.moveForward)
   override val possibleCaptures: Set[RelativePositionRange]
     = Set(RelativePositionRange(new RelativePosition(-1, 1)),
       RelativePositionRange(new RelativePosition(1, 1)))
