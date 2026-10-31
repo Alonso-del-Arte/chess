@@ -1,3 +1,9 @@
 package game.pieces.darkgray
 
-object TowersPawn extends DarkGrayPawn
+import game.{RelativePositionRange, ShortMoveRanges}
+
+object TowersPawn extends DarkGrayPawn {
+  override val possibleMoves: Set[RelativePositionRange] =
+    Set(ShortMoveRanges.moveBack)
+
+}
