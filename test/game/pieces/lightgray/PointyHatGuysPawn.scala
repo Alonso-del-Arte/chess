@@ -1,3 +1,10 @@
 package game.pieces.lightgray
 
-object PointyHatGuysPawn extends LightGrayPawn
+import game.{RelativePosition, RelativePositionRange}
+
+object PointyHatGuysPawn extends LightGrayPawn {
+  override val possibleMoves: Set[RelativePositionRange] =
+    Set(new RelativePositionRange(new RelativePosition(0, 1),
+      new RelativePosition(0, 1)))
+
+}
