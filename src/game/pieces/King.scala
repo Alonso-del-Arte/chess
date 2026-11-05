@@ -1,7 +1,8 @@
 package game.pieces
 
 import game.{RelativePositionRange, ShortMoveRanges}
-import game.moves.{Castling, SpecialMoveSpecification}
+import game.moves.{KingsideCastling, QueensideCastling,
+  SpecialMoveSpecification}
 
 abstract class King extends Piece {
   override val possibleMoves: Set[RelativePositionRange] =
@@ -10,6 +11,7 @@ abstract class King extends Piece {
       ShortMoveRanges.moveNortheast, ShortMoveRanges.moveNorthwest,
       ShortMoveRanges.moveSouthwest, ShortMoveRanges.moveSoutheast)
   override val hasSpecialMoves: Boolean = true
-  override val specialMoves: Set[SpecialMoveSpecification] = Set(Castling)
+  override val specialMoves: Set[SpecialMoveSpecification] =
+    Set(KingsideCastling, QueensideCastling)
 
 }
