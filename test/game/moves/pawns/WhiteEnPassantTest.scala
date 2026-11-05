@@ -1,20 +1,19 @@
-package game.moves
+package game.moves.pawns
 
 import org.junit.jupiter.api.Test
-import org.junit.jupiter.api.Assertions._
 
-class BlackEnPassantTest {
+class WhiteEnPassantTest {
 
   // TODO: Write tests for meetsPrerequisites
 
   @Test def testIsCapture(): Unit = {
     println("isCapture")
-    assert(BlackEnPassant.isCapture, "En passant should be capture")
+    assert(WhiteEnPassant.isCapture, "En passant should be capture")
   }
 
   @Test def testInvolvesPiecesOfSameSide(): Unit = {
     println("involvesPiecesOfSameSide")
-    assert(!BlackEnPassant.involvesPiecesOfSameSide,
+    assert(!WhiteEnPassant.involvesPiecesOfSameSide,
       "En passant should not involve other pieces of same side")
   }
 

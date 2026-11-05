@@ -1,8 +1,8 @@
 package game.pieces.lightgray
 
+import game.moves.pawns.{WhiteEnPassant, WhitePawnInitialTwoForward}
 import game.{RelativePosition, RelativePositionRange}
-import game.moves.{SpecialMoveSpecification, WhiteEnPassant,
-  WhitePawnInitialTwoForward}
+import game.moves.SpecialMoveSpecification
 import game.pieces.Pawn
 
 abstract class LightGrayPawn extends Pawn with LightGrayPiece {

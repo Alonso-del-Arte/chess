@@ -1,6 +1,6 @@
 package game.pieces.lightgray
 
-import game.moves.{WhiteEnPassant, WhitePawnInitialTwoForward}
+import game.moves.pawns.{WhiteEnPassant, WhitePawnInitialTwoForward}
 import game.{LightGray, RelativePosition, RelativePositionRange}
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.Assertions._

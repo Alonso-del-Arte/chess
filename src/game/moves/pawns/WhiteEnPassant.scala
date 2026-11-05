@@ -1,9 +1,9 @@
-package game.moves
+package game.moves.pawns
 
 import game.BoardState
 import game.pieces.Piece
 
-object BlackEnPassant extends EnPassant {
+object WhiteEnPassant extends EnPassant {
 
   // TODO: Write tests for this
   override def meetsPrerequisites(boardState: BoardState, piece: Piece,
@@ -12,6 +12,5 @@ object BlackEnPassant extends EnPassant {
   // TODO: Write tests for this
   override def execute(boardState: BoardState, piece: Piece,
                        secondPiece: Piece): BoardState = game.InitialBoardState
-
 
 }

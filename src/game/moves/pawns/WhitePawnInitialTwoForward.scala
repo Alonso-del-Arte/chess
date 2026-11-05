@@ -1,9 +1,9 @@
-package game.moves
+package game.moves.pawns
 
-import game.{BoardState, InitialBoardState}
 import game.pieces.Piece
+import game.{BoardState, InitialBoardState}
 
-object BlackPawnInitialTwoForward extends PawnInitialTwoForward {
+object WhitePawnInitialTwoForward extends PawnInitialTwoForward {
 
   override def meetsPrerequisites(boardState: BoardState, piece: Piece,
                                   secondPiece: Piece): Boolean = true

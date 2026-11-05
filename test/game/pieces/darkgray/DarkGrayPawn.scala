@@ -1,8 +1,8 @@
 package game.pieces.darkgray
 
+import game.moves.pawns.{BlackEnPassant, BlackPawnInitialTwoForward}
 import game.{RelativePosition, RelativePositionRange}
-import game.moves.{BlackEnPassant, BlackPawnInitialTwoForward,
-  SpecialMoveSpecification}
+import game.moves.SpecialMoveSpecification
 import game.pieces.Pawn
 
 abstract class DarkGrayPawn extends Pawn with DarkGrayPiece {

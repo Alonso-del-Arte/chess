@@ -1,7 +1,7 @@
 package game.pieces.white
 
 import game.{RelativePosition, RelativePositionRange, White}
-import game.moves.{WhiteEnPassant, WhitePawnInitialTwoForward}
+import game.moves.pawns.{WhiteEnPassant, WhitePawnInitialTwoForward}
 
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.Assertions._

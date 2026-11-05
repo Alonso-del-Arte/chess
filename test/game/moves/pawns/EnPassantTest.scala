@@ -1,11 +1,9 @@
-package game.moves
+package game.moves.pawns
 
-import game.{BoardState, PositionImpl, RelativePositionRange}
-import game.pieces.{Piece, PieceChooser}
+import game.BoardState
+import game.pieces.Piece
 
 import org.junit.jupiter.api.Test
-
-import scala.util.Random
 
 class EnPassantTest {
 
