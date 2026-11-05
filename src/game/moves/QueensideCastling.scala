@@ -3,7 +3,7 @@ package game.moves
 import game.BoardState
 import game.pieces.Piece
 
-class QueensideCastling extends SpecialMoveSpecification {
+object QueensideCastling extends SpecialMoveSpecification {
 
   // TODO: Write tests for this
   override def meetsPrerequisites(boardState: BoardState, piece: Piece,
