@@ -1,7 +1,7 @@
 package game.pieces.black
 
 import game.{Black, ShortMoveRanges}
-import game.moves.Castling
+import game.moves.{KingsideCastling, QueensideCastling}
 
 import org.junit.jupiter.api.Assertions._
 import org.junit.jupiter.api.Test
@@ -49,7 +49,7 @@ class KingTest {
 
   @Test def testSpecialMoves(): Unit = {
     println("specialMoves")
-    val expected = Set(Castling)
+    val expected = Set(KingsideCastling, QueensideCastling)
     val actual = King.specialMoves
     assertEquals(expected, actual)
   }
