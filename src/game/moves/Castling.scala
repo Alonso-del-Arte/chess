@@ -3,7 +3,7 @@ package game.moves
 import game.{BoardState, RelativePositionRange}
 import game.pieces.Piece
 
-object Castling extends SpecialMoveSpecification {
+class Castling extends SpecialMoveSpecification {
 
   // TODO: Write tests for this
   override def meetsPrerequisites(boardState: BoardState, piece: Piece,

@@ -14,6 +14,6 @@ import game.moves.{Castling, SpecialMoveSpecification}
  */
 abstract class Empress extends Queen {
   // TODO: Write a test for this
-  override def specialMoves: Set[SpecialMoveSpecification] = Set(Castling)
+  override def specialMoves: Set[SpecialMoveSpecification] = Set(new Castling)
 
 }

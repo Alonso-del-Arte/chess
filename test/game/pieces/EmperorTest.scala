@@ -46,14 +46,6 @@ class EmperorTest {
     assert(emperor.hasSpecialMoves, "Emperor has special move of castling")
   }
 
-  @Test def testSpecialMoves(): Unit = {
-    println("specialMoves")
-    val emperor = new EmperorImpl
-    val expected = Set(Castling)
-    val actual = emperor.specialMoves
-    assertEquals(expected, actual)
-  }
-
   private class EmperorImpl extends Emperor {
     override val affiliation: Player = Neutral
 

@@ -13,15 +13,21 @@ class CastlingTest {
 
   @Test def testIsCapture(): Unit = {
     println("isCapture")
-    assert(!Castling.isCapture, "Casting should not be capture")
+    assert(!CastlingImpl.isCapture, "Casting should not be capture")
   }
 
   @Test def testInvolvesPiecesOfSameSide(): Unit = {
     println("involvesPiecesOfSameSide")
-    assert(Castling.involvesPiecesOfSameSide,
+    assert(CastlingImpl.involvesPiecesOfSameSide,
       "Castling should involve another piece of the same side")
   }
 
   // TODO: Test execute()
+
+  private object CastlingImpl extends Castling {
+
+    //
+
+  }
 
 }
