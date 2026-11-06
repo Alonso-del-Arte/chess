@@ -4436,12 +4436,21 @@ King's pawn opening, king's knight variation
 
 1. f4 Nh6
 
+If openings named after animals are bad, openings named after insects might be 
+the worst.
+
 This is an opening that has fallen out of favor and remained a rarity for the 
 past hundred years. Some, like grandmaster Sam Shankland, would say that this is 
 because this is an objectively bad first move for Black. It certainly is 
 according to classical principles. With 1. f4, White at least controls one 
 square of the center. By responding with 1. ... Nh6, Black doesn't gain any 
 control of the center whatsoever.
+
+And also, when White plays 1. f4, most players playing Black immediately think 
+about trying for an early checkmate. But aside from the rankest amateurs, White 
+already knows the risk of early checkmate and is ready to thwart such an 
+attempt. When Black responds with 1. ... Nh6, he or she might be thinking about 
+longer term strategy, such as depriving White of the light squares bishop.
 
 #### Myers defense
 
