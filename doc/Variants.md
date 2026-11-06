@@ -423,8 +423,8 @@ traditional chess, or very close to it. The two sides are White and Black, and
 White goes first.
 
 But in this testing variant, which I will only flesh out enough to help with
-testing regular chess play, the two sides are Dark Gray and Light Gray, and
-either may go first.
+testing regular chess play, the two sides are Dark Gray and Light Gray, and Dark 
+Gray goes first.
 
 Also, instead of a king, each side gets an emperor; an empress instead of a
 queen, one pointy hat guy instead of two bishops; one horse instead of two
