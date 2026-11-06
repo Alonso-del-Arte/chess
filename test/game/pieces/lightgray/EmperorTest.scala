@@ -1,7 +1,7 @@
 package game.pieces.lightgray
 
 import game.{LightGray, ShortMoveRanges}
-import game.moves.Castling
+import game.moves.LightGrayCastling
 
 import org.junit.jupiter.api.Assertions._
 import org.junit.jupiter.api.Test
@@ -47,7 +47,7 @@ class EmperorTest {
 
   @Test def testSpecialMoves(): Unit = {
     println("specialMoves")
-    val expected = Set(Castling)
+    val expected = Set(LightGrayCastling)
     val actual = Emperor.specialMoves
     assertEquals(expected, actual)
   }
