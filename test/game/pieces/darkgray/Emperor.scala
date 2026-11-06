@@ -1,3 +1,9 @@
 package game.pieces.darkgray
 
-object Emperor extends game.pieces.Emperor with DarkGrayPiece
+import game.moves.{DarkGrayCastling, SpecialMoveSpecification}
+
+object Emperor extends game.pieces.Emperor with DarkGrayPiece {
+  override val specialMoves: Set[SpecialMoveSpecification] =
+    Set(DarkGrayCastling)
+
+}
