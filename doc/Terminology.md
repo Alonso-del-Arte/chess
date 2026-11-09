@@ -380,6 +380,13 @@ h2 available for the White king to escape to.
 
 * **Major piece** &mdash; A queen or a rook. Two major pieces are better able to 
 force checkmate against the opponent king than two minor pieces.
+* **Manual castling** &mdash; When a player accomplishes the effect of castling 
+over the course of two or more moves. Instead of "O-O" or "O-O-O", the game 
+transcript shows one or more king moves and usually a single rook move, not 
+necessarily in that order. The term is used even though regular castling with a 
+normal physical board is normally done by hand and even though the player would 
+not actually handle the pieces by hand for any sort of castling when playing on 
+a board drawn on a computer screen, or for "living chess," etc.
 * **Master** &mdash; A USCF tournament player rated at 2200 or higher but less 
 than 2400 in the Elo rating system.
 * **Mate** &mdash; Synonym for checkmate. Theoretically it could also be used as 
@@ -406,9 +413,9 @@ running the risk of the opponent eking out a draw or even an outright victory.
 * **Mistake** &mdash; A technically valid move that puts the player at a 
 tactical disadvantage. It's the result of either carelessness or misjudging the 
 position. Getting the king out of a check is never a mistake, even if it forces 
-the player to abandon a piece they would rather not. Some commentators use this 
-term to mean only bad moves that waste a tactical advantage but don't risk 
-losing the game.
+the player to abandon a piece the player would rather keep. Some commentators 
+use this term to mean only bad moves that waste a tactical advantage but don't 
+risk losing the game.
 * **Move** &mdash; A pair of plies, first by White and then Black's response. 
 For example, if the game so far is 1. e4 e5 2. d4 Nf6, two moves (four plies) 
 have occurred. If White wins or causes a stalemate, the final ply might be 
