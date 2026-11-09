@@ -5,8 +5,7 @@ import game.pieces.Piece
 
 object WhiteEnPassantLeft extends EnPassant {
 
-  // TODO: Write tests for this
-  override def isCapture: Boolean = false
+  override def isCapture: Boolean = true
 
   // TODO: Write tests for this
   override def involvesPiecesOfSameSide: Boolean = true
