@@ -12,4 +12,10 @@ class WhiteEnPassantLeftTest {
     assert(WhiteEnPassantLeft.isCapture, "En passant should be capture")
   }
 
+  @Test def testInvolvesPiecesOfSameSide(): Unit = {
+    println("involvesPiecesOfSameSide")
+    assert(!WhiteEnPassantLeft.involvesPiecesOfSameSide,
+      "En passant should not involve other pieces of same side")
+  }
+
 }
