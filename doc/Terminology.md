@@ -304,6 +304,7 @@ sacrifice to achieve the capture.
 over most of the board. Horde is played on a standard board, but the radically 
 different complement of pieces requires radically different rules and strategy. 
 It is probably the creepiest chess variant.
+* **Human chess** &mdash; Synonym for living chess.
 * **Hungarian opening** &mdash; The opening in which White begins by playing the 
 kingside knight's pawn forward one space. See Openings for more details.
 
@@ -358,6 +359,9 @@ may capture. It is quite a cumbersome precursor to Fog of War.
 
 ## L
 
+* **Live chess** &mdash; Synonym for living chess.
+* **Living chess** &mdash; Chess played on a very large board with 32 persons 
+acting as the individual pieces.
 * **Loose piece** &mdash; Synonym for free piece.
 * **Losing chess** &mdash; Synonym for antichess.
 * **Luft** &mdash; German for air, used in chess to mean a square that a castled 
