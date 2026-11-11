@@ -9,8 +9,7 @@ object BlackPawnPromotion extends PawnPromotion {
   override def meetsPrerequisites(boardState: BoardState, piece: Piece,
                                   secondPiece: Piece = null): Boolean = true
 
-  // TODO: Write tests for this
-  override def isCapture: Boolean = true
+  override def isCapture: Boolean = false
 
   // TODO: Write tests for this
   override def involvesPiecesOfSameSide: Boolean = false
