@@ -1,7 +1,9 @@
 package game.pieces.white
 
 import game.{RelativePosition, RelativePositionRange, White}
-import game.moves.pawns.{WhiteEnPassant, WhitePawnInitialTwoForward}
+import game.moves.pawns.{WhiteEnPassant, WhitePawnInitialTwoForward,
+  WhitePawnPromotion, WhitePawnPromotionCaptureLeft,
+  WhitePawnPromotionCaptureRight}
 
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.Assertions._
@@ -52,7 +54,9 @@ class KingPawnTest {
 
   @Test def testSpecialMoves(): Unit = {
     println("specialMoves")
-    val expected = Set(WhiteEnPassant, WhitePawnInitialTwoForward)
+    val expected = Set(WhiteEnPassant, WhitePawnInitialTwoForward,
+      WhitePawnPromotion, WhitePawnPromotionCaptureLeft,
+      WhitePawnPromotionCaptureRight)
     val actual = KingPawn.specialMoves
     assertEquals(expected, actual)
   }
