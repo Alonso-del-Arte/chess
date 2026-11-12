@@ -1,3 +1,14 @@
 package game.pieces.white
 
-object QueenSideKnightPawn extends WhitePawn
+import game.moves.SpecialMoveSpecification
+import game.moves.pawns.{WhiteEnPassantLeft, WhiteEnPassantRight,
+  WhitePawnInitialTwoForward, WhitePawnPromotion, WhitePawnPromotionCaptureLeft,
+  WhitePawnPromotionCaptureRight}
+
+object QueenSideKnightPawn extends WhitePawn {
+  override def specialMoves: Set[SpecialMoveSpecification] =
+    Set(WhiteEnPassantLeft, WhiteEnPassantRight, WhitePawnInitialTwoForward,
+      WhitePawnPromotion, WhitePawnPromotionCaptureLeft,
+      WhitePawnPromotionCaptureRight)
+
+}
