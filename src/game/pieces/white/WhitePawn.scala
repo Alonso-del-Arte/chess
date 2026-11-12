@@ -1,8 +1,10 @@
 package game.pieces.white
 
-import game.moves.pawns.{WhiteEnPassant, WhitePawnInitialTwoForward}
 import game.{RelativePosition, RelativePositionRange, ShortMoveRanges}
 import game.moves.SpecialMoveSpecification
+import game.moves.pawns.{WhiteEnPassantLeft, WhiteEnPassantRight,
+  WhitePawnInitialTwoForward, WhitePawnPromotion, WhitePawnPromotionCaptureLeft,
+  WhitePawnPromotionCaptureRight}
 import game.pieces.Pawn
 
 /**
@@ -15,7 +17,6 @@ import game.pieces.Pawn
  * promoted, usually to a queen, though under certain circumstances promotion to
  * a knight, bishop or rook might be preferable.
  */
-// TODO: Work out how to represent promotions
 abstract class WhitePawn extends Pawn with WhitePiece {
   override val possibleMoves: Set[RelativePositionRange]
     = Set(ShortMoveRanges.moveForward)
@@ -24,6 +25,8 @@ abstract class WhitePawn extends Pawn with WhitePiece {
       RelativePositionRange(new RelativePosition(1, 1)))
   override val hasSpecialMoves: Boolean = true
   override def specialMoves: Set[SpecialMoveSpecification] =
-    Set(WhiteEnPassant, WhitePawnInitialTwoForward)
+    Set(WhiteEnPassantLeft, WhiteEnPassantRight, WhitePawnInitialTwoForward,
+      WhitePawnPromotion, WhitePawnPromotionCaptureLeft,
+      WhitePawnPromotionCaptureRight)
 
 }
