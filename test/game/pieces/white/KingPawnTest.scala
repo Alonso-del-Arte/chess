@@ -1,8 +1,8 @@
 package game.pieces.white
 
 import game.{RelativePosition, RelativePositionRange, White}
-import game.moves.pawns.{WhiteEnPassantLeft, WhiteEnPassantRight, WhitePawnInitialTwoForward,
-  WhitePawnPromotion, WhitePawnPromotionCaptureLeft,
+import game.moves.pawns.{WhiteEnPassantLeft, WhiteEnPassantRight,
+  WhitePawnInitialTwoForward, WhitePawnPromotion, WhitePawnPromotionCaptureLeft,
   WhitePawnPromotionCaptureRight}
 
 import org.junit.jupiter.api.Test
