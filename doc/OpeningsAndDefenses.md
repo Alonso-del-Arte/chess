@@ -2864,12 +2864,12 @@ as his opening move. Then his opponent (Tommy Brennan) announces c5 as his
 response. At this point, it looks like the actors are making the correct moves 
 on the board.
 
-But T.&nbsp;J.'s parents (host Shane Gillis and Grace Reiter) increasingly 
-distract from the game. The move b4 was chosen so that T.&nbsp;J. can make a 
-lame pun using the word "before." The distractions escalate so much that the 
-chess coach (Mikey Day) makes a few moves and declares T.&nbsp;J. the winner. 
-Then T.&nbsp;J.'s parents clear the table while making double entendres 
-involving chess.
+But T.&nbsp;J.'s parents (host Shane Gillis and current cast member Grace 
+Reiter) increasingly distract from the game. The move b4 was chosen so that 
+T.&nbsp;J. can make a lame pun using the word "before." The distractions 
+escalate so much that the chess coach (Mikey Day) makes a few moves and declares 
+T.&nbsp;J. the winner. Then T.&nbsp;J.'s parents clear the table while making 
+double entendres involving chess.
 
 Though chess is a background for the skit, it is clear that the writer of the 
 skit does know something about chess.
