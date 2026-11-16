@@ -1,8 +1,10 @@
 package game.pieces.black
 
-import game.moves.pawns.{BlackEnPassant, BlackPawnInitialTwoForward}
 import game.{RelativePosition, RelativePositionRange, ShortMoveRanges}
 import game.moves.SpecialMoveSpecification
+import game.moves.pawns.{BlackEnPassantLeft, BlackEnPassantRight,
+  BlackPawnInitialTwoForward, BlackPawnPromotion, BlackPawnPromotionCaptureLeft,
+  BlackPawnPromotionCaptureRight}
 import game.pieces.Pawn
 
 /**
@@ -24,6 +26,8 @@ abstract class BlackPawn extends Pawn with BlackPiece {
       RelativePositionRange(new RelativePosition(1, -1)))
   override val hasSpecialMoves: Boolean = true
   override def specialMoves: Set[SpecialMoveSpecification] =
-    Set(BlackEnPassant, BlackPawnInitialTwoForward)
+    Set(BlackEnPassantLeft, BlackEnPassantRight, BlackPawnInitialTwoForward,
+      BlackPawnPromotion, BlackPawnPromotionCaptureLeft,
+      BlackPawnPromotionCaptureRight)
 
 }
