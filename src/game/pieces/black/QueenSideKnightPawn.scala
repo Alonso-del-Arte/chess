@@ -1,3 +1,14 @@
 package game.pieces.black
 
-object QueenSideKnightPawn extends BlackPawn
+import game.moves.SpecialMoveSpecification
+import game.moves.pawns.{BlackEnPassantLeft, BlackEnPassantRight,
+  BlackPawnInitialTwoForward, BlackPawnPromotion, BlackPawnPromotionCaptureLeft,
+  BlackPawnPromotionCaptureRight}
+
+object QueenSideKnightPawn extends BlackPawn {
+  override def specialMoves: Set[SpecialMoveSpecification] =
+    Set(BlackEnPassantLeft, BlackEnPassantRight, BlackPawnInitialTwoForward,
+      BlackPawnPromotion, BlackPawnPromotionCaptureLeft,
+      BlackPawnPromotionCaptureRight)
+
+}
