@@ -2856,6 +2856,8 @@ followed by 10. Nxa1.
 2. Nf3 d6 
 3. b4 cxb4
 
+White defers offering the queenside knight's pawn to the third move.
+
 ###### Sicilian defense, delayed Alapin variation
 
 1. e4 c5 
@@ -2931,6 +2933,11 @@ or
 
 1. e4 c5
 2. Nh3
+
+##### Sicilian defense, wing gambit
+
+1. e4 c5
+2. b4
 
 ##### Sicilian defense, wing, Marshall variation
 
