@@ -1,8 +1,10 @@
 package game.pieces.darkgray
 
-import game.moves.pawns.{BlackEnPassant, BlackPawnInitialTwoForward}
 import game.{RelativePosition, RelativePositionRange}
 import game.moves.SpecialMoveSpecification
+import game.moves.pawns.{BlackEnPassantLeft, BlackEnPassantRight,
+  BlackPawnInitialTwoForward, BlackPawnPromotion, BlackPawnPromotionCaptureLeft,
+  BlackPawnPromotionCaptureRight}
 import game.pieces.Pawn
 
 abstract class DarkGrayPawn extends Pawn with DarkGrayPiece {
@@ -12,7 +14,9 @@ abstract class DarkGrayPawn extends Pawn with DarkGrayPiece {
   override val possibleCaptures: Set[RelativePositionRange] =
     Set(RelativePositionRange(new RelativePosition(-1, -1)),
       RelativePositionRange(new RelativePosition(1, -1)))
-  override def specialMoves: Set[SpecialMoveSpecification] = Set(BlackEnPassant,
-    BlackPawnInitialTwoForward)
+  override def specialMoves: Set[SpecialMoveSpecification] =
+    Set(BlackEnPassantLeft, BlackEnPassantRight, BlackPawnInitialTwoForward,
+      BlackPawnPromotion, BlackPawnPromotionCaptureLeft,
+      BlackPawnPromotionCaptureRight)
 
 }
