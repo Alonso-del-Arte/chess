@@ -37,6 +37,15 @@ pertinent to the game.
 Even in a friendly game, it might be best to limit off-topic conversation, as 
 your opponent might think you're trying to cause a distraction.
 
+#### Announcing moves
+
+Normally, moves are not announced when playing on a physical board. Not even by 
+blind players using a special board. When coaching a player on how to transcribe 
+the game, the coach and the student might announce their moves. In a theatrical 
+production, the script may have the actors announcing the moves so that the 
+audience can follow along, or, in the case of a comedy, for the purpose of 
+making jokes or puns.
+
 #### Adjusting pieces
 
 For the most part, pieces on the board should only be touched when being moved, 
