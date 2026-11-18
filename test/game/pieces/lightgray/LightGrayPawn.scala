@@ -1,8 +1,10 @@
 package game.pieces.lightgray
 
-import game.moves.pawns.{WhiteEnPassant, WhitePawnInitialTwoForward}
 import game.{RelativePosition, RelativePositionRange}
 import game.moves.SpecialMoveSpecification
+import game.moves.pawns.{WhiteEnPassantLeft, WhiteEnPassantRight,
+  WhitePawnInitialTwoForward, WhitePawnPromotion, WhitePawnPromotionCaptureLeft,
+  WhitePawnPromotionCaptureRight}
 import game.pieces.Pawn
 
 abstract class LightGrayPawn extends Pawn with LightGrayPiece {
@@ -12,7 +14,9 @@ abstract class LightGrayPawn extends Pawn with LightGrayPiece {
   override val possibleCaptures: Set[RelativePositionRange] =
     Set(RelativePositionRange(new RelativePosition(-1, 1)),
       RelativePositionRange(new RelativePosition(1, 1)))
-  override def specialMoves: Set[SpecialMoveSpecification] = Set(WhiteEnPassant,
-    WhitePawnInitialTwoForward)
+  override def specialMoves: Set[SpecialMoveSpecification] =
+    Set(WhiteEnPassantLeft, WhiteEnPassantRight, WhitePawnInitialTwoForward,
+      WhitePawnPromotion, WhitePawnPromotionCaptureLeft,
+      WhitePawnPromotionCaptureRight)
 
 }
