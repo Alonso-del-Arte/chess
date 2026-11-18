@@ -60,6 +60,11 @@ It is important to make these announcements during your own turn, especially in
 a timed game. Making adjustments on your opponent's turn could be construed as 
 an attempt to create a distraction.
 
+The touch-move rule does not apply to blind players using a special board with 
+raised squares and holes in the squares for the pieces' pegs. The players, if 
+they're both blind, may touch all the pieces to form a mental image of the board 
+state between moves.
+
 #### Calling checks
 
 Among beginners, it might be necessary for a player to announce a check, just in 
