@@ -39,7 +39,7 @@ your opponent might think you're trying to cause a distraction.
 
 #### Adjusting pieces
 
-For the most part, pieces on the board should only be moved when being moved, 
+For the most part, pieces on the board should only be touched when being moved, 
 captured or promoted. And it's okay if a piece is slightly off-center. But if a 
 piece is so off-center that its position is ambiguous, it should be adjusted.
 
