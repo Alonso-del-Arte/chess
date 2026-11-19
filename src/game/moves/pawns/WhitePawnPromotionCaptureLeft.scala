@@ -9,8 +9,6 @@ object WhitePawnPromotionCaptureLeft extends PawnPromotionWithCapture {
   override def meetsPrerequisites(boardState: BoardState, piece: Piece,
                                   secondPiece: Piece = null): Boolean = true
 
-  override def isCapture: Boolean = true
-
   override def involvesPiecesOfSameSide: Boolean = true
 
   // TODO: Write tests for this
