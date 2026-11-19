@@ -7,7 +7,13 @@ import org.junit.jupiter.api.Test
 
 class PawnPromotionWithCaptureTest {
 
-  private class PawnPromotionWithCaptureImpl extends PawnPromotionWithCapture {
+  @Test def testIsCapture(): Unit = {
+    println("isCapture")
+    assert(PawnPromotionWithCaptureImpl.isCapture,
+      "Pawn promotion with capture should be capture")
+  }
+
+  private object PawnPromotionWithCaptureImpl extends PawnPromotionWithCapture {
 
     override def meetsPrerequisites(boardState: BoardState, piece: Piece,
                                     secondPiece: Piece): Boolean = true
