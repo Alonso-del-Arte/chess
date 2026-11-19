@@ -4,7 +4,6 @@ import game.moves.SpecialMoveSpecification
 
 abstract class PawnPromotionWithCapture extends SpecialMoveSpecification {
 
-  // TODO: Write a test for this
-  override def isCapture: Boolean = false
+  override def isCapture: Boolean = true
 
 }
