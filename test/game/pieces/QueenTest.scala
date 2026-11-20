@@ -7,6 +7,16 @@ import org.junit.jupiter.api.Test
 
 class QueenTest {
 
+  @Test def testPromote(): Unit = {
+    println("promote")
+    val expected = PieceChooser.choosePawn
+    val promoted = Queen.promote(expected)
+    val actual = promoted.prior
+    val message = s"$expected promoted to $promoted should be a queen"
+    assertEquals(expected, actual, message)
+    assert(promoted.isInstanceOf[PromotedQueen], message)
+  }
+
   @Test def testPossibleMoves(): Unit = {
     println("possibleMoves")
     val queen = new QueenImpl
