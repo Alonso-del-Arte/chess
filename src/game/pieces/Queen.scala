@@ -1,6 +1,6 @@
 package game.pieces
 
-import game.{Black, Player, RelativePositionRange}
+import game.RelativePositionRange
 import game.moves.SpecialMoveSpecification
 
 object Queen extends PromotionFactory {

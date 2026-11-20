@@ -1,6 +1,6 @@
 package game.pieces
 
-import game.{Black, Player, RelativePosition, RelativePositionRange}
+import game.{RelativePosition, RelativePositionRange}
 
 object Rook extends PromotionFactory {
 
