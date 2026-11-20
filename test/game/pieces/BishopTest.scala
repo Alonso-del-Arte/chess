@@ -7,6 +7,16 @@ import org.junit.jupiter.api.Test
 
 class BishopTest {
 
+  @Test def testPromote(): Unit = {
+    println("promote")
+    val expected = PieceChooser.choosePawn
+    val promoted = Bishop.promote(expected)
+    val actual = promoted.prior
+    val message = s"$expected promoted to $promoted should be a bishop"
+    assertEquals(expected, actual, message)
+    assert(promoted.isInstanceOf[PromotedBishop], message)
+  }
+
   @Test def testMoveNortheast(): Unit = {
     val expected = new RelativePositionRange(new RelativePosition(1, -1),
       new RelativePosition(7, -7))
