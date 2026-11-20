@@ -15,6 +15,16 @@ import org.junit.jupiter.api.Test
 
 class KnightTest {
 
+  @Test def testPromote(): Unit = {
+    println("promote")
+    val expected = PieceChooser.choosePawn
+    val promoted = Knight.promote(expected)
+    val actual = promoted.prior
+    val message = s"$expected promoted to $promoted should be a knight"
+    assertEquals(expected, actual, message)
+    assert(promoted.isInstanceOf[PromotedKnight], message)
+  }
+
   @Test def testMoveOneOClock(): Unit = {
     val offset = new RelativePosition(1, 2)
     for (start <- KnightTest.centerSquares) {
