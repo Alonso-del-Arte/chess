@@ -2,7 +2,7 @@ package game.pieces
 
 import game.{RelativePosition, RelativePositionRange}
 
-object Rook {
+object Rook extends PromotionFactory {
 
   val moveForward: RelativePositionRange =
     new RelativePositionRange(new RelativePosition(0, 1),
@@ -22,6 +22,9 @@ object Rook {
 
   val moves: Set[RelativePositionRange] = Set(moveForward, moveRight, moveBack,
     moveLeft)
+
+  // TODO: Write tests for this
+  override def promote(pawn: Pawn): Promoted = new PromotedBishop(pawn)
 
 }
 

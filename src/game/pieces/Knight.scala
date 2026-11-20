@@ -3,7 +3,7 @@ package game.pieces
 import game.{RelativePosition, RelativePositionRange}
 import game.moves.SpecialMoveSpecification
 
-object Knight {
+object Knight extends PromotionFactory {
 
   val moveOneOClock: RelativePositionRange =
     new RelativePositionRange(new RelativePosition(1, 2),
@@ -40,6 +40,9 @@ object Knight {
   val moves: Set[RelativePositionRange] = Set(moveOneOClock, moveTwoOClock,
     moveFourOClock, moveFiveOClock, moveSevenOClock, moveEightOClock,
     moveTenOClock, moveElevenOClock)
+
+  // TODO: Write tests for this
+  override def promote(pawn: Pawn): Promoted = new PromotedRook(pawn)
 
 }
 
