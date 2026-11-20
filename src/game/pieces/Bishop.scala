@@ -27,7 +27,7 @@ object Bishop {
 
 import game.moves.SpecialMoveSpecification
 
-abstract class Bishop extends Piece {
+abstract class Bishop extends Piece with PromotionChoice {
   override val possibleMoves: Set[RelativePositionRange] = Bishop.moves
   override def specialMoves: Set[SpecialMoveSpecification] = Set()
 

@@ -27,7 +27,7 @@ object Rook {
 
 import game.moves.SpecialMoveSpecification
 
-abstract class Rook extends Piece {
+abstract class Rook extends Piece with PromotionChoice {
   override val possibleMoves: Set[RelativePositionRange] = Rook.moves
   override val canJumpOver: Boolean = false
   override val captureSameAsMove: Boolean = true

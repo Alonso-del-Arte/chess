@@ -43,7 +43,7 @@ object Knight {
 
 }
 
-abstract class Knight extends Piece {
+abstract class Knight extends Piece with PromotionChoice {
   override val possibleMoves: Set[RelativePositionRange] = Knight.moves
   override val canJumpOver: Boolean = true
   override def specialMoves: Set[SpecialMoveSpecification] = Set()

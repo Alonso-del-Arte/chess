@@ -3,7 +3,7 @@ package game.pieces
 import game.RelativePositionRange
 import game.moves.SpecialMoveSpecification
 
-abstract class Queen extends Piece {
+abstract class Queen extends Piece with PromotionChoice {
   override val possibleMoves: Set[RelativePositionRange] =
     Bishop.moves ++ Rook.moves
   override def specialMoves: Set[SpecialMoveSpecification] = Set()

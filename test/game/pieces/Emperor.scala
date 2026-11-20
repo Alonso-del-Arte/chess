@@ -9,4 +9,4 @@ package game.pieces
  * on the same side and checkmate the promoted emperor.
  * @author Alonso del Arte
  */
-abstract class Emperor extends King
+abstract class Emperor extends King with PromotionChoice
