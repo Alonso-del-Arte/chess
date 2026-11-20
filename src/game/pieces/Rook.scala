@@ -23,19 +23,7 @@ object Rook extends PromotionFactory {
   val moves: Set[RelativePositionRange] = Set(moveForward, moveRight, moveBack,
     moveLeft)
 
-  // TODO: Write tests for this
-  override def promote(pawn: Pawn): Promoted = new PromotedBishop(new Pawn {
-    /**
-     * The piece's affiliation. For regular chess, this will be either [[White]]
-     * or [[Black]].
-     */
-    override val affiliation: Player = Black
-    /**
-     * The moves this piece may make without capturing. This does not include
-     * special moves (see [[hasSpecialMoves]] and [[specialMoves]]).
-     */
-    override val possibleMoves: Set[RelativePositionRange] = Set()
-  })
+  override def promote(pawn: Pawn): Promoted = new PromotedRook(pawn)
 
 }
 
