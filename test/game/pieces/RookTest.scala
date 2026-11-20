@@ -7,6 +7,16 @@ import org.junit.jupiter.api.Test
 
 class RookTest {
 
+  @Test def testPromote(): Unit = {
+    println("promote")
+    val expected = PieceChooser.choosePawn
+    val promoted = Rook.promote(expected)
+    val actual = promoted.prior
+    val message = s"$expected promoted to $promoted should be a rook"
+    assertEquals(expected, actual, message)
+    assert(promoted.isInstanceOf[PromotedRook], message)
+  }
+
   @Test def testMoveForward(): Unit = {
     val expected = new RelativePositionRange(new RelativePosition(0, 1),
       new RelativePosition(0, 7))
