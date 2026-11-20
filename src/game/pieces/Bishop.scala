@@ -1,6 +1,6 @@
 package game.pieces
 
-import game.{RelativePosition, RelativePositionRange}
+import game.{Black, Player, RelativePosition, RelativePositionRange}
 
 object Bishop extends PromotionFactory {
 
@@ -24,7 +24,18 @@ object Bishop extends PromotionFactory {
     moveSoutheast, moveSouthwest)
 
   // TODO: Write tests for this
-  override def promote(pawn: Pawn): Promoted = new PromotedQueen(pawn)
+  override def promote(pawn: Pawn): Promoted = new PromotedQueen(new Pawn {
+    /**
+     * The piece's affiliation. For regular chess, this will be either [[White]]
+     * or [[Black]].
+     */
+    override val affiliation: Player = Black
+    /**
+     * The moves this piece may make without capturing. This does not include
+     * special moves (see [[hasSpecialMoves]] and [[specialMoves]]).
+     */
+    override val possibleMoves: Set[RelativePositionRange] = Set()
+  })
 
 }
 

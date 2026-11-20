@@ -1,12 +1,23 @@
 package game.pieces
 
-import game.RelativePositionRange
+import game.{Black, Player, RelativePositionRange}
 import game.moves.SpecialMoveSpecification
 
 object Queen extends PromotionFactory {
 
   // TODO: Write tests for this
-  override def promote(pawn: Pawn): Promoted = new PromotedKnight(pawn)
+  override def promote(pawn: Pawn): Promoted = new PromotedKnight(new Pawn {
+    /**
+     * The piece's affiliation. For regular chess, this will be either [[White]]
+     * or [[Black]].
+     */
+    override val affiliation: Player = Black
+    /**
+     * The moves this piece may make without capturing. This does not include
+     * special moves (see [[hasSpecialMoves]] and [[specialMoves]]).
+     */
+    override val possibleMoves: Set[RelativePositionRange] = Set()
+  })
 
 }
 
