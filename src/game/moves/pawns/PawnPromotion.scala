@@ -1,10 +1,10 @@
 package game.moves.pawns
 
-import game.pieces.{Bishop, PromotionFactory}
+import game.pieces.{PromotionFactory, Queen}
 
 object PawnPromotion {
 
-  var promotionFactory: PromotionFactory = Bishop
+  var promotionFactory: PromotionFactory = Queen
 
 }
 
