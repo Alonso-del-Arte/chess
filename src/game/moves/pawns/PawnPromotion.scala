@@ -12,4 +12,7 @@ import game.moves.SpecialMoveSpecification
 
 abstract class PawnPromotion extends SpecialMoveSpecification {
 
+  // TODO: Write tests for this
+  override def involvesPiecesOfSameSide: Boolean = false
+
 }
