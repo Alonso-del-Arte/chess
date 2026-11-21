@@ -13,7 +13,7 @@ class BlackPawnPromotionTest {
   @Test def testInvolvesPiecesOfSameSide(): Unit = {
     println("involvesPiecesOfSameSide")
     assert(BlackPawnPromotion.involvesPiecesOfSameSide,
-      "Pawn promotion should involve another piece of same side")
+      "Pawn promotion should involve one other piece of same side")
   }
 
 }
