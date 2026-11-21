@@ -11,4 +11,10 @@ class WhitePawnPromotionCaptureRightTest {
       "Pawn promotion with capture should be capture")
   }
 
+  @Test def testInvolvesPiecesOfSameSide(): Unit = {
+    println("involvesPiecesOfSameSide")
+    assert(WhitePawnPromotionCaptureRight.involvesPiecesOfSameSide,
+      "Pawn promotion should involve one other piece of same side")
+  }
+
 }
