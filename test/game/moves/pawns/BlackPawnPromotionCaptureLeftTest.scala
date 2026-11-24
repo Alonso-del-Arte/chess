@@ -12,8 +12,8 @@ class BlackPawnPromotionCaptureLeftTest {
 
   @Test def testInvolvesPiecesOfSameSide(): Unit = {
     println("involvesPiecesOfSameSide")
-    assert(BlackPawnPromotionCaptureLeft.involvesPiecesOfSameSide,
-      "Pawn promotion should involve one other piece of same side")
+    assert(!BlackPawnPromotionCaptureLeft.involvesPiecesOfSameSide,
+      "Pawn promotion should not involve another piece of same side")
   }
 
 }
