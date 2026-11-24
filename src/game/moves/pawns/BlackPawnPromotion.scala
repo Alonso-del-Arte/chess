@@ -11,7 +11,7 @@ object BlackPawnPromotion extends PawnPromotion {
 
   override def isCapture: Boolean = false
 
-  override def involvesPiecesOfSameSide: Boolean = true
+  override def involvesPiecesOfSameSide: Boolean = false
 
   // TODO: Write tests for this
   override def execute(boardState: BoardState, piece: Piece,
