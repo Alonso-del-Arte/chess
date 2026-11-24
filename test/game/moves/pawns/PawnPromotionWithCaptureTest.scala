@@ -15,8 +15,8 @@ class PawnPromotionWithCaptureTest {
 
   @Test def testInvolvesPiecesOfSameSide(): Unit = {
     println("involvesPiecesOfSameSide")
-    assert(PawnPromotionWithCaptureImpl.involvesPiecesOfSameSide,
-      "Pawn promotion should involve one other piece of same side")
+    assert(!PawnPromotionWithCaptureImpl.involvesPiecesOfSameSide,
+      "Pawn promotion should not involve another piece of same side")
   }
 
   private object PawnPromotionWithCaptureImpl extends PawnPromotionWithCapture {
