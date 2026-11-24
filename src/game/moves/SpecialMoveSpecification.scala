@@ -45,6 +45,12 @@ trait SpecialMoveSpecification {
 
   def isCapture: Boolean
 
+  /**
+   * Determines whether the special move requires a second piece of the same
+   * side to already be on the board for its completion.
+   * @return True if the special move requires a second piece of the same side
+   *         on the board, false otherwise.
+   */
   def involvesPiecesOfSameSide: Boolean
 
   def execute(boardState: BoardState, piece: Piece,
