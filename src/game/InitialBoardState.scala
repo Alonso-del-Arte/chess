@@ -32,7 +32,14 @@ object InitialBoardState extends BoardState(RegularBoard, White,
     new RegularPosition(5, 8) -> game.pieces.black.King,
     new RegularPosition(6, 8) -> game.pieces.black.KingSideBishop,
     new RegularPosition(7, 8) -> game.pieces.black.KingSideKnight,
-    new RegularPosition(8, 8) -> game.pieces.black.KingSideRook), null) {
+    new RegularPosition(8, 8) -> game.pieces.black.KingSideRook),
+  new BoardState(RegularBoard, Black, Map(), null) {
+
+    override def plyCount: Int = 0
+
+    override def moveCount: Int = 0
+
+  }) {
 
   override def isInitial: Boolean = true
 
