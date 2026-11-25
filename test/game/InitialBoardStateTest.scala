@@ -59,6 +59,11 @@ class InitialBoardStateTest {
     assert(InitialBoardState.capturedPieces.isEmpty, msg)
   }
 
+  @Test def testIsInitial(): Unit = {
+    println("isInitial")
+    assert(InitialBoardState.isInitial, "Initial board state should be initial")
+  }
+
   @Test def testPlyCount(): Unit = {
     println("plyCount")
     val expected = 0
@@ -73,11 +78,6 @@ class InitialBoardStateTest {
     val actual = InitialBoardState.moveCount
     val msg = s"Move count for initial board state should be $expected"
     assertEquals(expected, actual, msg)
-  }
-
-  @Test def testIsInitial(): Unit = {
-    println("isInitial")
-    assert(InitialBoardState.isInitial, "Initial board state should be initial")
   }
 
 }
