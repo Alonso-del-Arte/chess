@@ -75,4 +75,9 @@ class InitialBoardStateTest {
     assertEquals(expected, actual, msg)
   }
 
+  @Test def testIsInitial(): Unit = {
+    println("isInitial")
+    assert(InitialBoardState.isInitial, "Initial board state should be initial")
+  }
+
 }
