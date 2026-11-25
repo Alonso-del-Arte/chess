@@ -1,6 +1,5 @@
 package game
 
-import game.moves.MoveSpecification
 import game.pieces.Piece
 
 /**
@@ -47,21 +46,5 @@ abstract class BoardState(val board: Board, val nextToPlay: Player,
    *         Black has not yet completed the second move.
    */
   def moveCount: Int
-
-  // TODO: Write tests for this
-  def move(moveSpec: MoveSpecification, opponent: Player)
-      : BoardState = {
-    this
-  }
-
-  // TODO: Write tests for this
-  def exchange(clientMoveSpec: MoveSpecification,
-               guardMoveSpec: MoveSpecification, opponent: Player)
-      : BoardState = {
-    // The idea here is that this procedure is what will enable castling. The
-    // only validation here will be that the destination spaces are clear, not
-    // whether the path is safe and clear.
-    this
-  }
 
 }
