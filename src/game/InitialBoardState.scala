@@ -34,8 +34,7 @@ object InitialBoardState extends BoardState(RegularBoard, White,
     new RegularPosition(7, 8) -> game.pieces.black.KingSideKnight,
     new RegularPosition(8, 8) -> game.pieces.black.KingSideRook), null) {
 
-  // TODO: Write a test for this
-  override def isInitial: Boolean = false
+  override def isInitial: Boolean = true
 
   /**
    * Gives the number of plies in the game so far.
