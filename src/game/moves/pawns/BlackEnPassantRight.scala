@@ -13,9 +13,11 @@ import game.pieces.Piece
 object BlackEnPassantRight extends EnPassant {
 
   // TODO: Write tests for this
-  override def meetsPrerequisites(boardState: BoardState, piece: Piece, secondPiece: Piece): Boolean = false
+  override def meetsPrerequisites(boardState: BoardState, piece: Piece,
+                                  secondPiece: Piece): Boolean = false
 
   // TODO: Write tests for this
-  override def execute(boardState: BoardState, piece: Piece, secondPiece: Piece): BoardState = boardState
+  override def execute(boardState: BoardState, piece: Piece,
+                       secondPiece: Piece): BoardState = boardState
 
 }
