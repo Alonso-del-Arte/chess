@@ -4,21 +4,26 @@ import game.pieces.Piece
 
 /**
  * Immutable class to represent a state of the board. An instance of this class
- * does not record what the next board state is or even what the previous board
- * state was.
+ * does not record what the next board state is, even in cases where there is
+ * only one possible subsequent board state. There is no validation of whether
+ * the board state is reachable under the rules of traditional chess.
  * @param board The board to put the pieces on. Should generally be
  *              [[RegularBoard]].
  * @param nextToPlay The player who is expected to make a move to bring about
  *                   the next board state.
  * @param positionedPieces Pieces that are on specific positions on the board,
  *                         mapping positions to pieces.
+ * @param prevState The previous board state. May be null in the case of an
+ *                  initial board state or a puzzle board state.
  * @param capturedPieces The set of all pieces that have been captured on this
  *                       board state or previous board states. This parameter
  *                       may be omitted if no pieces have been captured so far.
+ *                       Should not include pawns that have been promoted.
  * @author Alonso del Arte
  */
 abstract class BoardState(val board: Board, val nextToPlay: Player,
                           val positionedPieces: Map[Position, Piece],
+                          val prevState: BoardState,
                           val capturedPieces: Set[Piece] = Set()) {
 
   // TODO: Write tests for this
