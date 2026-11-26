@@ -12,7 +12,7 @@ class TestingVariantInitialBoardStateTest {
 
   @Test def testNextToPlay(): Unit = {
     println("nextToPlay")
-    assertEquals(DarkGray, InitialBoardState.nextToPlay)
+    assertEquals(DarkGray, TestingVariantInitialBoardState.nextToPlay)
   }
 
 }
