@@ -1,6 +1,6 @@
 package game
 
-object TestingVariantInitialBoardState extends BoardState(FauxBoard, White,
+object TestingVariantInitialBoardState extends BoardState(RegularBoard, White,
   Map(new RegularPosition(1, 1) -> game.pieces.white.QueenSideRook,
     new RegularPosition(2, 1) -> game.pieces.white.QueenSideKnight,
     new RegularPosition(3, 1) -> game.pieces.white.QueenSideBishop,
